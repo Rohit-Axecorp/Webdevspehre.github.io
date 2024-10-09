@@ -1,0 +1,34 @@
+/* Define the keyframe animations */
+@keyframes moveLeft {
+    0%, 100% {
+      transform: translateX(-16px);
+    }
+    50% {
+      transform: translateX(100px);
+    }
+  }
+  
+  @keyframes moveRight {
+    0%, 100% {
+      transform: translateX(16px);
+    }
+    50% {
+      transform: translateX(-100px);
+    }
+  }
+  
+  /* Apply the animations to the specific elements */
+  .left-card {
+    animation: moveLeft 4s ease-in-out infinite;
+  }
+  
+  .right-card {
+    animation: moveRight 4s ease-in-out infinite;
+  }
+  
+
+  @media (max-width: 768px) {
+    .left-card, .right-card {
+        animation:none;
+    }
+  }
