@@ -1,4 +1,6 @@
 import AboutHero from '@/app/Components/About/AboutHero'
+import FourStatsAbout from '@/app/Components/About/FourStatsAbout'
+import IndustriesAbout from '@/app/Components/About/IndustriesAbout'
 import ProWebStory from '@/app/Components/About/ProWebStory'
 import Footer from '@/app/Components/Footer'
 import Header from '@/app/Components/Header'
@@ -13,6 +15,8 @@ export default function about() {
       <Header />
       <AboutHero />
       <ProWebStory />
+      <FourStatsAbout />
+      <IndustriesAbout />
       <CTAsection />
       <Footer />
 
