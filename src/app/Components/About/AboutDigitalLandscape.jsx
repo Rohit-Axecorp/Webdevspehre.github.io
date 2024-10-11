@@ -10,7 +10,7 @@ export default function AboutDigitalLandscape() {
                     {/* Left Column: Content */}
                     <div className="w-1/2">
                         <h2 className="text-6xl font-bold text-red-500">
-                            Ready to Disrupt the UAE's Digital Landscape?
+                            Ready to Disrupt the UAE Digital Landscape?
                         </h2>
                         <p className="mt-8 text-gray-600 text-2xl">
                             Connect With Us to Fuel Your Digital Journey  Uncover New Revenue Streams and Claim Your Spot as The Market Leader!
