@@ -6,10 +6,10 @@ export default function AboutHero() {
    <>
     <section className="relative bg-gray-100">
       {/* Container with two columns */}
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center py-20 px-4 md:px-8">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center py-20 px-4 md:px-8">
         {/* Left Column: Content */}
         <div className="relative z-10">
-          <h2 className="text-4xl font-bold text-black">
+          <h2 className="text-6xl font-bold text-black">
             Our Strategy, Your <span className="text-red-500">Success.</span>
           </h2>
           <p className="mt-4 text-gray-600">

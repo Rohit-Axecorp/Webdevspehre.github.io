@@ -1,0 +1,45 @@
+@keyframes moveAround {
+    0% {
+      top: -20px;    /* Moves the label 20px above the box */
+      left: -20px;   /* Moves the label 20px left of the box */
+    }
+    25% {
+      top: -20px;    /* Stays 20px above the box */
+      left: 100%;    /* Moves to the far right */
+      transform: translateX(-80%);
+    }
+    50% {
+      top: 100%;     /* Moves below the box */
+      left: 100%;    /* Stays at the far right */
+      transform: translate(-80%, -80%);
+    }
+    75% {
+      top: 100%;     /* Stays below the box */
+      left: -20px;   /* Moves left beyond the box */
+      transform: translateY(-80%);
+    }
+    100% {
+      top: -20px;    /* Returns above the box */
+      left: -20px;   /* Returns left of the box */
+    }
+  }
+  
+  .animate-around-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: moveAround 10s linear infinite;
+  }
+  
+  .animate-senior {
+    animation-delay: 0s;   /* SENIOR starts immediately */
+  }
+  
+  .animate-middle {
+    animation-delay: 1s;   /* MIDDLE starts after 1 second */
+  }
+  
+  .animate-junior {
+    animation-delay: 2s;   /* JUNIOR starts after 2 seconds */
+  }
+  
