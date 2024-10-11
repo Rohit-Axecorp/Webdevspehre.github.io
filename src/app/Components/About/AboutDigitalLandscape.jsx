@@ -24,8 +24,9 @@ export default function AboutDigitalLandscape() {
                             alt="Foreground Image"
                             width={193}
                             height={293}
-                            objectFit="contain"
+                            className="object-contain"
                         />
+
                     </div>
                 </div>
             </section>
