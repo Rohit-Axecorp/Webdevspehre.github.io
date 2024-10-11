@@ -12,7 +12,7 @@ export default function AboutHero() {
           <h2 className="text-6xl font-bold text-black">
             Our Strategy, Your <span className="text-red-500">Success.</span>
           </h2>
-          <p className="mt-4 text-gray-600">
+          <p className="mt-4 text-gray-600 text-2xl">
             Why settle for ordinary when your brand can be extraordinary? Our
             dedication vows to pave your way towards digital domination.
           </p>
