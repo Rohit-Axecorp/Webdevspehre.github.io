@@ -53,7 +53,7 @@ export default function GlobalPresenceSlider() {
                 <Swiper
                     // modules={[Navigation]}
                     // navigation
-                    spaceBetween={12}
+                    spaceBetween={20}
                     slidesPerView={4}
                     loop={true}
                     breakpoints={{
@@ -61,10 +61,10 @@ export default function GlobalPresenceSlider() {
                             slidesPerView: 1,
                         },
                         768: {
-                            slidesPerView: 2,
+                            slidesPerView: 3,
                         },
                         1024: {
-                            slidesPerView: 3,
+                            slidesPerView: 4,
                         },
                     }}
                 >
@@ -80,13 +80,13 @@ export default function GlobalPresenceSlider() {
                                 />
                                 <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4 rounded-2xl">
                                     <div className="text-white">
-                                        <h3 className="text-2xl font-bold">{location.city}</h3>
+                                        <h3 className="text-5xl font-bold">{location.city}</h3>
                                         <p className="mt-2 text-sm">{location.address}</p>
                                         <p className="mt-1 text-sm">📞 {location.phone}</p>
                                         <p className="mt-1 text-sm">✉️ {location.email}</p>
                                     </div>
                                 </div>
-                                <div className="absolute bottom-4 left-4 text-white font-bold text-3xl group-hover:opacity-0 transition-opacity duration-300">
+                                <div className="absolute bottom-4 left-4 text-white font-black text-5xl group-hover:opacity-0 transition-opacity duration-300">
                                     {location.city}
                                 </div>
                             </div>
