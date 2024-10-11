@@ -14,7 +14,7 @@ export default function Aboutlocationcontact() {
 
           <div className="formdiv w-2/5">
             <h2 className="text-7xl font-bold text-red-500 mb-10">
-              Let's talk Business
+              Lets talk Business
             </h2>
             <div className=" p-6 bg-white shadow-lg rounded-lg ">
               <form action="#" method="POST">
