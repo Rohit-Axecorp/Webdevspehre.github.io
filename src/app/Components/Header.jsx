@@ -58,7 +58,7 @@ export default function Header() {
                       <Link href="/Pages/Services/webdesign" className="block px-4 py-2 hover:bg-gray-100">Web Design</Link>
                     </li>
                     <li>
-                      <Link href="/resources" className="block px-4 py-2 hover:bg-gray-100"> Services 3</Link>
+                      <Link href="/Pages/Services/websitemaintenance" className="block px-4 py-2 hover:bg-gray-100"> Website Maintenance</Link>
                     </li>
                   </ul>
                 </div>
