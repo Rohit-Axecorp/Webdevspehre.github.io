@@ -12,6 +12,7 @@ import SeoReviews from '@/app/Components/Services/Seo/SeoReviews'
 import ProfessionalWebDesignServices from '@/app/Components/Services/Webdesign/ProfessionalWebDesignServices'
 import WebdesignCTA from '@/app/Components/Services/Webdesign/WebdesignCTA'
 import BusinessNeed from '@/app/Components/Services/Webmaintenance/BusinessNeed'
+import Packages from '@/app/Components/Services/Webmaintenance/Packages'
 import WebmaintenanceQuote from '@/app/Components/Services/Webmaintenance/WebmaintenanceQuote'
 import React from 'react'
 
@@ -21,12 +22,13 @@ export default function page() {
     
     <Header />
     <WebmaintenanceQuote />
+    <Packages />
     <SeoRecognition />
-    <SeoCompany />
-    <BusinessNeed />
     <ProfessionalWebDesignServices />
+    <SeoCompany />
     <WebdesignCTA />
     <Roadmap />
+    <BusinessNeed />
     <SeoReviews />
     <Awards />
     <SeoBusinessSolutions />
