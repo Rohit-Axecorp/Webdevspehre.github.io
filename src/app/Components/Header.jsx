@@ -60,6 +60,9 @@ export default function Header() {
                     <li>
                       <Link href="/Pages/Services/websitemaintenance" className="block px-4 py-2 hover:bg-gray-100"> Website Maintenance</Link>
                     </li>
+                    <li>
+                      <Link href="/Pages/Services/digitalmarketing" className="block px-4 py-2 hover:bg-gray-100">Digital Marketing</Link>
+                    </li>
                   </ul>
                 </div>
               )}

@@ -35,10 +35,7 @@ export default function page() {
     <SeoQuote />
     <AccordiansFAQ />
     <CTAsection />
-    <Footer />
-    
-    
-    
+    <Footer /> 
     </>
 
   )
