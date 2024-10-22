@@ -74,13 +74,13 @@ export default function ProcessSocialMedia() {
                         {iconBoxes.map((box, index) => (
                             <div key={index} className="flex">
                                 {/* Icon-like box on the left */}
-                                <div className="flex items-center justify-center p-12 bg-red-500 text-white font-bold rounded-md text-4xl mr-6">
+                                <div className="flex items-center justify-center p-10 bg-red-500 text-white font-bold rounded-md text-3xl mr-6">
                                     {box.number}
                                 </div>
                                 {/* Text content on the right */}
                                 <div>
                                     <h3 className="text-3xl font-bold mb-3">{box.heading}</h3>
-                                    <p className="text-2xl font-normal">{box.text}</p>
+                                    <p className="text-xl font-normal">{box.text}</p>
                                 </div>
                             </div>
                         ))}

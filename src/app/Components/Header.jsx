@@ -66,6 +66,9 @@ export default function Header() {
                     <li>
                       <Link href="/Pages/Services/socialmedia" className="block px-4 py-2 hover:bg-gray-100">Social Media</Link>
                     </li>
+                    <li>
+                      <Link href="/Pages/Services/logodesign" className="block px-4 py-2 hover:bg-gray-100">Logo Design</Link>
+                    </li>
                   </ul>
                 </div>
               )}
