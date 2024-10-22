@@ -1,49 +1,57 @@
-import React from 'react'
+"use client";
+
+import React from 'react';
+import Image from 'next/image';
 
 export default function AboutTimeline() {
   return (
-    <>
-    
-    <div className="bg-black text-white py-12">
-      <h2 className="text-center text-4xl font-bold text-orange-500 mb-12">
-        Explore 11+ Years Of Ideation. Innovation. Transformation
-      </h2>
-      <div className="container mx-auto px-4">
-        <div className="relative">
-          <div className="border-l-4 border-gray-500 absolute h-full left-1/2 transform -translate-x-1/2"></div>
-          <div className="flex flex-col space-y-10">
-            {/* Timeline Block 1 */}
-            <div className="relative flex justify-start items-center">
-              <div className="w-1/2 text-right pr-8">
-                <h3 className="text-lg font-bold">2012</h3>
-                <p className="text-sm">Pro Web was launched to cater businesses in evolving tech.</p>
+    <section className="bg-black py-12 text-white">
+      <div className="container mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="text-5xl font-bold text-red-500">Explore 11+ Years Of</h2>
+          <h3 className="text-2xl text-gray-300 mt-4">Ideation. Innovation. Transformation</h3>
+        </div>
+
+        {/* Timeline Wrapper */}
+        <div className="grid grid-cols-3 gap-y-20 items-start relative z-10">
+          {/* Year Blocks */}
+          {[
+            { year: "2012", description: "We launched to cater businesses in styling UI/UX within the leading technology industries.", img: "/Images/tim5.png" },
+            { year: "2013", description: "Team strength increased to 50+ designers & developers.", img: "/Images/tim1.png" },
+            { year: "2014", description: "Added new technology stack.", img: "/Images/tim1.png" },
+            { year: "2015", description: "Introduced in-house car rental service.", img: "/Images/tim5.png" },
+            { year: "2016", description: "Awarded with outstanding big eCommerce web design.", img: "/Images/tim1.png" },
+            { year: "2017", description: "Grew our team to 150+ designers & developers.", img: "/Images/tim5.png" },
+            { year: "2018", description: "Awarded with Zoho partner badge.", img: "/Images/tim1.png" },
+            { year: "2019", description: "Associated with Google partner badge.", img: "/Images/tim5.png" },
+            { year: "2020", description: "Associated with Google partner badge.", img: "/Images/tim5.png" },
+            { year: "2021", description: "Associated with Google partner badge.", img: "/Images/tim1.png" },
+            { year: "2022", description: "Associated with Google partner badge.", img: "/Images/tim1.png" },
+            { year: "2023", description: "Associated with Google partner badge.", img: "/Images/tim5.png" },
+            { year: "2024", description: "Associated with Google partner badge.", img: "/Images/tim1.png" },
+          ].map((item, index) => (
+            <div key={index} className="relative flex flex-col items-start z-10">
+              {/* Layered dot */}
+              <div className="absolute -top-4 z-10">
+                <div className="bg-white rounded-full w-5 h-5 absolute top-0 left-0" />
               </div>
-              <div className="w-1/12 text-center">
-                <div className="bg-orange-500 h-8 w-8 rounded-full"></div>
+              <h4 className="text-xl font-semibold mt-8" style={{
+                WebkitTextStrokeWidth: '1px',
+                WebkitTextStrokeColor: '#d3d3d3',
+                color: 'transparent',
+                fontSize: '38px',
+                fontWeight: '800',
+              }}>
+                {item.year}
+              </h4>
+              <p className="text-gray-100 text-lg mt-4">{item.description}</p>
+              <div className="flex justify-start mt-4">
+                <Image src={item.img} alt={`${item.year} Icon`} width={200} height={50} />
               </div>
-              <div className="w-1/2"></div>
             </div>
-
-            {/* Timeline Block 2 */}
-            <div className="relative flex justify-end items-center">
-              <div className="w-1/2"></div>
-              <div className="w-1/12 text-center">
-                <div className="bg-orange-500 h-8 w-8 rounded-full"></div>
-              </div>
-              <div className="w-1/2 pl-8">
-                <h3 className="text-lg font-bold">2013</h3>
-                <p className="text-sm">Team strength increased to 30+ designers & developers.</p>
-              </div>
-            </div>
-
-            {/* Add more timeline blocks as per your image */}
-            {/* For example, repeat the block structure for 2014, 2015, etc. */}
-
-          </div>
+          ))}
         </div>
       </div>
-    </div>
-    
-    </>
-  )
+    </section>
+  );
 }
