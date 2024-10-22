@@ -50,24 +50,24 @@ export default function Header() {
                 <div className="absolute top-full mt-1 w-40 bg-white shadow-lg rounded-lg z-20">
                   <ul className="py-2 text-sm text-gray-700">
                     <li>
-                      <Link href="/Pages/Services/seo" className="block px-4 py-2 hover:bg-gray-100">
+                      <Link href="/seo" className="block px-4 py-2 hover:bg-gray-100">
                         SEO
                       </Link>
                     </li>
                     <li>
-                      <Link href="/Pages/Services/webdesign" className="block px-4 py-2 hover:bg-gray-100">Web Design</Link>
+                      <Link href="/webdesign" className="block px-4 py-2 hover:bg-gray-100">Web Design</Link>
                     </li>
                     <li>
-                      <Link href="/Pages/Services/websitemaintenance" className="block px-4 py-2 hover:bg-gray-100"> Website Maintenance</Link>
+                      <Link href="/websitemaintenance" className="block px-4 py-2 hover:bg-gray-100"> Website Maintenance</Link>
                     </li>
                     <li>
-                      <Link href="/Pages/Services/digitalmarketing" className="block px-4 py-2 hover:bg-gray-100">Digital Marketing</Link>
+                      <Link href="/digitalmarketing" className="block px-4 py-2 hover:bg-gray-100">Digital Marketing</Link>
                     </li>
                     <li>
-                      <Link href="/Pages/Services/socialmedia" className="block px-4 py-2 hover:bg-gray-100">Social Media</Link>
+                      <Link href="/socialmedia" className="block px-4 py-2 hover:bg-gray-100">Social Media</Link>
                     </li>
                     <li>
-                      <Link href="/Pages/Services/logodesign" className="block px-4 py-2 hover:bg-gray-100">Logo Design</Link>
+                      <Link href="/logodesign" className="block px-4 py-2 hover:bg-gray-100">Logo Design</Link>
                     </li>
                   </ul>
                 </div>
@@ -76,7 +76,7 @@ export default function Header() {
 
 
             <li>
-              <Link href="/Pages/about" className="block py-2 px-3 text-black hover:text-black text-xl font-normal">About</Link>
+              <Link href="/about" className="block py-2 px-3 text-black hover:text-black text-xl font-normal">About</Link>
             </li>
 
             <li>
@@ -88,7 +88,7 @@ export default function Header() {
             </li>
 
             <li>
-              <Link href="/Pages/contact" className="block py-2 px-3 text-black hover:text-black text-xl font-normal">Contact</Link>
+              <Link href="/contact" className="block py-2 px-3 text-black hover:text-black text-xl font-normal">Contact</Link>
             </li>
           </ul>
         </div>

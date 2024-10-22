@@ -1,4 +1,4 @@
-import Homepage from './Pages/Home/page';
+import Homepage from './Home/page';
 import '../app/globals.css';
 
 
