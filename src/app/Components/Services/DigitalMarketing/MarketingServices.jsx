@@ -40,7 +40,7 @@ export default function MarketingServices() {
     const [centeredIndex, setCenteredIndex] = useState(1);
 
     const handleSlideChange = (swiper) => {
-        const newActiveIndex = swiper.realIndex;  // Use Swiper's realIndex to track the active slide
+        const newActiveIndex = swiper.realIndex; 
         setCenteredIndex(newActiveIndex);
     };
 
@@ -55,14 +55,14 @@ export default function MarketingServices() {
                     </h2>
             <div className="grid grid-cols-1 md:grid-cols-5 gap-4 py-10">
                 
-                {/* Slider Column (60%) */}
+
                 <div className="col-span-3">
                     <Swiper
                         onSlideChange={handleSlideChange}
                         spaceBetween={20}
                         slidesPerView={3}
-                        centeredSlides={true}    // Ensure the slides are centered properly
-                        loop={true}              // Enable looping
+                        centeredSlides={true}  
+                        loop={true}              
                         autoplay={{
                             delay: 3000,
                             disableOnInteraction: false,
