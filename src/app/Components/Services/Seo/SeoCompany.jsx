@@ -37,16 +37,16 @@ export default function SeoCompany() {
                             Chicago proudly hosts numerous Fortune 500 companies, establishing it as a coveted hub for business and commerce. Its prime central location and exceptional transportation infrastructure ensure seamless access to both domestic and international markets, amplifying its appeal as a thriving business destination. Chicago embraces entrepreneurship and innovation, fostering a supportive ecosystem with abundant resources for startups and small businesses.
                             <br />
 
-                            Boasting a highly skilled workforce, renowned educational institutions, and a dynamic entrepreneurial culture, the city creates an ideal environment for business growth. Furthermore, Chicago's strategic positioning, diverse talent pool, and vibrant cultural scene make it an irresistible magnet for professionals and companies seeking abundant opportunities.
+                            Boasting a highly skilled workforce, renowned educational institutions, and a dynamic entrepreneurial culture, the city creates an ideal environment for business growth. Furthermore, Chicago&apos;s strategic positioning, diverse talent pool, and vibrant cultural scene make it an irresistible magnet for professionals and companies seeking abundant opportunities.
                             <br />
 
                             With its flourishing economy, favorable business climate, and unwavering potential, Chicago remains a premier choice for enterprises seeking to establish or expand their footprint within the United States.
                             <br />
 
-                            Comrade has worked with diverse businesses, including B2B, B2C, eCommerce, home services, and law firms. While we can't predict market fluctuations, our track record assures business expansion through our services.
+                            Comrade has worked with diverse businesses, including B2B, B2C, eCommerce, home services, and law firms. While we can&apos;t predict market fluctuations, our track record assures business expansion through our services.
                             <br />
 
-                            We're a full-service SEO agency, proudly helping businesses in Chicago and surrounding areas:
+                            We&apos;re a full-service SEO agency, proudly helping businesses in Chicago and surrounding areas:
                             <ul className="list-disc list-inside mt-2">
                                 <li>Schaumburg</li>
                                 <li>Aurora</li>
