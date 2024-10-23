@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function Hero() {
   return (
-    <div className="relative h-[88vh] w-full overflow-hidden py-12">
+    <div className="relative lg:h-[88vh] h-[60vh] w-full overflow-hidden py-12">
       {/* Background Video */}
       <video autoPlay loop muted className="absolute inset-0 h-full w-full object-cover">
         <source src="/backgroundVideo.mp4" type="video/mp4" />
@@ -21,7 +21,7 @@ export default function Hero() {
               Lorem Ipsum is simply dummy text of the printing and typesetting
             </h1>
             <p className="text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl my-4 leading-relaxed font-normal">
-              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s.
             </p>
             <button className="group relative px-4 py-2 sm:px-5 sm:py-3 lg:px-6 lg:py-4 border border-black rounded-full text-sm sm:text-lg flex items-center justify-center gap-2 transition-all duration-300 hover:bg-[#ED1E3A] hover:text-white hover:border-transparent">
               More About Us
