@@ -8,7 +8,7 @@ export default function Portfolio() {
         <>
             <div className="py-10 lg:py-12 bg-white">
                 <div className="container mx-auto text-center px-4 md:px-5">
-                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-6 text-black py-4">
+                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold md:mb-6 text-black py-4">
                         Web Design <span className="font-extralight">Portfolio</span>
                     </h2>
                     <p className="text-base lg:text-xl text-gray-600 leading-relaxed mx-auto pt-0 md:pt-2">

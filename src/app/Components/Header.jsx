@@ -1,108 +1,187 @@
-"use client"
+"use client";
 
-import { useState } from 'react';
-import Link from 'next/link';
+import { useState, useEffect, useRef } from "react";
+import Link from "next/link";
 
 export default function Header() {
   // State for dropdown toggle
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const dropdownRef = useRef(null); // Ref for the dropdown menu
+
+  const handleDropdownToggle = () => {
+    setDropdownOpen((prev) => !prev);
+  };
+
+  const handleClickOutside = (event) => {
+    // Close the dropdown if clicked outside
+    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+      setDropdownOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    // Add click event listener
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => {
+      // Clean up event listener
+      document.removeEventListener("mousedown", handleClickOutside);
+    };
+  }, []);
 
   return (
     <nav className="border-b border-red-500 bg-white sticky top-0 z-50 py-4">
-    <div className="flex flex-wrap items-center justify-between mx-auto p-4 container">
-      <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="/Images/Headline.png" alt="Logo" />
-      </Link>
-  
-      {/* Mobile menu button */}
-      <button
-        className="inline-flex items-center p-2 text-xl text-red-500 rounded-lg lg:hidden focus:outline-none"
-        onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-      >
-        <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d={mobileMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}></path>
-        </svg>
-      </button>
-  
-      {/* Desktop Menu */}
-      <div id="mega-menu" className={`lg:flex items-center justify-between ${mobileMenuOpen ? "block" : "hidden"} w-full lg:w-auto`}>
-        <ul className="flex flex-col mt-4 lg:flex-row lg:mt-0 lg:space-x-8">
-          <li>
-            <Link href="/" className="block py-2 px-3 text-red-600 hover:text-red-600 xl:text-xl text-lg font-semibold">Home</Link>
-          </li>
-          <li className="relative">
-            {/* Dropdown Button */}
-            <button
-              onClick={() => setDropdownOpen(!dropdownOpen)}
-              className="flex items-center xl:text-xl text-lg justify-between w-full py-2 px-3 font-normal text-gray-900 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-red-600"
-            >
-              Services
-              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1l4 4 4-4" />
-              </svg>
-            </button>
-  
-            {/* Dropdown Menu */}
-            {dropdownOpen && (
-              <div className="absolute top-full mt-1 w-40 bg-white shadow-lg rounded-lg z-20">
-                <ul className="py-2 text-sm text-gray-700">
-                  <li>
-                    <Link href="/seo" className="block px-4 py-2 hover:bg-gray-100">SEO</Link>
-                  </li>
-                  <li>
-                    <Link href="/webdesign" className="block px-4 py-2 hover:bg-gray-100">Web Design</Link>
-                  </li>
-                  <li>
-                    <Link href="/websitemaintenance" className="block px-4 py-2 hover:bg-gray-100">Website Maintenance</Link>
-                  </li>
-                  <li>
-                    <Link href="/digitalmarketing" className="block px-4 py-2 hover:bg-gray-100">Digital Marketing</Link>
-                  </li>
-                  <li>
-                    <Link href="/socialmedia" className="block px-4 py-2 hover:bg-gray-100">Social Media</Link>
-                  </li>
-                  <li>
-                    <Link href="/logodesign" className="block px-4 py-2 hover:bg-gray-100">Logo Design</Link>
-                  </li>
-                </ul>
-              </div>
-            )}
-          </li>
-  
-          <li>
-            <Link href="/about" className="block py-2 px-3 text-black hover:text-black xl:text-xl text-lg font-normal">About</Link>
-          </li>
-  
-          <li>
-            <Link href="/" className="block py-2 px-3 text-black hover:text-black xl:text-xl text-lg font-normal">Case Studies</Link>
-          </li>
-  
-          <li>
-            <Link href="/" className="block py-2 px-3 text-black hover:text-black xl:text-xl text-lg font-normal">Portfolio</Link>
-          </li>
-  
-          <li>
-            <Link href="/contact" className="block py-2 px-3 text-black hover:text-black xl:text-xl text-lg font-normal">Contact</Link>
-          </li>
-  
-          {/* Let's Talk button - Only show on larger screens */}
-          <div className="hidden md:flex items-center">
-            <button className="px-6 py-2 text-lg font-normal border text-red-500 border-red-500 rounded-full hover:bg-red-500 hover:text-white">
+      <div className="flex flex-wrap items-center justify-between mx-auto p-4 container">
+        <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+          <img src="/Images/Headline.png" alt="Logo" />
+        </Link>
+
+        {/* Mobile menu button */}
+        <button
+          className="inline-flex items-center p-2 text-xl text-red-500 rounded-lg lg:hidden focus:outline-none"
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+        >
+          <svg
+            className="w-8 h-8"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d={
+                mobileMenuOpen
+                  ? "M6 18L18 6M6 6l12 12"
+                  : "M4 6h16M4 12h16M4 18h16"
+              }
+            ></path>
+          </svg>
+        </button>
+
+        {/* Desktop Menu */}
+        <div
+          id="mega-menu"
+          className={`lg:flex items-center justify-between ${
+            mobileMenuOpen ? "block" : "hidden"
+          } w-full lg:w-auto`}
+        >
+          <ul className="flex flex-col mt-4 lg:flex-row lg:mt-0 lg:space-x-8">
+            <li>
+              <Link
+                href="/"
+                className="block py-2 lg:px-3 text-red-600 hover:text-red-600 xl:text-xl text-lg font-semibold"
+              >
+                Home
+              </Link>
+            </li>
+            <li className="relative">
+              {/* Dropdown Button */}
+              <button
+                onClick={handleDropdownToggle}
+                className="flex items-center xl:text-xl text-lg justify-between w-full py-2 lg:px-3 font-normal text-gray-900 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-red-600"
+              >
+                Services
+                <svg
+                  className="w-4 h-4 md:ml-4 mr-4 lg:mr-0"
+                  fill="none"
+                  stroke="currentColor"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 10 6"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M1 1l4 4 4-4"
+                  />
+                </svg>
+              </button>
+
+              {/* Dropdown Menu */}
+              {dropdownOpen && (
+                <div
+                  ref={dropdownRef}
+                  className="absolute top-full mt-1 w-48 bg-white shadow-lg rounded-lg z-20"
+                >
+                  <ul className="py-2 text-sm text-gray-700">
+                    <li>
+                      <Link href="/seo" className="block px-4 py-2 hover:bg-gray-100">
+                        SEO
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/webdesign" className="block px-4 py-2 hover:bg-gray-100">
+                        Web Design
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/websitemaintenance" className="block px-4 py-2 hover:bg-gray-100">
+                        Website Maintenance
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/digitalmarketing" className="block px-4 py-2 hover:bg-gray-100">
+                        Digital Marketing
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/socialmedia" className="block px-4 py-2 hover:bg-gray-100">
+                        Social Media
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/logodesign" className="block px-4 py-2 hover:bg-gray-100">
+                        Logo Design
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+              )}
+            </li>
+
+            <li>
+              <Link href="/about" className="block py-2 lg:px-3 text-black hover:text-black xl:text-xl text-lg font-normal">
+                About
+              </Link>
+            </li>
+
+            <li>
+              <Link href="/" className="block py-2 lg:px-3 text-black hover:text-black xl:text-xl text-lg font-normal">
+                Case Studies
+              </Link>
+            </li>
+
+            <li>
+              <Link href="/" className="block py-2 lg:px-3 text-black hover:text-black xl:text-xl text-lg font-normal">
+                Portfolio
+              </Link>
+            </li>
+
+            <li>
+              <Link href="/contact" className="block py-2 lg:px-3 text-black hover:text-black xl:text-xl text-lg font-normal">
+                Contact
+              </Link>
+            </li>
+
+            {/* Let's Talk button - Only show on larger screens */}
+            <div className="hidden md:flex items-center">
+              <button className="px-6 py-2 text-lg font-normal border text-red-500 border-red-500 rounded-full hover:bg-red-500 hover:text-white">
+                Let&apos;s Talk
+              </button>
+            </div>
+          </ul>
+
+          {/* Let's Talk button - Show in mobile menu */}
+          <div className="mt-4 md:hidden">
+            <button className="px-6 py-2 w-full text-lg font-normal border text-red-500 border-red-500 rounded-full hover:bg-red-500 hover:text-white">
               Let&apos;s Talk
             </button>
           </div>
-        </ul>
-  
-        {/* Let's Talk button - Show in mobile menu */}
-        <div className="mt-4 md:hidden">
-          <button className="px-6 py-2 w-full text-lg font-normal border text-red-500 border-red-500 rounded-full hover:bg-red-500 hover:text-white">
-            Let&apos;s Talk
-          </button>
         </div>
       </div>
-    </div>
-  </nav>
-  
+    </nav>
   );
 }
