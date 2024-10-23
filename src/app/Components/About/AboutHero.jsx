@@ -1,18 +1,17 @@
-import React from 'react'
+import React from 'react';
 import Image from 'next/image';
 
 export default function AboutHero() {
   return (
-   <>
-    <section className="relative bg-gray-100">
+    <section className="relative bg-gray-100 py-12">
       {/* Container with two columns */}
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center py-20 px-4 md:px-8">
+      <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-5">
         {/* Left Column: Content */}
         <div className="relative z-10">
-          <h2 className="text-6xl font-bold text-black">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black">
             Our Strategy, Your <span className="text-red-500">Success.</span>
           </h2>
-          <p className="mt-4 text-gray-600 text-2xl">
+          <p className="mt-4 text-gray-600 text-base md:text-lg lg:text-xl">
             Why settle for ordinary when your brand can be extraordinary? Our
             dedication vows to pave your way towards digital domination.
           </p>
@@ -38,13 +37,12 @@ export default function AboutHero() {
               alt="Foreground Image"
               width={600}
               height={600}
-              objectFit="contain"
-              className="mx-auto"
+              objectFit="cover"
+              className="mx-auto p-10"
             />
           </div>
         </div>
       </div>
     </section>
-   </>
-  )
+  );
 }

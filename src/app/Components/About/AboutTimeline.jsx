@@ -13,7 +13,7 @@ export default function AboutTimeline() {
         </div>
 
         {/* Timeline Wrapper */}
-        <div className="grid grid-cols-3 gap-y-20 items-start relative z-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-20 items-start relative z-10">
           {/* Year Blocks */}
           {[
             { year: "2012", description: "We launched to cater businesses in styling UI/UX within the leading technology industries.", img: "/Images/tim5.png" },
@@ -46,7 +46,13 @@ export default function AboutTimeline() {
               </h4>
               <p className="text-gray-100 text-lg mt-4">{item.description}</p>
               <div className="flex justify-start mt-4">
-                <Image src={item.img} alt={`${item.year} Icon`} width={200} height={50} />
+                <Image
+                  src={item.img}
+                  alt={`${item.year} Icon`}
+                  width={200}
+                  height={50}
+                  className="max-w-full h-auto" // Ensure image is responsive
+                />
               </div>
             </div>
           ))}

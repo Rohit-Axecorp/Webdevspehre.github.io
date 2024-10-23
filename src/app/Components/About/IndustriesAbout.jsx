@@ -10,10 +10,10 @@ export default function IndustriesAbout() {
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
             {/* Left Column: Icon List */}
             <div>
-              <h3 className="text-3xl font-bold text-red-500">
+              <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-red-500">
                 Industries We Cater
               </h3>
-              <p className="mt-4 text-gray-600">
+              <p className="mt-4 text-gray-600 text-base md:text-lg lg:text-xl">
                 Empowering digital transformations with the most current IT solutions across a wide range of industries.
               </p>
               <div className="mt-6 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 gap-6">
@@ -90,7 +90,7 @@ export default function IndustriesAbout() {
                 <img
                   src="/Images/globe-image.png" // Replace with your rotating image
                   alt="Rotating Globe"
-                  className="w-full h-full object-cover rounded-lg"
+                  className="w-full h-full object-contain rounded-lg"
                 />
               </div>
             </div>
