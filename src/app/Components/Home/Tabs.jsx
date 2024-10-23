@@ -60,10 +60,10 @@ export default function Tabs() {
                     <div className="container mx-auto pt-10 bg-no-repeat bg-right bg-contain h-44" style={{ backgroundImage: "url('/Images/dg-vertical-tabs-background-image.webp')" }}>
                         {/* Text Content */}
                         <div className="relative z-10 ">
-                            <p className="text-red-500 font-semibold text-sm mb-2">
+                            <p className="text-red-500 font-semibold text-lg mb-2">
                                 Best <span className="text-black">Web Design Company In Dubai</span>
                             </p>
-                            <h1 className="text-2xl md:text-4xl font-semibold text-black">
+                            <h1 className="text-2xl md:text-5xl font-bold text-black">
                                 Grow Your Business Digitally <span className="text-red-500">With Us</span>
                             </h1>
                         </div>

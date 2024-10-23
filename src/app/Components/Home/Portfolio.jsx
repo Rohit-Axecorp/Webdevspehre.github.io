@@ -6,12 +6,12 @@ import Image from 'next/image';
 export default function Portfolio() {
     return (
         <>
-            <div className="py-10 lg:py-14 bg-white">
+            <div className="py-10 lg:py-12 bg-white">
                 <div className="container mx-auto text-center px-4 md:px-5">
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-6 text-black py-4">
                         Web Design <span className="font-extralight">Portfolio</span>
                     </h2>
-                    <p className="text-base lg:text-lg text-gray-600 leading-relaxed max-w-5xl mx-auto pt-0 md:pt-2">
+                    <p className="text-base lg:text-xl text-gray-600 leading-relaxed mx-auto pt-0 md:pt-2">
                         Element8, your trusted partner for avant-garde web design in Dubai. In our portfolio, you’ll find a blend of creativity and functionality that truly embodies our dedication to providing extraordinary digital experiences. We take great care in crafting each project, aiming to not only enhance brands but also redefine what users can expect. Explore our curated selection below, and witness the transformative power of web design Dubai, where innovation meets inspiration.
                     </p>
                 </div>

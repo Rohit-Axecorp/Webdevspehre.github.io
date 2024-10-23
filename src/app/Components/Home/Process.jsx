@@ -48,10 +48,10 @@ export default function Process() {
   return (
     <>
       {/* Main Section */}
-      <section className="py-12 bg-gray-50">
+      <section className="py-12 bg-gray-100">
   <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
     <div className="content md:w-1/2 mb-8">
-      <h2 className="text-2xl lg:text-3xl xl:text-4xl md:text-5xl font-bold mb-4">
+      <h2 className="text-2xl md:text-5xl font-bold mb-4">
         Elevate Your Web Experience With Our Seamless Process
       </h2>
       <p className="text-base sm:text-lg md:text-xl text-gray-700 mb-8">
@@ -63,7 +63,7 @@ export default function Process() {
       <img
         src="/Images/who.jpg"
         alt="Process Image"
-        className="rounded-lg shadow-lg w-4/5"
+        className="rounded-lg shadow-lg md:w-4/5 w-full"
       />
     </div>
   </div>

@@ -4,10 +4,10 @@ import "../Home/ContactForm.css";
 
 export default function ContactForm() {
   return (
-    <div className="flex justify-center items-center pt-16 pb-8 bg-gray-100 sm:pt-20 sm:pb-12 md:pt-40 md:pb-16">
-      <div className="flex flex-col lg:flex-row bg-red-500 p-6 shadow-lg relative container sm:p-8 lg:h-[450px] w-full lg:w-auto">
+    <div className="flex justify-center items-center py-12">
+      <div className="flex flex-col lg:flex-row bg-red-500 p-6 shadow-lg relative container sm:p-8  w-full lg:w-auto">
         {/* Form Section */}
-        <div className="bg-white p-6 shadow-md w-full lg:w-2/5 h-auto lg:h-[500px] relative -top-24 sm:top-0 sm:p-8">
+        <div className="bg-white p-6 shadow-md w-full lg:w-2/5 h-auto relative -top-24 sm:top-0 sm:p-8">
           <form className="space-y-4 sm:space-y-6">
             {/* Name Field */}
             <div>
@@ -102,12 +102,11 @@ export default function ContactForm() {
           </div>
 
           {/* Girl Image */}
-          <div className="relative w-full lg:absolute lg:right-[-50px] lg:bottom-0 lg:w-1/3 mt-6 lg:mt-0">
+          <div className="relative w-full lg:w-1/3 mt-6 lg:mt-0">
             <img
               src="/Images/model1.webp" // Use the correct path to your image
               alt="Woman pointing"
-              className="h-auto max-w-full"
-              style={{ width: "250px", sm: "300px", lg: "350px" }}
+              className="h-auto max-w-full" // Ensure responsive behavior
             />
           </div>
         </div>

@@ -49,13 +49,13 @@ export default function Solutions() {
   return (
     <div className="py-12 bg-gray-100">
     <div className="text-center">
-      <h2 className="text-4xl font-bold text-black mb-4">Serving Excellent Solutions for All Industries</h2>
+      <h2 className="text-3xl md:text-5xl font-bold text-black mb-4">Serving Excellent Solutions for All Industries</h2>
       <p className="text-lg text-gray-600 mb-8">
         Want to grow your business with trendy web designs that drive traffic? Forget unprofessional companies and join us for a remarkable web experience.
       </p>
     </div>
 
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-[1250px] mx-auto px-4">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto px-4 container">
       {services.map((service, index) => (
         <div key={index} className={`${service.bgColor} p-6 shadow-md`}>
           <div className="flex items-center mb-4 text-white gap-3">
