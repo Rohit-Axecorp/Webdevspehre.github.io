@@ -5,7 +5,7 @@ export default function SeoQuote() {
   return (
     <>
       <section className='bg-gray-100'>
-        <div className="flex justify-around container py-12">
+        <div className="flex flex-col md:flex-row justify-between container mx-auto py-12 gap-10">
           {/* Left Section */}
           <div className="max-w-xl pt-5">
             {/* Subheading */}
@@ -14,7 +14,7 @@ export default function SeoQuote() {
             </h2>
 
             {/* Main Heading */}
-            <h1 className="text-4xl font-bold text-gray-800 mb-4">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
               Request a Quote
             </h1>
 
@@ -41,12 +41,12 @@ export default function SeoQuote() {
           </div>
 
           {/* Right Section: Contact Form */}
-          <div className=" p-6 bg-white shadow-lg rounded-lg w-2/5">
+          <div className="bg-white p-6 shadow-lg rounded-lg w-full md:w-2/4">
             <form action="#" method="POST">
               <div className="space-y-4">
                 {/* First and Last Name in one row */}
-                <div className="flex space-x-4">
-                  <div className="w-1/2">
+                <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0">
+                  <div className="w-full">
                     <input
                       id="first-name"
                       type="text"
@@ -55,7 +55,7 @@ export default function SeoQuote() {
                       required
                     />
                   </div>
-                  <div className="w-1/2">
+                  <div className="w-full">
                     <input
                       id="last-name"
                       type="text"

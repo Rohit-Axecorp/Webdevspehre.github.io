@@ -15,7 +15,7 @@ export default function SeoBusinessSolutions() {
   return (
     <>
     <section className="py-12">
-                <div className="flex flex-col md:flex-row p-6 container mx-auto gap-20">
+                <div className="flex flex-col md:flex-row p-6 container mx-auto md:gap-20 gap-5">
                     {/* Left Column */}
                     <div className="md:w-1/2 flex flex-col justify-center p-4">
                         <h3 className="text-lg font-semibold mb-4 ">BEST CHICAGO SEO COMPANY</h3>
