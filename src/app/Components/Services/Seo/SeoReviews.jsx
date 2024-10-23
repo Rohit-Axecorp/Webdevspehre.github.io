@@ -19,7 +19,7 @@ export default function SeoReviews() {
       name: 'Bailey James',
       role: 'Senior Content & Marketing Manager',
       company: 'Tenstreet',
-      content: 'Our search rankings soared, including top-slot rankings for some of our most important business functions, making us far more discoverable to potential prospects. I’m most impressed with their incredible customer service and hands-on account management.',
+      content: 'Our search rankings soared, including top-slot rankings for some of our most important business functions, making us far more discoverable to potential prospects. I&apos;m most impressed with their incredible customer service and hands-on account management.',
       stars: 5,
     },
     {
@@ -33,7 +33,7 @@ export default function SeoReviews() {
       name: 'John Doe',
       role: 'CEO',
       company: 'Tech Innovations',
-      content: 'The level of expertise and support provided by Victorious SEO has truly transformed our digital presence. We’ve seen a massive boost in our organic traffic and sales conversions in just a few months.',
+      content: 'The level of expertise and support provided by Victorious SEO has truly transformed our digital presence. We&apos;ve seen a massive boost in our organic traffic and sales conversions in just a few months.',
       stars: 5,
     },
     {

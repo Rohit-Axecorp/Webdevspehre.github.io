@@ -5,10 +5,10 @@ export default function SeoPackages() {
   return (
     <>
       <div className="bg-gray-100 py-10">
-        <h1 className="text-center font-semibold text-3xl sm:text-4xl pb-8 sm:pb-12 container">
+        <h1 className="text-center text-3xl md:text-4xl lg:text-5xl font-bold pb-8 sm:pb-12 ">
           Chicago SEO Packages
         </h1>
-        <div className="container mx-auto px-4 sm:px-0 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
           {/* Box 1: Steady Growth */}
           <div className="bg-white p-6 rounded-lg shadow-md flex flex-col justify-between">
             <div>
@@ -77,7 +77,7 @@ export default function SeoPackages() {
                 <li>Thorough lead qualification</li>
               </ul>
               <p className="mb-4 text-sm sm:text-base font-normal">
-                In the Chicago market, we go the extra mile by optimizing even more pages and keywords, ensuring you dominate in competitive markets within the Windy City. Paired with our extensive content and link-building packages, we’ll catapult your Chicago-based business to the pinnacle of success.
+                In the Chicago market, we go the extra mile by optimizing even more pages and keywords, ensuring you dominate in competitive markets within the Windy City. Paired with our extensive content and link-building packages, we&apos;ll catapult your Chicago-based business to the pinnacle of success.
               </p>
             </div>
             <a href="#" className="text-red-500 hover:underline hover:text-red-600 self-start text-base font-medium">
