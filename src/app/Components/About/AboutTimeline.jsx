@@ -7,9 +7,9 @@ export default function AboutTimeline() {
   return (
     <section className="bg-black py-12 text-white">
       <div className="container mx-auto">
-        <div className="text-center mb-12">
-          <h2 className="text-5xl font-bold text-red-500">Explore 11+ Years Of</h2>
-          <h3 className="text-2xl text-gray-300 mt-4">Ideation. Innovation. Transformation</h3>
+        <div className=" mb-20">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-red-500">Explore 11+ Years Of</h2>
+          <h3 className="text-gray-100 text-base md:text-lg lg:text-xl mt-4">Ideation. Innovation. Transformation</h3>
         </div>
 
         {/* Timeline Wrapper */}

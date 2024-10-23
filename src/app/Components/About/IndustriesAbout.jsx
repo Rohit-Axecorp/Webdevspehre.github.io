@@ -16,7 +16,7 @@ export default function IndustriesAbout() {
               <p className="mt-4 text-gray-600 text-base md:text-lg lg:text-xl">
                 Empowering digital transformations with the most current IT solutions across a wide range of industries.
               </p>
-              <div className="mt-6 grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 gap-6">
+              <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6">
                 {/* First Icon */}
                 <div className="flex items-center gap-3 px-5 py-3 shadow-md hover:bg-gradient-to-r hover:from-red-500 hover:to-red-600 hover:text-white">
                   <div className="bg-gradient-to-r from-red-500 to-red-600 p-2 rounded-full text-white shadow-md hover:text-white">

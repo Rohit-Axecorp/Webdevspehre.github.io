@@ -24,8 +24,8 @@ export default function AboutHero() {
             <Image
               src="/Images/aboutbanner.png"
               alt="Background"
-              layout="fill"
-              objectFit="cover"
+              fill // Use fill instead of layout="fill"
+              style={{ objectFit: 'cover' }} // Set object-fit through style
               className="opacity-50"
             />
           </div>
@@ -37,7 +37,7 @@ export default function AboutHero() {
               alt="Foreground Image"
               width={600}
               height={600}
-              objectFit="cover"
+              style={{ objectFit: 'cover' }} // Set object-fit through style
               className="mx-auto p-10"
             />
           </div>

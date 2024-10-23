@@ -7,11 +7,11 @@ export default function AboutLocationContact() {
 
   return (
     <section className='bg-gray-100'>
-      <div className="container mx-auto flex flex-col md:flex-row py-12">
+      <div className="container mx-auto flex flex-col md:flex-row py-12 justify-between">
 
         {/* Contact Form Section */}
-        <div className="formdiv md:w-2/5 mb-10 md:mb-0 flex flex-col justify-between">
-          <h2 className="text-7xl font-bold text-red-500 mb-10">
+        <div className="formdiv md:w-2/5 mb-10 md:mb-0 flex flex-col ">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-red-500 mb-10">
             Let's Talk Business
           </h2>
           <div className="p-6 bg-white shadow-lg rounded-lg flex-grow">
