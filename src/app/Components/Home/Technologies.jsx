@@ -37,14 +37,12 @@ export default function Technologies() {
   const [activeTab, setActiveTab] = useState("Android");
 
   return (
-    <>
-    <section className="py-12 bg-black" >
+    <section className="py-12 bg-black">
       <section>
         <div className="container mx-auto px-4 flex flex-col md:flex-row gap-10">
           <div className="content md:w-2/5 mb-8">
-            <h2 className="text-3xl lg:text-4xl xl:text-5xl md:text-5xl font-bold mb-4 text-white">
-              Technologies TekRevol Uses for Mobile App Development in San
-              Francisco
+            <h2 className="text-2xl lg:text-3xl xl:text-4xl md:text-5xl font-bold mb-4 text-white">
+              Technologies TekRevol Uses for Mobile App Development in San Francisco
             </h2>
           </div>
 
@@ -67,14 +65,16 @@ export default function Technologies() {
       <section className="pt-8">
         <div className="container bg-black">
           {/* Tabs Navigation */}
-          <div className="flex border-b border-gray-200">
+          <div className="flex border-b border-gray-200" role="tablist">
             {Object.keys(tabsData).map((tab) => (
               <button
                 key={tab}
-                className={`text-lg font-semibold px-4 py-2 focus:outline-none ${
+                role="tab"
+                aria-selected={activeTab === tab}
+                className={`text-lg font-semibold px-4 py-2 focus:outline-none transition duration-200 ease-in-out ${
                   activeTab === tab
                     ? "border-b-2 border-red-500 text-red-500"
-                    : "text-gray-400"
+                    : "text-gray-400 hover:text-red-500"
                 }`}
                 onClick={() => setActiveTab(tab)}
               >
@@ -84,21 +84,21 @@ export default function Technologies() {
           </div>
 
           {/* Tab Content */}
-          <div className="mt-4 flex gap-7">
+          <div className="mt-4 flex flex-wrap gap-7">
             {tabsData[activeTab]?.map((item) => (
               <div key={item.name} className="text-center">
                 <img
                   src={item.imgSrc}
                   alt={item.name}
-                  className="mx-auto h-16 w-16"
+                  className="mx-auto h-16 w-16 md:h-20 md:w-20 lg:h-24 lg:w-24"
+                  onError={(e) => (e.target.src = '/Images/default.png')} // Fallback image
                 />
-                <p className="mt-2 text-white">{item.name}</p>
+                <p className="mt-2 text-white text-sm md:text-base">{item.name}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
-      </section>
-    </>
+    </section>
   );
 }
