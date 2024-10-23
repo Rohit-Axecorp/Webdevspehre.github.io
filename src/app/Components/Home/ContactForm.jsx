@@ -80,7 +80,7 @@ export default function ContactForm() {
             <p className="text-xl sm:text-2xl font-light">
               Our clients achieve an average of{" "}
               <span className="text-black font-semibold">4-5x ROI</span> when
-              they employ our digital marketing services – you can too.
+              they employ our digital marketing services - you can too.
             </p>
             <ul className="list-disc ml-6 mt-4">
               <li className="text-lg sm:text-xl font-light mb-2">
