@@ -12,7 +12,7 @@ export default function AboutLocationContact() {
         {/* Contact Form Section */}
         <div className="formdiv md:w-2/5 mb-10 md:mb-0 flex flex-col ">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-red-500 mb-10">
-            Let's Talk Business
+            Let&apos;s Talk Business
           </h2>
           <div className="p-6 bg-white shadow-lg rounded-lg flex-grow">
             <form action="#" method="POST">
