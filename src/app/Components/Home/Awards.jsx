@@ -19,7 +19,7 @@ export default function Awards() {
             <div className="flex flex-col md:flex-row items-center justify-between">
                 {/* First Column */}
                 <div className="text-left md:w-1/2">
-                    <h2 className="text-5xl font-bold">Awards & Recognitions</h2>
+                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold">Awards & Recognitions</h2>
                     <p className="text-lg mt-4">
                     As we&apos;ve journeyed through the realm of mobile app development at TekRevol, we&apos;ve received accolades and acknowledgments that underscore our steadfast dedication to attaining excellence. Affirming our commitment to excellence, here are the awards and recognitions that TekRevol has achieved over the years.
                     </p>
