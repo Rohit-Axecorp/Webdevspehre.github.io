@@ -2,7 +2,9 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay } from 'swiper'; // Import Autoplay module
+import { Autoplay, Pagination } from 'swiper/modules'; // Correct import for Swiper 8.x+
+import 'swiper/swiper-bundle.css';
+
 
 export default function SeoReviews() {
   const testimonials = [
@@ -27,7 +29,6 @@ export default function SeoReviews() {
       content: 'After several false starts with a few other SEO companies I can confidently share that Victorious SEO is the real deal. They are easy to work with, very proactive and completely transparent. Considering my prior SEO experiences I found the results startling. Three and a half months in and I see concrete, measurable results. ROI after such a short time? 422%! Really.',
       stars: 5,
     },
-    // Add more testimonials as needed
     {
       name: 'John Doe',
       role: 'CEO',
@@ -45,34 +46,40 @@ export default function SeoReviews() {
   ];
 
   return (
-    <div className="py-12">
-      <div className="w-2/3 mx-auto">
+    <div className="py-12 px-4">
+      <div className="container mx-auto">
         {/* Main Heading */}
-        <h2 className="text-3xl font-bold text-center mb-8">Real Companies. Real Gains.</h2>
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-12">
+          Real Companies. Real Gains.
+        </h2>
 
         <Swiper
-          spaceBetween={30}
+          spaceBetween={20}
           slidesPerView={1}
           loop={true}
           pagination={{ clickable: true }}
+          autoplay={{ delay: 4000 }}
           breakpoints={{
             640: { slidesPerView: 1 },
             768: { slidesPerView: 2 },
             1024: { slidesPerView: 3 },
           }}
+          modules={[Autoplay, Pagination]} // Make sure to add modules
         >
           {testimonials.map((testimonial, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-white p-6 rounded-lg shadow-md flex flex-col justify-between h-96">
-                <div>
-                  <p className="mb-4 font-semibold">{testimonial.name}</p>
-                  <p className="mb-2 font-medium">{testimonial.role}, {testimonial.company}</p>
+              <div className="bg-white p-6 rounded-lg shadow-lg flex flex-col justify-between h-full">
+                <div className="mb-4">
+                  <p className="text-lg sm:text-xl font-semibold mb-2">{testimonial.name}</p>
+                  <p className="text-sm sm:text-base font-medium mb-2">
+                    {testimonial.role}, {testimonial.company}
+                  </p>
                   <div className="flex items-center mb-2">
                     {[...Array(testimonial.stars)].map((_, i) => (
-                      <FaStar key={i} className="text-yellow-500 text-xl mr-1" />
+                      <FaStar key={i} className="text-yellow-500 text-lg sm:text-xl mr-1" />
                     ))}
                   </div>
-                  <p className="text-gray-600">{testimonial.content}</p>
+                  <p className="text-gray-600 text-sm sm:text-base">{testimonial.content}</p>
                 </div>
               </div>
             </SwiperSlide>

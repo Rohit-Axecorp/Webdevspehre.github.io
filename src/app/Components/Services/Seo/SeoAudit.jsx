@@ -1,15 +1,18 @@
-import Image from 'next/image'
-import React from 'react'
+import Image from 'next/image';
+import React from 'react';
 
 export default function SeoAudit() {
     return (
         <>
             <section className="bg-black py-12">
-                <h1 className="text-white text-center text-5xl font-bold">Get Your FREE Instant <span className="text-red-500 font-semibold">SEO Audit Report Now!</span></h1>
-                <div className="container mx-auto pt-12 flex justify-center items-center">
+                <div className='container'>
+                <h1 className="text-white md:text-center text-3xl md:text-4xl lg:text-5xl font-bold"> {/* Responsive text size */}
+                    Get Your FREE Instant <span className="text-red-500 font-semibold">SEO Audit Report Now!</span>
+                </h1>
+                <div className="container mx-auto pt-12 flex flex-col md:flex-row justify-center items-center"> {/* Stack on small screens */}
                     {/* Left Column: Form 3/5 */}
-                    <div className="w-2/5 p-8 bg-red-500 shadow-lg rounded-lg">
-                        <h2 className="text-2xl font-bold text-white mb-6 text-center">Free Instant SEO Audit Report</h2>
+                    <div className="w-full md:w-2/5 p-6 md:p-8 bg-red-500 shadow-lg rounded-lg"> {/* Full width on small screens */}
+                        <h2 className="text-xl md:text-2xl font-bold text-white mb-6 text-center">Free Instant SEO Audit Report</h2>
                         <form action="#" method="POST">
                             <div className="space-y-4">
                                 {/* First Name */}
@@ -68,16 +71,18 @@ export default function SeoAudit() {
                     </div>
 
                     {/* Right Column: Image 2/5 */}
-                    <div className="w-2/4 max-w-lg">
+                    <div className="w-full md:w-2/4 max-w-lg p-6"> {/* Full width on small screens */}
                         <Image
                             src="/Images/result-img.webp"  // Update this to match the image path you've uploaded
                             alt="SEO Audit Report"
                             width={500}
                             height={500}
+                            className="object-cover" // Ensures image covers the space responsively
                         />
                     </div>
                 </div>
+                </div>
             </section>
         </>
-    )
+    );
 }
