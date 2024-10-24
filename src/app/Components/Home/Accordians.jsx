@@ -29,7 +29,7 @@ export default function Accordians({ title, content, isOpen, onToggle }) {
                 </span>
             </button>
             <div
-                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-40' : 'max-h-0'}`}
+                className={`overflow-hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-full' : 'max-h-0'}`}
             >
                 <div className="p-4 text-gray-200">
                     {content}
