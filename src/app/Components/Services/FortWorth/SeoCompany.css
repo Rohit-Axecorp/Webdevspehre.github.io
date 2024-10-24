@@ -1,0 +1,27 @@
+/* Custom Scrollbar */
+.scroll-custom::-webkit-scrollbar {
+    width: 10px; /* Width of the scrollbar */
+}
+
+.scroll-custom::-webkit-scrollbar-thumb {
+    background: url('/path/to/your/thumb-image.jpg') no-repeat center center;
+    background-size: cover; /* Makes the image fit */
+    border-radius: 8px; /* Round edges of the scrollbar thumb */
+    border: 2px solid rgba(255, 255, 255, 0.6); /* Adds border around the thumb */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Optional: adds shadow for better visibility */
+}
+
+.scroll-custom::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Light background for the track */
+    border-radius: 8px; /* Rounded corners for the track */
+}
+
+.scroll-custom::-webkit-scrollbar-thumb:hover {
+    background: url('/path/to/your/thumb-hover-image.jpg') no-repeat center center; /* Change image on hover */
+    background-size: cover;
+}
+
+/* Smooth Scroll Effect */
+.scroll-custom {
+    scroll-behavior: smooth;
+}

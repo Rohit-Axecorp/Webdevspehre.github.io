@@ -1,0 +1,23 @@
+/* Add this CSS to your global styles or a specific CSS module */
+.relative {
+    position: relative;
+}
+
+.flex > div {
+    position: relative;
+}
+
+.flex > div::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 100%;
+    transform: translateX(-50%);
+    width: 1px;
+    height: 24px; /* Adjust based on your layout */
+    background: #ccc; /* Line color */
+}
+
+.flex > div:first-child::before {
+    display: none; /* Hide line before the first step */
+}
