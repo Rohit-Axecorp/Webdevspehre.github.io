@@ -20,40 +20,24 @@ export default function SeoCompany() {
                 {/* Content Column */}
                 <div className="w-full md:w-1/2 flex flex-col justify-center p-4 md:p-8 lg:px-16"> {/* Reduced padding for smaller screens */}
                     <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2"> {/* Adjusted text size */}
-                        Chicago SEO Company
+                        Professional Austin SEO Company
                     </h2>
                     <p className="text-lg md:text-xl text-gray-700 mb-4"> {/* Adjusted text size */}
-                        Boost your ROI with Proven SEO Solutions From a Leading SEO Agency in Chicago, IL
+                        Outrank Competitors and Capture More Leads with Strategic SEO
                     </p>
 
                     {/* Scrollable Text */}
                     <div className="overflow-y-auto max-h-96 flex-1">
                         <p className="text-lg text-gray-600 mb-6">
-                            Comrade Digital Marketing Agency in Chicago offers comprehensive marketing solutions to enhance online presence and drive business growth. With expertise in marketing and search engine optimization, our award-winning team helps clients create effective marketing funnels to attract qualified leads.
-                            <br />
-                            Nestled along the picturesque shores of Lake Michigan, Chicago, Illinois exudes vibrancy and prosperity. A bustling modern metropolis, the city showcases a diversified and robust economy encompassing finance, manufacturing, technology, healthcare, and hospitality sectors.
+                            At Web Dev Sphere, we pride ourselves on being the best SEO company Austin TX offering customized SEO services with real results. Our full-cycle SEO strategy targets increasing online website visibility and guaranteeing your business&apos;s success in a very competitive market.
                             <br />
 
-                            Chicago proudly hosts numerous Fortune 500 companies, establishing it as a coveted hub for business and commerce. Its prime central location and exceptional transportation infrastructure ensure seamless access to both domestic and international markets, amplifying its appeal as a thriving business destination. Chicago embraces entrepreneurship and innovation, fostering a supportive ecosystem with abundant resources for startups and small businesses.
+                            Located in Texas, Austin enjoys a thriving tech hub, vibrant culture, and a dynamically developing economy. With so many businesses expanding rapidly in the area, we&apos;ll help you stand out with local SEO strategies that put your business in the top searches. Our Search Engine Optimization service Austin ensures that you will reach customers in your community and drive more foot traffic and online leads right to your business.
                             <br />
 
-                            Boasting a highly skilled workforce, renowned educational institutions, and a dynamic entrepreneurial culture, the city creates an ideal environment for business growth. Furthermore, Chicago&apos;s strategic positioning, diverse talent pool, and vibrant cultural scene make it an irresistible magnet for professionals and companies seeking abundant opportunities.
+                            We have years of experience working with successful businesses in Austin and within the growing neighboring cities of Round Rock, Cedar Park, Pflugerville, Georgetown, and Lakeway.
                             <br />
 
-                            With its flourishing economy, favorable business climate, and unwavering potential, Chicago remains a premier choice for enterprises seeking to establish or expand their footprint within the United States.
-                            <br />
-
-                            Comrade has worked with diverse businesses, including B2B, B2C, eCommerce, home services, and law firms. While we can&apos;t predict market fluctuations, our track record assures business expansion through our services.
-                            <br />
-
-                            We&apos;re a full-service SEO agency, proudly helping businesses in Chicago and surrounding areas:
-                            <ul className="list-disc list-inside mt-2">
-                                <li>Schaumburg</li>
-                                <li>Aurora</li>
-                                <li>Evanston</li>
-                                <li>Naperville</li>
-                                <li>and others</li>
-                            </ul>
                         </p>
                     </div>
 

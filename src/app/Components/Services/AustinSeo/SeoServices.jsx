@@ -10,9 +10,10 @@ export default function SeoServices() {
             <div className="flex flex-col md:flex-row container mx-auto p-8 md:gap-24 gap-5 ">
                 {/* Left Column: Our Promise and Statistics */}
                 <div className="flex-1 mb-8 md:mr-4 md:w-1/2 w-full">
-                    <h2 className="text-lg font-bold mb-4 text-gray-500">OUR PROMISE</h2>
+                    <h2 className="text-lg font-bold mb-4 text-gray-500">OUR COMMITMENT TO EXCELLENCE
+                    </h2>
                     <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-                        Providing SEO services to Chicago businesses and eCommerce stores since 2008
+                        Delivering Top-Tier SEO Services to Austin-Based Companies
                     </h1>
 
                 </div>
@@ -22,24 +23,27 @@ export default function SeoServices() {
 
                     <div>
                         <div className="text-2xl font-bold mb-4">
-                            Average results generated for our clients
+                            Our clients have garnered great results with us
                         </div>
                         <div className='flex flex-wrap'>
                             <div className="flex flex-col mb-4 md:w-1/4 w-full">
-                                <div className="text-4xl font-bold mb-2">2.5x</div>
-                                <div className="text-sm">Increase in SEO Traffic</div>
+                                <div className="text-4xl font-bold mb-2">85%
+                                </div>
+                                <div className="text-sm">IMPROVEMENTS IN SEARCH RANKINGS
+                                </div>
                             </div>
                             <div className="flex flex-col mb-4 md:w-1/4 w-full">
-                                <div className="text-4xl font-bold mb-2">120%</div>
-                                <div className="text-sm">Increase in PPC Revenue</div>
+                                <div className="text-4xl font-bold mb-2">3x</div>
+                                <div className="text-sm">BOOST IN PAGE VIEWS
+                                </div>
                             </div>
                             <div className="flex flex-col mb-4 md:w-1/4 w-full">
-                                <div className="text-4xl font-bold mb-2">70%</div>
-                                <div className="text-sm">Sales Qualified Leads Increase</div>
+                                <div className="text-4xl font-bold mb-2">180%</div>
+                                <div className="text-sm">GROWTH IN CTR</div>
                             </div>
                             <div className="flex flex-col mb-4 md:w-1/4 w-full">
-                                <div className="text-4xl font-bold mb-2">35%</div>
-                                <div className="text-sm">Conversion Rate Increase</div>
+                                <div className="text-4xl font-bold mb-2">60%</div>
+                                <div className="text-sm">REDUCTION IN BOUNCE RATE</div>
                             </div>
                         </div>
                     </div>
@@ -51,24 +55,26 @@ export default function SeoServices() {
                     >
                         <SwiperSlide>
                             <p className="mb-4">
-                                My experience includes working with many web and SEO companies in Chicago doing business with some of my smallest and largest clients. Comrade has worked for Yahoo Auto and Tetra-Pak (both billion dollar companies). And I highly recommend them! The pricing is also very affordable for the high-quality work they do.
+                                Our organic traffic skyrocketed! The team transformed our website, and leads are flowing in. Highly recommended.
+                            </p>
+                            <p className="font-semibold mt-4 text-gray-500">Sarah Johnson, Manager at GreenTech Solutions</p>
 
+                        </SwiperSlide>
+                        <SwiperSlide>
+                            <p className="mb-4">
+                                Our CTR has tripled! Web Dev Sphere truly knows how to make your site shine. Best decision we made for our business!
+                            </p>
+                            <p className="font-semibold mt-4 text-gray-500">David Kim, CEO of FreshStart Bakery
                             </p>
                         </SwiperSlide>
                         <SwiperSlide>
                             <p className="mb-4">
-                                We started to work with Comrade Digital Marketing Agency in 2015. In 6 months from being nowhere on Google, we achieved Top local SEO results for the best keywords in my industry. Our website conversion rate improved from 1.06% to 2.26%.<br />
-                                Now, after 12 months, we increased the total amount of leads from the website by 40% with organic SEO and we haven&apos;t been using adWords for a long time.<br />
-                                I highly recommend this company! They provided excellent customer service and did what they said they would
+                                "Incredible results! Our revenue grew significantly, thanks to Web Dev Sphere. We couldn't be happier with them.
                             </p>
-                        </SwiperSlide>
-                        <SwiperSlide>
-                            <p className="mb-4">
-                                My experience includes working with many web and SEO companies in Chicago doing business with some of my smallest and largest clients. Comrade has worked for Yahoo Auto and Tetra-Pak (both billion dollar companies). And I highly recommend them! The pricing is also very affordable for the high-quality work they do.
+                            <p className="font-semibold mt-4 text-gray-500">Michael Rodriguez, Director at AutoVision
                             </p>
                         </SwiperSlide>
                     </Swiper>
-                    <p className="font-semibold mt-4 text-gray-500">MICHAEL QUINTOS / MARKETING DIRECTOR</p>
                 </div>
             </div>
         </section>
