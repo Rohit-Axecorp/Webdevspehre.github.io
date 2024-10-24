@@ -26,10 +26,10 @@ export default function ProcessSocialMedia() {
                             Our Social Media Marketing Process
                         </h2>
                         <p className="text-base sm:text-lg md:text-xl font-normal mb-4 text-gray-600">
-                            It starts with a comprehensive audit and research to understand your brand's current standing. We then develop and optimize your social media profiles, ensuring they are aligned with your business goals. Our team creates high-quality content, followed by strategic publishing and diligent monitoring to engage your audience effectively.
+                            It starts with a comprehensive audit and research to understand your brands current standing. We then develop and optimize your social media profiles, ensuring they are aligned with your business goals. Our team creates high-quality content, followed by strategic publishing and diligent monitoring to engage your audience effectively.
                         </p>
                         <p className="text-base sm:text-lg md:text-xl font-normal text-gray-600">
-                            We provide continuous performance evaluations to refine our strategies and achieve optimal results. Our affordable social media marketing services are designed to deliver maximum ROI. So, trust our budget-friendly SMM services in Dubai to elevate your brand's online presence.
+                            We provide continuous performance evaluations to refine our strategies and achieve optimal results. Our affordable social media marketing services are designed to deliver maximum ROI. So, trust our budget-friendly SMM services in Dubai to elevate your brands online presence.
                         </p>
                     </div>
 
