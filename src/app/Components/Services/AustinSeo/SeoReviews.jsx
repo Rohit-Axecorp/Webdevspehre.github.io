@@ -2,47 +2,48 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination } from 'swiper/modules'; // Correct import for Swiper 8.x+
+import { Autoplay } from 'swiper/modules'; // Correct import for Swiper 8.x+
 import 'swiper/swiper-bundle.css';
 
 
 export default function SeoReviews() {
   const testimonials = [
     {
-      name: 'Anonymous',
-      role: 'Sales & Marketing Executive',
-      company: 'Hospitality & Leisure Co.',
-      content: 'Revenue is up nearly 50%. Victorious has increased the number of keywords that rank on Google and decreased overall dependence on third-party advertising channels. Timely deliveries, flexibility, and effective communication make the process seamless. Positive results maintain value for cost.',
+      name: 'Emma Brown',
+      role: 'Founder of Pet Paradise',
+      // company: 'Hospitality & Leisure Co.',
+      content: 'Their SEO efforts have truly paid off! We’re getting more traffic and leads than ever before. I highly recommend their services to anyone looking to grow!.',
       stars: 5,
     },
     {
-      name: 'Bailey James',
-      role: 'Senior Content & Marketing Manager',
-      company: 'Tenstreet',
-      content: 'Our search rankings soared, including top-slot rankings for some of our most important business functions, making us far more discoverable to potential prospects. I&apos;m most impressed with their incredible customer service and hands-on account management.',
+      name: 'Chris Davis',
+      role: 'Owner of Fitness Hub',
+      // company: 'Hospitality & Leisure Co.',
+      content: 'The team’s SEO strategies were spot on! Web Dev Sphere helped us understand our audience better and significantly increased our visibility online.',
       stars: 5,
     },
     {
-      name: 'Dave Loftus',
-      role: 'Owner',
-      company: 'Blomdahl USA',
-      content: 'After several false starts with a few other SEO companies I can confidently share that Victorious SEO is the real deal. They are easy to work with, very proactive and completely transparent. Considering my prior SEO experiences I found the results startling. Three and a half months in and I see concrete, measurable results. ROI after such a short time? 422%! Really.',
+      name: 'Lisa White',
+      role: 'Marketing Manager at Style Haven',
+      // company: 'Hospitality & Leisure Co.',
+      content: 'I was amazed at the results! Our rankings improved dramatically in just a few months. Web Dev Sphere is dedicated, knowledgeable, and a joy to work with!',
       stars: 5,
     },
     {
-      name: 'John Doe',
-      role: 'CEO',
-      company: 'Tech Innovations',
-      content: 'The level of expertise and support provided by Victorious SEO has truly transformed our digital presence. We&apos;ve seen a massive boost in our organic traffic and sales conversions in just a few months.',
+      name: 'Jenna Smith',
+      role: 'Co-Founder of Crafty Creations',
+      // company: 'Hospitality & Leisure Co.',
+      content: 'Working with Web Dev Sphere was a game-changer! They turned our online presence around and helped us attract more local customers. Worth it!',
       stars: 5,
     },
     {
-      name: 'Jane Smith',
-      role: 'Marketing Director',
-      company: 'Creative Solutions',
-      content: 'Their approach to SEO has been exceptional. Victorious SEO not only boosted our search rankings but helped us build a long-term strategy that ensures sustained growth.',
+      name: 'Mike Anderson',
+      role: 'HOD at Fresh Eats',
+      // company: 'Hospitality & Leisure Co.',
+      content: 'I can’t believe how quickly we saw results! Their SEO strategies made a huge difference, and we’re finally ranking on the first page. Highly recommend!',
       stars: 5,
     },
+
   ];
 
   return (
@@ -50,7 +51,7 @@ export default function SeoReviews() {
       <div className="container mx-auto">
         {/* Main Heading */}
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-12">
-          Real Companies. Real Gains.
+          Real Reviews. Real Results.
         </h2>
 
         <Swiper
@@ -64,7 +65,7 @@ export default function SeoReviews() {
             768: { slidesPerView: 2 },
             1024: { slidesPerView: 3 },
           }}
-          modules={[Autoplay, Pagination]} // Make sure to add modules
+          modules={[Autoplay]} // Make sure to add modules
         >
           {testimonials.map((testimonial, index) => (
             <SwiperSlide key={index}>

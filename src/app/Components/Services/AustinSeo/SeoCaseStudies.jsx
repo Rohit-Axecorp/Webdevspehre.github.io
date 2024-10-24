@@ -7,39 +7,42 @@ import { Swiper, SwiperSlide } from "swiper/react";
 export default function SeoCaseStudies() {
   const caseStudies = [
     {
-      title: "DFW Fence Contractor",
-      author: "Marcus McCrary",
+      title: "YO Steakhouse",
+      author: "Daniel Louis",
       description:
-        "Discover how our team helped pave the way for this growing business to become one of the leading fence contractors in DFW.",
+        "YO Steakhouse was having trouble distinguishing its brand in a competitive market. They turned to Web Dev Sphere for a comprehensive audit, and within six months, they experienced a remarkable increase in organic traffic.",
       results: [
-        { label: "Organic Traffic", value: "+35%" },
-        { label: "Conversion Rate", value: "+38%" },
-        { label: "Conversions", value: "+84%" },
-        { label: "Page 1 Rankings", value: "+56%" },
+        { label: "Organic Traffic:", value: "60%" },
+        { label: "Conversion Rate:", value: "80%" },
+        { label: "Keyword Rankings:", value: "15+" },
+        { label: "Lead Generation:", value: "55%" },
       ],
       imageUrl: "/Images/2022-03-02_12-56-34.png",
     },
 
     {
-      title: "DFW Fence Contractor",
-      author: "Marcus McCrary",
+      title: "YO Steakhouse",
+      author: "Daniel Louis",
       description:
-        "Discover how our team helped pave the way for this growing business to become one of the leading fence contractors in DFW.",
+        "YO Steakhouse was having trouble distinguishing its brand in a competitive market. They turned to Web Dev Sphere for a comprehensive audit, and within six months, they experienced a remarkable increase in organic traffic.",
       results: [
-        { label: "Organic Traffic", value: "+35%" },
-        { label: "Conversion Rate", value: "+38%" },
-        { label: "Conversions", value: "+84%" },
-        { label: "Page 1 Rankings", value: "+56%" },
+        { label: "Organic Traffic:", value: "60%" },
+        { label: "Conversion Rate:", value: "80%" },
+        { label: "Keyword Rankings:", value: "15+" },
+        { label: "Lead Generation:", value: "55%" },
       ],
       imageUrl: "/Images/2022-03-02_12-56-34.png",
     },
-    // Add more case studies as needed
+
+
+
   ];
   return (
     <>
       <div className="bg-gray-100 py-12">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-8">
-          Case Studies
+          SEO Company Austin TX Portfolio
+
         </h2>
         <Swiper slidesPerView={1} spaceBetween={30}>
           {caseStudies.map((study, index) => (
