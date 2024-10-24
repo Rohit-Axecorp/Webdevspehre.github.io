@@ -23,7 +23,7 @@ export default function LogoExperience() {
                     {/* Left Column */}
                     <div className="md:w-1/3 space-y-4">
                         <h5 className="text-sm font-medium text-gray-500 uppercase" style={{ letterSpacing: "10px" }}>Be Visible</h5>
-                        <h1 className="text-5xl font-semibold text-gray-900">Beautify Your Brand with a Professional Logo Design</h1>
+                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">Beautify Your Brand with a Professional Logo Design</h1>
                         <p className="text-gray-600 text-lg">
                             Startups, small businesses, and enterprises can brand their offerings through custom logo designs, branding design solutions, and the web design expertise of Logo Design Valley.
                         </p>
@@ -37,7 +37,7 @@ export default function LogoExperience() {
                                 {/* Outer Border Circle */}
                                 <div className="p-4 rounded-full border-2 border-red-200">
                                     {/* Inner Red Circle */}
-                                    <div className="p-24 bg-red-600 text-white rounded-full flex items-center justify-center text-8xl font-medium">
+                                    <div className="md:p-24 p-16 bg-red-600 text-white rounded-full flex items-center justify-center text-8xl font-medium">
                                         {counter}+
                                     </div>
                                 </div>
@@ -55,7 +55,7 @@ export default function LogoExperience() {
                 </div>
 
                 <div className="container mx-auto pt-20">
-                    <div className="flex justify-between items-start space-x-4">
+                    <div className="flex justify-between items-center gap-5 space-x-4 lg:flex-row flex-col">
                         {/* Guarantee Item */}
                         <div className="flex flex-col items-center space-y-4">
                             <div className="bg-red-50 rounded-full">
