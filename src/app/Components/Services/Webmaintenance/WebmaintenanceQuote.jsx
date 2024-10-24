@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from 'react';
 import 'react-phone-number-input/style.css';
@@ -8,21 +8,19 @@ export default function WebmaintenanceQuote() {
   return (
     <>
       <section className="bg-gray-100">
-        <div className="flex justify-between container py-12">
+        <div className="flex flex-col md:flex-row justify-between container mx-auto py-12">
           {/* Left Section */}
-          <div className=" pt-5 w-1/2">
-            {/* Subheading */}
-
+          <div className="pt-5 w-full md:w-1/2 mb-8 md:mb-0">
             {/* Main Heading */}
-            <h1 className="text-6xl font-bold text-gray-800 mb-8 uppercase">
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
               Website Maintenance Services
             </h1>
-            <h2 className="text-2xl font-medium text-gray-700 mb-2 uppercase">
+            <h2 className="text-xl md:text-2xl font-medium text-gray-700 mb-">
               Say Goodbye to these Web Maintenance Problems!
             </h2>
 
             {/* Benefits List */}
-            <ul className=" text-lg text-gray-600 mb-6 space-y-3">
+            <ul className="text-base md:text-lg text-gray-600 mb-6 space-y-2">
               <li>Increase brand awareness & loyalty</li>
               <li>Increase your qualified leads</li>
               <li>Elevate your conversion rate</li>
@@ -31,14 +29,14 @@ export default function WebmaintenanceQuote() {
               <li>Increase return on marketing investment</li>
             </ul>
 
-            <button className="flex items-center justify-center uppercase bg-white text-red-500 py-5 px-10 rounded-lg text-xl font-semibold hover:bg-gray-200 transition duration-300 ease-in-out">
+            <button className="flex items-center justify-center bg-white text-red-500 py-4 px-8 md:py-5 md:px-10 rounded-lg text-lg md:text-xl font-semibold hover:bg-gray-200 transition duration-300 ease-in-out">
               View pricing and plan
             </button>
           </div>
 
           {/* Right Section: Contact Form */}
-          <div className="p-6 bg-white shadow-lg rounded-lg w-2/5">
-            <h1 className="text-3xl font-semibold text-gray-800 mb-8">
+          <div className="p-6 bg-white shadow-lg rounded-lg w-full md:w-2/5">
+            <h1 className="text-2xl md:text-3xl font-semibold text-gray-800 mb-6 capitalize">
               GET FREE EXPERT CONSULTATION
             </h1>
             <form action="#" method="POST">
