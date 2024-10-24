@@ -4,19 +4,34 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 
 export default function Header() {
-  // State for dropdown toggle
+  // State for dropdown toggles
   const [dropdownOpen, setDropdownOpen] = useState(false);
+  const [locationDropdownOpen, setLocationDropdownOpen] = useState(false); // For Location dropdown
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const dropdownRef = useRef(null); // Ref for the dropdown menu
+  const locationDropdownRef = useRef(null); // Ref for the location dropdown
 
   const handleDropdownToggle = () => {
     setDropdownOpen((prev) => !prev);
   };
 
+  const handleLocationDropdownToggle = () => {
+    setLocationDropdownOpen((prev) => !prev);
+  };
+
   const handleClickOutside = (event) => {
-    // Close the dropdown if clicked outside
-    if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+    // Close the dropdowns if clicked outside
+    if (
+      dropdownRef.current &&
+      !dropdownRef.current.contains(event.target)
+    ) {
       setDropdownOpen(false);
+    }
+    if (
+      locationDropdownRef.current &&
+      !locationDropdownRef.current.contains(event.target)
+    ) {
+      setLocationDropdownOpen(false);
     }
   };
 
@@ -64,48 +79,28 @@ export default function Header() {
         {/* Desktop Menu */}
         <div
           id="mega-menu"
-          className={`lg:flex items-center justify-between ${
-            mobileMenuOpen ? "block" : "hidden"
-          } w-full lg:w-auto`}
+          className={`lg:flex items-center justify-between ${mobileMenuOpen ? "block" : "hidden"} w-full lg:w-auto`}
         >
           <ul className="flex flex-col mt-4 lg:flex-row lg:mt-0 lg:space-x-8">
             <li>
-              <Link
-                href="/"
-                className="block py-2 lg:px-3 text-red-600 hover:text-red-600 xl:text-xl text-lg font-semibold"
-              >
+              <Link href="/" className="block py-2 lg:px-3 text-red-600 hover:text-red-600 xl:text-xl text-lg font-semibold">
                 Home
               </Link>
             </li>
+
+            {/* Services Dropdown */}
             <li className="relative">
-              {/* Dropdown Button */}
               <button
                 onClick={handleDropdownToggle}
                 className="flex items-center xl:text-xl text-lg justify-between w-full py-2 lg:px-3 font-normal text-gray-900 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-red-600"
               >
                 Services
-                <svg
-                  className="w-4 h-4 md:ml-4 mr-4 lg:mr-0"
-                  fill="none"
-                  stroke="currentColor"
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 10 6"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M1 1l4 4 4-4"
-                  />
+                <svg className="w-4 h-4 md:ml-4 mr-4 lg:mr-0" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1l4 4 4-4" />
                 </svg>
               </button>
-
-              {/* Dropdown Menu */}
               {dropdownOpen && (
-                <div
-                  ref={dropdownRef}
-                  className="absolute top-full mt-1 w-48 bg-white shadow-lg rounded-lg z-20"
-                >
+                <div ref={dropdownRef} className="absolute top-full mt-1 w-48 bg-white shadow-lg rounded-lg z-20">
                   <ul className="py-2 text-sm text-gray-700">
                     <li>
                       <Link href="/seo" className="block px-4 py-2 hover:bg-gray-100">
@@ -142,24 +137,60 @@ export default function Header() {
               )}
             </li>
 
+            {/* Location Dropdown */}
+            <li className="relative">
+              <button
+                onClick={handleLocationDropdownToggle}
+                className="flex items-center xl:text-xl text-lg justify-between w-full py-2 lg:px-3 font-normal text-gray-900 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-red-600"
+              >
+                Location
+                <svg className="w-4 h-4 md:ml-4 mr-4 lg:mr-0" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1l4 4 4-4" />
+                </svg>
+              </button>
+              {locationDropdownOpen && (
+                <div ref={locationDropdownRef} className="absolute top-full mt-1 w-48 bg-white shadow-lg rounded-lg z-20">
+                  <ul className="py-2 text-sm text-gray-700">
+                    <li>
+                      <Link href="/austin" className="block px-4 py-2 hover:bg-gray-100">
+                        Austin
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/fortworth" className="block px-4 py-2 hover:bg-gray-100">
+                        Fort Worth
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/plano" className="block px-4 py-2 hover:bg-gray-100">
+                        Plano
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/dallas" className="block px-4 py-2 hover:bg-gray-100">
+                        Dallas
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+              )}
+            </li>
+
             <li>
               <Link href="/about" className="block py-2 lg:px-3 text-black hover:text-black xl:text-xl text-lg font-normal">
                 About
               </Link>
             </li>
-
             <li>
               <Link href="/" className="block py-2 lg:px-3 text-black hover:text-black xl:text-xl text-lg font-normal">
                 Case Studies
               </Link>
             </li>
-
             <li>
               <Link href="/" className="block py-2 lg:px-3 text-black hover:text-black xl:text-xl text-lg font-normal">
                 Portfolio
               </Link>
             </li>
-
             <li>
               <Link href="/contact" className="block py-2 lg:px-3 text-black hover:text-black xl:text-xl text-lg font-normal">
                 Contact
