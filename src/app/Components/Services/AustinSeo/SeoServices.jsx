@@ -69,7 +69,7 @@ export default function SeoServices() {
                         </SwiperSlide>
                         <SwiperSlide>
                             <p className="mb-4">
-                                "Incredible results! Our revenue grew significantly, thanks to Web Dev Sphere. We couldn&apos;t be happier with them.
+                                Incredible results! Our revenue grew significantly, thanks to Web Dev Sphere. We couldn&apos;t be happier with them.
                             </p>
                             <p className="font-semibold mt-4 text-gray-500">Michael Rodriguez, Director at AutoVision
                             </p>
