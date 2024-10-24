@@ -13,10 +13,10 @@ export default function SeoSolution() {
             {/* Left Column */}
             <div className="md:w-1/2 flex flex-col justify-center p-4">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white">
-                Get Solution Tailored for Your Chicago Business
+              Maximize Your Visibility with Our Effective SEO Strategies!
               </h2>
               <p className="mb-6 text-white text-base md:text-lg lg:text-xl">
-                At Comrade, we&apos;re committed to empowering businesses across Chicago by driving leads and boosting revenue. Regardless of your industry or niche, our team excels at tailoring solutions to meet your unique needs, ensuring your business reaches its goals. If you haven&apos;t discovered an ideal solution that suits your Chicago-based enterprise, reach out to us, and let&apos;s explore how our SEO expertise can be the catalyst for your success!
+              Website Dev Sphere is a premier SEO company Austin dedicated to enhancing your online visibility, increasing organic traffic, and delivering real results. With years of experience, our Houston SEO team is committed to helping businesses achieve online success. Partner with us to grow your website to the top of search engine rankings.
               </p>
               <button className="bg-black text-white px-6 py-3 rounded hover:bg-gray-800 w-full md:w-1/2 lg:w-1/3">
                 Get Custom Solution

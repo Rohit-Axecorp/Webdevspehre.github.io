@@ -10,27 +10,31 @@ export default function SeoQuote() {
           <div className="max-w-xl pt-5">
             {/* Subheading */}
             <h2 className="text-lg font-medium text-gray-700 mb-2 uppercase">
-              We usually deliver a 4.5x ROI for our clients
+              Ready to Grow Your ROI?
             </h2>
 
             {/* Main Heading */}
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-              Request a Quote
+              Request a Quote Now!
             </h1>
 
             {/* Benefits List */}
             <ul className="list-disc ml-5 text-lg text-gray-600 mb-6 space-y-2">
-              <li>Increase brand awareness & loyalty</li>
-              <li>Increase your qualified leads</li>
-              <li>Elevate your conversion rate</li>
-              <li>Foster a repeat customer base</li>
-              <li>Decrease cost per lead</li>
-              <li>Increase return on marketing investment</li>
+              <li>Improve Brand Recognition
+              </li>
+              <li>Achieve quality leads
+              </li>
+              <li>Grow Your Conversion Rate</li>
+              <li>Foster a Loyal User Base
+              </li>
+              <li>Gather Organic Traffic and Engagement</li>
+              <li>Grow Return on Marketing Investment
+              </li>
             </ul>
 
             {/* Ready to Speak Heading */}
             <h3 className="text-xl font-bold text-gray-800 mb-4">
-              Ready to speak with our Chicago SEO team?
+            Speak to Our SEO Team Right Away
             </h3>
 
             {/* Phone Number with Icon */}

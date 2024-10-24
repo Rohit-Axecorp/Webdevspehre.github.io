@@ -7,7 +7,8 @@ export default function SeoRecognition() {
       <div className="container mx-auto">
         <div className="mb-8 text-center">
           <h2 className="text-gray-700 font-semibold text-xl mb-2">Recognition</h2>
-          <h3 className="text-3xl md:text-4xl font-bold text-black mb-4">Trusted Chicago SEO Agency</h3>
+          <h3 className="text-3xl md:text-4xl font-bold text-black mb-4">Industry Awards for Exceptional Performance
+          </h3>
         </div>
 
         {/* Ratings */}
