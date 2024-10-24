@@ -1,7 +1,6 @@
 "use client";
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
 
 const logos = [
     '/Images/technology-icon-1.svg',
@@ -29,26 +28,36 @@ const logos = [
     '/Images/technology-icon-23.svg',
     '/Images/technology-icon-24.svg',
     '/Images/technology-icon-25.svg',
-    // Add more logo paths if needed
 ];
 
 export default function TechnologyStack() {
     return (
-        <>
-            <section className='bg-gray-100'>
-                <div className="py-12 container">
-
-                    <h2 className="text-4xl font-bold mb-4 text-center">Social Media Marketing Technology Stack</h2>
-                    <p className="text-center text-lg mb-12 md:mx-20">
-                        We are experts with highly innovative and cutting-edge digital technology, built exclusively around your business vision.
-                    </p>
+        <section className='bg-gray-100'>
+            <div className="py-12 container mx-auto">
+                <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-center">Social Media Marketing Technology Stack</h2>
+                <p className="text-center text-lg mb-12 md:mx-20">
+                    We are experts with highly innovative and cutting-edge digital technology, built exclusively around your business vision.
+                </p>
+                <div className="flex justify-center">
                     <Swiper
-                        slidesPerView={12}  // Show 12 logos at a time
-                        spaceBetween={20}   // Space between logos
-                        loop={true}         // Infinite loop
-                        autoplay={{
-                            delay: 3000,     // Delay between slides
-                            disableOnInteraction: false,
+                        slidesPerView={2}  // Default value for smaller screens
+                        spaceBetween={20}
+                        breakpoints={{
+                            1280: {
+                                slidesPerView: 12,
+                            },
+                            1024: {
+                                slidesPerView: 8,
+                            },
+                            768: {
+                                slidesPerView: 6,
+                            },
+                            640: {
+                                slidesPerView: 4,  // Show 4 logos for 640px and up
+                            },
+                            320: {
+                                slidesPerView: 3,  // Show 2 logos for smaller screens
+                            },
                         }}
                     >
                         {logos.map((logo, index) => (
@@ -64,7 +73,7 @@ export default function TechnologyStack() {
                         ))}
                     </Swiper>
                 </div>
-            </section>
-        </>
+            </div>
+        </section>
     );
 }

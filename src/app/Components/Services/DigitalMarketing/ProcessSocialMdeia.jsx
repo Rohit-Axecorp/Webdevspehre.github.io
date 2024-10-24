@@ -1,7 +1,7 @@
 "use client";
 
-import React from 'react';
-import CountUp from 'react-countup';
+import React from "react";
+import CountUp from "react-countup";
 
 export default function ProcessSocialMedia() {
     const iconBoxes = [
@@ -18,47 +18,47 @@ export default function ProcessSocialMedia() {
     return (
         <>
             {/* Section with Paragraphs and Counters */}
-            <div className=" py-12">
+            <div className="py-12">
                 <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
                     {/* Column 1: Heading and Paragraph */}
                     <div className="flex flex-col justify-center">
-                        <h2 className="text-5xl font-bold mb-6">
+                        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
                             Our Social Media Marketing Process
                         </h2>
-                        <p className="text-xl font-normal mb-4 text-gray-600">
-                            It starts with a comprehensive audit and research to understand your brands current standing. We then develop and optimize your social media profiles, ensuring they are aligned with your business goals. Our team creates high-quality content, followed by strategic publishing and diligent monitoring to engage your audience effectively.
+                        <p className="text-base sm:text-lg md:text-xl font-normal mb-4 text-gray-600">
+                            It starts with a comprehensive audit and research to understand your brand's current standing. We then develop and optimize your social media profiles, ensuring they are aligned with your business goals. Our team creates high-quality content, followed by strategic publishing and diligent monitoring to engage your audience effectively.
                         </p>
-                        <p className="text-xl font-normal text-gray-600">
-                            We provide continuous performance evaluations to refine our strategies and achieve optimal results. Our affordable social media marketing services are designed to deliver maximum ROI. So, trust our budget-friendly SMM services in Dubai to elevate your brands online presence.
+                        <p className="text-base sm:text-lg md:text-xl font-normal text-gray-600">
+                            We provide continuous performance evaluations to refine our strategies and achieve optimal results. Our affordable social media marketing services are designed to deliver maximum ROI. So, trust our budget-friendly SMM services in Dubai to elevate your brand's online presence.
                         </p>
                     </div>
 
                     {/* Column 2: Counters Section */}
                     <div>
-                        <h2 className="text-4xl font-bold text-center mb-6">
+                        <h2 className="text-3xl sm:text-4xl font-bold text-center mb-6">
                             Key Highlights of Our Work in Numbers
                         </h2>
-                        <div className="grid grid-cols-3 text-center divide-x divide-gray-300">
+                        <div className="grid grid-cols-1 sm:grid-cols-3 text-center divide-y sm:divide-y-0 sm:divide-x divide-gray-300">
                             {/* Counter 1 */}
-                            <div className="px-4">
-                                <p className="mt-2 text-lg text-gray-600">Happy Clients</p>
-                                <h3 className="text-5xl font-bold text-red-500">
+                            <div className="py-4 px-4">
+                                <p className="mt-2 text-sm sm:text-base md:text-lg text-gray-600">Happy Clients</p>
+                                <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-red-500">
                                     <CountUp end={110} duration={3} />+
                                 </h3>
                             </div>
 
                             {/* Counter 2 */}
-                            <div className="px-4">
-                                <p className="mt-2 text-lg text-gray-600">Projects Completed</p>
-                                <h3 className="text-5xl font-bold text-red-500">
+                            <div className="py-4 px-4">
+                                <p className="mt-2 text-sm sm:text-base md:text-lg text-gray-600">Projects Completed</p>
+                                <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-red-500">
                                     <CountUp end={99} duration={3} />+
                                 </h3>
                             </div>
 
                             {/* Counter 3 */}
-                            <div className="px-4">
-                                <p className="mt-2 text-lg text-gray-600">Years of Experience</p>
-                                <h3 className="text-5xl font-bold text-red-500">
+                            <div className="py-4 px-4">
+                                <p className="mt-2 text-sm sm:text-base md:text-lg text-gray-600">Years of Experience</p>
+                                <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-red-500">
                                     <CountUp end={128} duration={3} />+
                                 </h3>
                             </div>
@@ -68,19 +68,19 @@ export default function ProcessSocialMedia() {
             </div>
 
             {/* Section with Icon Boxes */}
-            <section className='bg-gray-100'>
-                <div className="container py-12">
+            <section className="bg-gray-100 py-12">
+                <div className="container">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                         {iconBoxes.map((box, index) => (
-                            <div key={index} className="flex">
-                                {/* Icon-like box on the left */}
-                                <div className="flex items-center justify-center p-10 bg-red-500 text-white font-bold rounded-md text-3xl mr-6">
+                            <div key={index} className="flex flex-col sm:flex-row">
+                                {/* Icon-like box on the left or top on mobile */}
+                                <div className="flex items-center justify-center p-4 sm:p-10 bg-red-500 text-white font-bold rounded-md text-3xl sm:text-4xl md:text-5xl mb-4 sm:mb-0 sm:mr-6">
                                     {box.number}
                                 </div>
-                                {/* Text content on the right */}
+                                {/* Text content on the right or bottom on mobile */}
                                 <div>
-                                    <h3 className="text-3xl font-bold mb-3">{box.heading}</h3>
-                                    <p className="text-xl font-normal">{box.text}</p>
+                                    <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-3">{box.heading}</h3>
+                                    <p className="text-base sm:text-lg md:text-xl font-normal">{box.text}</p>
                                 </div>
                             </div>
                         ))}
