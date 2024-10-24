@@ -19,11 +19,11 @@ export default function SeoCTA() {
                     {/* Left Column */}
                     <div className="md:w-1/2 flex flex-col p-4 text-center md:text-left">
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-                            Make Your Business Reach to Wider People!
+                        Partner with Austin Texas SEO Company
                         </h2>
                         <p className="mb-6 text-base md:text-lg text-gray-700">
-                            Grow your visibility, attract more traffic, and scale up your business with our customized SEO services Fort Worth TX. Start dominating local search results today!
-                        </p>
+                            Maximize your online presence, bring in more traffic, and scale your business with our targeted SEO services Austin TX.
+                            </p>
                         <button className="bg-black text-white px-6 md:px-8 py-3 md:py-4 rounded hover:bg-gray-900 w-full md:w-1/2">
                             Start Your Search Journey
                         </button>

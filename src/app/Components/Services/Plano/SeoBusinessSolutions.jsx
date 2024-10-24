@@ -18,13 +18,15 @@ export default function SeoBusinessSolutions() {
                 <div className="flex flex-col md:flex-row p-6 container mx-auto md:gap-20 gap-5">
                     {/* Left Column */}
                     <div className="md:w-1/2 flex flex-col justify-center p-4">
-                        <h3 className="text-lg font-semibold mb-4 ">BEST SEO COMPANY FORT WORTH
+                        <h3 className="text-lg font-semibold mb-4 ">BEST SEO COMPANY AUSTIN
                         </h3>
-                        <h2 className="text-3xl font-bold mb-4 ">Why We&apos;re Fort Worth&apos;s Top Choice
+                        <h2 className="text-3xl font-bold mb-4 ">Why Were the No.1 Choice in Austin
                         </h2>
-                        <p className="mb-4  ">At Web Dev Sphere, we&apos;re not just another Fort Worth SEO company; we genuinely care about your success. We understand that growing your online presence is about much more than just keywords and algorithms. It&apos;s about crafting a strategy that aligns with your unique goals.
+                        <p className="mb-4  ">As the best Austin SEO company, we cover every detail of SEO. From in-depth keyword research to building high-quality backlinks, our comprehensive strategies ensure that your website not only stands out but also effectively reaches your target audience.
+
                         </p>
-                        <p className="mb-4  ">As the top SEO company in Fort Worth, we pay attention to every detail. From finding the best keywords and optimizing your website&apos;s structure to building high-quality links, we&apos;ve got you covered. Our mission is to make sure your website not only stands out but also connects with the right audience and turns visitors into loyal customers. 
+                        <p className="mb-4  ">We believe that the key to turning visitors into loyal customers lies in creating a seamless user experience and delivering valuable content. Our SEO company Austin Texas works closely with you to understand your unique business objectives, crafting a customized SEO plan that drives results.
+
                         </p>
                     </div>
 
