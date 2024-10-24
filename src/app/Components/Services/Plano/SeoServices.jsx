@@ -10,10 +10,11 @@ export default function SeoServices() {
             <div className="flex flex-col md:flex-row container mx-auto p-8 md:gap-24 gap-5 ">
                 {/* Left Column: Our Promise and Statistics */}
                 <div className="flex-1 mb-8 md:mr-4 md:w-1/2 w-full">
-                    <h2 className="text-lg font-bold mb-4 text-gray-500">OUR COMMITMENT TO EXCELLENCE
+                    <h2 className="text-lg font-bold mb-4 text-gray-500">OUR PROMISE
+
                     </h2>
                     <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-                        Delivering Top-Tier SEO Services to Austin-Based Companies
+                        Trusted Plano SEO Company: 20+ Years of Proven Success
                     </h1>
 
                 </div>
@@ -27,23 +28,28 @@ export default function SeoServices() {
                         </div>
                         <div className='flex flex-wrap'>
                             <div className="flex flex-col mb-4 md:w-1/4 w-full">
-                                <div className="text-4xl font-bold mb-2">85%
+                                <div className="text-4xl font-bold mb-2">2.5x
+
                                 </div>
-                                <div className="text-sm">IMPROVEMENTS IN SEARCH RANKINGS
-                                </div>
-                            </div>
-                            <div className="flex flex-col mb-4 md:w-1/4 w-full">
-                                <div className="text-4xl font-bold mb-2">3x</div>
-                                <div className="text-sm">BOOST IN PAGE VIEWS
+                                <div className="text-sm">INCREASE IN ORGANIC TRAFFIC
+
                                 </div>
                             </div>
                             <div className="flex flex-col mb-4 md:w-1/4 w-full">
-                                <div className="text-4xl font-bold mb-2">180%</div>
+                                <div className="text-4xl font-bold mb-2">65%
+                                </div>
+                                <div className="text-sm">BOOST IN LEAD GENERATION
+
+                                </div>
+                            </div>
+                            <div className="flex flex-col mb-4 md:w-1/4 w-full">
+                                <div className="text-4xl font-bold mb-2">150%</div>
                                 <div className="text-sm">GROWTH IN CTR</div>
                             </div>
                             <div className="flex flex-col mb-4 md:w-1/4 w-full">
                                 <div className="text-4xl font-bold mb-2">60%</div>
-                                <div className="text-sm">REDUCTION IN BOUNCE RATE</div>
+                                <div className="text-sm">GROWTH IN REVENUE GENERATION
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -55,23 +61,27 @@ export default function SeoServices() {
                     >
                         <SwiperSlide>
                             <p className="mb-4">
-                                Our organic traffic skyrocketed! The team transformed our website, and leads are flowing in. Highly recommended.
+                                We&apos;ve partnered with them for over a year, and the results are fantastic. Our organic traffic has skyrocketed, and our sales have grown. Highly recommended!
                             </p>
-                            <p className="font-semibold mt-4 text-gray-500">Sarah Johnson, Manager at GreenTech Solutions</p>
+                            <p className="font-semibold mt-4 text-gray-500">Matt Simon, CEO of Plain Inc.
+                            </p>
 
                         </SwiperSlide>
                         <SwiperSlide>
                             <p className="mb-4">
-                                Our CTR has tripled! Web Dev Sphere truly knows how to make your site shine. Best decision we made for our business!
+                                Thanks to Web Dev Sphere&apos;s SEO Plano strategies, our leads have increased, and we&apos;re seeing more conversions. Their service is top-notch!
                             </p>
-                            <p className="font-semibold mt-4 text-gray-500">David Kim, CEO of FreshStart Bakery
+                            <p className="font-semibold mt-4 text-gray-500">Christina Brooks, Manager at Vincent Gallery
+
                             </p>
                         </SwiperSlide>
                         <SwiperSlide>
                             <p className="mb-4">
-                                Incredible results! Our revenue grew significantly, thanks to Web Dev Sphere. We couldn&apos;t be happier with them.
+                                We struggled with visibility until we worked with Web Dev Sphere. Our site now ranks on the first page. They&apos;re knowledgeable and easy to work with!
+
                             </p>
-                            <p className="font-semibold mt-4 text-gray-500">Michael Rodriguez, Director at AutoVision
+                            <p className="font-semibold mt-4 text-gray-500">John Frederick, HOD at Kivinsky Corp.
+
                             </p>
                         </SwiperSlide>
                     </Swiper>

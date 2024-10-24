@@ -25,8 +25,8 @@ export default function Page() {
     return (
         <>
             <Head>
-                <title>Leading Austin SEO Company | Web Dev Sphere</title>
-                <meta name="description" content="Web Dev Sphere is an award-winning Austin SEO company specializing in top-tier SEO solutions. Partner with us today to make your mark in the industry." />
+                <title>Top Plano SEO Company | Web Dev Sphere</title>
+                <meta name="description" content="Web Dev Sphere is the premier Plano SEO company, offering exceptional SEO solutions tailored for local businesses. Get in touch today for a personalized quote!" />
             </Head>
             <Header />
             <SeoContact />
