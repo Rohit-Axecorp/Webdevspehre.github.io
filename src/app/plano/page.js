@@ -1,7 +1,6 @@
 import Head from 'next/head'; // Import the Head component
 import Footer from '@/app/Components/Footer';
 import Header from '@/app/Components/Header';
-import AccordiansFAQ from '@/app/Components/Home/AccordiansFAQ';
 import CTAsection from '@/app/Components/Home/CTAsection';
 import Roadmap from '@/app/Components/Services/Plano/Roadmap';
 import SeoAudit from '@/app/Components/Services/Plano/SeoAudit';
@@ -20,6 +19,7 @@ import SeoServicesIncludes from '@/app/Components/Services/Plano/SeoServicesIncl
 import SeoSolution from '@/app/Components/Services/Plano/SeoSolution';
 import TrustedBrands from '@/app/Components/Services/Plano/TrustedBrands';
 import React from 'react';
+import AccordiansFAQ from '../Components/Services/Plano/AccordiansFAQ';
 
 export default function Page() {
     return (
