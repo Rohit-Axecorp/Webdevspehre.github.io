@@ -79,7 +79,7 @@ export default function AccordiansFAQ() {
     return (
         <div className="pt-12 mx-auto container">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center">
-                FAQS RELATED TO
+                FAQS RELATED TO{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-700">
                     PLANO SEO COMPANY
                 </span>
