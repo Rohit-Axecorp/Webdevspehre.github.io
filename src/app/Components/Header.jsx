@@ -83,7 +83,7 @@ export default function Header() {
         >
           <ul className="flex flex-col mt-4 lg:flex-row lg:mt-0 lg:space-x-8">
             <li>
-              <Link href="/" className="block py-2 lg:px-3 text-red-600 hover:text-red-600 xl:text-xl text-lg font-semibold">
+              <Link href="/" className="block py-2 lg:px-3 text-red-600 hover:text-red-600 xl:text-xl text-lg  font-semibold">
                 Home
               </Link>
             </li>
