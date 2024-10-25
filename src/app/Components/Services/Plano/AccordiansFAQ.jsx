@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from 'react';
-import Accordians from '../FortWorth/Accordians';
+import Accordians from '../Plano/Accordians';
 
 export default function AccordiansFAQ() {
     const accordionData = [

@@ -1,7 +1,6 @@
-import Head from 'next/head'; // Import the Head component
+import Head from 'next/head';
 import Footer from '@/app/Components/Footer';
 import Header from '@/app/Components/Header';
-import AccordiansFAQ from '@/app/Components/Home/AccordiansFAQ';
 import CTAsection from '@/app/Components/Home/CTAsection';
 import Roadmap from '@/app/Components/Services/Dallas/Roadmap';
 import SeoAudit from '@/app/Components/Services/Dallas/SeoAudit';
@@ -20,6 +19,7 @@ import SeoServicesIncludes from '@/app/Components/Services/Dallas/SeoServicesInc
 import SeoSolution from '@/app/Components/Services/Dallas/SeoSolution';
 import TrustedBrands from '@/app/Components/Services/Dallas/TrustedBrands';
 import React from 'react';
+import AccordiansFAQ from '../Components/Services/Dallas/AccordiansFAQ';
 
 export default function Page() { // Use PascalCase for component names
     return (
