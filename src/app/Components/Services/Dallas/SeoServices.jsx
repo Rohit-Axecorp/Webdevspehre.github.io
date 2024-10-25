@@ -57,7 +57,7 @@ export default function SeoServices() {
                     >
                         <SwiperSlide>
                             <p className="mb-4">
-                                Ever since we've partnered with Web Dev Sphere, it has totally changed our SEO strategies, leading to more leads and sales.
+                                Ever since we&apos;ve partnered with Web Dev Sphere, it has totally changed our SEO strategies, leading to more leads and sales.
                             </p>
                             <p className="font-semibold mt-4 text-gray-500">Jacob Smith, CEO of Bee
                             </p>
