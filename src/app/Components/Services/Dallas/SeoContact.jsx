@@ -9,13 +9,13 @@ export default function SeoContact() {
           {/* Left Section */}
           <div className="md:w-1/2 w-full mb-8 md:mb-0">
             {/* New Heading: CHICAGO SEO COMPANY */}
-            <h2 className="text-xl font-bold text-red-600 mb-2">AUSTIN SEO COMPANY</h2>
+            <h2 className="text-xl font-bold text-red-600 mb-2">PROFESSIONAL DALLAS SEO COMPANY</h2>
 
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-              Increase Organic Traffic with Expert Austin SEO Services
+            Achieve Higher Rankings and Traffic with Expert SEO Solutions!
             </h1>
             <p className="mb-6 text-base md:text-lg text-gray-700">
-              Web Dev Sphere is an award-winning Austin SEO company specializing in personalized SEO solutions. Our Austin, Texas, SEO team optimizes your online presence so you can grow your traffic and improve your website&apos;s ranking.
+            Website Dev Sphere is an award-winning Dallas SEO company specializing in thriving businesses online. From growing your local visibility to attracting more customers, our team ensures you reach the right target audience.
             </p>
             <div className="flex items-center my-8">
               <div className="flex items-center mr-4">

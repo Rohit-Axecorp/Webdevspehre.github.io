@@ -7,8 +7,8 @@ export default function SeoAudit() {
             <section className="bg-black py-12">
                 <div className='container'>
                 <h1 className="text-white md:text-center text-3xl md:text-4xl lg:text-5xl font-bold"> {/* Responsive text size */}
-                Get a Free SEO Audit and 
-                <span className="text-red-500 font-semibold"> Boost Your Rankings!</span>
+                See How Your Site Can Improve
+                <span className="text-red-500 font-semibold"> - Get a Free SEO Audit Now!</span>
                 </h1>
                 <div className="container mx-auto pt-12 flex flex-col md:flex-row justify-center items-center"> {/* Stack on small screens */}
                     {/* Left Column: Form 3/5 */}

@@ -3,51 +3,51 @@ import Image from 'next/image';
 const services = [
     {
         title: 'Local SEO',
-        description: 'We optimize your online presence to ensure your business appears prominently in local search results and maps. When potential customers search for services in your area, you will be at the top of their list!',
+        description: 'Looking to get more local customers? Whether you have a physical store in Chicago or offer home services around the city, we’ll get you top spots in “near me” searches, so your business is the first thing people find.',
         icon: '/Images/s-icon1.png.webp', // Replace with the correct icon path
     },
     {
         title: 'Keyword Research and Analysis',
-        description: 'We believe that effective keyword strategies can open the door to increased visibility. With our SEO services, we’ll help you discover the right keywords, develop a winning strategy, and ultimately drive more traffic. ',
+        description: 'Your SEO strategy starts with keyword research and analysis. By keeping an eye on trending keywords, you can make sure your content connects with your target audience and grows your organic reach.',
         icon: '/Images/s-icon2.png.webp', // Replace with the correct icon path
     },
     {
         title: 'Content Marketing',
-        description: 'Your brand deserves to shine through exceptional content that engages, informs, and converts. With our content writing services, you’ll receive high-quality, customized content that aligns with your goals.',
+        description: 'When you customize your content strategy, you’re strategically targeting the right audience in the most relevant spaces. Engaging with your audience where they’re most active boosts interest and drives traffic.',
         icon: '/Images/s-icon3.png.webp', // Replace with the correct icon path
     },
     {
         title: 'On-Page SEO',
-        description: 'Your website deserves to be seen and appreciated online. With our on-page SEO services, our team will help you fine-tune every aspect of your site, ensuring it’s optimized for search engines and user-friendly. ',
+        description: 'At Web Dev Sphere, our SEO services Dallas optimize websites for ultimate performance. Our team works on on-page SEO strategies to ensure your website ranking is much higher and attracts more traffic.',
         icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
     },
     {
         title: 'Technical SEO',
-        description: 'With our specialized technical SEO services, our expert team ensures your site is optimized for both users and search engines, leading to improved performance, higher rankings, and a better overall experience.',
+        description: 'Struggling with ranking on Google’s first page? Technical SEO problems could be why you’re not ranking higher on the SERP. Issues like rel=canonical tags or poor meta descriptions might be holding you back.',
         icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
     },
     {
         title: 'Amazon Marketing Services',
-        description: 'Your product listing is your storefront on Amazon, and it needs to make a strong first impression. We optimize your product titles, descriptions, and bullet points to ensure they are keyword-rich and compelling.',
+        description: 'Amazon marketing services can be a game-changer for brands looking to enhance their visibility, attract new customers, and drive sales. We help you promote your products and make them stand out in the market.',
         icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
     },
     {
         title: 'eCommerce SEO',
-        description: 'Our e-commerce SEO services enhance your visibility and drive targeted traffic. We focus on optimizing every aspect of your website, from product descriptions to technical elements that improve site performance.  ',
+        description: 'Our team of SEO experts specializes in implementing effective Houston SEO strategies tailored specifically for eCommerce businesses, helping you drive organic traffic, boost sales, and grow your brand to success.',
         icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
     },
     {
         title: 'Franchise SEO',
-        description: 'Franchising can be a powerful way to grow your brand, but standing out can be challenging. We help franchise businesses boost their online visibility, both at the franchise level and across the entire brand.',
+        description: 'Our Franchise SEO services address the unique challenges of multi-location businesses. We focus on enhancing your online visibility, driving local traffic, and ultimately increasing your sales across all franchise locations.',
         icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
     },
     {
         title: 'Digital PR & Link Building',
-        description: 'Quality backlinks from reputable sites signal search engines that your content is valuable and trustworthy. Our approach is focused on acquiring links from authoritative sources that align with your brand’s goals. ',
+        description: 'Digital PR & link building strengthen your online reputation by getting your brand featured on trusted sites and generating quality backlinks. With targeted outreach, we ensure your brand gets the exposure it deserves.',
         icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
-    },
-
+    }
 ];
+
 export default function SeoServicesIncludes() {
     return (
         <>

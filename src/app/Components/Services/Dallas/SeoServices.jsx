@@ -10,10 +10,10 @@ export default function SeoServices() {
             <div className="flex flex-col md:flex-row container mx-auto p-8 md:gap-24 gap-5 ">
                 {/* Left Column: Our Promise and Statistics */}
                 <div className="flex-1 mb-8 md:mr-4 md:w-1/2 w-full">
-                    <h2 className="text-lg font-bold mb-4 text-gray-500">OUR COMMITMENT TO EXCELLENCE
+                    <h2 className="text-lg font-bold mb-4 text-gray-500">THE PROMISE WE STAND BY
                     </h2>
                     <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-                        Delivering Top-Tier SEO Services to Austin-Based Companies
+                        Your Trusted SEO Company Dallas for More Than 20 Years
                     </h1>
 
                 </div>
@@ -27,23 +27,25 @@ export default function SeoServices() {
                         </div>
                         <div className='flex flex-wrap'>
                             <div className="flex flex-col mb-4 md:w-1/4 w-full">
-                                <div className="text-4xl font-bold mb-2">85%
+                                <div className="text-4xl font-bold mb-2">3x
                                 </div>
-                                <div className="text-sm">IMPROVEMENTS IN SEARCH RANKINGS
-                                </div>
-                            </div>
-                            <div className="flex flex-col mb-4 md:w-1/4 w-full">
-                                <div className="text-4xl font-bold mb-2">3x</div>
-                                <div className="text-sm">BOOST IN PAGE VIEWS
+                                <div className="text-sm">INCREASE IN WEB TRAFFIC
                                 </div>
                             </div>
                             <div className="flex flex-col mb-4 md:w-1/4 w-full">
-                                <div className="text-4xl font-bold mb-2">180%</div>
-                                <div className="text-sm">GROWTH IN CTR</div>
+                                <div className="text-4xl font-bold mb-2">55%</div>
+                                <div className="text-sm">BOOST IN LEAD GENERATION
+                                </div>
                             </div>
                             <div className="flex flex-col mb-4 md:w-1/4 w-full">
-                                <div className="text-4xl font-bold mb-2">60%</div>
-                                <div className="text-sm">REDUCTION IN BOUNCE RATE</div>
+                                <div className="text-4xl font-bold mb-2">200%</div>
+                                <div className="text-sm">
+                                    GROWTH IN CONVERSION RATE
+                                </div>
+                            </div>
+                            <div className="flex flex-col mb-4 md:w-1/4 w-full">
+                                <div className="text-4xl font-bold mb-2">70%</div>
+                                <div className="text-sm">GROWTH IN ROI</div>
                             </div>
                         </div>
                     </div>
@@ -55,23 +57,24 @@ export default function SeoServices() {
                     >
                         <SwiperSlide>
                             <p className="mb-4">
-                                Our organic traffic skyrocketed! The team transformed our website, and leads are flowing in. Highly recommended.
+                                Ever since we've partnered with Web Dev Sphere, it has totally changed our SEO strategies, leading to more leads and sales.
                             </p>
-                            <p className="font-semibold mt-4 text-gray-500">Sarah Johnson, Manager at GreenTech Solutions</p>
+                            <p className="font-semibold mt-4 text-gray-500">Jacob Smith, CEO of Bee
+                            </p>
 
                         </SwiperSlide>
                         <SwiperSlide>
                             <p className="mb-4">
-                                Our CTR has tripled! Web Dev Sphere truly knows how to make your site shine. Best decision we made for our business!
+                                Web Dev Sphere is a game-changer. Their experts helped us rank on Google&apos;s first page within 6 months. I highly recommend them!
                             </p>
-                            <p className="font-semibold mt-4 text-gray-500">David Kim, CEO of FreshStart Bakery
+                            <p className="font-semibold mt-4 text-gray-500">Samantha Daniel, Founder of Glint Resorts
                             </p>
                         </SwiperSlide>
                         <SwiperSlide>
                             <p className="mb-4">
-                                Incredible results! Our revenue grew significantly, thanks to Web Dev Sphere. We couldn&apos;t be happier with them.
+                                Thanks to Web Dev Sphere, our organic traffic witnessed a high-scale boost. Their team truly cares about our success. Job well done!
                             </p>
-                            <p className="font-semibold mt-4 text-gray-500">Michael Rodriguez, Director at AutoVision
+                            <p className="font-semibold mt-4 text-gray-500">Chris Simon, Manager at Prime Solutions
                             </p>
                         </SwiperSlide>
                     </Swiper>

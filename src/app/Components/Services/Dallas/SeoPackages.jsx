@@ -7,10 +7,10 @@ export default function SeoPackages() {
       <section className="bg-gray-100 py-10">
         <div className="container">
           <h1 className="text-center text-3xl md:text-4xl lg:text-5xl font-bold pb-4 ">
-            Affordable SEO Company in Austin Packages
+            Affordable SEO Company Dallas TX Packages
           </h1>
           <p className="text-center text-base md:text-lg lg:text-xl font-normal pb-8   sm:pb-12">
-            Ready to expand your business in Austin? Our SEO services Austin offer remarkable results at prices that won&apos;t impact your budget.
+          Looking to grow your company in Dallas? Our Dallas SEO services deliver impressive results at an affordable price.
           </p>
           <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
             {/* Box 1: Steady Growth */}
@@ -29,7 +29,7 @@ export default function SeoPackages() {
                   <li>Detailed monthly SEO reporting</li>
                 </ul>
                 <p className="mb-4 text-sm sm:text-base font-normal">
-                  This package offers all the essential SEO and link-building services your Austin-based business needs. It&apos;s ideal for companies aiming to maintain consistent visibility in the Austin area while steadily growing through organic search traffic.
+                This package includes all the essential SEO and link-building services you need for your Dallas-based business. Perfect for businesses looking to maintain steady visibility in the Dallas area and grow consistently with organic search traffic.
                 </p>
               </div>
               <a href="#" className="text-red-500 hover:underline hover:text-red-600 self-start text-base font-medium">
@@ -55,7 +55,7 @@ export default function SeoPackages() {
                   <li>Lead qualification</li>
                 </ul>
                 <p className="mb-4 text-sm sm:text-base font-normal">
-                  This package is designed for medium-sized businesses in Austin seeking to excel in local search results. It offers tailored SEO strategies and ongoing content optimization to help you attract more leads across the Texas.
+                Ideal for medium-sized Dallas businesses looking to dominate local search results, this package offers customized SEO strategies and continuous content optimization to help you attract more leads across the Dallas-Fort Worth metroplex.
                 </p>
               </div>
               <a href="#" className="text-red-500 hover:underline hover:text-red-600 self-start text-base font-medium">
@@ -82,7 +82,7 @@ export default function SeoPackages() {
                   <li>Thorough lead qualification</li>
                 </ul>
                 <p className="mb-4 text-sm sm:text-base font-normal">
-                  This comprehensive package is crafted for large Austin businesses or those ready to take the market by storm. It includes extensive content creation, premium link-building strategies, and all the essential tools needed to establish your brand.                </p>
+                A comprehensive package designed for large Dallas businesses or those ready to dominate the market. It offers extensive content creation, top-notch link-building strategies, and all the tools you need to achieve leadership in the industry.</p>
               </div>
               <a href="#" className="text-red-500 hover:underline hover:text-red-600 self-start text-base font-medium">
                 LET&apos;S GET STARTED

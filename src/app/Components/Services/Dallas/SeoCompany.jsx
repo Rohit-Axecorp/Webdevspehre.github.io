@@ -20,23 +20,23 @@ export default function SeoCompany() {
                 {/* Content Column */}
                 <div className="w-full md:w-1/2 flex flex-col justify-center p-4 md:p-8 lg:px-16"> {/* Reduced padding for smaller screens */}
                     <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2"> {/* Adjusted text size */}
-                        Professional Austin SEO Company
+                    Professional SEO Solutions
                     </h2>
                     <p className="text-lg md:text-xl text-gray-700 mb-4"> {/* Adjusted text size */}
-                        Outrank Competitors and Capture More Leads with Strategic SEO
+                    Experience Higher Sales with Our Dallas Texas SEO Company
                     </p>
 
                     {/* Scrollable Text */}
                     <div className="overflow-y-auto max-h-96 flex-1">
                         <p className="text-lg text-gray-600 mb-6">
-                            At Web Dev Sphere, we pride ourselves on being the best SEO company Austin TX offering customized SEO services with real results. Our full-cycle SEO strategy targets increasing online website visibility and guaranteeing your business&apos;s success in a very competitive market.
-                            <br />
+                        We are a reputable Dallas SEO company that caters to more than just basic optimization. Web Dev Sphere is an all-inclusive platform that provides comprehensive SEO solutions under one roof. 
+                        <br />
 
-                            Located in Texas, Austin enjoys a thriving tech hub, vibrant culture, and a dynamically developing economy. With so many businesses expanding rapidly in the area, we&apos;ll help you stand out with local SEO strategies that put your business in the top searches. Our Search Engine Optimization service Austin ensures that you will reach customers in your community and drive more foot traffic and online leads right to your business.
-                            <br />
+                        Dallas is a vibrant and lively hub in North Texas, known for its strong economy, high quality of life, and diverse cultural scene. It&apos;s a city full of thriving businesses, and we&apos;re here to help yours stand out. With our personalized local SEO strategies, we&apos;ll make sure your brand gets the attention it deserves in this bustling market. 
+                        <br />
 
-                            We have years of experience working with successful businesses in Austin and within the growing neighboring cities of Round Rock, Cedar Park, Pflugerville, Georgetown, and Lakeway.
-                            <br />
+                        Our Dallas SEO experts know all about the competition, search behavior, and trends to give your business the edge it deserves. So, partnering with a Dallas Texas SEO company  today means scaling your business and ensuring lasting success.
+                        <br />
 
                         </p>
                     </div>

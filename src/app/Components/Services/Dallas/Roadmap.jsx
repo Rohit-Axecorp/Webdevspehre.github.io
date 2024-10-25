@@ -6,10 +6,10 @@ export default function Roadmap() {
             <section className="bg-white py-12">
                 <div className="container mx-auto text-center">
                     <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-                        Our Comprehensive Process for SEO Services Austin
+                    Our Result-Driven Road Map for Dallas SEO Services
                     </h1>
                     <p className="text-gray-600 w-2/3 mx-auto mb-12">
-                        As a leading Austin SEO company, our team of Austin Texas SEO experts is dedicated to helping you achieve your long-term goals with a process that combines industry best practices and local insights.
+                    As a leading SEO company Dallas, we follow a streamlined approach to SEO that&apos;s designed to boost your website&apos;s visibility and drive organic traffic. Our Austin Texas SEO experts help you achieve your long-term goals!
                     </p>
                     <div className="relative flex lg:flex-row flex-col items-center lg:gap-0 gap-5">
                         {/* Line Container */}
@@ -35,11 +35,11 @@ export default function Roadmap() {
 
                                 {/* Paragraphs for Each Step */}
                                 <p className="text-gray-500">
-                                    {index === 0 && "Conducting thorough SEO audits to pinpoint growth opportunities."}
-                                    {index === 1 && "Finding high-intent keywords that are relevant to your business."}
-                                    {index === 2 && "Optimizing on-page elements like web content, meta tags, and images."}
-                                    {index === 3 && "Securing high-quality backlinks and leveraging digital PR strategies."}
-                                    {index === 4 && "Monitoring SEO performance with detailed monthly tracking reports."}
+                                    {index === 0 && "Conducting SEO audits to identify opportunities and improvement areas."}
+                                    {index === 1 && "Researching high-intent relevant keywords to attract the target audience."}
+                                    {index === 2 && "Optimizing on-page elements like website content, meta tags, images, etc."}
+                                    {index === 3 && "Securing high-quality backlinks and using digital PR to grow the website’s authority."}
+                                    {index === 4 && "Monitor your SEO performance with monthly reports, ensuring continuous growth."}
                                 </p>
 
                                 {/* Dot */}
