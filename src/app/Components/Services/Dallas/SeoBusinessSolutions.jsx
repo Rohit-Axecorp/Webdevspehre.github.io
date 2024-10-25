@@ -18,15 +18,13 @@ export default function SeoBusinessSolutions() {
                 <div className="flex flex-col md:flex-row p-6 container mx-auto md:gap-20 gap-5">
                     {/* Left Column */}
                     <div className="md:w-1/2 flex flex-col justify-center p-4">
-                        <h3 className="text-lg font-semibold mb-4 ">BEST SEO COMPANY AUSTIN
+                        <h3 className="text-lg font-semibold mb-4 ">BEST DALLAS SEO COMPANY
                         </h3>
-                        <h2 className="text-3xl font-bold mb-4 ">Why Were the No.1 Choice in Austin
+                        <h2 className="text-3xl font-bold mb-4 ">Why Our Dallas SEO Company Is The No.1 Choice
                         </h2>
-                        <p className="mb-4  ">As the best Austin SEO company, we cover every detail of SEO. From in-depth keyword research to building high-quality backlinks, our comprehensive strategies ensure that your website not only stands out but also effectively reaches your target audience.
-
+                        <p className="mb-4  ">Web Dev Sphere is not just the Dallas SEO company, we are a team that genuinely cares about your success. We fully believe that growing your online presence takes way more than just keywords and algorithms, but an approach addressed to your specific goals. 
                         </p>
-                        <p className="mb-4  ">We believe that the key to turning visitors into loyal customers lies in creating a seamless user experience and delivering valuable content. Our SEO company Austin Texas works closely with you to understand your unique business objectives, crafting a customized SEO plan that drives results.
-
+                        <p className="mb-4  ">We are the best SEO company Dallas that covers every minor detail of SEO, from researching the best keywords and optimizing the structure of your site to building high-quality links. We make sure your website stands out, reaches the right audience, and turns visitors into loyal customers.
                         </p>
                     </div>
 
