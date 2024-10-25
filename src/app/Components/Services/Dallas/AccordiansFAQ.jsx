@@ -10,7 +10,7 @@ export default function AccordiansFAQ() {
                 <p>
                     The cost of hiring an SEO company can vary widely based on several factors, including the size of your business, the complexity of your website, the level of competition in your industry, and the specific services you require. Generally, you can expect to pay anywhere from $500 to $5,000 per month for ongoing SEO services.
                     <br /><br />
-                    <strong>Hourly Rates:</strong> Some companies charge hourly rates, which typically range from $75 to $300 per hour, depending on the agency's expertise and reputation.
+                    <strong>Hourly Rates:</strong> Some companies charge hourly rates, which typically range from $75 to $300 per hour, depending on the agency&apos;s expertise and reputation.
                     <br /><br />
                     <strong>Project-Based Pricing:</strong> For specific projects, such as a website audit or a one-time SEO optimization, costs can range from $1,000 to $30,000, depending on the scope of work.
                     <br /><br />
@@ -26,7 +26,7 @@ export default function AccordiansFAQ() {
                 <p>
                     Hiring the best SEO company in Dallas offers local expertise and a deep understanding of the Dallas-Fort Worth market, helping businesses reach the right audience effectively. An experienced SEO company in Dallas can craft a tailored strategy that aligns with the unique characteristics of the local market, including competitive analysis, keyword targeting, and local SEO tactics that drive more foot traffic to your business. 
                     <br /><br />
-                    Additionally, SEO experts in Dallas are well-versed in optimizing for search engines like Google, increasing your website's visibility, and ultimately helping you attract more leads and customers.
+                    Additionally, SEO experts in Dallas are well-versed in optimizing for search engines like Google, increasing your website&apos;s visibility, and ultimately helping you attract more leads and customers.
                 </p>
             ),
         },

@@ -34,7 +34,7 @@ export default function AccordiansFAQ() {
                         <li>Ensure the company offers a comprehensive range of SEO services, including keyword research, on-page optimization, technical SEO, link building, and content creation.</li>
                         <li>Avoid companies that offer a one-size-fits-all approach, as each business requires a unique strategy to succeed.</li>
                         <li>Choose a company that values open communication and transparency. They should provide regular updates, detailed reports, and be available to answer your questions or address your concerns.</li>
-                        <li>Ensure the company adheres to ethical SEO practices (often referred to as "white-hat" SEO). Avoid companies that promise quick fixes or use dubious tactics, as these can lead to penalties from search engines.</li>
+                        <li>Ensure the company adheres to ethical SEO practices (often referred to as white-hat SEO). Avoid companies that promise quick fixes or use dubious tactics, as these can lead to penalties from search engines.</li>
                         <li>Discuss your budget upfront and find a company that can provide the services you need within that budget.</li>
                         <li>Look for a SEO company Plano that offers ongoing support and is committed to your long-term success.</li>
                     </ul>
