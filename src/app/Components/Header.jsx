@@ -4,12 +4,11 @@ import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
 
 export default function Header() {
-  // State for dropdown toggles
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  const [locationDropdownOpen, setLocationDropdownOpen] = useState(false); // For Location dropdown
+  const [locationDropdownOpen, setLocationDropdownOpen] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const dropdownRef = useRef(null); // Ref for the dropdown menu
-  const locationDropdownRef = useRef(null); // Ref for the location dropdown
+  const dropdownRef = useRef(null);
+  const locationDropdownRef = useRef(null);
 
   const handleDropdownToggle = () => {
     setDropdownOpen((prev) => !prev);
@@ -20,7 +19,6 @@ export default function Header() {
   };
 
   const handleClickOutside = (event) => {
-    // Close the dropdowns if clicked outside
     if (
       dropdownRef.current &&
       !dropdownRef.current.contains(event.target)
@@ -36,10 +34,8 @@ export default function Header() {
   };
 
   useEffect(() => {
-    // Add click event listener
     document.addEventListener("mousedown", handleClickOutside);
     return () => {
-      // Clean up event listener
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
@@ -51,7 +47,6 @@ export default function Header() {
           <img src="/Images/Headline.png" alt="Logo" />
         </Link>
 
-        {/* Mobile menu button */}
         <button
           className="inline-flex items-center p-2 text-xl text-red-500 rounded-lg lg:hidden focus:outline-none"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -67,32 +62,26 @@ export default function Header() {
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"
-              d={
-                mobileMenuOpen
-                  ? "M6 18L18 6M6 6l12 12"
-                  : "M4 6h16M4 12h16M4 18h16"
-              }
+              d={mobileMenuOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"}
             ></path>
           </svg>
         </button>
 
-        {/* Desktop Menu */}
         <div
           id="mega-menu"
           className={`lg:flex items-center justify-between ${mobileMenuOpen ? "block" : "hidden"} w-full lg:w-auto`}
         >
-          <ul className="flex flex-col mt-4 lg:flex-row lg:mt-0 lg:space-x-8">
+          <ul className="flex flex-col mt-4 lg:flex-row lg:mt-0 lg:space-x-4">
             <li>
-              <Link href="/" className="block py-2 lg:px-3 text-red-600 hover:text-red-600 xl:text-xl text-lg  font-semibold">
+              <Link href="/" className="block py-2 lg:px-2 text-red-600 hover:text-red-600 xl:text-lg text-md font-semibold">
                 Home
               </Link>
             </li>
 
-            {/* Services Dropdown */}
             <li className="relative">
               <button
                 onClick={handleDropdownToggle}
-                className="flex items-center xl:text-xl text-lg justify-between w-full py-2 lg:px-3 font-normal text-gray-900 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-red-600"
+                className="flex items-center xl:text-lg text-md justify-between w-full py-2 lg:px-2 font-normal text-gray-900 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-red-600"
               >
                 Services
                 <svg className="w-4 h-4 md:ml-4 mr-4 lg:mr-0" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6">
@@ -137,11 +126,10 @@ export default function Header() {
               )}
             </li>
 
-            {/* Location Dropdown */}
             <li className="relative">
               <button
                 onClick={handleLocationDropdownToggle}
-                className="flex items-center xl:text-xl text-lg justify-between w-full py-2 lg:px-3 font-normal text-gray-900 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-red-600"
+                className="flex items-center xl:text-lg text-md justify-between w-full py-2 lg:px-2 font-normal text-gray-900 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-red-600"
               >
                 Location
                 <svg className="w-4 h-4 md:ml-4 mr-4 lg:mr-0" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6">
@@ -177,27 +165,26 @@ export default function Header() {
             </li>
 
             <li>
-              <Link href="/about" className="block py-2 lg:px-3 text-black hover:text-black xl:text-xl text-lg font-normal">
+              <Link href="/about" className="block py-2 lg:px-2 text-black hover:text-black xl:text-lg text-md font-normal">
                 About
               </Link>
             </li>
             <li>
-              <Link href="/" className="block py-2 lg:px-3 text-black hover:text-black xl:text-xl text-lg font-normal">
+              <Link href="/" className="block py-2 lg:px-2 text-black hover:text-black xl:text-lg text-md font-normal">
                 Case Studies
               </Link>
             </li>
             <li>
-              <Link href="/" className="block py-2 lg:px-3 text-black hover:text-black xl:text-xl text-lg font-normal">
+              <Link href="/" className="block py-2 lg:px-2 text-black hover:text-black xl:text-lg text-md font-normal">
                 Portfolio
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="block py-2 lg:px-3 text-black hover:text-black xl:text-xl text-lg font-normal">
+              <Link href="/contact" className="block py-2 lg:px-2 text-black hover:text-black xl:text-lg text-md font-normal">
                 Contact
               </Link>
             </li>
 
-            {/* Let's Talk button - Only show on larger screens */}
             <div className="hidden md:flex items-center">
               <button className="px-6 py-2 text-lg font-normal border text-red-500 border-red-500 rounded-full hover:bg-red-500 hover:text-white">
                 Let&apos;s Talk
@@ -205,7 +192,6 @@ export default function Header() {
             </div>
           </ul>
 
-          {/* Let's Talk button - Show in mobile menu */}
           <div className="mt-4 md:hidden">
             <button className="px-6 py-2 w-full text-lg font-normal border text-red-500 border-red-500 rounded-full hover:bg-red-500 hover:text-white">
               Let&apos;s Talk

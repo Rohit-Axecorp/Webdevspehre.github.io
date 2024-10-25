@@ -65,7 +65,7 @@ export default function Technologies() {
       <section className="pt-8">
         <div className="container bg-black">
           {/* Tabs Navigation */}
-          <div className="flex border-b border-gray-200" role="tablist">
+          <div className="flex border-b border-gray-200 flex-wrap" role="tablist">
             {Object.keys(tabsData).map((tab) => (
               <button
                 key={tab}
