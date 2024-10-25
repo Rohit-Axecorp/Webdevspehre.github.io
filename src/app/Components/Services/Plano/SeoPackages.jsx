@@ -7,10 +7,10 @@ export default function SeoPackages() {
       <section className="bg-gray-100 py-10">
         <div className="container">
           <h1 className="text-center text-3xl md:text-4xl lg:text-5xl font-bold pb-4 ">
-            Affordable SEO Company in Austin Packages
+            Budget-Friendly SEO Solutions
           </h1>
           <p className="text-center text-base md:text-lg lg:text-xl font-normal pb-8   sm:pb-12">
-            Ready to expand your business in Austin? Our SEO services Austin offer remarkable results at prices that won&apos;t impact your budget.
+            Web Dev Sphere offers top-tier SEO services in Plano that cater to all types of business. Achieving top rankings on SERP has never been this much easier!
           </p>
           <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
             {/* Box 1: Steady Growth */}
@@ -29,7 +29,7 @@ export default function SeoPackages() {
                   <li>Detailed monthly SEO reporting</li>
                 </ul>
                 <p className="mb-4 text-sm sm:text-base font-normal">
-                  This package offers all the essential SEO and link-building services your Austin-based business needs. It&apos;s ideal for companies aiming to maintain consistent visibility in the Austin area while steadily growing through organic search traffic.
+                  This package includes all the essential SEO and link-building services your Plano-based business needs. It&apos;s ideal for companies aiming to maintain strong local visibility and achieve consistent growth through organic search traffic in the Plano area.
                 </p>
               </div>
               <a href="#" className="text-red-500 hover:underline hover:text-red-600 self-start text-base font-medium">
@@ -55,9 +55,7 @@ export default function SeoPackages() {
                   <li>Lead qualification</li>
                 </ul>
                 <p className="mb-4 text-sm sm:text-base font-normal">
-                  This package is designed for medium-sized businesses in Austin seeking to excel in local search results. It offers tailored SEO strategies and ongoing content optimization to help you attract more leads across the Texas.
-                </p>
-              </div>
+                  This package is ideal for large Plano businesses or those set on market leadership. It offers comprehensive content development, high-quality link-building, and the strategic tools needed to position your brand at the forefront of your industry.</p>            </div>
               <a href="#" className="text-red-500 hover:underline hover:text-red-600 self-start text-base font-medium">
                 LET&apos;S GET STARTED
 

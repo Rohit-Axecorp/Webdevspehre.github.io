@@ -3,57 +3,57 @@ import Image from 'next/image';
 const services = [
     {
         title: 'Local SEO',
-        description: 'We optimize your online presence to ensure your business appears prominently in local search results and maps. When potential customers search for services in your area, you will be at the top of their list!',
+        description: 'Our local SEO services help you rise to the top of local searches, whether you’re a local restaurant or a real estate agent serving the Plano area. We’ll optimize your business for “near me” searches, ensuring you’re the first choice.',
         icon: '/Images/s-icon1.png.webp', // Replace with the correct icon path
     },
     {
-        title: 'Keyword Research and Analysis',
-        description: 'We believe that effective keyword strategies can open the door to increased visibility. With our SEO services, we’ll help you discover the right keywords, develop a winning strategy, and ultimately drive more traffic. ',
+        title: 'Keyword Research & Analysis',
+        description: 'Our keyword research and analysis service is all about finding the search terms that local customers are actually using. We get into Plano-specific search data, uncovering the keywords that will drive targeted traffic to your site.',
         icon: '/Images/s-icon2.png.webp', // Replace with the correct icon path
     },
     {
-        title: 'Content Marketing',
-        description: 'Your brand deserves to shine through exceptional content that engages, informs, and converts. With our content writing services, you’ll receive high-quality, customized content that aligns with your goals.',
+        title: 'Content Writing',
+        description: 'Need content that connects with your Plano audience and drives results? Our content writing service is here to help your business shine. Our expert writers create conversion-driven content that boosts your visibility in search engines.',
         icon: '/Images/s-icon3.png.webp', // Replace with the correct icon path
     },
     {
         title: 'On-Page SEO',
-        description: 'Your website deserves to be seen and appreciated online. With our on-page SEO services, our team will help you fine-tune every aspect of your site, ensuring it’s optimized for search engines and user-friendly. ',
+        description: 'Our on-page SEO service is all about making sure your site is fully optimized to capture attention, rank higher, and convert visitors into customers. With Web Dev Sphere, you’ll have a website that will stand out and succeed.',
         icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
     },
     {
         title: 'Technical SEO',
-        description: 'With our specialized technical SEO services, our expert team ensures your site is optimized for both users and search engines, leading to improved performance, higher rankings, and a better overall experience.',
+        description: 'Is your website struggling to perform? Our technical SEO service is here to help! We focus on improving the backend aspects of your site, to help it perform better, be easier to navigate, and rank higher on search engines.',
         icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
     },
     {
         title: 'Amazon Marketing Services',
-        description: 'Your product listing is your storefront on Amazon, and it needs to make a strong first impression. We optimize your product titles, descriptions, and bullet points to ensure they are keyword-rich and compelling.',
+        description: 'With millions of listings, it’s crucial to have a solid marketing strategy to capture the attention of potential buyers. Our Amazon Marketing Services are designed to help your products stand out in a competitive marketplace.',
         icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
     },
     {
         title: 'eCommerce SEO',
-        description: 'Our e-commerce SEO services enhance your visibility and drive targeted traffic. We focus on optimizing every aspect of your website, from product descriptions to technical elements that improve site performance.  ',
+        description: 'Ready to take your eCommerce store to new heights? Our team of experts optimizes your product listings, category pages, and overall site structure to ensure they’re easily found by both search engines and shoppers.',
         icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
     },
     {
         title: 'Franchise SEO',
-        description: 'Franchising can be a powerful way to grow your brand, but standing out can be challenging. We help franchise businesses boost their online visibility, both at the franchise level and across the entire brand.',
+        description: 'Our Franchise Houston SEO services tackle the unique challenges faced by multi-location businesses. We concentrate on optimizing your online presence, enhancing local visibility, and driving targeted traffic to each franchise location.',
         icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
     },
     {
         title: 'Digital PR & Link Building',
-        description: 'Quality backlinks from reputable sites signal search engines that your content is valuable and trustworthy. Our approach is focused on acquiring links from authoritative sources that align with your brand’s goals. ',
+        description: 'Digital PR and link building are essential for strengthening your online reputation and boosting your brand\'s visibility. By getting your brand featured on trusted websites, we help you build credibility and establish authority in the industry.',
         icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
-    },
-
+    }
 ];
+
 export default function SeoServicesIncludes() {
     return (
         <>
             <section className='bg-gray-100'>
                 <div className="container mx-auto px-4 py-8">
-                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold md:text-center mb-8 text-red-500">Our All-Inclusive SEO Services Austin
+                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold md:text-center mb-8 text-red-500">Plano SEO Services
                     </h2>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                         {services.map((service, index) => (
