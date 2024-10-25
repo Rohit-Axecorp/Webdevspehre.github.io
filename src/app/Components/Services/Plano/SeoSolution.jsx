@@ -13,10 +13,13 @@ export default function SeoSolution() {
             {/* Left Column */}
             <div className="md:w-1/2 flex flex-col justify-center p-4">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white">
-              Maximize Your Visibility with Our Effective SEO Strategies!
+                Drive Traffic, Increase Visibility, and Boost Sales
               </h2>
               <p className="mb-6 text-white text-base md:text-lg lg:text-xl">
-              Website Dev Sphere is a premier SEO company Austin dedicated to enhancing your online visibility, increasing organic traffic, and delivering real results. With years of experience, our Houston SEO team is committed to helping businesses achieve online success. Partner with us to grow your website to the top of search engine rankings.
+                We are a the best SEO company Plano TX dedicated to helping local businesses thrive in the digital landscape. With a deep understanding of the unique challenges faced by companies in the industry, we offer tailored SEO strategies designed to enhance your online visibility and drive organic traffic.
+              </p>
+              <p className="mb-6 text-white text-base md:text-lg lg:text-xl">
+                Our team of experienced SEO professionals utilizes the latest techniques and tools to optimize your website for search engines.
               </p>
               <button className="bg-black text-white px-6 py-3 rounded hover:bg-gray-800 w-full md:w-1/2 lg:w-1/3">
                 Get Custom Solution

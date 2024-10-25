@@ -18,15 +18,13 @@ export default function SeoBusinessSolutions() {
                 <div className="flex flex-col md:flex-row p-6 container mx-auto md:gap-20 gap-5">
                     {/* Left Column */}
                     <div className="md:w-1/2 flex flex-col justify-center p-4">
-                        <h3 className="text-lg font-semibold mb-4 ">BEST SEO COMPANY AUSTIN
+                        <h3 className="text-lg font-semibold mb-4 ">BEST PLANO SEO COMPANY
                         </h3>
-                        <h2 className="text-3xl font-bold mb-4 ">Why Were the No.1 Choice in Austin
+                        <h2 className="text-3xl font-bold mb-4 ">We&apos;re the Top Choice As the Top SEO Company in Plano
                         </h2>
-                        <p className="mb-4  ">As the best Austin SEO company, we cover every detail of SEO. From in-depth keyword research to building high-quality backlinks, our comprehensive strategies ensure that your website not only stands out but also effectively reaches your target audience.
-
+                        <p className="mb-4  ">Web Dev Sphere is the premier Plano SEO company you can trust. We specialize in delivering customized SEO solutions tailored to meet the unique needs of all businesses, regardless of size or industry. Our team of experts combines industry knowledge with innovative SEO strategies to enhance your search engine visibility, drive organic traffic, and ultimately increase your revenue. 
                         </p>
-                        <p className="mb-4  ">We believe that the key to turning visitors into loyal customers lies in creating a seamless user experience and delivering valuable content. Our SEO company Austin Texas works closely with you to understand your unique business objectives, crafting a customized SEO plan that drives results.
-
+                        <p className="mb-4  ">With a proven track record of success and a dedication to client satisfaction, Web Dev Sphere is the best Plano Texas SEO company for long-term growth and success.
                         </p>
                     </div>
 

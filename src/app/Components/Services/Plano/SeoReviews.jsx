@@ -9,40 +9,35 @@ import 'swiper/swiper-bundle.css';
 export default function SeoReviews() {
   const testimonials = [
     {
-      name: 'Emma Brown',
-      role: 'Founder of Pet Paradise',
-      // company: 'Hospitality & Leisure Co.',
-      content: 'Their SEO efforts have truly paid off! We’re getting more traffic and leads than ever before. I highly recommend their services to anyone looking to grow!.',
+      name: 'Simon Lee',
+      role: 'Manager at Duo Link',
+      content: 'Working with Web Dev Sphere has been a game-changer. Our website traffic has doubled, and we\'re ranking for keywords we didn’t think were possible. They really know their stuff and are genuinely invested in our success!',
       stars: 5,
     },
     {
-      name: 'Chris Davis',
-      role: 'Owner of Fitness Hub',
-      // company: 'Hospitality & Leisure Co.',
-      content: 'The team’s SEO strategies were spot on! Web Dev Sphere helped us understand our audience better and significantly increased our visibility online.',
+      name: 'Christina Rowen',
+      role: 'Founder of Xerox Digital',
+      content: 'I’m blown away by the results! Web Dev Sphere took the time to understand our business and tailored everything to our needs. Thanks to them, our online visibility has skyrocketed. I couldn’t be happier with the outcome!',
       stars: 5,
     },
     {
-      name: 'Lisa White',
-      role: 'Marketing Manager at Style Haven',
-      // company: 'Hospitality & Leisure Co.',
-      content: 'I was amazed at the results! Our rankings improved dramatically in just a few months. Web Dev Sphere is dedicated, knowledgeable, and a joy to work with!',
+      name: 'Rachel Evans',
+      role: 'CEO of Swift Inc.',
+      content: 'We saw noticeable results within the first few months. These folks truly know SEO and how to get businesses seen. Web Dev Sphere kept us informed every step of the way, and it’s clear they care about helping us grow.',
       stars: 5,
     },
     {
-      name: 'Jenna Smith',
-      role: 'Co-Founder of Crafty Creations',
-      // company: 'Hospitality & Leisure Co.',
-      content: 'Working with Web Dev Sphere was a game-changer! They turned our online presence around and helped us attract more local customers. Worth it!',
+      name: 'Daniel Kim',
+      role: 'Senior Manager at MarketEdge',
+      content: 'We went from barely being found online to consistently appearing on the first page. Web Dev Sphere\'s team is professional, responsive, and makes everything easy to understand. I highly recommend their services!',
       stars: 5,
     },
     {
-      name: 'Mike Anderson',
-      role: 'HOD at Fresh Eats',
-      // company: 'Hospitality & Leisure Co.',
-      content: 'I can’t believe how quickly we saw results! Their SEO strategies made a huge difference, and we’re finally ranking on the first page. Highly recommend!',
+      name: 'Oliver Chen',
+      role: 'Sales Manager at Horizon Web',
+      content: 'We’re thrilled with the results! Not only has our website traffic improved, but we’re also getting better-quality leads. Web Dev Sphere\'s team is knowledgeable, friendly, and always kept us updated.',
       stars: 5,
-    },
+    }
 
   ];
 
