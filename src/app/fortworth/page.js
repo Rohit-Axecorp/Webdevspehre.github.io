@@ -1,7 +1,6 @@
 import Head from 'next/head'; // Import the Head component
 import Footer from '@/app/Components/Footer';
 import Header from '@/app/Components/Header';
-import AccordiansFAQ from '@/app/Components/Home/AccordiansFAQ';
 import CTAsection from '@/app/Components/Home/CTAsection';
 import Roadmap from '@/app/Components/Services/FortWorth/Roadmap';
 import SeoAudit from '@/app/Components/Services/FortWorth/SeoAudit';
@@ -19,6 +18,7 @@ import SeoServices from '@/app/Components/Services/FortWorth/SeoServices';
 import SeoServicesIncludes from '@/app/Components/Services/FortWorth/SeoServicesIncludes';
 import SeoSolution from '@/app/Components/Services/FortWorth/SeoSolution';
 import TrustedBrands from '@/app/Components/Services/FortWorth/TrustedBrands';
+import AccordiansFAQ from '../Components/Services/FortWorth/AccordiansFAQ';
 import React from 'react';
 
 export default function Page() { // Use PascalCase for component names
