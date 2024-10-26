@@ -7,18 +7,15 @@ export default function Footer() {
         <>
             <div className='container bg-gradient-to-t from-red-950 via-red-600 to-red-400 min-h-[720px] -mt-64 md:rounded-3xl rounded-none'>
                 <footer className="w-full pt-60 pb-5">
+                    {/* Horizontal line above footer content */}
                     <div className="before:content-[''] before:absolute before:left-0 before:top-[100px] before:h-[1px] before:w-full before:bg-[#AFAFB6]"></div>
                     <div className="max-w-[1250px] mx-auto px-4 sm:px-6 md:px-8 py-8">
-                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 md:gap-12 gap-4 h-full">
-                            {/* Column 1 */}
+                        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-12 h-full">
+                            {/* Column 1 - Quick Links */}
                             <ul className="text-white">
                                 <li className="text-xl mb-2 relative">
                                     Quick Links
                                     <div className="before:content-[''] before:absolute before:left-0 before:bottom-[-2px] before:h-[2px] before:w-[35px] before:bg-white"></div>
-                                </li>
-                                {/* Example image added in this column */}
-                                <li className="mb-4">
-                                    {/* <img src="/Images/footer-logo.svg" alt="Footer Logo" className="w-24 h-auto" /> */}
                                 </li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Company</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Case studies</a></li>
@@ -31,7 +28,7 @@ export default function Footer() {
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Ajman</a></li>
                             </ul>
 
-                            {/* Column 2 */}
+                            {/* Column 2 - Services */}
                             <ul className="text-white">
                                 <li className="text-xl mb-2 relative">
                                     Services
@@ -51,10 +48,12 @@ export default function Footer() {
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Corporate Branding</a></li>
                             </ul>
 
-                            {/* Column 3 */}
-                            {/* Column 3 */}
+                            {/* Column 3 - Web Development Services */}
                             <ul className="text-white">
-                                
+                                <li className="text-xl mb-2 relative invisible">
+                                    demo
+                                    <div className="before:content-[''] before:absolute before:left-0 before:bottom-[-2px] before:h-[2px] before:w-[35px] before:bg-white"></div>
+                                </li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Web Application Development</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">WordPress Development</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Webflow Development</a></li>
@@ -63,12 +62,11 @@ export default function Footer() {
                                 <hr className="bg-gray-300 w-4/5 h-[1px] my-3 border-0" />
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Magento Web Development</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Shopify Web Development</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">WooCommerce Web Development</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Woocommerce Web Development</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Custom Ecommerce Solution</a></li>
                             </ul>
 
-
-                            {/* Column 4 */}
+                            {/* Column 4 - Solutions */}
                             <ul className="text-white">
                                 <li className="text-xl mb-2 relative">
                                     Solutions
@@ -82,7 +80,7 @@ export default function Footer() {
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Template Management Solution</a></li>
                             </ul>
 
-                            {/* Column 5 */}
+                            {/* Column 5 - Contacts */}
                             <ul className="text-white">
                                 <li className="text-xl mb-2 relative">
                                     Contacts
@@ -100,6 +98,12 @@ export default function Footer() {
                         </div>
                     </div>
                 </footer>
+               
+            </div>
+            <div className="w-full bg-white text-black text-center py-4">
+                <p className="md:text-lg text-sm font-medium">
+                    © {new Date().getFullYear()} Web Dev Sphere. All rights reserved.
+                </p>
             </div>
         </>
     );
