@@ -9,10 +9,12 @@ export default function Portfolio() {
             <div className="py-10 lg:py-12 bg-white">
                 <div className="container mx-auto text-center px-4 md:px-5">
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold md:mb-6 text-black py-4">
-                        Web Design <span className="font-extralight">Portfolio</span>
+                        Transforming Ideas into Digital Masterpieces:
+                        <br />
+                        <span className="font-extralight"> Our Web Development Company Portfolio</span>
                     </h2>
                     <p className="text-base lg:text-xl text-gray-600 leading-relaxed mx-auto pt-0 md:pt-2">
-                        Element8, your trusted partner for avant-garde web design in Dubai. In our portfolio, you’ll find a blend of creativity and functionality that truly embodies our dedication to providing extraordinary digital experiences. We take great care in crafting each project, aiming to not only enhance brands but also redefine what users can expect. Explore our curated selection below, and witness the transformative power of web design Dubai, where innovation meets inspiration.
+                        At WebDev Sphere, we pride ourselves on being a versatile web design and development company, crafting tailor-made digital solutions that stand out in the industry. From dynamic eCommerce platforms to sleek corporate websites, our projects reflect creativity and innovation. As the best web development company, we bring your vision to life with a perfect blend of functionality and aesthetic appeal, ensuring every project is unique and impactful.
                     </p>
                 </div>
             </div>

@@ -12,7 +12,7 @@ export default function Tabs() {
             id: 0,
             title: 'Digital Marketing',
             description:
-                'Use our strategic solutions to reach new audiences, increase online visibility, and achieve sustainable growth in the digital arena. Let us be your partner in realizing the full potential of your online market.',
+                'Our web development company amplifies your brands online presence through data-driven digital marketing strategies. We ensure your reach is optimized and engaging, fueling growth across platforms.',
             services: ['Social Media', 'SEO', 'Influencer Marketing', 'Content Creation', 'PPC', 'Content Writing', 'ASO'],
             image: '/Images/digital-marketing-tabs-main-image.webp',
             icon: faBullhorn,
@@ -22,7 +22,7 @@ export default function Tabs() {
             id: 1,
             title: 'Design',
             description:
-                'Create visually stunning and user-friendly designs to capture your audience\'s attention and convey your brand\'s message effectively.',
+                'As a web design company with a flair for creativity, we specialize in crafting visually stunning and user-friendly interfaces. Each design is tailored to captivate and connect with your audience.',
             services: ['UI/UX Design', 'Logo Design', 'Graphic Design', 'Social Media Design', 'Marketing Campaign Design', 'Corporate Branding ', 'Landing Page Design '],
             image: '/Images/design-tabs-main-image.webp',
             icon: faPalette,
@@ -32,7 +32,7 @@ export default function Tabs() {
             id: 2,
             title: 'Web Development',
             description:
-                'Build robust and scalable web applications tailored to your business needs, using the latest technologies and development best practices.',
+                'A trusted web design and development company, we create custom web solutions that are both scalable and secure. From interactive websites to complex platforms, we bring your vision to life with precision.',
             services: ['Front-End Development', 'Back-End Development', 'Full-Stack Development', 'API Integration'],
             image: '/Images/web-development-tabs-main-image.webp',
             icon: faCode,
@@ -42,7 +42,7 @@ export default function Tabs() {
             id: 3,
             title: 'Ecommerce Development',
             description:
-                'Create an engaging and user-friendly eCommerce platform that drives sales and provides an exceptional shopping experience for your customers.',
+                'Our expertise in eCommerce development helps businesses thrive online with high-performance stores. We design seamless, conversion-driven experiences that set us apart as a best-in-class web development company.',
             services: ['Shopify Development', 'Magento Development', 'WooCommerce Development', 'Custom Solutions'],
             image: '/Images/ecommerce-development-tabs-main-image.webp',
             icon: faShoppingCart,
@@ -61,10 +61,12 @@ export default function Tabs() {
                         {/* Text Content */}
                         <div className="relative z-10 ">
                             <p className="text-red-500 font-semibold text-lg mb-2">
-                                Best <span className="text-black">Web Design Company In Dubai</span>
+                                Web Design
+                                <span className="text-black"> & Development Company</span>
                             </p>
                             <h1 className="text-2xl md:text-5xl font-bold text-black">
-                                Grow Your Business Digitally <span className="text-red-500">With Us</span>
+                                Expanding Digital Horizons Across
+                                <span className="text-red-500"> Key Sectors</span>
                             </h1>
                         </div>
                     </div>

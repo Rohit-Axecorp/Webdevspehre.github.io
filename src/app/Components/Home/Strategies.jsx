@@ -11,13 +11,14 @@ export default function Strategies() {
           {/* Left Column - Static Content */}
           <div className="w-full lg:w-1/2 xl:w-1/3 lg:pr-8">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
-              Web Design And Development Company In Dubai
+              Our Web Development Services
             </h1>
             <p className="text-[#ED1E3A] text-xl sm:text-2xl mt-4">
-              Let&apos;s Turn Visitors Into Customers
+              From Concept to Code: Services Designed to Elevate Your Brand
             </p>
             <p className="mt-6 text-gray-600 leading-relaxed text-base sm:text-lg">
-              As a leading web design company in Dubai, we promise to build websites for businesses that bring them convertible traffic and measurable success. Your success is our goal and we are dedicated to it.
+
+              Unlike typical web development companies, WebDev Sphere stands as a full-spectrum web design and web development company committed to crafting innovative, user-focused digital solutions that elevate your brand	&apos;s online presence.
             </p>
             <button className="group mt-6 relative px-6 py-3 border border-black rounded-full text-base sm:text-lg flex items-center justify-center gap-2 transition-all duration-300 hover:bg-[#ED1E3A] hover:text-white hover:border-transparent">
               More About Us
