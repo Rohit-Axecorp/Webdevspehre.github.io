@@ -8,27 +8,29 @@ export default function AboutTimeline() {
     <section className="bg-black py-12 text-white">
       <div className="container mx-auto">
         <div className=" mb-20">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-red-500">Explore 11+ Years Of</h2>
-          <h3 className="text-gray-100 text-base md:text-lg lg:text-xl mt-4">Ideation. Innovation. Transformation</h3>
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-red-500">Web Dev Sphere Timeline
+          </h2>
+          <h3 className="text-gray-100 text-base md:text-lg lg:text-xl mt-4">Here’s how we got started:
+          </h3>
         </div>
 
         {/* Timeline Wrapper */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-20 items-start relative z-10">
           {/* Year Blocks */}
           {[
-            { year: "2012", description: "We launched to cater businesses in styling UI/UX within the leading technology industries.", img: "/Images/tim5.png" },
-            { year: "2013", description: "Team strength increased to 50+ designers & developers.", img: "/Images/tim1.png" },
-            { year: "2014", description: "Added new technology stack.", img: "/Images/tim1.png" },
-            { year: "2015", description: "Introduced in-house car rental service.", img: "/Images/tim5.png" },
-            { year: "2016", description: "Awarded with outstanding big eCommerce web design.", img: "/Images/tim1.png" },
-            { year: "2017", description: "Grew our team to 150+ designers & developers.", img: "/Images/tim5.png" },
-            { year: "2018", description: "Awarded with Zoho partner badge.", img: "/Images/tim1.png" },
-            { year: "2019", description: "Associated with Google partner badge.", img: "/Images/tim5.png" },
-            { year: "2020", description: "Associated with Google partner badge.", img: "/Images/tim5.png" },
-            { year: "2021", description: "Associated with Google partner badge.", img: "/Images/tim1.png" },
-            { year: "2022", description: "Associated with Google partner badge.", img: "/Images/tim1.png" },
-            { year: "2023", description: "Associated with Google partner badge.", img: "/Images/tim5.png" },
-            { year: "2024", description: "Associated with Google partner badge.", img: "/Images/tim1.png" },
+            { year: "2012", description: "Founded to empower businesses through website design and basic digital services.", img: "/Images/tim5.png" },
+            { year: "2013", description: "Successfully completed our initial projects, showcasing our ability to create engaging websites.", img: "/Images/tim1.png" },
+            { year: "2014", description: "Broaden our offerings to include basic digital marketing, logo design and social media.", img: "/Images/tim1.png" },
+            { year: "2015", description: "Landed our first major client, marking a significant milestone in our growth.", img: "/Images/tim5.png" },
+            { year: "2016", description: "Growing a team of 80+ web experts, digital marketers, and designers.", img: "/Images/tim1.png" },
+            { year: "2017", description: "Introduce SEO services to help clients improve their search engine rankings.", img: "/Images/tim5.png" },
+            { year: "2018", description: "Proudly received the Google Partner Award.", img: "/Images/tim1.png" },
+            { year: "2019", description: "Received the Best Digital Agency Award at the Annual Marketing Excellence Awards.", img: "/Images/tim5.png" },
+            { year: "2020", description: "Pivot our strategies to meet the evolving digital needs of businesses online.", img: "/Images/tim5.png" },
+            { year: "2021", description: "Invest in the latest technologies and tools, ensuring our solutions remain cutting-edge.", img: "/Images/tim1.png" },
+            { year: "2022", description: "Receive industry recognition for innovative projects and commitment to client success.", img: "/Images/tim1.png" },
+            { year: "2023", description: "Garner recognition from Clutch and Design Rush as the best SEO company.", img: "/Images/tim5.png" },
+            { year: "2024", description: "Web Dev Sphere stands as a trusted partner for businesses across diverse industries.", img: "/Images/tim1.png" },
           ].map((item, index) => (
             <div key={index} className="relative flex flex-col items-start z-10">
               {/* Layered dot */}

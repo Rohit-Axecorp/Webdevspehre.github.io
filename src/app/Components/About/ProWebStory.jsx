@@ -9,13 +9,13 @@ export default function ProWebStory() {
             {/* Column for Heading */}
             <div className="md:w-1/2">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black">
-                The <span className="text-red-500">Pro Web</span> Story
+                Who <span className="text-red-500">We Are</span>
               </h2>
             </div>
             {/* Column for Paragraph */}
             <div className="md:w-1/2">
               <p className="mt-4 font-normal text-base md:text-lg lg:text-xl">
-                Pro Web is a team of 70+ highly qualified and experienced professionals offering technological solutions by industry standards from the year 2012. We&apos;ve accomplished business & technology objectives for both medium-sized and larger-scale corporations to meet their demands of long-term growth & success in several domains including Web Design, Web Development, Mobile App Development, E-commerce Development, Web Maintenance, SEO, Google Ads Management, Web Hosting Domain & Dedicated Hiring.
+                Web Dev Sphere is a digital company that puts people first. Our team is driven by the belief that every brand has a story worth sharing, and we’re here to make sure it’s told the right way. Our unique blend of technical skills and a deep understanding of what really resonates with audiences. We specialize in turning complex digital challenges into simple, effective solutions that help you reach your goals.
               </p>
             </div>
           </div>

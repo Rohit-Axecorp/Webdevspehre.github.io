@@ -9,7 +9,8 @@ export default function AboutAchievements() {
       {/* Row 1: Two Columns (Same Size) */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         <div className="p-6">
-          <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Achievements & Awards</h3>
+          <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Achievements And Awards
+          </h3>
         </div>
         <div className="bg-gray-100 rounded-xl p-6 text-center">
           <div className="flex justify-center space-x-8">
@@ -41,7 +42,7 @@ export default function AboutAchievements() {
               />
             </div>
           </div>
-          <p className="mt-4">Featured on Cyber News, Medium, Pro News Report.</p>
+          <p className="mt-4">Recognition from Cyber News, Medium and Pro News Report.</p>
         </div>
       </div>
 
@@ -68,7 +69,8 @@ export default function AboutAchievements() {
               />
             </div>
           </div>
-          <p className="mt-4">Top Web Design & Development Company According to Clutch & Goodfirms</p>
+          <p className="mt-4">Awarded as the Top Web Design & Development Company by Clutch and Goodfirms
+          </p>
         </div>
         <div className="bg-gray-100 rounded-xl p-6 text-center">
           <div className="flex justify-center space-x-4">
@@ -91,7 +93,8 @@ export default function AboutAchievements() {
               />
             </div>
           </div>
-          <p className="mt-4">Top Digital Marketing Agency According to Designrush & Mea Markets</p>
+          <p className="mt-4">Recognized as the Top Digital Agency by Design Rush and Mea Markets
+          </p>
         </div>
         <div className="bg-gray-100 rounded-xl p-6 text-center">
           <div className="flex flex-row justify-center items-center">
@@ -106,7 +109,8 @@ export default function AboutAchievements() {
             </div>
 
           </div>
-          <p className="mt-4">Microsoft Certification</p>
+          <p className="mt-4">Rated 4.9/5 by 800+ Clients
+          </p>
         </div>
       </div>
 

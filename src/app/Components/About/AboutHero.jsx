@@ -9,11 +9,10 @@ export default function AboutHero() {
         {/* Left Column: Content */}
         <div className="relative z-10">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black">
-            Our Strategy, Your <span className="text-red-500">Success.</span>
+            Pioneers in Digital <span className="text-red-500">Transformation.</span>
           </h2>
           <p className="mt-4 text-gray-600 text-base md:text-lg lg:text-xl">
-            Why settle for ordinary when your brand can be extraordinary? Our
-            dedication vows to pave your way towards digital domination.
+            Web Dev Sphere is passionate about creating digital experiences that are meaningful, impactful, and tailored just for you.
           </p>
         </div>
 

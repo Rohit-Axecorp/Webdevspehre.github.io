@@ -11,10 +11,10 @@ export default function IndustriesAbout() {
             {/* Left Column: Icon List */}
             <div>
               <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-red-500">
-                Industries We Cater
+                Industries We Served
               </h3>
               <p className="mt-4 text-gray-600 text-base md:text-lg lg:text-xl">
-                Empowering digital transformations with the most current IT solutions across a wide range of industries.
+                We cover diverse industries, bringing specialized digital solutions to businesses across various sectors.
               </p>
               <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 gap-6">
                 {/* First Icon */}
@@ -22,7 +22,7 @@ export default function IndustriesAbout() {
                   <div className="bg-gradient-to-r from-red-500 to-red-600 p-2 rounded-full text-white shadow-md hover:text-white">
                     <i className="fas fa-cogs text-lg hover:text-white"></i> {/* Replace with your desired icon */}
                   </div>
-                  <h4 className="text-lg font-semibold hover:text-white">Lifestyle</h4>
+                  <h4 className="text-lg font-semibold hover:text-white">Education</h4>
                 </div>
 
                 {/* Second Icon */}
@@ -30,7 +30,7 @@ export default function IndustriesAbout() {
                   <div className="bg-gradient-to-r from-red-500 to-red-600 p-2 rounded-full text-white shadow-md hover:text-white">
                     <i className="fas fa-graduation-cap text-lg hover:text-white"></i> {/* Replace with your desired icon */}
                   </div>
-                  <h4 className="text-lg font-semibold hover:text-white">Education</h4>
+                  <h4 className="text-lg font-semibold hover:text-white">Healthcare</h4>
                 </div>
 
                 {/* Third Icon */}
@@ -38,7 +38,7 @@ export default function IndustriesAbout() {
                   <div className="bg-gradient-to-r from-red-500 to-red-600 p-2 rounded-full text-white shadow-md hover:text-white">
                     <i className="fas fa-plane text-lg hover:text-white"></i> {/* Replace with your desired icon */}
                   </div>
-                  <h4 className="text-lg font-semibold hover:text-white">Tour & Travel</h4>
+                  <h4 className="text-lg font-semibold hover:text-white">Entertainment</h4>
                 </div>
 
                 {/* Fourth Icon */}
@@ -46,14 +46,15 @@ export default function IndustriesAbout() {
                   <div className="bg-gradient-to-r from-red-500 to-red-600 p-2 rounded-full text-white shadow-md hover:text-white">
                     <i className="fas fa-music text-lg hover:text-white"></i> {/* Replace with your desired icon */}
                   </div>
-                  <h4 className="text-lg font-semibold hover:text-white">Music</h4>
+                  <h4 className="text-lg font-semibold hover:text-white">Real Estate
+                  </h4>
                 </div>
                 {/* First Icon */}
                 <div className="flex items-center gap-3 px-5 py-3 shadow-md hover:bg-gradient-to-r hover:from-red-500 hover:to-red-600 hover:text-white">
                   <div className="bg-gradient-to-r from-red-500 to-red-600 p-2 rounded-full text-white shadow-md hover:text-white">
                     <i className="fas fa-cogs text-lg hover:text-white"></i> {/* Replace with your desired icon */}
                   </div>
-                  <h4 className="text-lg font-semibold hover:text-white">Lifestyle</h4>
+                  <h4 className="text-lg font-semibold hover:text-white">Travel </h4>
                 </div>
 
                 {/* Second Icon */}
@@ -61,7 +62,7 @@ export default function IndustriesAbout() {
                   <div className="bg-gradient-to-r from-red-500 to-red-600 p-2 rounded-full text-white shadow-md hover:text-white">
                     <i className="fas fa-graduation-cap text-lg hover:text-white"></i> {/* Replace with your desired icon */}
                   </div>
-                  <h4 className="text-lg font-semibold hover:text-white">Education</h4>
+                  <h4 className="text-lg font-semibold hover:text-white">Food</h4>
                 </div>
 
                 {/* Third Icon */}
@@ -69,7 +70,7 @@ export default function IndustriesAbout() {
                   <div className="bg-gradient-to-r from-red-500 to-red-600 p-2 rounded-full text-white shadow-md hover:text-white">
                     <i className="fas fa-plane text-lg hover:text-white"></i> {/* Replace with your desired icon */}
                   </div>
-                  <h4 className="text-lg font-semibold hover:text-white">Tour & Travel</h4>
+                  <h4 className="text-lg font-semibold hover:text-white">Retail</h4>
                 </div>
 
                 {/* Fourth Icon */}
@@ -77,7 +78,7 @@ export default function IndustriesAbout() {
                   <div className="bg-gradient-to-r from-red-500 to-red-600 p-2 rounded-full text-white shadow-md hover:text-white">
                     <i className="fas fa-music text-lg hover:text-white"></i> {/* Replace with your desired icon */}
                   </div>
-                  <h4 className="text-lg font-semibold hover:text-white">Music</h4>
+                  <h4 className="text-lg font-semibold hover:text-white">Lifestyle</h4>
                 </div>
 
                 {/* Add more icons as needed */}

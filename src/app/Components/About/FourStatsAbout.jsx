@@ -14,7 +14,8 @@ export default function FourStatsAbout() {
               className="mx-auto mb-4 rounded-full object-cover"
             />
             <h3 className="text-2xl sm:text-3xl font-bold text-white">500+</h3>
-            <p className="text-sm sm:text-base text-white">Projects Delivered</p>
+            <p className="text-sm sm:text-base text-white">Projects Delivered
+            </p>
           </div>
 
           {/* Second stat box */}
@@ -24,8 +25,9 @@ export default function FourStatsAbout() {
               alt="In-House Specialists"
               className="mx-auto mb-4 rounded-full object-cover"
             />
-            <h3 className="text-2xl sm:text-3xl font-bold text-white">70+</h3>
-            <p className="text-sm sm:text-base text-white">In-House Specialists</p>
+            <h3 className="text-2xl sm:text-3xl font-bold text-white">80+</h3>
+            <p className="text-sm sm:text-base text-white">Expert Team
+            </p>
           </div>
 
           {/* Third stat box */}
@@ -35,8 +37,9 @@ export default function FourStatsAbout() {
               alt="Years of Experience"
               className="mx-auto mb-4 rounded-full object-cover"
             />
-            <h3 className="text-2xl sm:text-3xl font-bold text-white">11+</h3>
-            <p className="text-sm sm:text-base text-white">Years of Experience</p>
+            <h3 className="text-2xl sm:text-3xl font-bold text-white">10+</h3>
+            <p className="text-sm sm:text-base text-white">Years of Experience
+            </p>
           </div>
 
           {/* Fourth stat box */}
@@ -46,8 +49,9 @@ export default function FourStatsAbout() {
               alt="Industries Served"
               className="mx-auto mb-4 rounded-full object-cover"
             />
-            <h3 className="text-2xl sm:text-3xl font-bold text-white">25+</h3>
-            <p className="text-sm sm:text-base text-white">Industries Served</p>
+            <h3 className="text-2xl sm:text-3xl font-bold text-white">30+</h3>
+            <p className="text-sm sm:text-base text-white">Industries Served
+            </p>
           </div>
         </div>
       </div>

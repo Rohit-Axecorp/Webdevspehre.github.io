@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import AboutAchievements from '@/app/Components/About/AboutAchievements'
 import AboutDigitalLandscape from '@/app/Components/About/AboutDigitalLandscape'
 import AboutHero from '@/app/Components/About/AboutHero'
@@ -17,6 +18,10 @@ export default function about() {
   return (
     <>
 
+      <Head>
+        <title>Who We Are | Web Dev Sphere</title>
+        <meta name="description" content="Web Dev Sphere is the leading digital agency that offers all-inclusive solutions to grow your business online. Visit us to learn more about our services!" />
+      </Head>
       <Header />
       <AboutHero />
       <ProWebStory />
@@ -29,8 +34,6 @@ export default function about() {
       <AboutDigitalLandscape />
       <CTAsection />
       <Footer />
-
-
 
     </>
   )
