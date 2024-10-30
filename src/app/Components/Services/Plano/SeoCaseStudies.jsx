@@ -47,13 +47,13 @@ export default function SeoCaseStudies() {
         <Swiper slidesPerView={1} spaceBetween={30}>
           {caseStudies.map((study, index) => (
             <SwiperSlide key={index}>
-              <div className="flex flex-col lg:flex-row items-center bg-white shadow-lg rounded-lg p-4 lg:p-6 w-full lg:w-4/6 mx-auto">
+              <div className="flex flex-col lg:flex-row items-center bg-white shadow-lg rounded-lg p-4 lg:p-6 w-full container mx-auto">
                 {/* Image Column */}
                 <div className="flex-shrink-0 w-full lg:w-1/3 mb-6 lg:mb-0">
                   <img
                     src={study.imageUrl}
                     alt={study.title}
-                    className="w-full h-64 lg:w-96 lg:h-80 object-cover rounded-md"
+                    className="w-full h-64 lg:w-full lg:h-96 object-cover rounded-md"
                   />
                 </div>
                 {/* Content Column */}
