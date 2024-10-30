@@ -10,7 +10,7 @@ export default function SeoPackages() {
             Affordable SEO Company in Fortworth Packages
           </h4>
           <p className="text-center text-lg md:text-xl lg:text-2xl font-medium pb-12 text-gray-800">
-            We believe that quality SEO shouldn't come with a huge price tag. Our competitive pricing ensures that you get exceptional value for your investment.
+            We believe that quality SEO shouldn&apos;t come with a huge price tag. Our competitive pricing ensures that you get exceptional value for your investment.
 
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 px-6">
@@ -30,7 +30,7 @@ export default function SeoPackages() {
                   <li>Monthly SEO reporting</li>
                 </ul>
                 <p className="mb-6 text-base sm:text-lg font-normal text-gray-600">
-                  This package offers all the essential SEO and link-building services required for your Fort Worth-based business. It's ideal for companies aiming to maintain consistent visibility in the Fort Worth area while steadily increasing organic search traffic.
+                  This package offers all the essential SEO and link-building services required for your Fort Worth-based business. It&apos;s ideal for companies aiming to maintain consistent visibility in the Fort Worth area while steadily increasing organic search traffic.
 
                 </p>
               </div>
