@@ -18,8 +18,8 @@ export default function SeoBusinessSolutions() {
                 <div className="flex flex-col md:flex-row p-6 container mx-auto md:gap-20 gap-5">
                     {/* Left Column */}
                     <div className="md:w-1/2 flex flex-col justify-center p-4">
-                        <h3 className="text-lg font-semibold mb-4 ">BEST SEO COMPANY FORT WORTH
-                        </h3>
+                        <h4 className="text-lg font-semibold mb-4 ">BEST SEO COMPANY FORT WORTH
+                        </h4>
                         <h2 className="text-3xl font-bold mb-4 ">Why We&apos;re Fort Worth&apos;s Top Choice
                         </h2>
                         <p className="mb-4  ">At Web Dev Sphere, we&apos;re not just another Fort Worth SEO company; we genuinely care about your success. We understand that growing your online presence is about much more than just keywords and algorithms. It&apos;s about crafting a strategy that aligns with your unique goals.

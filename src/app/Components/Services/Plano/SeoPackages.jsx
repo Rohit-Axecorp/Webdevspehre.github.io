@@ -6,9 +6,9 @@ export default function SeoPackages() {
     <>
       <section className="bg-gray-100 py-10">
         <div className="container">
-          <h1 className="text-center text-3xl md:text-4xl lg:text-5xl font-bold pb-4 ">
+          <h4 className="text-center text-3xl md:text-4xl lg:text-5xl font-bold pb-4 ">
             Budget-Friendly SEO Solutions
-          </h1>
+          </h4>
           <p className="text-center text-base md:text-lg lg:text-xl font-normal pb-8   sm:pb-12">
             Web Dev Sphere offers top-tier SEO services in Plano that cater to all types of business. Achieving top rankings on SERP has never been this much easier!
           </p>
@@ -18,7 +18,7 @@ export default function SeoPackages() {
               <div>
                 <div className="flex items-center mb-4">
                   <FaRocket className="text-red-500 text-3xl mr-3" />
-                  <h2 className="text-xl sm:text-2xl font-bold">Steady Growth</h2>
+                  <h5 className="text-xl sm:text-2xl font-bold">Steady Growth</h5>
                 </div>
                 <ul className="list-disc list-inside mb-4 text-sm sm:text-base font-medium">
                   <li>Basic package</li>
@@ -42,7 +42,7 @@ export default function SeoPackages() {
               <div>
                 <div className="flex items-center mb-4">
                   <FaBolt className="text-red-500 text-3xl mr-3" />
-                  <h2 className="text-xl sm:text-2xl font-bold">Faster Growth</h2>
+                  <h5 className="text-xl sm:text-2xl font-bold">Faster Growth</h5>
                 </div>
                 <ul className="list-disc list-inside mb-4 text-sm sm:text-base font-medium">
                   <li>Steady Growth Pack Guaranteed</li>
@@ -67,7 +67,7 @@ export default function SeoPackages() {
               <div>
                 <div className="flex items-center mb-4">
                   <FaTachometerAlt className="text-red-500 text-3xl mr-3" />
-                  <h2 className="text-xl sm:text-2xl font-bold">Full Speed Growth</h2>
+                  <h5 className="text-xl sm:text-2xl font-bold">Full Speed Growth</h5>
                 </div>
                 <ul className="list-disc list-inside mb-4 text-sm sm:text-base font-medium">
                   <li>Faster Growth Pack Guaranteed</li>

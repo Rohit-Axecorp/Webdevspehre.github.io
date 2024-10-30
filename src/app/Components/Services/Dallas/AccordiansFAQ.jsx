@@ -24,7 +24,7 @@ export default function AccordiansFAQ() {
             title: "Why hire the best SEO company in Dallas?",
             content: (
                 <p>
-                    Hiring the best SEO company in Dallas offers local expertise and a deep understanding of the Dallas-Fort Worth market, helping businesses reach the right audience effectively. An experienced SEO company in Dallas can craft a tailored strategy that aligns with the unique characteristics of the local market, including competitive analysis, keyword targeting, and local SEO tactics that drive more foot traffic to your business. 
+                    Hiring the best SEO company in Dallas offers local expertise and a deep understanding of the Dallas-Fort Worth market, helping businesses reach the right audience effectively. An experienced SEO company in Dallas can craft a tailored strategy that aligns with the unique characteristics of the local market, including competitive analysis, keyword targeting, and local SEO tactics that drive more foot traffic to your business.
                     <br /><br />
                     Additionally, SEO experts in Dallas are well-versed in optimizing for search engines like Google, increasing your website&apos;s visibility, and ultimately helping you attract more leads and customers.
                 </p>
@@ -60,7 +60,7 @@ export default function AccordiansFAQ() {
             title: "Why should companies invest in Dallas SEO services?",
             content: (
                 <p>
-                    With higher search engine rankings, businesses can increase visibility and brand awareness, making it easier for potential customers to find them. SEO is a cost-effective marketing strategy, as it drives organic traffic without the ongoing costs associated with paid advertising. 
+                    With higher search engine rankings, businesses can increase visibility and brand awareness, making it easier for potential customers to find them. SEO is a cost-effective marketing strategy, as it drives organic traffic without the ongoing costs associated with paid advertising.
                     <br /><br />
                     By focusing on SEO, companies can enhance user experience, leading to longer engagement and higher conversion rates.
                 </p>
@@ -77,12 +77,12 @@ export default function AccordiansFAQ() {
 
     return (
         <div className="pt-12 mx-auto container">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center">
+            <h5 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center">
                 FAQS RELATED TO{" "}
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-700">
                     DALLAS SEO COMPANY
                 </span>
-            </h2>
+            </h5>
             <p className="text-center lg:text-lg text-md mb-12 md:mx-20">
                 Get Answers to Your Queries Here!
             </p>

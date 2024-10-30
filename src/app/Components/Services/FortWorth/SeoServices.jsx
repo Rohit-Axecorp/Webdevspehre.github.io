@@ -10,12 +10,12 @@ export default function SeoServices() {
             <div className="flex flex-col md:flex-row container mx-auto p-8 md:gap-24 gap-5 ">
                 {/* Left Column: Our Promise and Statistics */}
                 <div className="flex-1 mb-8 md:mr-4 md:w-1/2 w-full">
-                    <h2 className="text-lg font-bold mb-4 text-gray-500">THE PROMISE WE STAND BY
+                    <h5 className="text-lg font-bold mb-4 text-gray-500">THE PROMISE WE STAND BY
 
-                    </h2>
-                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+                    </h5>
+                    <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
                         Reliable SEO Company in Fort Worth for Business Growth
-                    </h1>
+                    </h3>
 
                 </div>
 

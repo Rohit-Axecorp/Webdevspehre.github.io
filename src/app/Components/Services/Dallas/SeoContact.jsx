@@ -9,28 +9,44 @@ export default function SeoContact() {
           {/* Left Section */}
           <div className="md:w-1/2 w-full mb-8 md:mb-0">
             {/* New Heading: CHICAGO SEO COMPANY */}
-            <h2 className="text-xl font-bold text-red-600 mb-2">PROFESSIONAL DALLAS SEO COMPANY</h2>
+            <h1 className="text-xl font-bold text-red-600 mb-2">PROFESSIONAL DALLAS SEO COMPANY</h1>
 
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
+            <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
             Achieve Higher Rankings and Traffic with Expert SEO Solutions!
-            </h1>
+            </p>
             <p className="mb-6 text-base md:text-lg text-gray-700">
             Website Dev Sphere is an award-winning Dallas SEO company specializing in thriving businesses online. From growing your local visibility to attracting more customers, our team ensures you reach the right target audience.
             </p>
+           
+
             <div className="flex items-center my-8">
               <div className="flex items-center mr-4">
-                <Image src="/Images/Clutch_SEO_Companies_2021.png" alt="Clutch 2021" width={150} height={150} />
-              </div>
-              <div className="flex items-center">
-                <Image src="/Images/upcity-excellence-2022.png" alt="Excellence Award 2022" width={150} height={150} />
+                <Image src="/Images/bannerLogo.webp" alt="Clutch 2021" width={550} height={150} />
               </div>
             </div>
-            <p className="text-gray-100 text-base md:text-lg lg:text-xl">62 reviews</p>
+            <button className="group mt-6 relative px-6 py-3 border border-black rounded-full text-base sm:text-lg flex items-center justify-center gap-2 transition-all duration-300 hover:bg-[#ED1E3A] hover:text-white hover:border-transparent">
+              Free Consultation
+              {/* Inline SVG for the arrow icon */}
+              <svg
+                className="w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-300 transform group-hover:translate-x-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                ></path>
+              </svg>
+            </button>
           </div>
 
           {/* Right Section: Contact Form */}
           <div className="md:w-1/2 w-full p-6 bg-white shadow-lg rounded-lg">
-            <h2 className="text-xl font-bold text-gray-800 mb-6">Contact Austin SEO Experts</h2>
+            <h2 className="text-xl font-bold text-gray-800 mb-6 text-center">Contact Dallas SEO Experts</h2>
             <form action="#" method="POST">
               <div className="space-y-4">
                 {/* First and Last Name in one row */}

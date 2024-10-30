@@ -9,8 +9,8 @@ export default function SeoLocation() {
       <div className="flex flex-col md:flex-row items-start md:items-center container mx-auto gap-y-10 md:gap-x-20 px-4 md:px-8">
         {/* Left Column */}
         <div className="md:w-1/2 flex flex-col space-y-4 md:space-y-6">
-          <h2 className="text-3xl md:text-5xl font-semibold">Our Location
-          </h2>
+          <h5 className="text-3xl md:text-5xl font-semibold">Our Location
+          </h5>
           <p className="text-lg md:text-xl font-medium">
           Web Dev Sphere is headquartered in Austin, Texas.
           </p>

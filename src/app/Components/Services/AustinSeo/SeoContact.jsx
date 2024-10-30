@@ -22,7 +22,24 @@ export default function SeoContact() {
                 <Image src="/Images/bannerLogo.webp" alt="Clutch 2021" width={550} height={150} />
               </div>
             </div>
-            <p className="text-gray-100 text-base md:text-lg lg:text-xl">62 reviews</p>
+            <button className="group mt-6 relative px-6 py-3 border border-black rounded-full text-base sm:text-lg flex items-center justify-center gap-2 transition-all duration-300 hover:bg-[#ED1E3A] hover:text-white hover:border-transparent">
+              Free Consultation
+              {/* Inline SVG for the arrow icon */}
+              <svg
+                className="w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-300 transform group-hover:translate-x-2"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                ></path>
+              </svg>
+            </button>
           </div>
 
           {/* Right Section: Contact Form */}

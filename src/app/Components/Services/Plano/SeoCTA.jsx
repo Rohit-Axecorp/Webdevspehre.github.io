@@ -18,9 +18,9 @@ export default function SeoCTA() {
                 >
                     {/* Left Column */}
                     <div className="md:w-1/2 flex flex-col p-4 text-center md:text-left">
-                        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+                        <h4 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
                         Partner with the Leading Plano SEO Company
-                        </h2>
+                        </h4>
                         <p className="mb-6 text-base md:text-lg text-gray-700">
                         Take the first step toward digital success! Reach out to leading Plano TX SEO company to make your mark.
                         </p>

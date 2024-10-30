@@ -18,9 +18,9 @@ export default function SeoCTA() {
                 >
                     {/* Left Column */}
                     <div className="md:w-1/2 flex flex-col p-4 text-center md:text-left">
-                        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+                        <h4 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
                         Let&apos;s turn those clicks into loyal customers!
-                        </h2>
+                        </h4>
                         <p className="mb-6 text-base md:text-lg text-gray-700">
                         Boost your visibility, drive more traffic, and grow your business with our tailored SEO services Dallas TX. Start dominating local search results today.
                         </p>

@@ -40,10 +40,10 @@ export default function SeoCaseStudies() {
   return (
     <>
       <div className="bg-gray-100 py-12">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-8">
+        <h4 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-8">
           SEO Company Austin TX Portfolio
 
-        </h2>
+        </h4>
         <Swiper slidesPerView={1} spaceBetween={30}>
           {caseStudies.map((study, index) => (
             <SwiperSlide key={index}>

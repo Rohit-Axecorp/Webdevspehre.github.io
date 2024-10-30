@@ -5,9 +5,9 @@ export default function Roadmap() {
         <>
             <section className="bg-white py-12">
                 <div className="container mx-auto text-center">
-                    <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+                    <h3 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
                     Step-By-Step SEO Process
-                    </h1>
+                    </h3>
                     <p className="text-gray-600 w-2/3 mx-auto mb-12">
                     As a leading SEO company in Plano, our streamlined SEO process ensures businesses build a sustainable online presence. Collaborate with us to make your site rank higher and target the right audience!
                     </p>

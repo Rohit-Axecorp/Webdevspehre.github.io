@@ -18,9 +18,9 @@ export default function SeoCTA() {
                 >
                     {/* Left Column */}
                     <div className="md:w-1/2 flex flex-col p-4 text-center md:text-left">
-                        <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+                        <h4 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
                             Make Your Business Reach to Wider People!
-                        </h2>
+                        </h4>
                         <p className="mb-6 text-base md:text-lg text-gray-700">
                             Grow your visibility, attract more traffic, and scale up your business with our customized SEO services Fort Worth TX. Start dominating local search results today!
                         </p>

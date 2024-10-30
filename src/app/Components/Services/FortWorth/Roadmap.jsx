@@ -5,9 +5,9 @@ export default function Roadmap() {
         <>
             <section className="bg-white py-12">
                 <div className="container mx-auto text-center">
-                    <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+                    <h3 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
                         Explore Our Strategic Road Map for Fort Worth SEO Services
-                    </h1>
+                    </h3>
                     <p className="text-gray-600 w-2/3 mx-auto mb-12">
                         At Web Dev Sphere, we pride ourselves on being a leading SEO company Fort Worth, and our streamlined approach to SEO is designed specifically to enhance your website&apos;s visibility and drive organic traffic.
                     </p>
