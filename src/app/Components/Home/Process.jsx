@@ -51,9 +51,9 @@ export default function Process() {
       <section className="py-12 bg-gray-100">
   <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
     <div className="content md:w-1/2 mb-8">
-      <h2 className="text-2xl md:text-5xl font-bold mb-4">
+      <h3 className="text-2xl md:text-5xl font-bold mb-4">
         Elevate Your Web Experience With Our Seamless Process
-      </h2>
+      </h3>
       <p className="text-base sm:text-lg md:text-xl text-gray-700 mb-8">
         Our process involves in-depth business analysis, documenting specifications, creating wireframes, and obtaining your approval before moving forward. Our seasoned web experts guide you through every step of the journey, right till the end, ensuring your website aligns with your brand’s objectives. Your vision deserves nothing less than perfection, and that&apos;s exactly what our process is designed to achieve.
       </p>

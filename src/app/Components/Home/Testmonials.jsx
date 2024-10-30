@@ -7,7 +7,7 @@ export default function Testimonials() {
   return (
     <section className=''>
       <div className="flex flex-col items-center py-12 container">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-center">Our Client&apos;s Success Stories</h2>
+        <h4 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-center">Our Client&apos;s Success Stories</h4>
         <p className="text-center text-lg mb-12 md:mx-20">
           Delve into the remarkable success stories of our clients, whose digital identities
           have been transformed by our online marketing and web design agency in Dubai. Their words are a true reflection of our outstanding efforts.

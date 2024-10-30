@@ -82,12 +82,12 @@ export default function AccordiansFAQ() {
 
     return (
         <div className="pt-12 mx-auto container">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center">
+            <h5 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center">
                 FAQS RELATED TO{" "}
                 <span className="ml-2 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-700">
                     AUSTIN SEO COMPANY
                 </span>
-            </h2>
+            </h5>
 
             <p className="text-center lg:text-lg text-md mb-12 md:mx-20">
                 Get Answers to Your Queries Here!

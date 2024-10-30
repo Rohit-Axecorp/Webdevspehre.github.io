@@ -6,9 +6,9 @@ export default function SeoPackages() {
     <>
       <section className="bg-gray-100 py-10">
         <div className="container">
-          <h1 className="text-center text-3xl md:text-4xl lg:text-5xl font-bold pb-4 ">
+          <h4 className="text-center text-3xl md:text-4xl lg:text-5xl font-bold pb-4 ">
             Affordable SEO Company in Austin Packages
-          </h1>
+          </h4>
           <p className="text-center text-base md:text-lg lg:text-xl font-normal pb-8   sm:pb-12">
             Ready to expand your business in Austin? Our SEO services Austin offer remarkable results at prices that won&apos;t impact your budget.
           </p>

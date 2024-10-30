@@ -5,9 +5,9 @@ export default function Roadmap() {
         <>
             <section className="bg-white py-12">
                 <div className="container mx-auto text-center">
-                    <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
+                    <h3 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
                         Our Comprehensive Process for SEO Services Austin
-                    </h1>
+                    </h3>
                     <p className="text-gray-600 w-2/3 mx-auto mb-12">
                         As a leading Austin SEO company, our team of Austin Texas SEO experts is dedicated to helping you achieve your long-term goals with a process that combines industry best practices and local insights.
                     </p>

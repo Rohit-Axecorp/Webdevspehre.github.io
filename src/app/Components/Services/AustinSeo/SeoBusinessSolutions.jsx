@@ -18,9 +18,9 @@ export default function SeoBusinessSolutions() {
                 <div className="flex flex-col md:flex-row p-6 container mx-auto md:gap-20 gap-5">
                     {/* Left Column */}
                     <div className="md:w-1/2 flex flex-col justify-center p-4">
-                        <h3 className="text-lg font-semibold mb-4 ">BEST SEO COMPANY AUSTIN
-                        </h3>
-                        <h2 className="text-3xl font-bold mb-4 ">Why Were the No.1 Choice in Austin
+                        <h4 className="text-lg font-semibold mb-4 ">BEST SEO COMPANY AUSTIN
+                        </h4>
+                        <h2 className="text-5xl font-bold text-red-500 mb-4 ">Why Were the No.1 Choice in Austin
                         </h2>
                         <p className="mb-4  ">As the best Austin SEO company, we cover every detail of SEO. From in-depth keyword research to building high-quality backlinks, our comprehensive strategies ensure that your website not only stands out but also effectively reaches your target audience.
 

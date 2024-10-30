@@ -17,8 +17,8 @@ export default function Services() {
 
 
                 <div className="2xl:w-2/3 xl:w-1/2 mt-8 md:mt-0 w-full text-center md:text-left uppercase">
-                    <h2 className="md:text-5xl text-3xl font-normal mb-4">Why Choose Us as Your Primary Web Development Company
-                    </h2>
+                    <h3 className="md:text-5xl text-3xl font-normal mb-4">Why Choose Us as Your Primary Web Development Company
+                    </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div>
                             <h3 className="text-xl font-bold text-red-500">Tailored Solutions for Every Need</h3>

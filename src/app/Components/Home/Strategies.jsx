@@ -10,9 +10,9 @@ export default function Strategies() {
         <div className="flex flex-col lg:flex-row gap-8 w-full mx-auto container px-4 sm:px-6 lg:px-8 py-10 lg:py-16">
           {/* Left Column - Static Content */}
           <div className="w-full lg:w-1/2 xl:w-1/3 lg:pr-8">
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
+            <h3 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
               Our Web Development Services
-            </h1>
+            </h3>
             <p className="text-[#ED1E3A] text-xl sm:text-2xl mt-4">
               From Concept to Code: Services Designed to Elevate Your Brand
             </p>

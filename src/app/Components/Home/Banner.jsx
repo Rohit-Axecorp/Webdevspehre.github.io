@@ -27,11 +27,11 @@ export default function Banner() {
               </p>
             </div>
           </div>
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-red-500 mb-6 lg:mb-8 leading-tight">
+          <h5 className="text-4xl md:text-5xl lg:text-6xl font-bold text-red-500 mb-6 lg:mb-8 leading-tight">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-700">
               Pick Your Perfect Website!
             </span>
-          </h1>
+          </h5>
           <button className="relative px-6 md:px-8 py-3 md:py-4 bg-gradient-to-r from-red-400 to-red-700 text-white font-semibold rounded-full shadow-lg overflow-hidden group hover:bg-red-700 transition duration-300 ease-in-out w-2/3 lg:w-2/3 mx-auto lg:mx-0">
             <span className="absolute inset-0 bg-gradient-to-r from-red-300 to-red-500 opacity-0 rounded-full transition duration-500 ease-in-out group-hover:opacity-50 group-hover:translate-x-full"></span>
             <span className="relative z-10 text-base md:text-lg font-normal">

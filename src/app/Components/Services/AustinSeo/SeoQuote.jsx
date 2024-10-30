@@ -9,14 +9,14 @@ export default function SeoQuote() {
           {/* Left Section */}
           <div className="max-w-xl pt-5">
             {/* Subheading */}
-            <h2 className="text-lg font-medium text-gray-700 mb-2 uppercase">
+            <h6 className="text-lg font-medium text-gray-700 mb-2 uppercase">
               Ready to Grow Your ROI?
-            </h2>
+            </h6>
 
             {/* Main Heading */}
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
+            <h6 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4 text-red-500">
               Request a Quote Now!
-            </h1>
+            </h6>
 
             {/* Benefits List */}
             <ul className="list-disc ml-5 text-lg text-gray-600 mb-6 space-y-2">

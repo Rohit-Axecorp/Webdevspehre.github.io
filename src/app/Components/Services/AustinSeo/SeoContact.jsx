@@ -9,20 +9,17 @@ export default function SeoContact() {
           {/* Left Section */}
           <div className="md:w-1/2 w-full mb-8 md:mb-0">
             {/* New Heading: CHICAGO SEO COMPANY */}
-            <h2 className="text-xl font-bold text-red-600 mb-2">AUSTIN SEO COMPANY</h2>
+            <h1 className="text-xl font-bold text-red-600 mb-2">AUSTIN SEO COMPANY</h1>
 
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
+            <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
               Increase Organic Traffic with Expert Austin SEO Services
-            </h1>
-            <p className="mb-6 text-base md:text-lg text-gray-700">
+            </p>
+            <p className="mb-6 text-base md:text-lg text-gray-800">
               Web Dev Sphere is an award-winning Austin SEO company specializing in personalized SEO solutions. Our Austin, Texas, SEO team optimizes your online presence so you can grow your traffic and improve your website&apos;s ranking.
             </p>
             <div className="flex items-center my-8">
               <div className="flex items-center mr-4">
-                <Image src="/Images/Clutch_SEO_Companies_2021.png" alt="Clutch 2021" width={150} height={150} />
-              </div>
-              <div className="flex items-center">
-                <Image src="/Images/upcity-excellence-2022.png" alt="Excellence Award 2022" width={150} height={150} />
+                <Image src="/Images/bannerLogo.webp" alt="Clutch 2021" width={550} height={150} />
               </div>
             </div>
             <p className="text-gray-100 text-base md:text-lg lg:text-xl">62 reviews</p>
@@ -30,7 +27,7 @@ export default function SeoContact() {
 
           {/* Right Section: Contact Form */}
           <div className="md:w-1/2 w-full p-6 bg-white shadow-lg rounded-lg">
-            <h2 className="text-xl font-bold text-gray-800 mb-6">Contact Austin SEO Experts</h2>
+            <h5 className="text-xl font-bold text-gray-800 mb-6 text-center">Contact Austin SEO Experts</h5>
             <form action="#" method="POST">
               <div className="space-y-4">
                 {/* First and Last Name in one row */}

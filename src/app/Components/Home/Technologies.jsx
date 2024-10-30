@@ -41,9 +41,9 @@ export default function Technologies() {
       <section>
         <div className="container mx-auto px-4 flex flex-col md:flex-row gap-10">
           <div className="content md:w-2/5 mb-8">
-            <h2 className="text-2xl md:text-5xl font-bold mb-4 text-white">
+            <h3 className="text-2xl md:text-5xl font-bold mb-4 text-white">
               Technologies TekRevol Uses for Mobile App Development in San Francisco
-            </h2>
+            </h3>
           </div>
 
           <div className="image md:w-3/5 flex md:justify-end">

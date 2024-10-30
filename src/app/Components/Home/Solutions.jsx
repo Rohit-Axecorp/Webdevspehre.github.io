@@ -51,7 +51,7 @@ export default function Solutions() {
       <section className='bg-gray-100'>
         <div className="py-12 container ">
           <div className="text-center">
-            <h2 className="text-3xl md:text-5xl font-bold text-black mb-4">Serving Excellent Solutions for All Industries</h2>
+            <h3 className="text-3xl md:text-5xl font-bold text-black mb-4">Serving Excellent Solutions for All Industries</h3>
             <p className="text-lg text-gray-600 mb-8">
               Want to grow your business with trendy web designs that drive traffic? Forget unprofessional companies and join us for a remarkable web experience.
             </p>

@@ -8,9 +8,9 @@ export default function AboutHero() {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-5">
         {/* Left Column: Content */}
         <div className="relative z-10">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-black">
             Pioneers in Digital <span className="text-red-500">Transformation.</span>
-          </h2>
+          </h1>
           <p className="mt-4 text-gray-600 text-base md:text-lg lg:text-xl">
             Web Dev Sphere is passionate about creating digital experiences that are meaningful, impactful, and tailored just for you.
           </p>
