@@ -18,12 +18,12 @@ export default function SeoContact() {
             <p className="mb-6 text-base md:text-lg text-gray-700">
               Web Dev Sphere is a professional Plano SEO company that works to bring your business to success. We improve your digital presence by growing your local visibility and driving targeted traffic to your website.
             </p>
-            <div className="flex items-center my-8">
-              <div className="flex items-center mr-4">
+            <div className="flex items-center my-8 ">
+              <div className="flex items-center mr-4 bg-red-500 p-5 rounded-md">
                 <Image src="/Images/bannerLogo.webp" alt="Clutch 2021" width={550} height={150} />
               </div>
             </div>
-            <button className="group mt-6 relative px-6 py-3 border border-black rounded-full text-base sm:text-lg flex items-center justify-center gap-2 transition-all duration-300 hover:bg-[#ED1E3A] hover:text-white hover:border-transparent">
+            <button className="group mt-6 relative px-6 py-3 border border-black rounded-full text-base sm:text-lg flex items-center justify-center gap-2 text-red-500 transition-all duration-300 hover:bg-[#ED1E3A] hover:text-white hover:border-transparent">
               Free Consultation
               {/* Inline SVG for the arrow icon */}
               <svg
