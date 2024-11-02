@@ -7,40 +7,40 @@ export default function Process() {
       title: 'Planning',
       imgSrc: '/Images/card1.svg',
       tasks: [
-        'Business analysis',
-        'Document specifications',
-        'Preparing wireframes',
-        'Getting client approval',
+        'Conducting business analysis',
+        'Drafting detailed specifications',
+        'Creating wireframes',
+        'Securing client approval',
       ],
     },
     {
       title: 'Development',
       imgSrc: '/Images/card2.svg',
       tasks: [
-        'Coding',
-        'Mockup & page layout creation',
-        'Review',
-        'Approval cycle',
+        'Writing code',
+        'Designing mockups and page layouts',
+        'Iterative review',
+        'Final approval cycle',
       ],
     },
     {
       title: 'Testing',
       imgSrc: '/Images/card3.svg',
       tasks: [
-        'Preparing test cases',
-        'Testing',
-        'Review by the QA team',
-        'Approval cycle',
+        'Developing test cases',
+        'Executing tests',
+        'QA team review',
+        'Approval process',
       ],
     },
     {
       title: 'Deployment',
       imgSrc: '/Images/card4.svg',
       tasks: [
-        'Launch',
-        'Opinion monitoring',
-        'Maintenance',
-        'Post-deployment support',
+        'Launching the website',
+        'Monitoring feedback',
+        'Ongoing maintenance',
+        'Post-launch support',
       ],
     },
   ];
@@ -49,25 +49,25 @@ export default function Process() {
     <>
       {/* Main Section */}
       <section className="py-12 bg-gray-100">
-  <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
-    <div className="content md:w-1/2 mb-8">
-      <h3 className="text-2xl md:text-5xl font-bold mb-4">
-        Elevate Your Web Experience With Our Seamless Process
-      </h3>
-      <p className="text-base sm:text-lg md:text-xl text-gray-700 mb-8">
-        Our process involves in-depth business analysis, documenting specifications, creating wireframes, and obtaining your approval before moving forward. Our seasoned web experts guide you through every step of the journey, right till the end, ensuring your website aligns with your brand’s objectives. Your vision deserves nothing less than perfection, and that&apos;s exactly what our process is designed to achieve.
-      </p>
-    </div>
+        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
+          <div className="content md:w-1/2 mb-8">
+            <h3 className="text-2xl md:text-5xl font-bold mb-4">
+              Proven Process, Exceptional Results: Our Web Development Approach
+            </h3>
+            <p className="text-base sm:text-lg md:text-xl text-gray-700 mb-8">
+              We are known as a trusted web design and development company, highly different from other companies because we have a streamlined process. Every stage from in-depth planning to superb execution is meticulously prepared to give you a seamless and impactful solution. We are a top web development company that values transparency and collaboration, and expertise that resonates with your vision and provides an outstanding site. We not only improve efficiency but also reach the feasibility and functionality of your website, and it becomes a powerful tool for your business growth.
+            </p>
+          </div>
 
-    <div className="image md:w-1/2 flex md:justify-end ">
-      <img
-        src="/Images/who.jpg"
-        alt="Process Image"
-        className="rounded-lg shadow-lg md:w-4/5 w-full"
-      />
-    </div>
-  </div>
-</section>
+          <div className="image md:w-1/2 flex md:justify-end ">
+            <img
+              src="/Images/who.jpg"
+              alt="Process Image"
+              className="rounded-lg shadow-lg md:w-4/5 w-full"
+            />
+          </div>
+        </div>
+      </section>
 
 
       {/* Process Steps Section */}

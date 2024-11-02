@@ -42,21 +42,14 @@ export default function Technologies() {
         <div className="container mx-auto px-4 flex flex-col md:flex-row gap-10">
           <div className="content md:w-2/5 mb-8">
             <h3 className="text-2xl md:text-5xl font-bold mb-4 text-white">
-              Technologies TekRevol Uses for Mobile App Development in San Francisco
+              Empowering Web Solutions with Our Next-gen Tech Suite
             </h3>
           </div>
 
           <div className="image md:w-3/5 flex md:justify-end">
             <p className="text-base sm:text-lg md:text-xl text-white mb-8">
-              As a leading mobile app development company, we employ a diverse
-              set of powerful technologies to cater to your unique requirements.
-              In Android development, we utilize Java, Kotlin, Fastlane, Gradle,
-              Coroutines, Dagger2, and JetPack. On the iOS side, we leverage
-              SwiftLint, Objective-C, RxSwift, CircleCI, Swift, SwiftUI, and
-              CocoaPods. For the creation of hybrid apps, our toolkit includes
-              TypeScript, React Native, Javascript, Flutter, and Native Script.
-              When it comes to backend development, we harness the capabilities
-              of Node.js, Ruby on Rails (RoR), Python, and Firebase.
+              WebDev Sphere is a disruptive web development and design company that uses a large tech stack to create one-of-a-kind websites. We are thoroughly knowledgeable in a wide variety of high-level technologies, delivering robust, full-functionality solutions that are scalable and future-proof for every project. As an innovative web development company in USA, we deploy the power of new frameworks and tools to create digital experiences that are of an exceptional blend of functionality and user engagement.
+
             </p>
           </div>
         </div>
@@ -71,11 +64,10 @@ export default function Technologies() {
                 key={tab}
                 role="tab"
                 aria-selected={activeTab === tab}
-                className={`text-lg font-semibold px-4 py-2 focus:outline-none transition duration-200 ease-in-out ${
-                  activeTab === tab
-                    ? "border-b-2 border-red-500 text-red-500"
-                    : "text-gray-400 hover:text-red-500"
-                }`}
+                className={`text-lg font-semibold px-4 py-2 focus:outline-none transition duration-200 ease-in-out ${activeTab === tab
+                  ? "border-b-2 border-red-500 text-red-500"
+                  : "text-gray-400 hover:text-red-500"
+                  }`}
                 onClick={() => setActiveTab(tab)}
               >
                 {tab}

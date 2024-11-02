@@ -5,73 +5,127 @@ import Accordians from '../Home/Accordians';
 export default function AccordiansFAQ() {
     const accordionData = [
         {
-            title: "How much does it cost to hire an SEO company?",
+            title: "What services does a web design and development company offer?",
             content: (
                 <p>
-                    The cost of employing an SEO firm may fluctuate based on various factors like your project&apos;s extent, your company&apos;s size, and your industry&apos;s competition. Usually, ongoing SEO services Austin TX can be priced between $500 and $5,000 per month. Certain businesses can provide SEO audits for a single time or price their services based on specific projects, whereas others bill clients on an hourly basis between $75 and $200.
-                    <br /><br />
-                    Considering higher costs typically indicate a greater range of services, expertise, and successful outcomes is significant. Make sure to select a company that matches your objectives and financial plans. Searching for the best SEO companies Austin? Partner with Web Dev Sphere today!
-
+                    We do comprehensive web design, custom web development, e-commerce solutions, and digital marketing SEO services. Whether we are talking about user-friendly, engaging websites that help your business grow and convert visitors or other technologies for your business our goal is your success.
                 </p>
-
-            ),
-        },
-
-        {
-            title: "Why go with your SEO company Austin?",
-            content: (
-                <p>
-                    When you choose our Austin SEO service, you&apos;re getting a team that really gets what works in this market. We don&apos;t just apply the same strategies—we tailor everything to fit your business and its goals. Our focus is on real, measurable results, like improving your rankings, boosting traffic, and bringing in more qualified leads.
-                    <br /><br />
-                    Plus, our SEO company in Austin specializes in local SEO, helping you stand out in Austin&apos;s competitive landscape. With us, you&apos;ll always know what&apos;s happening, thanks to clear communication and regular reports. We&apos;re here to help your business grow with strategies that actually work. Check out our local SEO company Austin for top-tier solutions.
-                </p>
-
             ),
         },
         {
-            title: "How to choose the best Austin SEO agency?",
+            title: "What&apos;s the difference between web design and web development?",
             content: (
                 <p>
-                    To choose the right Austin SEO firm, start by looking for one that has a proven track record with local businesses.
-                    <ul className="list-disc ml-5">
-                        <li>Ask about their experience with local SEO, as it&apos;s key for targeting the Austin market.</li>
-                        <li>Look for companies that can back up their claims with case studies or client reviews, showing real results.
-                        </li>
-                        <li>You&apos;ll also want to find a transparent company—one that clearly explains its strategies, pricing, and progress updates.
-                        </li>
-                        <li>A good SEO company in Austin should take time to understand your specific business needs and offer a tailored plan, not just a generic solution.
-                        </li>
-                        <li>Lastly, make sure they communicate well and are committed to long-term growth, not just quick fixes.
-                        </li>
-                    </ul>
+                    Web design looks at how your site appears and what the user can do with it and web development takes care of the technical structure and how it works. We weave them both together to integrate a seamless, attractive, and fully functional website.
                 </p>
-
             ),
         },
         {
-            title: "Do you work with small businesses or only larger companies in Austin?",
+            title: "Why should I choose a custom web design for my business?",
             content: (
                 <p>
-                    We are happy to collaborate with small businesses and large corporations in Austin! We acknowledge that each company, no matter its size, has distinct requirements and objectives. Our Dallas SEO experts have expertise in developing customized SEO plans that align with your budget and goals.
-                    <br /><br />
-                    If you are a new company wanting to establish yourself online or a well-established business wanting to improve your visibility, we are here to assist you in achieving success. We prioritize achieving meaningful outcomes for your particular business in order to effectively compete in the Austin market.
+                    A custom web design means we can make your website look exactly how you, your website, and your brand want it to. We&apos;ve tailored our solution to your specific goals and user needs to suit your site.
                 </p>
-
             ),
         },
         {
-            title: "How long does it take to see results from your SEO efforts in Austin?",
+            title: "How do you ensure website maintenance and support after launch?",
             content: (
                 <p>
-                    The time frame for observing outcomes from our SEO work may differ based on various factors such as your sector, market competitiveness, and website status. Typically, you should see improvements in your rankings and traffic within three to six months. Yet, larger changes, such as a noteworthy boost in leads or sales, might require a longer period of time, typically ranging from six to twelve months.
-                    <br /><br />
-                    SEO requires a long-term commitment, with our emphasis on creating enduring tactics that deliver continuous outcomes. We will give consistent updates and valuable information for you to monitor your progress throughout the entire journey. Looking for Search Engine Optimization Austin? Partner with Web Dev Sphere today!
+                    As part of our service, we keep your site maintained and supported, with regular updates, security, and optimization. Your site is monitored proactively for potential issues and updates are performed proactively, ensuring your site performs at its best.
                 </p>
-
             ),
         },
-
+        {
+            title: "Can a website development company help with e-commerce integration?",
+            content: (
+                <p>
+                    Absolutely! We are eCommerce specialists and dedicated to making your shopping experience for your customers a safe, easy, and seamless one. We cover everything from the management of product listing, to secure payment integration.
+                </p>
+            ),
+        },
+        {
+            title: "How long does it take to develop a custom website?",
+            content: (
+                <p>
+                    Typically, it will take you anywhere from one to six months to build a website, based on how far you want to go and how much effort and time you have available. While you&apos;re excited to publish your website, it&apos;s frustrating not to have a specific yes or no to the question of when. It&apos;s why we know that ‘it depends&apos; may not appease you as an answer. However, this section will describe what time frame that actually depends on.
+                </p>
+            ),
+        },
+        {
+            title: "What industries do you specialize in for web design and development?",
+            content: (
+                <p>
+                    We partner with industries ranging from eCommerce to healthcare and finance to education and more with tailored solutions to fit their needs. We know how to design a certain type of website – ideally from the niche you&apos;re in and from the regulatory standards.
+                </p>
+            ),
+        },
+        {
+            title: "Why is mobile optimization important for my website?",
+            content: (
+                <p>
+                    With the majority of users accessing websites on mobile devices, a mobile-optimized website ensures a seamless experience, leading to higher engagement and better search engine rankings. We ensure all our sites are mobile-friendly and responsive.
+                </p>
+            ),
+        },
+        {
+            title: "What is the process for custom web development?",
+            content: (
+                <p>
+                    The process of custom web development that we follow involves consultation, planning, designing, development, testing, and launch. At each step of the way, we work with you closely to make sure the website reflects what you want to accomplish.
+                </p>
+            ),
+        },
+        {
+            title: "How can digital marketing SEO services improve my website&apos;s ranking on Google?",
+            content: (
+                <p>
+                    SEO services we offer are all about using sophisticated NLP algorithms and key phrase strategies according to your website. By understanding and implementing relevant terms and search intents, we try to improve your ranking on Google and draw in high-quality, targeted traffic.
+                </p>
+            ),
+        },
+        {
+            title: "How do you approach SEO in web design and development?",
+            content: (
+                <p>
+                    We combine SEO best practices in our web design and development process right from the site structure to the content optimization with the Google search engine in mind so that your site is search engine friendly and ranks higher on Google.
+                </p>
+            ),
+        },
+        {
+            title: "How does SEO help in digital marketing?",
+            content: (
+                <p>
+                    It is a foundational component of digital marketing, and that involves improving your website&apos;s visibility in search engines. When you optimize for relevant search terms and search intent, you boost your site&apos;s organic traffic and your brand&apos;s reach and engagement.
+                </p>
+            ),
+        },
+        {
+            title: "What&apos;s the importance of user experience (UX) in web design?",
+            content: (
+                <p>
+                    Without UX, your visitors won&apos;t be engaged on your site. It has the ability to improve navigation, accessibility, and all-around feel on behalf of the user, and that can lead to bigger conversions and customer retention.
+                </p>
+            ),
+        },
+        {
+            title: "What makes you one of the top web development companies in the USA?",
+            content: (
+                <p>
+                    With technical expertise and a customer-centric approach, we pull out our team and deliver high-quality, tailored solutions for businesses. We&apos;re the company that&apos;s known for innovation, efficiency, and results you can measure.
+                </p>
+            ),
+        },
+        {
+            title: "What is the best web development company near me?",
+            content: (
+                <p>
+                    When searching for the best web development company near you, you can easily find WebDev Sphere. Being a reliable web design and development company, we carefully offer our best customized, innovative solutions that meet your specific business requirements. We bring together a team of web developers, custom designers, and digital marketing SEO to build high-performing websites that drive engagement and growth. WebDev Sphere possesses a reputation for excellence and a dedication to client success to assist businesses in a successful online marketplace.
+                </p>
+            ),
+        },
     ];
+
 
     const [openIndex, setOpenIndex] = useState(null);
 
@@ -83,7 +137,7 @@ export default function AccordiansFAQ() {
     return (
         <div className="pt-12 mx-auto container">
             <h4 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center">
-                FAQS  
+                FAQS
             </h4>
             <p className="text-center lg:text-lg text-md mb-12 md:mx-20">
                 Get Answers to Your Queries Here!

@@ -107,28 +107,27 @@ export default function ContactForm() {
         <div className="relative w-full lg:w-3/5 flex flex-col lg:flex-row items-start lg:items-center">
           <div className="text-white w-full lg:w-2/3 p-4 sm:p-6">
             <p className="text-xl sm:text-2xl font-light">
-              No fluff. No BS. Just pure results.
+              <b>No empty promises. Just real results</b>
             </p>
             <p className="text-xl sm:text-2xl font-light">
-              Our clients achieve an average of{" "}
-              <span className="text-black font-semibold">4-5x ROI</span> when
-              they employ our digital marketing services - you can too.
+
+              Our clients see an impressive 2-3x ROI when they partner with us for digital marketing services - and you can, too.
             </p>
             <ul className="list-disc ml-6 mt-4">
               <li className="text-lg sm:text-xl font-light mb-2">
-                Dominate online traffic
+                Maximize your online visibility
               </li>
               <li className="text-lg sm:text-xl font-light mb-2">
-                Outperform competitors
+                Outperform the competition effortlessly
               </li>
               <li className="text-lg sm:text-xl font-light mb-2">
-                Increase conversions
+                Drive up conversion rates
               </li>
               <li className="text-lg sm:text-xl font-light mb-2">
-                Track and monitor results
+                Monitor and optimize with precision
               </li>
               <li className="text-lg sm:text-xl font-light mb-2">
-                Reduce cost per acquisition effectively
+                Lower acquisition costs effectively
               </li>
             </ul>
           </div>
