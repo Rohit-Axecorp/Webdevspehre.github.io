@@ -54,7 +54,7 @@ export default async function Blog() {
                     <img
                       src={featuredImageUrl}
                       alt="Post image"
-                      className="w-full h-48 object-cover"
+                      className="w-full object-cover"
                     />
                     <div className="p-4">
                       {/* Dynamic Category Name */}
