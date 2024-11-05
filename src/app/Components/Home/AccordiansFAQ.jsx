@@ -13,7 +13,7 @@ export default function AccordiansFAQ() {
             ),
         },
         {
-            title: "What&apos;s the difference between web design and web development?",
+            title: "What's the difference between web design and web development?",
             content: (
                 <p>
                     Web design looks at how your site appears and what the user can do with it and web development takes care of the technical structure and how it works. We weave them both together to integrate a seamless, attractive, and fully functional website.
