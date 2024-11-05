@@ -11,13 +11,13 @@ import SeoBusinessSolutions from '@/app/Components/Services/Seo/SeoBusinessSolut
 import SeoLocation from '@/app/Components/Services/Seo/SeoLocation'
 import SeoQuote from '@/app/Components/Services/Seo/SeoQuote'
 import SeoRecognition from '@/app/Components/Services/Seo/SeoRecognition'
-import SeoServicesIncludes from '@/app/Components/Services/Seo/SeoServicesIncludes'
 import SeoSolution from '@/app/Components/Services/Seo/SeoSolution'
 import TrustedBrands from '@/app/Components/Services/Seo/TrustedBrands'
 import React from 'react'
 import SocialMediaContact from '../Components/Services/SocialMedia/SocialMediaContact'
 import SocialMediaCompany from '../Components/Services/SocialMedia/SocialMediaCompany';
 import Digitalsocialmedia from '../Components/Services/SocialMedia/Digitalsocialmedia';
+import SocialMediaServicesIncludes from '../Components/Services/SocialMedia/SocialMediaServicesIncludes';
 
 export default function page() {
   return (
@@ -32,7 +32,7 @@ export default function page() {
       <SocialMediaCompany />
       <TrustedBrands />
       <Digitalsocialmedia />
-      <SeoServicesIncludes />
+      <SocialMediaServicesIncludes />
       <ProcessSocialMedia />
       <Testimonials />
       <TechnologyStack />
