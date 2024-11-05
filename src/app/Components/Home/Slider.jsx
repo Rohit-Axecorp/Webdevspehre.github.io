@@ -6,41 +6,41 @@ import 'swiper/css';
 const slidesData = [
     {
         title: "Shopify Web Development",
-        description: "As a leading website development company, we specialize in creating fully optimized, visually captivating Shopify stores. From tailored themes to seamless integrations, we ensure your Shopify store is built for peak performance.",
+        description: "Being a top website development company, we specialize in creating beautiful completely optimized Shopify stores. We provide tailored themes, and seamless integrations to make sure that your Shopify store runs at maximum performance.",
         icon: "/Images/serv-icon-5.png"
     },
     {
         title: "Custom Web Design",
-        description: "Our web design company delivers customized, user-centric designs that are both functional and aesthetically engaging. Each layout is crafted to provide a memorable user experience, capturing your brand’s essence with precision.",
+        description: "As a web design company, we create user-focused designs to make your site appealing. There is a different layout created for every experience of the user, recreating the brand's dictionary.",
         icon: "/Images/serv-icon-5.png"
     },
     {
         title: "WordPress Development",
-        description: "We offer advanced WordPress solutions as part of our website design company services. From custom themes to plugin integrations, we deliver a robust, scalable platform that adapts effortlessly to your evolving needs.",
+        description: "As a part of our website design company services, we can provide you with advanced WordPress solutions. We provide a robust, scalable, and easy-to-adapt platform built on custom themes and with plugin integrations.",
         icon: "/Images/serv-icon-5.png"
     },
     {
         title: "E-commerce Development",
-        description: "Our eCommerce solutions enable businesses to thrive with optimized, conversion-focused platforms. As a premier web development company, we deliver intuitive, high-performing stores that drive sales and customer satisfaction.",
+        description: "With our eCommerce solutions, businesses are able to thrive with optimized, conversion-focused platforms. We are a premier web development company, specializing in driving sales and customer satisfaction with intuitive, high-performing websites.",
         icon: "/Images/serv-icon-5.png"
     },
     {
         title: "Laravel Web Development",
-        description: "At WebDev Sphere, our expertise in Laravel development ensures your web applications are secure, scalable, and high-performing. With this powerful PHP framework, we build solutions that are both efficient and adaptable to complex requirements.",
+        description: "We are known for delivering web applications secure, scalable, and high-performance based on Laravel development. We use this powerful PHP framework to put together solutions that are both efficient and adaptable to anything.",
         icon: "/Images/serv-icon-5.png"
     },
     {
         title: "Custom Web Development",
-        description: "As a custom web development company, we create tailor-made solutions that align with your unique business objectives. From concept to deployment, each project is handled with precision and a focus on long-term success.",
+        description: "Being a custom web development company, we develop custom tailored solutions as per your specific corporate goals. Each project is handled from concept to deployment with precision and in mind for long-term success.",
         icon: "/Images/serv-icon-5.png"
     }, {
         title: "PHP Development",
-        description: "Our skilled developers leverage PHP to build flexible, reliable web applications that meet complex demands. Recognized as an innovative web development company, we provide seamless, data-driven PHP solutions for dynamic user experiences.",
+        description: "We have the best people writing PHP to make flexible, reliable applications that serve the needs of complex demands. We create dynamic user experiences, with data driven php solutions.",
         icon: "/Images/serv-icon-5.png"
     },
     {
         title: "Website Maintenance & Support",
-        description: "Our ongoing website maintenance services ensure peak performance and security, keeping your site fully updated and user-friendly. As a trusted website development company, we’re here to support your site’s success at every step",
+        description: "Ongoing website maintenance services from us ensure a site that is fully updated, performing at its peak, and just as easy to use as it was yesterday. Being a dependable website development company, we stand by your site’s success at every step.",
         icon: "/Images/serv-icon-5.png"
     }
 ];

@@ -17,8 +17,7 @@ export default function Strategies() {
               From Concept to Code: Services Designed to Elevate Your Brand
             </p>
             <p className="mt-6 text-gray-600 leading-relaxed text-base sm:text-lg">
-
-              Unlike typical web development companies, WebDev Sphere stands as a full-spectrum web design and web development company committed to crafting innovative, user-focused digital solutions that elevate your brand	&apos;s online presence.
+              Unlike normal web development firms, WebDev Sphere is an entire web design and improvement organization dedicated to creating client-focused online solutions that lift your brand’s online existence.
             </p>
             <button className="group mt-6 relative px-6 py-3 border border-black rounded-full text-base sm:text-lg flex items-center justify-center gap-2 transition-all duration-300 hover:bg-[#ED1E3A] hover:text-white hover:border-transparent">
               More About Us
