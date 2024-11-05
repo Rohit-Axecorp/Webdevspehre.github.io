@@ -1,51 +1,42 @@
 import React from 'react'
-import { FaHandshake, FaShoppingCart, FaUniversity, FaBuilding, FaRocket, FaUsers } from 'react-icons/fa';
+import {
+  FaShoppingCart,
+  FaRegMoneyBillAlt,
+  FaHeartbeat,
+  FaGraduationCap,
+  FaUsers,
+  FaHotel,
+  FaMusic,
+  FaUniversity,
+  FaBuilding,
+  FaBriefcase,
+  FaTruck,
+  FaLaptop,
+  FaHandsHelping,
+  FaCar,
+  FaPlane
+} from 'react-icons/fa';
+
+const industries = [
+  { name: 'eCommerce', icon: <FaShoppingCart /> },
+  { name: 'Fintech', icon: <FaRegMoneyBillAlt /> },
+  { name: 'Healthcare', icon: <FaHeartbeat /> },
+  { name: 'Education', icon: <FaGraduationCap /> },
+  { name: 'Social Networking', icon: <FaUsers /> },
+  { name: 'Hospitality', icon: <FaHotel /> },
+  { name: 'Entertainment', icon: <FaMusic /> },
+  { name: 'Government', icon: <FaUniversity /> },
+  { name: 'Real Estate', icon: <FaBuilding /> },
+  { name: 'Business', icon: <FaBriefcase /> },
+  { name: 'Logistics', icon: <FaTruck /> },
+  { name: 'Tech & IT', icon: <FaLaptop /> },
+  { name: 'Non-Profit', icon: <FaHandsHelping /> },
+  { name: 'Automotive', icon: <FaCar /> },
+  { name: 'Travel & Tourism', icon: <FaPlane /> },
+];
 
 export default function Solutions() {
-  const services = [
-    {
-      title: 'B2B',
-      description: 'We have developed websites satisfying every essential requirement for B2B companies.',
-      icon: <FaHandshake size={40} />,
-      bgColor: 'bg-red-500',
-      textColor: 'text-white',
-    },
-    {
-      title: 'B2C',
-      description: 'We help Business-to-consumer to create eye-catching Web Designs to meet their requirements.',
-      icon: <FaUsers size={40} />,
-      bgColor: 'bg-black',
-      textColor: 'text-white',
-    },
-    {
-      title: 'E-COMMERCE',
-      description: 'We created several E-commerce websites that guarantee easy shopping experiences.',
-      icon: <FaShoppingCart size={40} />,
-      bgColor: 'bg-red-500',
-      textColor: 'text-white',
-    },
-    {
-      title: 'EDUCATION',
-      description: 'We have delivered quality websites for educational sectors for secure and easy management.',
-      icon: <FaUniversity size={40} />,
-      bgColor: 'bg-black',
-      textColor: 'text-white',
-    },
-    {
-      title: 'ENTERPRISE',
-      description: 'We provide services to connect your enterprise to consumers and help you become a recognized brand.',
-      icon: <FaBuilding size={40} />,
-      bgColor: 'bg-red-500',
-      textColor: 'text-white',
-    },
-    {
-      title: 'STARTUPS',
-      description: 'We have developed affordable web designs for startups.',
-      icon: <FaRocket size={40} />,
-      bgColor: 'bg-black',
-      textColor: 'text-white',
-    },
-  ];
+
   return (
     <>
       <section className='bg-gray-100'>
@@ -57,15 +48,14 @@ export default function Solutions() {
               Being among the top web development companies, we got the exposure to serve multiple industries across the globe with our innovative web solutions.
             </p>
           </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mx-auto px-4 ">
-            {services.map((service, index) => (
-              <div key={index} className={`${service.bgColor} p-6 shadow-md`}>
-                <div className="flex items-center mb-4 text-white gap-3">
-                  {service.icon}
-                  <h3 className={`text-xl font-medium ${service.textColor} mb-2`}>{service.title}</h3>
-                </div>
-                <p className={`${service.textColor}`}>{service.description}</p>
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 p-8">
+            {industries.map((industry, index) => (
+              <div
+                key={index}
+                className="flex flex-col items-center p-6 border rounded-lg transition-transform duration-300 hover:text-red-500 hover:scale-105"
+              >
+                <div className="text-5xl mb-4">{industry.icon}</div>
+                <p className="text-lg font-medium">{industry.name}</p>
               </div>
             ))}
           </div>
