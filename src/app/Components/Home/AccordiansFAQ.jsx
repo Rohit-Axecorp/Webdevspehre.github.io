@@ -77,7 +77,7 @@ export default function AccordiansFAQ() {
             ),
         },
         {
-            title: "How can digital marketing SEO services improve my website&apos;s ranking on Google?",
+            title: "How can digital marketing SEO services improve my website's ranking on Google?",
             content: (
                 <p>
                     SEO services we offer are all about using sophisticated NLP algorithms and key phrase strategies according to your website. By understanding and implementing relevant terms and search intents, we try to improve your ranking on Google and draw in high-quality, targeted traffic.
@@ -101,7 +101,7 @@ export default function AccordiansFAQ() {
             ),
         },
         {
-            title: "What&apos;s the importance of user experience (UX) in web design?",
+            title: "What's the importance of user experience (UX) in web design?",
             content: (
                 <p>
                     Without UX, your visitors won&apos;t be engaged on your site. It has the ability to improve navigation, accessibility, and all-around feel on behalf of the user, and that can lead to bigger conversions and customer retention.
