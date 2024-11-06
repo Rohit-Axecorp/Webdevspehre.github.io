@@ -65,11 +65,11 @@ export default function MarketingServices() {
     return (
         <>
             <section className="py-12 container mx-auto px-4">
-                <h2 className="mb-8 text-center">
+                <h3 className="mb-8 text-center">
                     <span className="text-3xl sm:text-4xl md:text-5xl font-bold">
                         Industries We Serve for Social Media Marketing Services in USA
                     </span>
-                </h2>
+                </h3>
 
                 <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 py-10">
                     {/* Swiper Column */}

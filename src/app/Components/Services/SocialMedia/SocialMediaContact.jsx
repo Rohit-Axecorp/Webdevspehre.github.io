@@ -9,12 +9,12 @@ export default function SocialMediaContact() {
                     {/* Left Section */}
                     <div className="md:w-1/2 w-full mb-8 md:mb-0">
                         {/* New Heading: CHICAGO SEO COMPANY */}
-                        <h2 className="text-xl font-bold text-red-600 mb-2">USA’S TOP-NOTCH DIGITAL EXPERTS
-                        </h2>
-
-                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-                            Grow Your Business with Expert Social Media Marketing Services
+                        <h1 className="text-xl font-bold text-red-600 mb-2">USA’S TOP-NOTCH DIGITAL EXPERTS
                         </h1>
+
+                        <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
+                            Grow Your Business with Expert Social Media Marketing Services
+                        </p>
                         <p className="mb-6 text-base md:text-lg text-gray-800">
                             Web Dev Sphere is a leading digital agency that offers the best social media marketing services to help you grow your online presence. Our team integrates the latest trends, tools, and data-driven insights to achieve your marketing goals.
                         </p>

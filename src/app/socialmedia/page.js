@@ -1,14 +1,10 @@
 import Head from 'next/head';
 import Footer from '@/app/Components/Footer'
 import Header from '@/app/Components/Header'
-import AccordiansFAQ from '@/app/Components/Home/AccordiansFAQ'
 import CTAsection from '@/app/Components/Home/CTAsection'
 import MarketingServices from '@/app/Components/Services/SocialMedia/MarketingServices'
 import ProcessSocialMedia from '@/app/Components/Services/SocialMedia/ProcessSocialMdeia'
 import TechnologyStack from '@/app/Components/Services/SocialMedia/TechnologyStack'
-import SeoLocation from '@/app/Components/Services/Seo/SeoLocation'
-import SeoQuote from '@/app/Components/Services/Seo/SeoQuote'
-import SeoSolution from '@/app/Components/Services/Seo/SeoSolution'
 import TrustedBrands from '@/app/Components/Services/Seo/TrustedBrands'
 import React from 'react'
 import SocialMediaContact from '../Components/Services/SocialMedia/SocialMediaContact'
@@ -18,6 +14,9 @@ import SocialMediaServicesIncludes from '../Components/Services/SocialMedia/Soci
 import SocialmediaReviews from '../Components/Services/SocialMedia/SocialmediaReviews';
 import SocialMediaRecognition from '../Components/Services/SocialMedia/SocialMediaRecognition';
 import SocialMediaBusinessSolutions from '../Components/Services/SocialMedia/SocialMediaBusinessSolutions';
+import SocialMediaLocation from '../Components/Services/SocialMedia/SocialMediaLocation';
+import SocialMediaQuote from '../Components/Services/SocialMedia/SocialMediaQuote';
+import SocialMediaAccordiansFAQ from '../Components/Services/SocialMedia/SocialMediaAccordiansFAQ';
 
 export default function page() {
   return (
@@ -39,10 +38,9 @@ export default function page() {
       <MarketingServices />
       <SocialMediaRecognition />
       <SocialMediaBusinessSolutions />
-      <SeoSolution />
-      <SeoLocation />
-      <SeoQuote />
-      <AccordiansFAQ />
+      <SocialMediaLocation />
+      <SocialMediaQuote />
+      <SocialMediaAccordiansFAQ />
       <CTAsection />
       <Footer />
 
