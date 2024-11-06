@@ -21,7 +21,7 @@ export default function SocialMediaBusinessSolutions() {
                         </h3>
                         <h2 className="text-3xl font-bold mb-4 ">Why We’re the Top Choice in the USA
                         </h2>
-                        <p className="mb-4">Searching for social media marketing services near me? Choosing us as your social media marketing partner means choosing a team that’s passionate about your brand’s growth. We understand that social media is more than just a marketing channel, it’s a platform for storytelling and building relationships. Our experienced professionals are committed to developing innovative strategies that capture your audience's attention and inspire action.
+                        <p className="mb-4">Searching for social media marketing services near me? Choosing us as your social media marketing partner means choosing a team that’s passionate about your brand’s growth. We understand that social media is more than just a marketing channel, it’s a platform for storytelling and building relationships. Our experienced professionals are committed to developing innovative strategies that capture your audience&apos;s attention and inspire action.
                         </p>
                         <p className="mb-4">With a focus on collaboration and transparency, we keep you involved every step of the way, ensuring that your vision comes to life.
                         </p>
