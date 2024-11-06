@@ -3,9 +3,8 @@ import Footer from '@/app/Components/Footer'
 import Header from '@/app/Components/Header'
 import AccordiansFAQ from '@/app/Components/Home/AccordiansFAQ'
 import CTAsection from '@/app/Components/Home/CTAsection'
-import Testimonials from '@/app/Components/Home/Testmonials'
 import MarketingServices from '@/app/Components/Services/DigitalMarketing/MarketingServices'
-import ProcessSocialMedia from '@/app/Components/Services/DigitalMarketing/ProcessSocialMdeia'
+import ProcessSocialMedia from '@/app/Components/Services/SocialMedia/ProcessSocialMdeia'
 import TechnologyStack from '@/app/Components/Services/DigitalMarketing/TechnologyStack'
 import SeoBusinessSolutions from '@/app/Components/Services/Seo/SeoBusinessSolutions'
 import SeoLocation from '@/app/Components/Services/Seo/SeoLocation'
@@ -18,6 +17,7 @@ import SocialMediaContact from '../Components/Services/SocialMedia/SocialMediaCo
 import SocialMediaCompany from '../Components/Services/SocialMedia/SocialMediaCompany';
 import Digitalsocialmedia from '../Components/Services/SocialMedia/Digitalsocialmedia';
 import SocialMediaServicesIncludes from '../Components/Services/SocialMedia/SocialMediaServicesIncludes';
+import SocialmediaReviews from '../Components/Services/SocialMedia/SocialmediaReviews';
 
 export default function page() {
   return (
@@ -34,7 +34,7 @@ export default function page() {
       <Digitalsocialmedia />
       <SocialMediaServicesIncludes />
       <ProcessSocialMedia />
-      <Testimonials />
+      <SocialmediaReviews />
       <TechnologyStack />
       <MarketingServices />
       <SeoRecognition />
