@@ -40,7 +40,7 @@ export default function SocialMediaAccordiansFAQ() {
             title: "How do I get started with your social media marketing services?",
             content: (
                 <p>
-                    Getting started with our social media marketing services is easy. Simply reach out to us for a consultation. We'll discuss your goals, evaluate your current social media presence, and propose a customized strategy to elevate your brand in the digital space.
+                    Getting started with our social media marketing services is easy. Simply reach out to us for a consultation. We&apos;ll discuss your goals, evaluate your current social media presence, and propose a customized strategy to elevate your brand in the digital space.
                 </p>
             ),
         },
