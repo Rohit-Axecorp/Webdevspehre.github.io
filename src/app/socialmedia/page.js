@@ -3,13 +3,11 @@ import Footer from '@/app/Components/Footer'
 import Header from '@/app/Components/Header'
 import AccordiansFAQ from '@/app/Components/Home/AccordiansFAQ'
 import CTAsection from '@/app/Components/Home/CTAsection'
-import MarketingServices from '@/app/Components/Services/DigitalMarketing/MarketingServices'
+import MarketingServices from '@/app/Components/Services/SocialMedia/MarketingServices'
 import ProcessSocialMedia from '@/app/Components/Services/SocialMedia/ProcessSocialMdeia'
-import TechnologyStack from '@/app/Components/Services/DigitalMarketing/TechnologyStack'
-import SeoBusinessSolutions from '@/app/Components/Services/Seo/SeoBusinessSolutions'
+import TechnologyStack from '@/app/Components/Services/SocialMedia/TechnologyStack'
 import SeoLocation from '@/app/Components/Services/Seo/SeoLocation'
 import SeoQuote from '@/app/Components/Services/Seo/SeoQuote'
-import SeoRecognition from '@/app/Components/Services/Seo/SeoRecognition'
 import SeoSolution from '@/app/Components/Services/Seo/SeoSolution'
 import TrustedBrands from '@/app/Components/Services/Seo/TrustedBrands'
 import React from 'react'
@@ -18,6 +16,8 @@ import SocialMediaCompany from '../Components/Services/SocialMedia/SocialMediaCo
 import Digitalsocialmedia from '../Components/Services/SocialMedia/Digitalsocialmedia';
 import SocialMediaServicesIncludes from '../Components/Services/SocialMedia/SocialMediaServicesIncludes';
 import SocialmediaReviews from '../Components/Services/SocialMedia/SocialmediaReviews';
+import SocialMediaRecognition from '../Components/Services/SocialMedia/SocialMediaRecognition';
+import SocialMediaBusinessSolutions from '../Components/Services/SocialMedia/SocialMediaBusinessSolutions';
 
 export default function page() {
   return (
@@ -37,8 +37,8 @@ export default function page() {
       <SocialmediaReviews />
       <TechnologyStack />
       <MarketingServices />
-      <SeoRecognition />
-      <SeoBusinessSolutions />
+      <SocialMediaRecognition />
+      <SocialMediaBusinessSolutions />
       <SeoSolution />
       <SeoLocation />
       <SeoQuote />
