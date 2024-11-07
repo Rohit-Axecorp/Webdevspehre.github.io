@@ -18,7 +18,7 @@ export default function Banner() {
       {/* Two-column layout for content and image */}
       <div className="relative z-10 flex flex-col lg:flex-row justify-between items-center container lg:pt-24 px-6 md:px-12">
         {/* Left Column: Content */}
-        <div className="flex flex-col justify-center items-center lg:items-start lg:pl-16 md:pl-24 z-20 text-white w-full md-3/5 lg:w-2/5 text-center lg:text-left">
+        <div className="flex flex-col justify-center items-center lg:items-start lg:pl-16 md:pl-24 z-20 text-white w-full md-3/5 lg:w-3/5 text-center lg:text-left">
           <div className="inline-flex items-center">
             <div className="border border-white rounded-xl mb-4 px-4 py-2 inline-flex items-center bg-[#1b1b1b]">
               <p className="text-red-500 text-xl md:text-2xl font-bold">

@@ -29,19 +29,18 @@ export default async function Post({ params }) {
   return (
     <>
       <Header />
-      <div className="container mx-auto my-8 p-4">
-        <div className="flex justify-between gap-10">
+      <div className="container mx-auto my-8 px-4">
+        <div className="md:flex md:justify-between md:gap-10">
           {/* Main Content */}
-          <div className="w-2/3">
-            <h1 className="text-4xl font-bold mb-4">{post.title.rendered}</h1>
+          <div className="w-full md:w-2/3 mb-8 md:mb-0">
+            <h1 className="text-3xl md:text-4xl font-bold mb-4">{post.title.rendered}</h1>
 
             {/* Render Categories */}
             {categories.length > 0 && (
               <div className="mb-4">
                 {categories.map(category => (
-                  <span key={category.id} className="inline-block text-red-500 text-lg font-semibold mr-2" >
-                    Category:{" "}
-                    {category.name}
+                  <span key={category.id} className="inline-block text-red-500 text-lg font-semibold mr-2">
+                    Category: {category.name}
                   </span>
                 ))}
               </div>
@@ -51,17 +50,17 @@ export default async function Post({ params }) {
               <img
                 src={featuredMedia.source_url}
                 alt={post.title.rendered}
-                className="mb-4 w-full h-auto"
+                className="mb-4 w-full h-auto rounded-lg"
               />
             )}
             <div
-              className="content text-lg leading-relaxed "
+              className="content text-base md:text-lg leading-relaxed"
               dangerouslySetInnerHTML={{ __html: post.content.rendered }}
             />
           </div>
 
           {/* Static Text Column */}
-          <div className="w-1/3 p-4 bg-gray-100 rounded-lg h-48">
+          <div className="w-full md:w-1/3 p-4 bg-gray-100 rounded-lg h-auto md:h-48">
             <h2 className="text-xl font-semibold mb-4">On this Page</h2>
             <p>
               {post.title.rendered}
