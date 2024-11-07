@@ -24,7 +24,7 @@ export default function Banner() {
               <p className="text-red-500 text-xl md:text-2xl font-bold">
                 <span>Web Solutions
                 </span>
-                <span className="text-white"> Built to Win</span>
+                <span className="text-white"> Built tto Win</span>
               </p>
             </div>
           </div>
