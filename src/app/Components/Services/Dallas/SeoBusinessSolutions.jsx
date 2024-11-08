@@ -8,9 +8,6 @@ export default function SeoBusinessSolutions() {
 
     const images = [
         '/Images/comrade-img-2-scaled-2.jpg',
-        '/Images/comrade-img-2-scaled-2.jpg',
-        '/Images/comrade-img-2-scaled-2.jpg',
-        '/Images/comrade-img-2-scaled-2.jpg',
     ];
     return (
         <>

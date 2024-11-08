@@ -3,7 +3,7 @@
 import React from "react";
 
 export default function SeoSolution() {
-  const image = '/Images/comrade-img-1.jpg'; // Static image path
+  const image = '/Images/Effective SEO Strategies.png'; // Static image path
 
   return (
     <>
@@ -30,7 +30,7 @@ export default function SeoSolution() {
             <div className="md:w-1/2 flex justify-center md:justify-end">
               <img
                 src={image}
-                alt="Chicago Business Solution"
+                alt="Effective SEO Strategies"
                 className="w-full h-auto object-cover rounded-lg shadow-lg"
               />
             </div>
