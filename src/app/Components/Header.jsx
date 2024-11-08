@@ -112,7 +112,7 @@ export default function Header() {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/socialmedia" className="block px-4 py-2 hover:bg-gray-100">
+                      <Link href="/social-media-marketing-services" className="block px-4 py-2 hover:bg-gray-100">
                         Social Media
                       </Link>
                     </li>
@@ -140,22 +140,22 @@ export default function Header() {
                 <div ref={locationDropdownRef} className="absolute top-full mt-1 w-48 bg-white shadow-lg rounded-lg z-20">
                   <ul className="py-2 text-sm text-gray-700">
                     <li>
-                      <Link href="/austin" className="block px-4 py-2 hover:bg-gray-100">
+                      <Link href="/austin-seo-company" className="block px-4 py-2 hover:bg-gray-100">
                         Austin
                       </Link>
                     </li>
                     <li>
-                      <Link href="/fortworth" className="block px-4 py-2 hover:bg-gray-100">
+                      <Link href="/fort-worth-seo-company" className="block px-4 py-2 hover:bg-gray-100">
                         Fort Worth
                       </Link>
                     </li>
                     <li>
-                      <Link href="/plano" className="block px-4 py-2 hover:bg-gray-100">
+                      <Link href="/plano-seo-company" className="block px-4 py-2 hover:bg-gray-100">
                         Plano
                       </Link>
                     </li>
                     <li>
-                      <Link href="/dallas" className="block px-4 py-2 hover:bg-gray-100">
+                      <Link href="/dallas-seo-company" className="block px-4 py-2 hover:bg-gray-100">
                         Dallas
                       </Link>
                     </li>
@@ -165,7 +165,7 @@ export default function Header() {
             </li>
 
             <li>
-              <Link href="/about" className="block py-2 lg:px-2 text-black hover:text-black xl:text-lg text-md font-normal">
+              <Link href="/about-us" className="block py-2 lg:px-2 text-black hover:text-black xl:text-lg text-md font-normal">
                 About
               </Link>
             </li>
@@ -185,7 +185,7 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/contact" className="block py-2 lg:px-2 text-black hover:text-black xl:text-lg text-md font-normal">
+              <Link href="/contact-us" className="block py-2 lg:px-2 text-black hover:text-black xl:text-lg text-md font-normal">
                 Contact
               </Link>
             </li>
