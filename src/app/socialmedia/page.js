@@ -18,6 +18,11 @@ import SocialMediaLocation from '../Components/Services/SocialMedia/SocialMediaL
 import SocialMediaQuote from '../Components/Services/SocialMedia/SocialMediaQuote';
 import SocialMediaAccordiansFAQ from '../Components/Services/SocialMedia/SocialMediaAccordiansFAQ';
 
+export const metadata = {
+  title: "Social Media Marketing Services Company | Web Dev Sphere", // Dynamic title
+  description: "Are you looking for top-tier social media marketing services? Web Dev Sphere has expert social media strategists who can help you grow your online presence." // Dynamic description
+};
+
 export default function page() {
   return (
     <>

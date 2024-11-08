@@ -21,6 +21,8 @@ import Process from '@/app/Components/Home/Process';
 import Technologies from '@/app/Components/Home/Technologies';
 import Solutions from '@/app/Components/Home/Solutions';
 
+
+
 export default function Homepage() {
     const [loading, setLoading] = useState(true);
 

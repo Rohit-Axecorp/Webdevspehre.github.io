@@ -1,4 +1,3 @@
-import Head from 'next/head'; // Import the Head component
 import Footer from '@/app/Components/Footer';
 import Header from '@/app/Components/Header';
 import CTAsection from '@/app/Components/Home/CTAsection';
@@ -21,13 +20,14 @@ import TrustedBrands from '@/app/Components/Services/AustinSeo/TrustedBrands';
 import React from 'react';
 import AccordiansFAQ from '@/app/Components/Services/AustinSeo/AccordiansFAQ';
 
+export const metadata = {
+    title: "Leading Austin SEO Company | Web Dev Sphere", // Dynamic title
+    description: "Web Dev Sphere is an award-winning Austin SEO company specializing in top-tier SEO solutions. Partner with us today to make your mark in the industry." // Dynamic description
+};
+
 export default function Page() { // Use PascalCase for component names
     return (
         <>
-            <Head>
-                <title>Leading Austin SEO Company | Web Dev Sphere</title>
-                <meta name="description" content="Web Dev Sphere is an award-winning Austin SEO company specializing in top-tier SEO solutions. Partner with us today to make your mark in the industry." />
-            </Head>
             <Header />
             <SeoContact />
             <TrustedBrands />

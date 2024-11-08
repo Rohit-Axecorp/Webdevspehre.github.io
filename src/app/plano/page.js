@@ -1,4 +1,4 @@
-import Head from 'next/head'; // Import the Head component
+
 import Footer from '@/app/Components/Footer';
 import Header from '@/app/Components/Header';
 import CTAsection from '@/app/Components/Home/CTAsection';
@@ -20,14 +20,14 @@ import SeoSolution from '@/app/Components/Services/Plano/SeoSolution';
 import TrustedBrands from '@/app/Components/Services/Plano/TrustedBrands';
 import React from 'react';
 import AccordiansFAQ from '../Components/Services/Plano/AccordiansFAQ';
+export const metadata = {
+    title: "Plano SEO Company | SEO Agency in Plano, Texas", // Dynamic title
+    description: "Web Dev Sphere is the premier Plano SEO company, offering exceptional SEO solutions tailored for local businesses. Get in touch today for a personalized quote!" // Dynamic description
+  };
 
 export default function Page() {
     return (
         <>
-            <Head>
-                <title>Top Plano SEO Company | Web Dev Sphere</title>
-                <meta name="description" content="Web Dev Sphere is the premier Plano SEO company, offering exceptional SEO solutions tailored for local businesses. Get in touch today for a personalized quote!" />
-            </Head>
             <Header />
             <SeoContact />
             <TrustedBrands />

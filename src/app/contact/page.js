@@ -7,19 +7,23 @@ import Awards from '@/app/Components/Home/Awards'
 import CTAsection from '@/app/Components/Home/CTAsection'
 import React from 'react'
 
+export const metadata = {
+  title: "Contact us | Web Dev Sphere", // Dynamic title
+};
+
 export default function ContactPage() {
   return (
     <>
-    <Header />
-    <Aboutlocationcontact />
-    <AboutDigitalLandscape />
-    <Awards />
-    <GlobalPresenceSlider />
-    <CTAsection />
-    <Footer />
-    
-    
-    
+      <Header />
+      <Aboutlocationcontact />
+      <AboutDigitalLandscape />
+      <Awards />
+      <GlobalPresenceSlider />
+      <CTAsection />
+      <Footer />
+
+
+
     </>
   )
 }

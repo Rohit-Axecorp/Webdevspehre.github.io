@@ -13,7 +13,10 @@ import Header from '@/app/Components/Header'
 import CTAsection from '@/app/Components/Home/CTAsection'
 import React from 'react'
 
-
+export const metadata = {
+  title: "Who We Are | Web Dev Sphere", // Dynamic title
+  description: "Web Dev Sphere is the leading digital agency that offers all-inclusive solutions to grow your business online. Visit us to learn more about our services." // Dynamic description
+};
 export default function about() {
   return (
     <>
