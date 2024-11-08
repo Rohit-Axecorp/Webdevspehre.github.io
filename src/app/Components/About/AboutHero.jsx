@@ -32,7 +32,7 @@ export default function AboutHero() {
           {/* Foreground image (larger) */}
           <div className="relative">
             <Image
-              src="/Images/abouthero.webp"
+              src="/Images/21.png"
               alt="Foreground Image"
               width={600}
               height={600}

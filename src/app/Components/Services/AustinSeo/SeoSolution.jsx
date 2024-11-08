@@ -3,7 +3,7 @@
 import React from "react";
 
 export default function SeoSolution() {
-  const image = '/Images/Effective SEO Strategies.png'; // Static image path
+  const image = '/Images/seo-strategy-guide-tn.webp'; // Static image path
 
   return (
     <>

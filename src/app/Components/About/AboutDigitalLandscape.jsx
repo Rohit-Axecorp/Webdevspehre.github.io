@@ -20,7 +20,7 @@ export default function AboutDigitalLandscape() {
                     {/* Right Column: Image */}
                     <div className="md:w-1/2 flex justify-end">
                         <Image
-                            src="/Images/signature.gif"
+                            src="/Images/21.png"
                             alt="Foreground Image"
                             width={193}
                             height={293}
