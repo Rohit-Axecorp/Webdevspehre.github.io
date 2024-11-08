@@ -19,7 +19,7 @@ import SeoServicesIncludes from '@/app/Components/Services/AustinSeo/SeoServices
 import SeoSolution from '@/app/Components/Services/AustinSeo/SeoSolution';
 import TrustedBrands from '@/app/Components/Services/AustinSeo/TrustedBrands';
 import React from 'react';
-import AccordiansFAQ from '../Components/Services/AustinSeo/AccordiansFAQ';
+import AccordiansFAQ from '@/app/Components/Services/AustinSeo/AccordiansFAQ';
 
 export default function Page() { // Use PascalCase for component names
     return (
