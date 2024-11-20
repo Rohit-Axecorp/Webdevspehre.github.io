@@ -13,10 +13,10 @@ export default function SeoSolution() {
             {/* Left Column */}
             <div className="md:w-1/2 flex flex-col justify-center p-4">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white">
-                Get Solution Tailored for Your Chicago Business
+                Tailored Strategies by Our Disruptive SEO Agency in Houston
               </h2>
               <p className="mb-6 text-white text-base md:text-lg lg:text-xl">
-                At Comrade, we&apos;re committed to empowering businesses across Chicago by driving leads and boosting revenue. Regardless of your industry or niche, our team excels at tailoring solutions to meet your unique needs, ensuring your business reaches its goals. If you haven&apos;t discovered an ideal solution that suits your Chicago-based enterprise, reach out to us, and let&apos;s explore how our SEO expertise can be the catalyst for your success!
+                At our Houston SEO agency, we craft bespoke strategies to meet the unique needs of every business. By addressing critical SEO elements like keyword targeting, on-page optimization, and link building, we ensure your online presence resonates with your audience. Our SEO services in Houston TX drive measurable growth, boost visibility, and deliver sustainable results tailored to your goals. Partner with us to unlock your business&apos;s true digital potential.
               </p>
               <button className="bg-black text-white px-6 py-3 rounded hover:bg-gray-800 w-full md:w-1/2 lg:w-1/3">
                 Get Custom Solution

@@ -2,69 +2,64 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination } from 'swiper/modules'; // Correct import for Swiper 8.x+
+import { Autoplay } from 'swiper/modules';
 import 'swiper/swiper-bundle.css';
 
 
 export default function SeoReviews() {
   const testimonials = [
     {
-      name: 'Anonymous',
-      role: 'Sales & Marketing Executive',
-      company: 'Hospitality & Leisure Co.',
-      content: 'Revenue is up nearly 50%. Victorious has increased the number of keywords that rank on Google and decreased overall dependence on third-party advertising channels. Timely deliveries, flexibility, and effective communication make the process seamless. Positive results maintain value for cost.',
+      name: 'James Cooper',
+      role: 'Marketing Manager',
+      content: 'Our rankings have skyrocketed, thanks to their exceptional link-building strategies. They secured high-quality backlinks from credible sites, significantly boosting our authority. Their service has truly transformed our online presence.',
       stars: 5,
     },
     {
-      name: 'Bailey James',
-      role: 'Senior Content & Marketing Manager',
-      company: 'Tenstreet',
-      content: 'Our search rankings soared, including top-slot rankings for some of our most important business functions, making us far more discoverable to potential prospects. I&apos;m most impressed with their incredible customer service and hands-on account management.',
+      name: 'Samantha Taylor',
+      role: 'Content Head',
+      content: 'The team optimized our entire website content, and we saw a dramatic improvement in search rankings. Their keyword placement and content flow were spot on, driving both traffic and user engagement. Outstanding service!',
       stars: 5,
     },
     {
-      name: 'Dave Loftus',
-      role: 'Owner',
-      company: 'Blomdahl USA',
-      content: 'After several false starts with a few other SEO companies I can confidently share that Victorious SEO is the real deal. They are easy to work with, very proactive and completely transparent. Considering my prior SEO experiences I found the results startling. Three and a half months in and I see concrete, measurable results. ROI after such a short time? 422%! Really.',
-      stars: 5,
-    },
-    {
-      name: 'John Doe',
+      name: 'Michael Grant',
       role: 'CEO',
-      company: 'Tech Innovations',
-      content: 'The level of expertise and support provided by Victorious SEO has truly transformed our digital presence. We&apos;ve seen a massive boost in our organic traffic and sales conversions in just a few months.',
+      content: 'Every element of our on-page SEO, from meta tags to internal links, was handled with precision. The results were amazing, with a significant increase in organic traffic and customer inquiries. Highly professional!',
       stars: 5,
     },
     {
-      name: 'Jane Smith',
-      role: 'Marketing Director',
-      company: 'Creative Solutions',
-      content: 'Their approach to SEO has been exceptional. Victorious SEO not only boosted our search rankings but helped us build a long-term strategy that ensures sustained growth.',
+      name: 'Emily Richards',
+      role: 'Business Owner',
+      content: 'Our visibility in local searches improved drastically after their intervention. They optimized our business listings and localized our content effectively, making us a top choice in the community. Fantastic results!',
+      stars: 5,
+    },
+    {
+      name: 'David Miller',
+      role: 'IT Manager',
+      content: 'They resolved every technical issue holding our website back, including speed, mobile responsiveness, and crawlability. The performance improvements were immediate, and our rankings climbed steadily. Exceptional work!',
       stars: 5,
     },
   ];
+
 
   return (
     <div className="py-12 px-4">
       <div className="container mx-auto">
         {/* Main Heading */}
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-center mb-12">
-          Real Companies. Real Gains.
+          Transforming Businesses with Proven SEO Success
         </h2>
 
         <Swiper
           spaceBetween={20}
           slidesPerView={1}
           loop={true}
-          pagination={{ clickable: true }}
           autoplay={{ delay: 4000 }}
           breakpoints={{
             640: { slidesPerView: 1 },
             768: { slidesPerView: 2 },
             1024: { slidesPerView: 3 },
           }}
-          modules={[Autoplay, Pagination]} // Make sure to add modules
+          modules={[Autoplay]} // Make sure to add modules
         >
           {testimonials.map((testimonial, index) => (
             <SwiperSlide key={index}>

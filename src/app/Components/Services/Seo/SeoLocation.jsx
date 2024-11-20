@@ -10,12 +10,13 @@ export default function SeoLocation() {
   return (
     <section className="py-12">
       <div className="flex flex-col md:flex-row items-start md:items-center container mx-auto gap-y-10 md:gap-x-20 px-4 md:px-8">
-        
+
         {/* Left Column */}
         <div className="md:w-1/2 flex flex-col space-y-4 md:space-y-6">
-          <h2 className="text-3xl md:text-5xl font-semibold">Where We Are</h2>
+          <h2 className="text-3xl md:text-5xl font-semibold">Where to Find Us
+          </h2>
           <p className="text-lg md:text-xl font-medium">
-            Victorious is a fully distributed organization headquartered in San Francisco:
+          WebDev Sphere has grown on a global scale, with our headquarters based at:  
           </p>
           <p>
             <a
@@ -34,7 +35,7 @@ export default function SeoLocation() {
             </a>
           </p>
           <p className="text-lg md:text-xl font-medium">
-            Our employees live and work in every time zone in the country, and we&apos;re always looking to grow our ranks.
+          Our diverse team spans across multiple regions, operating in every time zone. As we help your business grow, we&apos;re constantly broadening our sphere.  
           </p>
           <p>
             <a href="/join-us" className="text-red-500 font-semibold text-lg md:text-xl flex items-center">

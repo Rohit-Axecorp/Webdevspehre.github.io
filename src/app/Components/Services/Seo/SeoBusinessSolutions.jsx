@@ -12,17 +12,20 @@ export default function SeoBusinessSolutions() {
         '/Images/comrade-img-2-scaled-2.jpg',
         '/Images/comrade-img-2-scaled-2.jpg',
     ];
-  return (
-    <>
-    <section className="py-12">
+    return (
+        <>
+            <section className="py-12">
                 <div className="flex flex-col md:flex-row p-6 container mx-auto md:gap-20 gap-5">
                     {/* Left Column */}
                     <div className="md:w-1/2 flex flex-col justify-center p-4">
                         <h3 className="text-lg font-semibold mb-4 ">BEST CHICAGO SEO COMPANY</h3>
-                        <h2 className="text-3xl font-bold mb-4 ">Why Businesses in Chicago Choose Comrade</h2>
-                        <p className="mb-4  ">Clients love hiring Comrade because we deliver cost-effective results. We offer the best Chicago SEO services and guarantee growth. Our SEO firm has the experience to know what works, the courage to try new things, and the determination to get your business where it needs to be. While we believe in the data, it&apos;s our passion for SEO that makes the world of difference.
+                        <h2 className="text-3xl font-bold mb-4 ">Why Choose Us as Your Reliable SEO Company in Houston
+                        </h2>
+                        <p className="mb-4  ">Our team of SEO specialists delivers tailored solutions that align with your business goals. As the best Houston SEO company, we ensure that every strategy is designed for measurable and sustainable growth.
                         </p>
-                        <p className="mb-4  ">Our in-house staff of strategists, data scientists, content creators, website developers, and designers, as well as account managers, work together to boost your sales and leads. We like to partner with our clients and consider ourselves to be a marketing extension of their companies, providing the marketing resources they need to take their businesses to the next level.
+                        <p className="mb-4  ">We are a local SEO company in Houston known for building trust through consistent results. Our data-driven approach targets pain points and solves them effectively, ensuring your business thrives in today’s competitive digital landscape.
+                        </p>
+                        <p className="mb-4  ">With our comprehensive SEO services in Houston TX, we deliver exceptional results by combining advanced techniques with industry expertise. Whether you need local visibility or global reach, we’ve got you covered.
                         </p>
                     </div>
 
@@ -45,7 +48,7 @@ export default function SeoBusinessSolutions() {
                     </div>
                 </div>
             </section>
-    
-    </>
-  )
+
+        </>
+    )
 }

@@ -4,88 +4,91 @@ import { FaRocket, FaBolt, FaTachometerAlt } from 'react-icons/fa';
 export default function SeoPackages() {
   return (
     <>
-      <div className="bg-gray-100 py-10">
-        <h1 className="text-center text-3xl md:text-4xl lg:text-5xl font-bold pb-8 sm:pb-12 ">
-          Chicago SEO Packages
-        </h1>
-        <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-          {/* Box 1: Steady Growth */}
-          <div className="bg-white p-6 rounded-lg shadow-md flex flex-col justify-between">
-            <div>
-              <div className="flex items-center mb-4">
-                <FaRocket className="text-red-500 text-3xl mr-3" />
-                <h2 className="text-xl sm:text-2xl font-bold">Steady Growth</h2>
+      <section className="bg-gray-100 py-16">
+        <div className="container mx-auto">
+          <h4 className="text-center text-4xl md:text-5xl lg:text-6xl font-bold pb-6 text-gray-800">
+            Precisely Tailored Houston SEO Packages
+          </h4>
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 px-6">
+            {/* Box 1: Steady Growth */}
+            <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between h-[600px] overflow-y-auto border-x-4 border-red-500">
+              <div>
+                <div className="flex items-center mb-6">
+                  <FaRocket className="text-red-500 text-4xl mr-4" />
+                  <h5 className="text-2xl sm:text-3xl font-bold text-gray-800">Steady Growth</h5>
+                </div>
+                <ul className="list-disc list-inside mb-6 text-base sm:text-lg font-medium text-gray-700 space-y-2">
+                  <li>Essential SEO package</li>
+                  <li>100 key phrases optimized</li>
+                  <li>Up to 20 website pages optimized</li>
+                  <li>Comprehensive keyword strategy</li>
+                  <li>Up to 10 local NAP listings</li>
+                  <li>Monthly KPI reports</li>
+                </ul>
+                <p className="mb-6 text-base sm:text-lg font-normal text-gray-600">
+                  Our Steady Growth package is designed for businesses in Houston aiming for consistent results. It focuses on tailored SEO strategies, ensuring your site ranks effectively while attracting targeted traffic to your niche.
+                </p>
               </div>
-              <ul className="list-disc list-inside mb-4 text-sm sm:text-base font-medium">
-                <li>Basic package</li>
-                <li>100 key phrases optimized</li>
-                <li>Up to 20 website pages optimized</li>
-                <li>Standard SEO strategy</li>
-                <li>Up to 10 local NAPs listings</li>
-                <li>Standard KPIs reports and review</li>
-              </ul>
-              <p className="mb-4 text-sm sm:text-base font-normal">
-                Tailored to your service area in Chicago, we offer a compact yet effective content and link-building package, designed to draw in a stream of organic traffic. Watch as your business flourishes within the Chicago community with our targeted approach.
-              </p>
+              <a href="#" className="text-red-500 hover:underline hover:text-red-600 font-semibold text-lg sm:text-xl">
+                Get Started
+              </a>
             </div>
-            <a href="#" className="text-red-500 hover:underline hover:text-red-600 self-start text-base font-medium">
-              Get Started
-            </a>
-          </div>
 
-          {/* Box 2: Faster Growth */}
-          <div className="bg-white p-6 rounded-lg shadow-md flex flex-col justify-between">
-            <div>
-              <div className="flex items-center mb-4">
-                <FaBolt className="text-red-500 text-3xl mr-3" />
-                <h2 className="text-xl sm:text-2xl font-bold">Faster Growth</h2>
+            {/* Box 2: Faster Growth */}
+            <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between h-[600px] overflow-y-auto border-x-4 border-red-500">
+              <div>
+                <div className="flex items-center mb-6">
+                  <FaBolt className="text-red-500 text-4xl mr-4" />
+                  <h5 className="text-2xl sm:text-3xl font-bold text-gray-800">Faster Growth</h5>
+                </div>
+                <ul className="list-disc list-inside mb-6 text-base sm:text-lg font-medium text-gray-700 space-y-2">
+                  <li>Steady Growth features plus more
+                  </li>
+                  <li>150 key phrases optimized</li>
+                  <li>Up to 25 website pages optimized
+                  </li>
+                  <li>Detailed local SEO strategies</li>
+                  <li>Up to 20 local NAP listings</li>
+                  <li>Advanced KPI reporting and review</li>
+                  <li>Monthly user experience analysis
+                  </li>
+                </ul>
+                <p className="mb-6 text-base sm:text-lg font-normal text-gray-600">
+                  Perfect for businesses seeking a competitive edge, the Faster Growth package combines in-depth analysis with actionable improvements, elevating your online presence with targeted keyword optimization and link-building strategies                </p>
               </div>
-              <ul className="list-disc list-inside mb-4 text-sm sm:text-base font-medium">
-                <li>Steady Growth Pack Guaranteed</li>
-                <li>150 key phrases optimized</li>
-                <li>Up to 20 website pages optimized</li>
-                <li>Detailed SEO strategy</li>
-                <li>Up to 20 local NAPs listings</li>
-                <li>Detailed KPIs reporting (monthly)</li>
-                <li>2 hours of UX & website work (monthly)</li>
-                <li>Lead qualification</li>
-              </ul>
-              <p className="mb-4 text-sm sm:text-base font-normal">
-                For small and medium-sized businesses in Chicago hungry for SEO results, we present our package, that covers both local and national service areas in the Chicago metropolitan region. Complementing this are generous content and link-building packages, reinforcing our SEO efforts.
-              </p>
+              <a href="#" className="text-red-500 hover:underline hover:text-red-600 font-semibold text-lg sm:text-xl">
+                Get Started
+              </a>
             </div>
-            <a href="#" className="text-red-500 hover:underline hover:text-red-600 self-start text-base font-medium">
-              Get Started
-            </a>
-          </div>
 
-          {/* Box 3: Full Speed Growth */}
-          <div className="bg-white p-6 rounded-lg shadow-md flex flex-col justify-between">
-            <div>
-              <div className="flex items-center mb-4">
-                <FaTachometerAlt className="text-red-500 text-3xl mr-3" />
-                <h2 className="text-xl sm:text-2xl font-bold">Full Speed Growth</h2>
+            {/* Box 3: Full Speed Growth */}
+            <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between h-[600px] overflow-y-auto border-x-4 border-red-500">
+              <div>
+                <div className="flex items-center mb-6">
+                  <FaTachometerAlt className="text-red-500 text-4xl mr-4" />
+                  <h5 className="text-2xl sm:text-3xl font-bold text-gray-800">Full Speed Growth</h5>
+                </div>
+                <ul className="list-disc list-inside mb-6 text-base sm:text-lg font-medium text-gray-700 space-y-2">
+                  <li>All Faster Growth features included</li>
+                  <li>200 key phrases optimized</li>
+                  <li>Up to 40 website pages optimized
+                  </li>
+                  <li>Enhanced content strategies</li>
+                  <li>Up to 30 local NAP listings</li>
+                  <li>Dedicated SEO consultant</li>
+                  <li>Comprehensive lead qualification</li>
+                </ul>
+                <p className="mb-6 text-base sm:text-lg font-normal text-gray-600">
+                  Our Full Speed Growth package is the ultimate solution for businesses aiming for exponential growth. This package ensures you dominate local and competitive markets with robust SEO, cutting-edge tactics, and maximum visibility.
+                </p>
               </div>
-              <ul className="list-disc list-inside mb-4 text-sm sm:text-base font-medium">
-                <li>Faster Growth Pack Guaranteed</li>
-                <li>200 key phrases optimized</li>
-                <li>Up to 40 website pages optimized</li>
-                <li>Full-Scale SEO strategy</li>
-                <li>Up to 30 local NAPs listings</li>
-                <li>Detailed KPIs reporting (monthly)</li>
-                <li>4 hours of UX & website work (monthly)</li>
-                <li>Thorough lead qualification</li>
-              </ul>
-              <p className="mb-4 text-sm sm:text-base font-normal">
-                In the Chicago market, we go the extra mile by optimizing even more pages and keywords, ensuring you dominate in competitive markets within the Windy City. Paired with our extensive content and link-building packages, we&apos;ll catapult your Chicago-based business to the pinnacle of success.
-              </p>
+              <a href="#" className="text-red-500 hover:underline hover:text-red-600 font-semibold text-lg sm:text-xl">
+                Get Started
+              </a>
             </div>
-            <a href="#" className="text-red-500 hover:underline hover:text-red-600 self-start text-base font-medium">
-              Get Started
-            </a>
           </div>
         </div>
-      </div>
+      </section>
     </>
   );
 }

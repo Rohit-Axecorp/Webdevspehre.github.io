@@ -9,11 +9,15 @@ export default function SeoContact() {
           {/* Left Section */}
           <div className="md:w-1/2 w-full mb-8 md:mb-0">
             {/* New Heading: CHICAGO SEO COMPANY */}
-            <h2 className="text-xl font-bold text-red-600 mb-2">CHICAGO SEO COMPANY</h2>
+            <h2 className="text-xl font-bold text-red-600 mb-2">Houston SEO COMPANY
+            </h2>
 
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-              Grow Your Business and Get More Sales with Chicago SEO Services
+              Dominate Search Rankings by Transforming Clicks into Customers with Our Proven SEO Strategies
             </h1>
+            <p className="mb-6 text-base md:text-lg text-gray-800">
+              Optimize your site&apos;s rank with an authority that proves to be sustainable for your business in the long run. From on-page to off-page and local to technical SEO, we&apos;ve done all experiments and cracked the code to gain the top spot on SERP.
+            </p>
             <div className="flex items-center my-8">
               <div className="flex items-center mr-4">
                 <Image src="/Images/Clutch_SEO_Companies_2021.png" alt="Clutch 2021" width={150} height={150} />
@@ -27,7 +31,7 @@ export default function SeoContact() {
 
           {/* Right Section: Contact Form */}
           <div className="md:w-1/2 w-full p-6 bg-white shadow-lg rounded-lg">
-            <h2 className="text-xl font-bold text-gray-800 mb-6">Contact Chicago SEO Experts</h2>
+            <h2 className="text-xl font-bold text-gray-800 mb-6">Contact Houston SEO Experts</h2>
             <form action="#" method="POST">
               <div className="space-y-4">
                 {/* First and Last Name in one row */}

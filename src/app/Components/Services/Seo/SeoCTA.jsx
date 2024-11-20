@@ -19,14 +19,13 @@ export default function SeoCTA() {
                     {/* Left Column */}
                     <div className="md:w-1/2 flex flex-col p-4 text-center md:text-left">
                         <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-                            Let&apos;s turn those searches into success!
+                            Let&apos;s Revolutionize Your Online Presence into Measurable Success!
                         </h2>
                         <p className="mb-6 text-base md:text-lg text-gray-700">
-                            Discover the hands-free way to drive more customers to your business with a Seattle SEO firm.
-                            Discover the hands-free way to drive more customers to your business with a Seattle SEO firm.
+                            Discover the smarter way to attract more customers and dominate search rankings with our Houston SEO services. We design result-driven strategies tailored to your business needs, helping you capture leads, increase conversions, and achieve sustainable growth. Your journey to online success starts here—let’s make every search count.
                         </p>
                         <button className="bg-black text-white px-6 md:px-8 py-3 md:py-4 rounded hover:bg-gray-900 w-full md:w-1/2">
-                            Start Your Search Journey
+                            Start Your Growth Journey
                         </button>
                     </div>
 

@@ -1,6 +1,6 @@
 import Footer from '@/app/Components/Footer';
 import Header from '@/app/Components/Header';
-import AccordiansFAQ from '@/app/Components/Home/AccordiansFAQ';
+import AccordiansFAQ from '@/app/Components/Services/Seo/AccordiansFAQ';
 import CTAsection from '@/app/Components/Home/CTAsection';
 import Roadmap from '@/app/Components/Services/Seo/Roadmap';
 import SeoAudit from '@/app/Components/Services/Seo/SeoAudit';

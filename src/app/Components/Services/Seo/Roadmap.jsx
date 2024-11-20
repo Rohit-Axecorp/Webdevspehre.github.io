@@ -7,10 +7,10 @@ export default function Roadmap() {
             <section className="bg-white py-12">
                 <div className="container mx-auto text-center">
                     <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-                        Our Strategic Road Map for Your Mobile App Success
+                        Process to Achieve Excellence with the Premier SEO Company in Houston
                     </h1>
                     <p className="text-gray-600 max-w-2xl mx-auto mb-12">
-                        As a trusted app development company in San Francisco, we keep our approach flexible to provide personalized solutions that match your unique business needs.
+                        Our systematic approach combines innovative strategies and proven methodologies to deliver exceptional results. With our expertise in SEO services Houston, we are committed to driving growth and maximizing ROI, making us the best Houston SEO company for your needs.
                     </p>
                     <div className="relative flex lg:flex-row flex-col items-center lg:gap-0 gap-5">
                         {/* Line Container */}
@@ -25,14 +25,24 @@ export default function Roadmap() {
                                     {String(index + 1).padStart(2, '0')}
                                 </div>
 
-                                <h3 className="text-lg font-semibold text-gray-800">Step {index + 1}</h3>
+                                {/* Custom Headings for Each Step */}
+                                <h3 className="text-lg font-semibold text-gray-800">
+                                    {index === 0 && "Research & Analysis"}
+                                    {index === 1 && "Strategy Plan"}
+                                    {index === 2 && "Optimization"}
+                                    {index === 3 && "Track Result"}
+                                    {index === 4 && "Improvise"}
+                                </h3>
+
+                                {/* Paragraphs for Each Step */}
                                 <p className="text-gray-500">
-                                    {index === 0 && "Conducting product research and defining the project scope"}
-                                    {index === 1 && "Creating interactive UI/UX Design from a branding perspective"}
-                                    {index === 2 && "Building the core functionality while incorporating rich features"}
-                                    {index === 3 && "Ensuring optimal performance through rigorous testing and validation"}
-                                    {index === 4 && "Improvising app functionality or incorporating additional features for scalability"}
+                                    {index === 0 && "In-depth study of your industry, audience, and competitors."}
+                                    {index === 1 && "A detailed roadmap to achieve your SEO goals."}
+                                    {index === 2 && "Execution of on-page and off-page tactics for visibility."}
+                                    {index === 3 && "Real-time monitoring to measure success."}
+                                    {index === 4 && "Adaptive adjustments to ensure continuous improvement."}
                                 </p>
+
                                 {/* Dot */}
                                 <div className="hidden lg:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4 h-4 bg-red-500 rounded-full z-40 -mt-8"></div>
                             </div>
