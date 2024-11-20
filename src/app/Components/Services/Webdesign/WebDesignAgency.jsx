@@ -20,10 +20,10 @@ export default function WebDesignAgency() {
         <div className="container mx-auto flex flex-col md:flex-row items-center">
           {/* Left Side: Text and Button */}
           <div className="md:w-1/2 md:text-left mb-6 md:mb-0">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Web Design Agency</h1>
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Web Design Company in Houston Texas
+            </h1>
             <p className="text-base sm:text-lg md:text-xl text-gray-700 mb-6">
-              Our Web Design Services Will Help You Attract More Clients and
-              Grow
+            Redefining the web experience to magnify your brand image in the market leading to the maximum sale opportunities. Working with a result-driven Houston web design company like Webdev Sphere, you can scale up your business with an interactive web presence.
             </p>
             <div className="mb-4">
               <label className="block text-lg font-medium mb-2" htmlFor="goals">
@@ -64,31 +64,31 @@ export default function WebDesignAgency() {
 
             {/* Play Icon and Watch Our Reel Text */}
             <div
-  className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
-  onClick={handleOpenModal}
->
-  <div className="flex flex-col items-center">
-    <div className="bg-red-500 p-4 rounded-full">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="h-10 w-10 text-white"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth={2}
-          d="M14.752 11.168l-5.304-3.012A1 1 0 008 9.058v5.884a1 1 0 001.448.894l5.304-3.012a1 1 0 000-1.788z"
-        />
-      </svg>
-    </div>
-    <span className="mt-2 text-white text-lg font-medium">
-      Watch Our Reel
-    </span>
-  </div>
-</div>
+              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer"
+              onClick={handleOpenModal}
+            >
+              <div className="flex flex-col items-center">
+                <div className="bg-red-500 p-4 rounded-full">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-10 w-10 text-white"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M14.752 11.168l-5.304-3.012A1 1 0 008 9.058v5.884a1 1 0 001.448.894l5.304-3.012a1 1 0 000-1.788z"
+                    />
+                  </svg>
+                </div>
+                <span className="mt-2 text-white text-lg font-medium">
+                  Watch Our Reel
+                </span>
+              </div>
+            </div>
 
 
             {/* Lightbox Modal */}

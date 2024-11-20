@@ -10,15 +10,15 @@ const ProfessionalWebDesignServices = () => {
     };
 
     const tabsLeft = [
-        'UI/UX Services',
-        'Landing Page Design and Optimization',
+        'UI/UX Design Services',
+        'Landing Page Design',
         'Corporate Design and Branding',
         'Custom WordPress Web Design',
-        'Custom Mobile Friendly Websites'
+        'Custom Mobile-friendly Websites'
     ];
 
     const tabsRight = [
-        'Conversion Rate Optimization',
+        'SEO-Optimized Web Design',
         'Ecommerce Web Design',
         'Shopify Web Design',
         'Website Support'
@@ -26,39 +26,39 @@ const ProfessionalWebDesignServices = () => {
 
     const content = [
         {
-            text: 'For ecommerce good website is the line between life and death. It has to do everything: promote and sell goods, give good information, incentivise clients to come back and more. Comrade has more that 12 years of experience in website development, we have worked with ecommerce businesses across the country and know exactly how to create an ecommerce site, that will make your business prosper.',
+            text: 'With our UI/UX design services, we try to bring visually appealing and also seamless experiences to your target audience. We take care of everything, from wireframes to the final mockups, so everything is perfectly intuitive, functional, and in line with your brand identity. User behavior analytics help us design interfaces that drive maximum engagement and conversions, cementing us as a leading company in website design in Houston.',
             bgImage: '/Images/Ecommerce-Web-Design.jpg',
         },
         {
-            text: 'For ecommerce good website is the line between life and death. It has to do everything: promote and sell goods, give good information, incentivise clients to come back and more. Comrade has more that 12 years of experience in website development, we have worked with ecommerce businesses across the country and know exactly how to create an ecommerce site, that will make your business prosper.',
+            text: 'Landing pages that perform, that convert. Instead, by leveraging in-depth user research, compelling visuals, and persuasive CTAs we optimize every touch point in our process. We have a web design reputation of excellence in Houston TX, which ensures our landing pages don’t just draw attention, but they convert visitors to business growth.',
             bgImage: '/Images/Ecommerce-Web-Design.jpg',
         },
         {
-            text: 'For ecommerce good website is the line between life and death. It has to do everything: promote and sell goods, give good information, incentivise clients to come back and more. Comrade has more that 12 years of experience in website development, we have worked with ecommerce businesses across the country and know exactly how to create an ecommerce site, that will make your business prosper.',
+            text: 'The brand designs that we specialize in, are coherent and professional and leave an impact. We offer all the solutions from logo design to marketing materials that can speak out loud the brand’s vision. At a Houston-based web design company disruptive, we help businesses build trust, credibility & recognition in their field with great corporate designs.',
             bgImage: '/Images/Ecommerce-Web-Design.jpg',
         },
         {
-            text: 'For ecommerce good website is the line between life and death. It has to do everything: promote and sell goods, give good information, incentivise clients to come back and more. Comrade has more that 12 years of experience in website development, we have worked with ecommerce businesses across the country and know exactly how to create an ecommerce site, that will make your business prosper.',
+            text: 'Our WordPress web design service is customized to cater to the diverse needs of your business. Feel that we facilitate the development of dynamic, scalable, clean code robust websites. We’re recognized by customers as a trustworthy Houston web design agency, and our WordPress websites are easy to manage, fully responsive, and Google-optimized.',
             bgImage: '/Images/Ecommerce-Web-Design.jpg',
         },
         {
-            text: 'For ecommerce good website is the line between life and death. It has to do everything: promote and sell goods, give good information, incentivise clients to come back and more. Comrade has more that 12 years of experience in website development, we have worked with ecommerce businesses across the country and know exactly how to create an ecommerce site, that will make your business prosper.',
+            text: 'In now a mobile-first world, we magnify designs that are responsive across all devices. We make sure your website looks good and stays working properly on your desktop, your tablet, and your smartphone. Get responsive website design in Houston that gives customer satisfaction and also increases engagement.',
             bgImage: '/Images/Ecommerce-Web-Design.jpg',
         },
         {
-            text: 'For ecommerce good website is the line between life and death. It has to do everything: promote and sell goods, give good information, incentivise clients to come back and more. Comrade has more that 12 years of experience in website development, we have worked with ecommerce businesses across the country and know exactly how to create an ecommerce site, that will make your business prosper.',
+            text: 'SEO strategies become part of the core of our designs to improve the visibility and rank potential. With these advanced tools and techniques, we generate websites that get organic traffic and at the same time a good user experience. However, it is the best web design company in Houston TX that will know how to combine stunning visuals with top search performance.',
             bgImage: '/Images/Ecommerce-Web-Design.jpg',
         },
         {
-            text: 'For ecommerce good website is the line between life and death. It has to do everything: promote and sell goods, give good information, incentivise clients to come back and more. Comrade has more that 12 years of experience in website development, we have worked with ecommerce businesses across the country and know exactly how to create an ecommerce site, that will make your business prosper.',
+            text: 'We build eCommerce platforms that allow you to shop smoothly and gain revenue online. Intuitive navigation, secure payment integrations, and scalable frameworks are our solutions. For people who specialize in website redesign as Houston has, your eCommerce platform needs to stand out.',
             bgImage: '/Images/Ecommerce-Web-Design.jpg',
         },
         {
-            text: 'For ecommerce good website is the line between life and death. It has to do everything: promote and sell goods, give good information, incentivise clients to come back and more. Comrade has more that 12 years of experience in website development, we have worked with ecommerce businesses across the country and know exactly how to create an ecommerce site, that will make your business prosper.',
+            text: 'We build high-converting custom stores, especially for Shopify web design services. We can adapt templates to create a unique look, then we can integrate super-advanced functionality to meet your business goals. In Houston TX, we have experience in web design and Shopify and we’ll make Shopify work for you by providing superior user experience and scalable growth opportunities.',
             bgImage: '/Images/Ecommerce-Web-Design.jpg',
         },
         {
-            text: 'For ecommerce good website is the line between life and death. It has to do everything: promote and sell goods, give good information, incentivise clients to come back and more. Comrade has more that 12 years of experience in website development, we have worked with ecommerce businesses across the country and know exactly how to create an ecommerce site, that will make your business prosper.',
+            text: 'We offer dedicated support services during which we update your website, and make certain it’s secure and functional. We do it all, from bug fixes to performance improvements, with precision. Being a website design Houston TX company tops us off with peace of mind that your website is constantly in good shape.',
             bgImage: '/Images/Ecommerce-Web-Design.jpg',
         },
     ];
@@ -72,7 +72,7 @@ const ProfessionalWebDesignServices = () => {
 
                 {/* Main heading */}
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-12 text-center">
-                    Professional Web Design Services
+                    Improvising Digital Presence with Web Design Company Houston TX
                 </h2>
 
                 <div className="relative w-full flex flex-col lg:flex-row">

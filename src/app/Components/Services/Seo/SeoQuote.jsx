@@ -33,7 +33,7 @@ export default function SeoQuote() {
 
             {/* Ready to Speak Heading */}
             <h3 className="text-xl font-bold text-gray-800 mb-4">
-              Ready to speak with our Chicago SEO team?
+              Ready to have a direct conversation?
             </h3>
 
             {/* Phone Number with Icon */}
