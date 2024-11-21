@@ -23,27 +23,27 @@ export default function ProcessSocialMedia() {
                     {/* Column 1: Heading and Paragraph */}
                     <div className="flex flex-col justify-center">
                         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6">
-                            Our Social Media Marketing Process
+                            Our Seamless Digital Marketing Process
                         </h2>
                         <p className="text-base sm:text-lg md:text-xl font-normal mb-4 text-gray-600">
-                            It starts with a comprehensive audit and research to understand your brands current standing. We then develop and optimize your social media profiles, ensuring they are aligned with your business goals. Our team creates high-quality content, followed by strategic publishing and diligent monitoring to engage your audience effectively.
+                            We start by getting to know your brand through a detailed audit to see where you currently stand. Then, we optimize your social media profiles to make sure they’re in sync with your business goals. Our team creates eye-catching content and posts it strategically, all while keeping a close eye on audience engagement to make sure we’re hitting the mark.
                         </p>
                         <p className="text-base sm:text-lg md:text-xl font-normal text-gray-600">
-                            We provide continuous performance evaluations to refine our strategies and achieve optimal results. Our affordable social media marketing services are designed to deliver maximum ROI. So, trust our budget-friendly SMM services in Dubai to elevate your brands online presence.
+                            We regularly check in on performance, tweaking our strategy to get the best results. As a leading Houston digital marketing agency  give you the best value for your investment, helping you get the most out of every dollar. Let us help boost your brand’s online presence and connect with your audience in a way that feels real and effective.
                         </p>
                     </div>
 
                     {/* Column 2: Counters Section */}
                     <div>
                         <h2 className="text-3xl sm:text-4xl font-bold text-center mb-6">
-                            Key Highlights of Our Work in Numbers
+                            Key Highlights of Our Full Service Digital Marketing Services Houston
                         </h2>
                         <div className="grid grid-cols-1 sm:grid-cols-3 text-center divide-y sm:divide-y-0 sm:divide-x divide-gray-300">
                             {/* Counter 1 */}
                             <div className="py-4 px-4">
                                 <p className="mt-2 text-sm sm:text-base md:text-lg text-gray-600">Happy Clients</p>
                                 <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-red-500">
-                                    <CountUp end={110} duration={3} />+
+                                    <CountUp end={800} duration={3} />+
                                 </h3>
                             </div>
 
@@ -51,7 +51,7 @@ export default function ProcessSocialMedia() {
                             <div className="py-4 px-4">
                                 <p className="mt-2 text-sm sm:text-base md:text-lg text-gray-600">Projects Completed</p>
                                 <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-red-500">
-                                    <CountUp end={99} duration={3} />+
+                                    <CountUp end={1000} duration={3} />+
                                 </h3>
                             </div>
 
@@ -59,7 +59,7 @@ export default function ProcessSocialMedia() {
                             <div className="py-4 px-4">
                                 <p className="mt-2 text-sm sm:text-base md:text-lg text-gray-600">Years of Experience</p>
                                 <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-red-500">
-                                    <CountUp end={128} duration={3} />+
+                                    <CountUp end={10} duration={3} />+
                                 </h3>
                             </div>
                         </div>

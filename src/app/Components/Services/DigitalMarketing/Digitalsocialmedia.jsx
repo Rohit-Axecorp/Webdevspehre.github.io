@@ -8,13 +8,15 @@ export default function Digitalsocialmedia() {
             <section className="container mx-auto px-4 py-12">
                 <div className="flex flex-col items-center mb-10">
                     <h2 className="mb-4 text-center">
-                        <span className='text-3xl md:text-4xl font-light pb-2'>Our Works Define Our</span>
+                        <span className='text-3xl md:text-4xl font-light pb-2'>Check Out Our Portfolio! 
+                        </span>
                         <br />
-                        <span className='text-4xl md:text-5xl font-bold'>Success Look Through Some</span>
+                        <span className='text-4xl md:text-5xl font-bold'>Our results speak for themselves.
+                        </span>
                     </h2>
-                    <p className="text-base md:text-xl text-center max-w-xl">
+                    {/* <p className="text-base md:text-xl text-center max-w-xl">
                         Excellent customer service is our foundation
-                    </p>
+                    </p> */}
                 </div>
 
                 {/* Grid Layout for Columns */}

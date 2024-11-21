@@ -5,34 +5,52 @@ import 'swiper/css';
 
 const slidesData = [
     {
-        heading: 'Manufacturing',
+        heading: 'Education',
         image: '/Images/service-development4.webp',
-        contentHeading: 'Manufacturing',
-        contentParagraph: 'This is the description for the Manufacturing slide. It contains detailed information about the image and title of this slide.',
-    },
-    {
-        heading: 'Automotive',
-        image: '/Images/service-development5.webp',
-        contentHeading: 'Automotive',  // Corrected from 'Manufacturing' to 'Automotive'
-        contentParagraph: 'This is the description for the Automotive slide. It contains detailed information about the image and title of this slide.',
+        contentHeading: 'Education',
+        contentParagraph: 'Being one of the top digital marketing agencies in Houston, we empower educational institutions to reach their target audience effectively. We design SEO-driven campaigns that increase visibility for schools, colleges, and online learning platforms.',
     },
     {
         heading: 'Healthcare',
-        image: '/Images/service-development6.webp',
+        image: '/Images/service-development5.webp',
         contentHeading: 'Healthcare',
-        contentParagraph: 'This is the description for the Healthcare slide. It contains detailed information about the image and title of this slide.',
+        contentParagraph: 'In the healthcare sector, trust and accessibility are key. We are known as the best digital marketing agency Houston that enhance the online presence of clinics, hospitals, and wellness centers. Our team ensures they are easily discoverable through local SEO and targeted advertising.',
     },
     {
-        heading: 'Education',
+        heading: 'Entertainment',
+        image: '/Images/service-development6.webp',
+        contentHeading: 'Entertainment',
+        contentParagraph: 'We help entertainment companies captivate their audiences with innovative digital marketing strategies. With a mix of social media buzz, influencer collaborations, and creative content, we amplify your brand\'s visibility.',
+    },
+    {
+        heading: 'Real Estate',
         image: '/Images/service-development7.webp',
-        contentHeading: 'Education',
-        contentParagraph: 'This is the description for the Education slide. It contains detailed information about the image and title of this slide.',
+        contentHeading: 'Real Estate',
+        contentParagraph: 'For real estate agencies, visibility and credibility are paramount. Our tailored digital marketing solutions include hyper-local SEO to attract prospective buyers and sellers. We use visually stunning ad creatives and virtual tours to attract potential clients. ',
+    },
+    {
+        heading: 'Travel',
+        image: '/Images/service-development8.webp',
+        contentHeading: 'Travel',
+        contentParagraph: 'The travel industry thrives on inspiration and convenience. Our digital marketing services position your business as the go-to for unforgettable journeys. Through engaging social media content, destination blogs, and SEO, we drive traffic to your website. ',
+    },
+    {
+        heading: 'Food',
+        image: '/Images/service-development8.webp',
+        contentHeading: 'Food',
+        contentParagraph: 'From restaurants to food delivery services, we help food businesses satisfy cravings and build loyal followings. Our services include optimizing local SEO to attract foot traffic and crafting mouthwatering social media campaigns to keep your audience coming back for more. ',
+    },
+    {
+        heading: 'Retail',
+        image: '/Images/service-development8.webp',
+        contentHeading: 'Retail',
+        contentParagraph: 'We develop eCommerce-focused campaigns that drive traffic and conversions through SEO, paid ads, and email marketing. As a leading B2B digital marketing agency Houston, we create buzz around new collections and promotions, while our data analysis ensures every campaign is optimized for success.',
     },
     {
         heading: 'Technology',
         image: '/Images/service-development8.webp',
         contentHeading: 'Technology',
-        contentParagraph: 'This is the description for the Technology slide. It contains detailed information about the image and title of this slide.',
+        contentParagraph: 'The technology sector demands a cutting-edge approach to digital marketing. We specialize in creating content that highlights the value of your products and services while simplifying complex concepts for your audience.',
     },
 ];
 
@@ -49,7 +67,7 @@ export default function MarketingServices() {
             <section className="py-12 container mx-auto px-4">
                 <h2 className="mb-8 text-center">
                     <span className="text-3xl sm:text-4xl md:text-5xl font-bold">
-                        We Help A Diverse Clientele Build Result-Oriented Social Media Marketing Services
+                        How Our Digital Marketing Agency Houston Texas Help Businesses
                     </span>
                 </h2>
 
