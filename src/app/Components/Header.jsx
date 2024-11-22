@@ -44,7 +44,7 @@ export default function Header() {
     <nav className="border-b border-red-500 bg-white sticky top-0 z-50 py-4">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 container">
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="/Images/21.png" alt="Logo" className="w-36"/>
+          <img src="/Images/21.png" alt="Logo" className="w-36" />
         </Link>
 
         <button
@@ -147,6 +147,11 @@ export default function Header() {
                     <li>
                       <Link href="/fort-worth-seo-company" className="block px-4 py-2 hover:bg-gray-100">
                         Fort Worth
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/houston-seo-company" className="block px-4 py-2 hover:bg-gray-100">
+                        Houston
                       </Link>
                     </li>
                     <li>
