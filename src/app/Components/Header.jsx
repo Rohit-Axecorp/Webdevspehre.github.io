@@ -97,7 +97,7 @@ export default function Header() {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/webdesign" className="block px-4 py-2 hover:bg-gray-100">
+                      <Link href="/houston-texas-web-design" className="block px-4 py-2 hover:bg-gray-100">
                         Web Design
                       </Link>
                     </li>
@@ -107,7 +107,7 @@ export default function Header() {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/digitalmarketing" className="block px-4 py-2 hover:bg-gray-100">
+                      <Link href="/houston-texas-digital-marketing-agency" className="block px-4 py-2 hover:bg-gray-100">
                         Digital Marketing
                       </Link>
                     </li>

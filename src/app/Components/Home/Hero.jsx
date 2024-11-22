@@ -26,7 +26,7 @@ export default function Hero() {
             <p className="text-base sm:text-lg md:text-xl lg:text-xl xl:text-2xl my-4 leading-relaxed font-normal text-white">
               Sell experience rather than a product or service. WebDev Sphere has introduced a way for startups to create an impact on clients with its futuristic web design and development services. With user-centric UI to highly functional features and mobile-first experience, we create websites from scratch right according to your brand purpose. Plus, you can sustain your business online by leveraging our secret digital marketing strategy.
             </p>
-            <button className="group relative px-4 py-2 sm:px-5 sm:py-3 lg:px-6 lg:py-4 border border-black rounded-full text-sm sm:text-lg flex items-center justify-center gap-2 transition-all duration-300 hover:bg-[#ED1E3A] hover:text-white hover:border-transparent">
+            <button className="group relative px-4 py-2 sm:px-5 sm:py-3 lg:px-6 lg:py-4 border text-white border-white rounded-full text-sm sm:text-lg flex items-center justify-center gap-2 transition-all duration-300 hover:bg-[#ED1E3A] hover:text-white hover:border-transparent">
               Digitize Your Presence!
               {/* Inline SVG for the arrow icon */}
               <svg

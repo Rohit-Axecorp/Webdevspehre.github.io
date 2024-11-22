@@ -17,8 +17,8 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-    title: "Houston Web Design and Website Development Company | Web Agency Houston", // Dynamic title
-    description: "Leading web development and design agency delivering affordable modern and responsive web design services in houston tx usa." // Dynamic description
+  title: "Houston Web Design and Website Development Company | Web Agency Houston", // Dynamic title
+  description: "Leading web development and design agency delivering affordable modern and responsive web design services in houston tx usa." // Dynamic description
 };
 
 export default function RootLayout({ children }) {
@@ -26,6 +26,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         {/* Google Site Verification */}
+        <meta name="google-site-verification" content="rneVRzNxeftgc8icex1C-tgULkheYe98qU8A8AKy2yo" />
         <meta name="google-site-verification" content="8c3gU25bOefRDZOX84FW6hZati8pKHpSgdyDJwqvw_A" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>

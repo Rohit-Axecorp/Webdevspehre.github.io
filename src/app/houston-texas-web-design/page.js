@@ -18,6 +18,11 @@ import ProfessionalWebDesignServices from '@/app/Components/Services/Webdesign/P
 import WebDesignAgency from '@/app/Components/Services/Webdesign/WebDesignAgency'
 import WebdesignCTA from '@/app/Components/Services/Webdesign/WebdesignCTA'
 
+export const metadata = {
+  title: "Leading Web Design Company in Houston Texas",
+  description: "Web Dev Sphere is the best Web Design Agency in Houston for mobile-responsive websites, custom web design, best WordPress websites in Houston."
+};
+
 export default function page() {
   return (
     <>

@@ -17,8 +17,8 @@ import SeoServicesIncludes from '@/app/Components/Services/DigitalMarketing/SeoS
 import SeoReviews from '../Components/Services/DigitalMarketing/SeoReviews'
 
 export const metadata = {
-    title: "Leading Digtial Marketing Agency Houston | Web Dev Sphere",
-    description: "Ready to grow your business in the competitive online space? Collaborate with the leading digital marketing agency Houston to attain long-term success!"
+    title: "Digital Marketing Services Agency in Houston Texas",
+    description: "Thrive a full-service Houston digital marketing agency. We offer web design, SEO, social media, PPC, and more. Request a proposal today!"
 };
 
 export default function page() {

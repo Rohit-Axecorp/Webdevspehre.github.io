@@ -20,7 +20,10 @@ import SeoSolution from '@/app/Components/Services/Seo/SeoSolution';
 import TrustedBrands from '@/app/Components/Services/Seo/TrustedBrands';
 import React from 'react';
 
-
+export const metadata = {
+  title: "Houston SEO Company | Top Rated Houston SEO  SEO Services", // Dynamic title
+  description: "Web Dev Sphere is a well-known and trusted SEO company and full-service digital marketing agency in the Houston Texas." // Dynamic description
+};
 
 export default function Seo() {
   return (
