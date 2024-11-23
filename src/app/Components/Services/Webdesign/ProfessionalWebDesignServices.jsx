@@ -46,7 +46,7 @@ const ProfessionalWebDesignServices = () => {
             bgImage: '/Images/Ecommerce-Web-Design.jpg',
         },
         {
-            text: 'SEO strategies become part of the core of our designs to improve the visibility and rank potential. With these advanced tools and techniques, we generate websites that get organic traffic and at the same time a good user experience. However, it is the best web design company in Houston TX that will know how to combine stunning visuals with top search performance.',
+            text: '<a href="/houston-seo-company">SEO</a> strategies become part of the core of our designs to improve the visibility and rank potential. With these advanced tools and techniques, we generate websites that get organic traffic and at the same time a good user experience. However, it is the best web design company in Houston TX that will know how to combine stunning visuals with top search performance.',
             bgImage: '/Images/Ecommerce-Web-Design.jpg',
         },
         {

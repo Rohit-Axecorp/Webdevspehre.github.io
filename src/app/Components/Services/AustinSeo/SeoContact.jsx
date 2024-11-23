@@ -15,7 +15,7 @@ export default function SeoContact() {
               Increase Organic Traffic with Expert Austin SEO Services
             </p>
             <p className="mb-6 text-base md:text-lg text-gray-800">
-              Web Dev Sphere is an award-winning Austin SEO company specializing in personalized SEO solutions. Our Austin, Texas, SEO team optimizes your online presence so you can grow your traffic and improve your website&apos;s ranking.
+              Web Dev Sphere is an award-winning <a href="/austin-seo-company">Austin SEO company</a> specializing in personalized SEO solutions. Our Austin, Texas, SEO team optimizes your online presence so you can grow your traffic and improve your website&apos;s ranking.
             </p>
             <div className="flex items-center my-8 ">
               <div className="flex items-center mr-4 bg-red-500 p-5 rounded-md">

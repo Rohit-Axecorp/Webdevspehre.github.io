@@ -29,7 +29,7 @@ export default function ProcessSocialMedia() {
                             We start by getting to know your brand through a detailed audit to see where you currently stand. Then, we optimize your social media profiles to make sure they’re in sync with your business goals. Our team creates eye-catching content and posts it strategically, all while keeping a close eye on audience engagement to make sure we’re hitting the mark.
                         </p>
                         <p className="text-base sm:text-lg md:text-xl font-normal text-gray-600">
-                            We regularly check in on performance, tweaking our strategy to get the best results. As a leading Houston digital marketing agency  give you the best value for your investment, helping you get the most out of every dollar. Let us help boost your brand’s online presence and connect with your audience in a way that feels real and effective.
+                            We regularly check in on performance, tweaking our strategy to get the best results. As a leading <a href="/houston-texas-digital-marketing-agency">Houston digital marketing agency</a>  give you the best value for your investment, helping you get the most out of every dollar. Let us help boost your brand’s online presence and connect with your audience in a way that feels real and effective.
                         </p>
                     </div>
 

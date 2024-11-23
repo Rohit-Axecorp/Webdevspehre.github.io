@@ -11,9 +11,10 @@ const slidesData = [
     },
     {
         title: "Custom Web Design",
-        description: "As a web design company, we create user-focused designs to make your site appealing. There is a different layout created for every experience of the user, recreating the brand's dictionary.",
+        description: 'As a <a href="/houston-texas-web-design" target="_blank" rel="noopener noreferrer">web design company</a>, we create user-focused designs to make your site appealing. There is a different layout created for every experience of the user, recreating the brand\'s dictionary.',
         icon: "/Images/serv-icon-5.png"
     },
+    
     {
         title: "WordPress Development",
         description: "As a part of our website design company services, we can provide you with advanced WordPress solutions. We provide a robust, scalable, and easy-to-adapt platform built on custom themes and with plugin integrations.",

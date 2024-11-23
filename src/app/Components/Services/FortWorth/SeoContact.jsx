@@ -16,7 +16,7 @@ export default function SeoContact() {
               Maximize Your ROI with a Professional Fort Worth SEO Solution
             </p>
             <p className="mb-6 text-base md:text-lg text-gray-700">
-              Web Dev Sphere is a leading Fort Worth SEO company specializing in personalized SEO solutions. Our experts are well-versed in optimizing your platform so it ranks higher on search engines and drives traffic.
+              <a href="/">Web Dev Sphere</a> is a leading <a href="/fort-worth-seo-company">Fort Worth SEO company</a> specializing in personalized SEO solutions. Our experts are well-versed in optimizing your platform so it ranks higher on search engines and drives traffic.
             </p>
             <div className="flex items-center my-8 ">
               <div className="flex items-center mr-4 bg-red-500 p-5 rounded-md">
