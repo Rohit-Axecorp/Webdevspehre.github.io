@@ -22,9 +22,9 @@ export default function Counter() {
             } ${index < stats.length - 1 && 'lg:border-r-4 border-[#ED1E3A]'} pr-4`}
           >
             {/* Animated Number */}
-            <h2 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-[#ED1E3A]">
+            <p className="text-5xl sm:text-6xl lg:text-7xl font-bold text-[#ED1E3A]">
               <CountUp end={stat.number} duration={3} />+
-            </h2>
+            </p>
 
             {/* Label */}
             <p className="mt-4 text-md sm:text-lg font-medium text-gray-600">{stat.label}</p>

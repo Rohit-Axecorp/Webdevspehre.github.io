@@ -14,7 +14,6 @@ export default function Tabs() {
             description:
                 'Our web development company amplifies your brands online presence through data-driven digital marketing strategies. We ensure your reach is optimized and engaging, fueling growth across platforms.',
             services: ['Social Media', 'SEO', 'Influencer Marketing', 'Content Creation', 'PPC', 'Content Writing', 'ASO'],
-            image: '/Images/digital-marketing-tabs-main-image.webp',
             icon: faBullhorn,
             number: '01'
         },
@@ -24,7 +23,6 @@ export default function Tabs() {
             description:
                 'As a web design company with a flair for creativity, we specialize in crafting visually stunning and user-friendly interfaces. Each design is tailored to captivate and connect with your audience.',
             services: ['UI/UX Design', 'Logo Design', 'Graphic Design', 'Social Media Design', 'Marketing Campaign Design', 'Corporate Branding ', 'Landing Page Design '],
-            image: '/Images/design-tabs-main-image.webp',
             icon: faPalette,
             number: '02'
         },
@@ -34,7 +32,6 @@ export default function Tabs() {
             description:
                 'A trusted web design and development company, we create custom web solutions that are both scalable and secure. From interactive websites to complex platforms, we bring your vision to life with precision.',
             services: ['Front-End Development', 'Back-End Development', 'Full-Stack Development', 'API Integration'],
-            image: '/Images/web-development-tabs-main-image.webp',
             icon: faCode,
             number: '03'
         },
@@ -44,7 +41,6 @@ export default function Tabs() {
             description:
                 'Our expertise in eCommerce development helps businesses thrive online with high-performance stores. We design seamless, conversion-driven experiences that set us apart as a best-in-class web development company.',
             services: ['Shopify Development', 'Magento Development', 'WooCommerce Development', 'Custom Solutions'],
-            image: '/Images/ecommerce-development-tabs-main-image.webp',
             icon: faShoppingCart,
             number: '04'
         },
@@ -60,13 +56,13 @@ export default function Tabs() {
                     <div className="container mx-auto pt-10 bg-no-repeat bg-right bg-contain h-44" style={{ backgroundImage: "url('/Images/dg-vertical-tabs-background-image.webp')" }}>
                         {/* Text Content */}
                         <div className="relative z-10 ">
-                            <h3 className="text-red-500 font-semibold text-lg mb-2">
+                            <h3 className="text-[#ED1E3A] font-semibold text-lg mb-2">
                                 Web Design
                                 <span className="text-black"> & Development Company</span>
                             </h3>
                             <p className="text-2xl md:text-5xl font-bold text-black">
                                 Expanding Digital Horizons Across
-                                <span className="text-red-500"> Key Sectors</span>
+                                <span className="text-[#ED1E3A]"> Key Sectors</span>
                             </p>
                         </div>
                     </div>
@@ -79,7 +75,7 @@ export default function Tabs() {
                             {tabs.map((tab, index) => (
                                 <div
                                     key={tab.id}
-                                    className={`cursor-pointer py-6 font-bold border-b text-lg flex items-center gap-2 hover:text-red-500 transition-all ${activeTab === index ? ' text-red-500' : 'text-gray-700'}`}
+                                    className={`cursor-pointer py-6 font-bold border-b text-lg flex items-center gap-2 hover:text-[#ED1E3A] transition-all ${activeTab === index ? ' text-[#ED1E3A]' : 'text-gray-700'}`}
                                     onClick={() => setActiveTab(index)}
                                 >
                                     {/* Display icon before the title */}
@@ -93,16 +89,15 @@ export default function Tabs() {
                         <div className="md:w-3/4 py-5">
                             <div className="flex flex-col lg:flex-row items-start gap-8">
                                 {/* Content Section */}
-                                <div className="w-full lg:w-2/3">
-                                    <h2 className="text-xl md:text-3xl font-bold text-gray-800 flex items-center gap-2">
+                                <div className="w-full">
+                                    <p className="text-xl md:text-3xl font-bold text-gray-800 flex items-center gap-2">
                                         {/* Number with slash */}
-                                        <span className="text-red-500 font-light">{tabs[activeTab].number}/</span>
+                                        <span className="text-[#ED1E3A] font-light">{tabs[activeTab].number}/</span>
                                         {tabs[activeTab].title}
-                                    </h2>
-                                    <p className="text-gray-600 my-4">
+                                    </p>
+                                    <p className="lg:text-xl text-black leading-7 my-4">
                                         {tabs[activeTab].description}
                                     </p>
-
                                     {/* Service Buttons with Arrow */}
                                     <div className="flex flex-wrap gap-3 mb-4">
                                         {tabs[activeTab].services.map((service, index) => (
@@ -112,20 +107,20 @@ export default function Tabs() {
                                             >
                                                 <span>{service}</span>
                                                 {/* Display an arrow icon pointing diagonally */}
-                                                <FontAwesomeIcon icon={faArrowRight} className="ml-2 transform -rotate-45 text-red-500" />
+                                                <FontAwesomeIcon icon={faArrowRight} className="ml-2 transform -rotate-45 text-[#ED1E3A]" />
                                             </button>
                                         ))}
                                     </div>
                                 </div>
 
                                 {/* Image Section */}
-                                <div className="w-full lg:w-1/3">
+                                {/* <div className="w-full lg:w-1/3">
                                     <img
                                         src={tabs[activeTab].image}
                                         alt={tabs[activeTab].title}
                                         className="w-full"
                                     />
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

@@ -42,9 +42,9 @@ export default function Solutions() {
       <section className='bg-gray-100'>
         <div className="py-12 container ">
           <div className="text-center">
-            <h3 className="text-3xl md:text-5xl font-bold text-black mb-4">Offering Versatile Web Solutions Across Diverse Industries
+            <h3 className="text-3xl md:text-5xl font-bold text-black mb-4"><span className='text-[#ED1E3A]'> Offering Versatile Web Solutions </span> Across Diverse Industries
             </h3>
-            <p className="text-lg text-gray-600 mb-8">
+            <p className="text-base lg:text-xl text-black leading-7 mb-8">
               Being among the top web development companies, we got the exposure to serve multiple industries across the globe with our innovative web solutions.
             </p>
           </div>
@@ -52,7 +52,7 @@ export default function Solutions() {
             {industries.map((industry, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center p-6 border rounded-lg transition-transform duration-300 hover:text-red-500 hover:scale-105"
+                className="flex flex-col items-center p-6 border rounded-lg text-[#e24156] transition-transform duration-300 hover:text-black hover:scale-105"
               >
                 <div className="text-5xl mb-4">{industry.icon}</div>
                 <p className="text-lg font-medium">{industry.name}</p>

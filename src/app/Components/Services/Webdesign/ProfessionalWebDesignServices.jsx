@@ -100,7 +100,10 @@ const ProfessionalWebDesignServices = () => {
                             <h3 className="text-2xl md:text-3xl font-bold mb-4">
                                 {tabsLeft[selectedTab] || tabsRight[selectedTab - tabsLeft.length]}
                             </h3>
-                            <p className="text-lg md:text-xl">{content[selectedTab].text}</p>
+                            <p
+                                className="text-lg md:text-xl"
+                                dangerouslySetInnerHTML={{ __html: content[selectedTab].text }}
+                            ></p>
                         </div>
                     </div>
 

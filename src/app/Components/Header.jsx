@@ -42,9 +42,9 @@ export default function Header() {
 
   return (
     <nav className="border-b border-red-500 bg-white sticky top-0 z-50 py-4">
-      <div className="flex flex-wrap items-center justify-between mx-auto px-4 container">
+      <div className="flex flex-wrap items-center justify-between mx-auto px-20 container">
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="/Images/21.png" alt="Logo" className="w-36" />
+          <img src="/Images/21.png" alt="Logo" className="w-28" />
         </Link>
 
         <button

@@ -7,12 +7,12 @@ export default function Publishing() {
         <div className="flex flex-col lg:flex-row justify-between items-center md:items-start container lg:py-16 py-10 px-4 sm:px-6 lg:px-8">
             {/* Left Column - Code Section */}
             <div className="lg:w-1/2 bg-white lg:pr-8 mb-8 lg:mb-0">
-                <h4 className="lg:text-5xl text-3xl font-bold">In the Limelight: WebDev Sphere Featured by Top-Tier Industry Publications
+                <h4 className="lg:text-5xl text-3xl font-bold"><span className='text-[#ED1E3A]'> In the Limelight WebDev Sphere </span>Featured by Top-Tier Industry Publications
                 </h4>
-                <p className="mt-6 text-gray-600 leading-relaxed">
+                <p className="mt-6 text-black text-xl leading-relaxed">
                     Proving itself as one of the best web development companies, WebDev Sphere is celebrated by some of the prestigious publications in the tech industry as the testament of our impactful web design and development services.
                 </p>
-                <button className="group mt-3 relative px-6 py-3 border border-black rounded-full text-lg flex items-center justify-center gap-2 transition-all duration-300 hover:bg-[#ED1E3A] hover:text-white hover:border-transparent">
+                <button className="group mt-3 relative px-6 py-3 text-white border-[#ED1E3A] bg-[#ED1E3A] rounded-full text-lg flex items-center justify-center gap-2 transition-all duration-300 hover:bg-[#ED1E3A] hover:text-white hover:border-transparent">
                     More About Us
                     {/* Inline SVG for the arrow icon */}
                     <svg
