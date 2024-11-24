@@ -52,9 +52,10 @@ export default function Process() {
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
           <div className="content md:w-1/2 mb-8">
             <h3 className="text-2xl md:text-5xl font-bold mb-4">
-              Proven Process, Exceptional Results: Our Web Development Approach
+            <span className='text-[#ED1E3A]'> Proven Process, Exceptional Results </span>
+               Our Web Development Approach
             </h3>
-            <p className="text-base sm:text-lg md:text-xl text-gray-700 mb-8">
+            <p className="lg:text-xl text-black leading-7 mb-8">
               We are known as a trusted web design and development company, highly different from other companies because we have a streamlined process. Every stage from in-depth planning to superb execution is meticulously prepared to give you a seamless and impactful solution. We are a top web development company that values transparency and collaboration, and expertise that resonates with your vision and provides an outstanding site. We not only improve efficiency but also reach the feasibility and functionality of your website, and it becomes a powerful tool for your business growth.
             </p>
           </div>
@@ -82,7 +83,7 @@ export default function Process() {
               >
                 {/* Image Container */}
                 <div className="text-left mb-4 flex">
-                  <div className="transition-all duration-300 transform group-hover:scale-110 bg-gray-300 p-4 rounded-lg group-hover:bg-red-500">
+                  <div className="transition-all duration-300 transform group-hover:scale-110 bg-[#ED1E3A] p-4 rounded-lg">
                     <img
                       src={step.imgSrc}
                       alt={step.title}

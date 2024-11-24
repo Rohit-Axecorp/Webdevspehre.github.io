@@ -42,7 +42,7 @@ export default function Technologies() {
         <div className="container mx-auto px-4 flex flex-col md:flex-row gap-10">
           <div className="content md:w-2/5 mb-8">
             <h3 className="text-2xl md:text-5xl font-bold mb-4 text-white">
-              Empowering Web Solutions with Our Next-gen Tech Suite
+            <span className='text-[#ED1E3A]'> Empowering Web Solutions </span> with Our Next-gen Tech Suite
             </h3>
           </div>
 

@@ -29,7 +29,7 @@ export default function ContactForm() {
 
   return (
     <div className="flex justify-center items-center py-12">
-      <div className="flex flex-col lg:flex-row bg-red-500 p-6 shadow-lg relative container sm:p-8  w-full lg:w-auto">
+      <div className="flex flex-col lg:flex-row bg-[#ED1E3A] p-6 shadow-lg relative container sm:p-8  w-full lg:w-auto">
         {/* Form Section */}
         <div className="bg-white p-6 shadow-md w-full lg:w-2/5 h-auto sm:p-8">
           <form className="space-y-4 sm:space-y-6" onSubmit={handleSubmit}>
@@ -43,7 +43,7 @@ export default function ContactForm() {
                 placeholder="Name*"
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full border-b border-gray-300 py-3 sm:py-4 px-4 focus:ring-0 focus:border-b-red-500 text-black text-base sm:text-lg"
+                className="w-full border-b border-gray-300 py-3 sm:py-4 px-4 focus:ring-0 focus:border-b-[#ED1E3A] text-black text-base sm:text-lg"
               />
             </div>
 
@@ -57,7 +57,7 @@ export default function ContactForm() {
                 placeholder="Email*"
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full border-b border-gray-300 py-3 sm:py-4 px-4 focus:ring-0 focus:border-b-red-500 text-black text-base sm:text-lg"
+                className="w-full border-b border-gray-300 py-3 sm:py-4 px-4 focus:ring-0 focus:border-b-[#ED1E3A] text-black text-base sm:text-lg"
               />
             </div>
 
@@ -71,7 +71,7 @@ export default function ContactForm() {
                 placeholder="Phone*"
                 value={formData.phone}
                 onChange={handleChange}
-                className="w-full border-b border-gray-300 py-3 sm:py-4 px-4 focus:ring-0 focus:border-b-red-500 text-black text-base sm:text-lg"
+                className="w-full border-b border-gray-300 py-3 sm:py-4 px-4 focus:ring-0 focus:border-b-[#ED1E3A] text-black text-base sm:text-lg"
               />
             </div>
 
@@ -84,7 +84,7 @@ export default function ContactForm() {
                 placeholder="Website"
                 value={formData.website}
                 onChange={handleChange}
-                className="w-full border-b border-gray-300 py-3 sm:py-4 px-4 focus:ring-0 focus:border-b-red-500 text-black text-base sm:text-lg"
+                className="w-full border-b border-gray-300 py-3 sm:py-4 px-4 focus:ring-0 focus:border-b-[#ED1E3A] text-black text-base sm:text-lg"
               />
             </div>
 
@@ -92,7 +92,7 @@ export default function ContactForm() {
             <div className="flex justify-center lg:justify-start">
               <button
                 type="submit"
-                className="w-3/4 sm:w-2/5 bg-red-500 text-lg sm:text-xl rounded-md text-white font-semibold py-3 px-2 hover:bg-red-600 transition"
+                className="w-3/4 sm:w-2/5 bg-[#ED1E3A] text-lg sm:text-xl rounded-md text-white font-semibold py-3 px-2 hover:bg-red-600 transition"
               >
                 Get A Free Quote
               </button>

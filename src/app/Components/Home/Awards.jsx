@@ -20,12 +20,12 @@ export default function Awards() {
                 <div className="flex flex-col md:flex-row items-center justify-between">
                     {/* First Column */}
                     <div className="text-left md:w-1/2">
-                        <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold">Celebrating Excellence: Awards that Reflect Our Credibility
+                        <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold"> <span className='text-[#ED1E3A]'> Celebrating Excellence </span> Awards that Reflect Our Credibility
                         </h3>
-                        <p className="text-lg mt-4">
+                        <p className="lg:text-xl text-black leading-7 mt-4">
                             Honored as a web development company, WebDev Sphere maintains a reputation for innovation and quality, which has helped us be awarded for our work in the industry. These accolades perfectly represent our never-ending desire to provide best-in-class solutions as a web development company USA. Each award fuels our passion for what we do, continually pushing boundaries and making impactful digital experiences.
                         </p>
-                        <button className="mt-6 px-6 py-2 text-lg font-semibold border-2 text-red-500 border-red-500 rounded-full hover:bg-red-500 hover:text-white">
+                        <button className="mt-6 px-6 py-2 text-lg font-semibold border-2 text-white border-[#ED1E3A] bg-[#ED1E3A] rounded-full">
                             Check Reviews
                         </button>
                     </div>

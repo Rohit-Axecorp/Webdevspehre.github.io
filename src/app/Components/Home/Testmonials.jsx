@@ -7,9 +7,9 @@ export default function Testimonials() {
   return (
     <section className=''>
       <div className="flex flex-col items-center py-12 container">
-        <h4 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-center">Real Success Stories: What Our Clients Say About Us
+        <h4 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-center"><span className='text-[#ED1E3A]'> Real Success Stories </span> What Our Clients Say About Us
         </h4>
-        <p className="text-center text-lg mb-12 md:mx-20">
+        <p className="text-center lg:text-xl text-black leading-7 mb-12 md:mx-20">
           Our clients trust WebDev Sphere for transformative web solutions, and their feedback speaks volumes. Here&apos;s what they have to say about their experience with our top-notch services.
         </p>
 
@@ -22,7 +22,7 @@ export default function Testimonials() {
               text="Working with WebDev Sphere was a game-changer for our online store. Their e-commerce website development expertise took our business to the next level, driving both traffic and conversions beyond our expectations."
               name="Liam Turner"
               position="Founder of FreshGrocer"
-              color="bg-red-500"
+              color="bg-[#ED1E3A]"
             />
           </div>
 
@@ -42,7 +42,7 @@ export default function Testimonials() {
               text="WebDev Sphere&apos;s SEO strategy has been phenomenal! We&apos;ve seen a significant boost in organic traffic and rankings, and it&apos;s all thanks to their data-driven digital marketing approach."
               name="David Johnson"
               position="Marketing Manager at TechWave"
-              color="bg-red-500"
+              color="bg-[#ED1E3A]"
             />
           </div>
 
