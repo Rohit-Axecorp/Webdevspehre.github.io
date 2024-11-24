@@ -13,7 +13,7 @@ export default function Portfolio() {
                         <br />
                         <span className="font-medium text-black"> Our Web Development Company Portfolio</span>
                     </h2>
-                    <p className="text-base lg:text-xl text-black leading-7 mx-auto">
+                    <p className="text-base lg:text-xl text-gray-600 leading-7 mx-auto">
                         At WebDev Sphere, we pride ourselves on being a versatile web design and development company, crafting tailor-made digital solutions that stand out in the industry. From dynamic eCommerce platforms to sleek corporate websites, our projects reflect creativity and innovation. As the best <a href='https://webdevsphere.com/'>web development company,</a> we bring your vision to life with a perfect blend of functionality and aesthetic appeal, ensuring every project is unique and impactful.
                     </p>
                 </div>

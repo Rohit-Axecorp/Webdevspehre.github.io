@@ -3,7 +3,64 @@
 @tailwind utilities;
 
 /* styles/globals.css */
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/Fonts/Gilroy-Thin.ttf') format('truetype'),
+       url('/Fonts/Gilroy-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
 
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/Fonts/Gilroy-UltraLight.ttf') format('truetype'),
+       url('/Fonts/Gilroy-UltraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/Fonts/Gilroy-Regular.ttf') format('truetype'),
+       url('/Fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/Fonts/Gilroy-Medium.ttf') format('truetype'),
+       url('/Fonts/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/Fonts/Gilroy-SemiBold.ttf') format('truetype'),
+       url('/Fonts/Gilroy-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/Fonts/Gilroy-Bold.ttf') format('truetype'),
+       url('/Fonts/Gilroy-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/Fonts/Gilroy-ExtraBold.ttf') format('truetype'),
+       url('/Fonts/Gilroy-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url('/Fonts/Gilroy-Black.ttf') format('truetype'),
+       url('/Fonts/Gilroy-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+/* /////////////////////////////////// */
 
 :root {
   --background: #ffffff;
@@ -21,7 +78,7 @@ body {
   color: var(--foreground);
   background: var(--background);
   /* font-family: Arial, Helvetica, sans-serif; */
-  font-family: "Poppins", sans-serif;
+  font-family: 'Gilroy', sans-serif;
 }
 
 @layer utilities {
@@ -30,16 +87,17 @@ body {
   }
 }
 
+
 /* ////////////////////Custom/////////////////// */
 @keyframes borderPulse {
   0% {
-    box-shadow: 0 0 5px #ed1e3a;
+    box-shadow: 0 0 5px #ED1E3A;
   }
   50% {
     box-shadow: 0 0 10px #ffffff;
   }
   100% {
-    box-shadow: 0 0 5px #ed1e3a;
+    box-shadow: 0 0 5px #ED1E3A;
   }
 }
 
@@ -69,3 +127,4 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #000000;
 }
+
