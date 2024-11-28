@@ -1,4 +1,3 @@
-// app/layout.js
 import localFont from "next/font/local";
 import "./globals.css";
 import '@fortawesome/fontawesome-svg-core/styles.css';
@@ -25,11 +24,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        {/* Viewport Meta Tag */}
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
         {/* Google Site Verification */}
         <meta name="google-site-verification" content="T5IIkWnlq8DjeYbqup_Ud0biM1DjbK8xh08AwI7UDgM" />
         <meta name="google-site-verification" content="rneVRzNxeftgc8icex1C-tgULkheYe98qU8A8AKy2yo" />
         <meta name="google-site-verification" content="8c3gU25bOefRDZOX84FW6hZati8pKHpSgdyDJwqvw_A" />
-     
+        <meta name="google-site-verification" content="H_aKn9-DZgHX9wAiVAOBKtWuW4YeByxHq3mE0RQl8X4" />
       </head>
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         {children}

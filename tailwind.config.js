@@ -12,11 +12,15 @@ module.exports = {
         foreground: "var(--foreground)",
       },
       container: {
-        center: true, // Centers the container by default
-        padding: '1rem', // Optional: Adds padding to the container
+        center: true, // Centers the container on the page
+        padding: '1rem', // Adds consistent padding
         screens: {
-          DEFAULT: '100%', // Use full width by default
-          lg: '1670px', // Set 1670px for large screens and above
+          DEFAULT: '100%', // Full width for smaller screens by default
+          sm: '100%',      // Full width for small screens
+          md: '100%',      // Full width for medium screens
+          lg: '1200px',    // Set 1200px for screens up to 1366px
+          xl: '1400px',    // Set 1400px for screens up to 1920px
+          '2xl': '1400px', // Set 1400px for extra-large screens
         },
       },
       fontFamily: {

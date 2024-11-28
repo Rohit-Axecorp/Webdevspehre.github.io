@@ -30,7 +30,7 @@ const SocialIcons = () => {
                 <FaInstagram size={25} />
             </a>
             <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/web-dev-sphere"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center text-white border-[1px] border-none rounded-full p-3 bg-[#ED1E3A] bg-opacity-80 transition-transform transform hover:scale-110 hover:shadow-lg hover:bg-opacity-100 icon-animation"

@@ -41,10 +41,10 @@ export default function Header() {
   }, []);
 
   return (
-    <nav className="border-b border-red-500 bg-white sticky top-0 z-50 py-4">
-      <div className="flex flex-wrap items-center justify-between mx-auto px-20 container">
+    <nav className="border-b border-red-500 bg-white sticky top-0 z-50 2xl:py-4 py-3">
+      <div className="flex flex-wrap items-center justify-between mx-auto px-4 container">
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="/Images/21.png" alt="Logo" className="w-28" />
+          <img src="/Images/21.png" alt="Logo" className="2xl:w-28 w-20" />
         </Link>
 
         <button
@@ -73,7 +73,7 @@ export default function Header() {
         >
           <ul className="flex flex-col mt-4 lg:flex-row lg:mt-0 lg:space-x-4">
             <li>
-              <Link href="/" className="block py-2 lg:px-2 text-red-600 hover:text-red-600 xl:text-lg text-md font-semibold">
+              <Link href="/" className="block py-2 lg:px-2 text-red-600 hover:text-red-600 2xl:text-lg text-sm font-semibold">
                 Home
               </Link>
             </li>
@@ -81,10 +81,10 @@ export default function Header() {
             <li className="relative">
               <button
                 onClick={handleDropdownToggle}
-                className="flex items-center xl:text-lg text-md justify-between w-full py-2 lg:px-2 font-normal text-gray-900 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-red-600"
+                className="flex items-center 2xl:text-lg text-sm justify-between w-full py-2 lg:px-2 font-normal text-gray-900 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-red-600"
               >
                 Services
-                <svg className="w-4 h-4 md:ml-4 mr-4 lg:mr-0" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6">
+                <svg className="2xl:w-4 2xl:h-4 w-3 h-3 2xl:ml-4 ml-2 mr-4 lg:mr-0" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1l4 4 4-4" />
                 </svg>
               </button>
@@ -129,10 +129,10 @@ export default function Header() {
             <li className="relative">
               <button
                 onClick={handleLocationDropdownToggle}
-                className="flex items-center xl:text-lg text-md justify-between w-full py-2 lg:px-2 font-normal text-gray-900 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-red-600"
+                className="flex items-center 2xl:text-lg text-sm justify-between w-full py-2 lg:px-2 font-normal text-gray-900 hover:bg-gray-50 md:hover:bg-transparent md:hover:text-red-600"
               >
                 Location
-                <svg className="w-4 h-4 md:ml-4 mr-4 lg:mr-0" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6">
+                <svg className="2xl:w-4 2xl:h-4 w-3 h-3 2xl:ml-4 ml-2 mr-4 lg:mr-0" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 1l4 4 4-4" />
                 </svg>
               </button>
@@ -170,33 +170,33 @@ export default function Header() {
             </li>
 
             <li>
-              <Link href="/about-us" className="block py-2 lg:px-2 text-black hover:text-black xl:text-lg text-md font-normal">
+              <Link href="/about-us" className="block py-2 lg:px-2 text-black hover:text-black 2xl:text-lg text-sm font-normal">
                 About
               </Link>
             </li>
             <li>
-              <Link href="/" className="block py-2 lg:px-2 text-black hover:text-black xl:text-lg text-md font-normal">
+              <Link href="/" className="block py-2 lg:px-2 text-black hover:text-black 2xl:text-lg text-sm font-normal">
                 Case Studies
               </Link>
             </li>
             <li>
-              <Link href="/blogs" className="block py-2 lg:px-2 text-black hover:text-black xl:text-lg text-md font-normal">
+              <Link href="/blogs" className="block py-2 lg:px-2 text-black hover:text-black 2xl:text-lg text-sm font-normal">
                 Blogs
               </Link>
             </li>
             <li>
-              <Link href="/" className="block py-2 lg:px-2 text-black hover:text-black xl:text-lg text-md font-normal">
+              <Link href="/" className="block py-2 lg:px-2 text-black hover:text-black 2xl:text-lg text-sm font-normal">
                 Portfolio
               </Link>
             </li>
             <li>
-              <Link href="/contact-us" className="block py-2 lg:px-2 text-black hover:text-black xl:text-lg text-md font-normal">
+              <Link href="/contact-us" className="block py-2 lg:px-2 text-black hover:text-black 2xl:text-lg text-sm font-normal">
                 Contact
               </Link>
             </li>
 
             <div className="hidden md:flex items-center">
-              <button className="px-6 py-2 text-lg font-normal border text-red-500 border-red-500 rounded-full hover:bg-red-500 hover:text-white">
+              <button className="px-6 py-2 2xl:text-lg text-sm font-normal border text-red-500 border-red-500 rounded-full hover:bg-red-500 hover:text-white">
                 Let&apos;s Talk
               </button>
             </div>
