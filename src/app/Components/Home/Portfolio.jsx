@@ -6,14 +6,14 @@ import Image from 'next/image';
 export default function Portfolio() {
     return (
         <>
-            <div className="py-10 lg:py-12 bg-white">
+            <div className="py-10 2xl:py-12 bg-white">
                 <div className="container mx-auto text-center px-4 md:px-5">
-                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold md:mb-4 text-[#ED1E3A] py-4">
+                    <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-extrabold 2xl:mb-4 text-[#ED1E3A] py-4">
                         Transforming Ideas into Digital Masterpieces
                         <br />
                         <span className="font-medium text-black"> Our Web Development Company Portfolio</span>
                     </h2>
-                    <p className="text-base lg:text-xl text-gray-600 leading-7 mx-auto">
+                    <p className="2xl:text-lg lg:text-base text-sm text-gray-600 leading-7 mx-auto">
                         At WebDev Sphere, we pride ourselves on being a versatile web design and development company, crafting tailor-made digital solutions that stand out in the industry. From dynamic eCommerce platforms to sleek corporate websites, our projects reflect creativity and innovation. As the best <a href='https://webdevsphere.com/'>web development company,</a> we bring your vision to life with a perfect blend of functionality and aesthetic appeal, ensuring every project is unique and impactful.
                     </p>
                 </div>
@@ -30,7 +30,7 @@ export default function Portfolio() {
                 ].map((item, index) => (
                     <div
                         key={index}
-                        className="relative group overflow-hidden h-72 md:h-80"
+                        className="relative group overflow-hidden h-60 2xl:h-80"
                     >
                         <Image
                             src={item.src}

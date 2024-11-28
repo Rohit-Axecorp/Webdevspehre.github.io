@@ -49,7 +49,7 @@ export default function Tabs() {
     return (
 
         <>
-            <section className=' lg:py-16 py-10 bg-white'>
+            <section className=' 2xl:py-12 py-10 bg-white'>
 
                 <div className=" relative w-full" >
                     {/* Main container */}
@@ -60,7 +60,7 @@ export default function Tabs() {
                                 Web Design
                                 <span className="text-black"> & Development Company</span>
                             </h3>
-                            <p className="text-2xl md:text-5xl font-bold text-black">
+                            <p className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-black">
                                 Expanding Digital Horizons Across
                                 <span className="text-[#ED1E3A]"> Key Sectors</span>
                             </p>
@@ -95,7 +95,7 @@ export default function Tabs() {
                                         <span className="text-[#ED1E3A] font-light">{tabs[activeTab].number}/</span>
                                         {tabs[activeTab].title}
                                     </p>
-                                    <p className="lg:text-xl text-black leading-7 my-4">
+                                    <p className="2xl:text-lg lg:text-base text-sm text-black my-4">
                                         {tabs[activeTab].description}
                                     </p>
                                     {/* Service Buttons with Arrow */}

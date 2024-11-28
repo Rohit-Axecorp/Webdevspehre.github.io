@@ -7,16 +7,16 @@ export default function Strategies() {
   return (
     <>
       <div className="bg-gray-100">
-        <div className="flex flex-col lg:flex-row gap-8 w-full mx-auto container px-4 sm:px-6 lg:px-8 py-10 lg:py-16">
+        <div className="flex flex-col lg:flex-row gap-8 w-full mx-auto container px-4 sm:px-6 lg:px-8 py-10 2xl:py-12">
           {/* Left Column - Static Content */}
-          <div className="w-full lg:w-1/2 xl:w-1/3 lg:pr-8">
-            <h3 className="text-3xl text-[#ED1E3A] font-bold leading-tight">
+          <div className="w-full lg:w-1/2 lg:pr-8">
+            <h3 className="text-3xl lg:text-4xl 2xl:text-5xl text-[#ED1E3A] font-bold leading-tight">
               Our Web Development Services
             </h3>
-            <p className=" text-xl sm:text-3xl font-semibold mt-2">
+            <p className="text-xl lg:text-3xl font-semibold mt-2">
               From Concept to Code: Services Designed to Elevate Your Brand
             </p>
-            <p className="mt-6 lg:text-xl text-black leading-7">
+            <p className="mt-6 2xl:text-lg lg:text-base text-sm text-black leading-7">
               Unlike normal web development firms, WebDev Sphere is an entire web design and improvement organization dedicated to creating client-focused online solutions that lift your brand’s online existence.
             </p>
             <button className="group mt-6 relative px-6 py-3 border text-white border-[#ED1E3A] bg-[#ED1E3A] rounded-full text-base sm:text-lg flex items-center justify-center gap-2 transition-all duration-300 hover:bg-[#ED1E3A] hover:text-white hover:border-transparent">

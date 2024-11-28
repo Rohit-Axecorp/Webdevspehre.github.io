@@ -6,10 +6,10 @@ import '../Home/Testimonials.css';
 export default function Testimonials() {
   return (
     <section className=''>
-      <div className="flex flex-col items-center py-12 container">
-        <h4 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-center"><span className='text-[#ED1E3A]'> Real Success Stories </span> What Our Clients Say About Us
+      <div className="flex flex-col items-center 2xl:py-12 py-10 container">
+        <h4 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4 text-center"><span className='text-[#ED1E3A]'> Real Success Stories </span> What Our Clients Say About Us
         </h4>
-        <p className="text-center lg:text-xl text-black leading-7 mb-12 md:mx-20">
+        <p className="text-center 2xl:text-lg lg:text-base text-sm text-black leading-7 mb-12 md:mx-20">
           Our clients trust WebDev Sphere for transformative web solutions, and their feedback speaks volumes. Here&apos;s what they have to say about their experience with our top-notch services.
         </p>
 

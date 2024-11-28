@@ -18,11 +18,11 @@ module.exports = {
           DEFAULT: '100%', // Full width for smaller screens by default
           sm: '100%',      // Full width for small screens
           md: '100%',      // Full width for medium screens
-          lg: '1200px',    // Set 1200px for screens up to 1366px
+          lg: '1200px',    // Set 1200px for screens up to 1536px
           xl: '1400px',    // Set 1400px for screens up to 1920px
-          '2xl': '1400px', // Set 1400px for extra-large screens
+          '2xl': '1400px', // Set 1400px for extra-large screens (1920px and up)
         },
-      },
+      },      
       fontFamily: {
         sans: ['Gilroy', 'Arial', 'sans-serif'], // Default sans-serif font stack
         // Add other font families if needed

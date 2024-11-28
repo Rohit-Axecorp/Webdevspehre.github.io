@@ -136,10 +136,10 @@ export default function AccordiansFAQ() {
 
     return (
         <div className="pt-12 mx-auto container">
-            <h4 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center">
+            <h4 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4 text-center">
                 FAQS
             </h4>
-            <p className="text-center lg:text-lg text-md mb-12 md:mx-20">
+            <p className="text-center 2xl:text-lg lg:text-base text-sm mb-12 md:mx-20">
                 Get Answers to Your Queries Here!
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

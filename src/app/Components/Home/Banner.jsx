@@ -21,21 +21,21 @@ export default function Banner() {
         <div className="flex flex-col justify-center items-center lg:items-start lg:pl-16 md:pl-24 z-20 text-white w-full md-3/5 lg:w-3/5 text-center lg:text-left">
           <div className="inline-flex items-center">
             <div className="border border-white rounded-xl mb-4 px-4 py-2 inline-flex items-center bg-[#1b1b1b]">
-              <p className="text-[#ED1E3A] text-xl md:text-2xl font-bold">
+              <p className="text-[#ED1E3A] text-xl 2xl:text-2xl font-bold">
                 <span>Web Solutions
                 </span>
                 <span className="text-white"> Built to Win</span>
               </p>
             </div>
           </div>
-          <h5 className="text-4xl md:text-5xl lg:text-6xl font-bold text-[#ED1E3A] mb-6 lg:mb-8 leading-tight">
+          <h5 className="text-4xl lg:text-5xl 2xl:text-6xl font-bold text-[#ED1E3A] mb-6 lg:mb-8 leading-tight">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ED1E3A] to-red-700">
               Build the Website Your Brand Deserves!
             </span>
           </h5>
           <button className="relative px-6 md:px-8 py-3 md:py-4 bg-gradient-to-r from-red-400 to-red-700 text-white font-semibold rounded-full shadow-lg overflow-hidden group hover:bg-red-700 transition duration-300 ease-in-out w-2/3 lg:w-2/3 mx-auto lg:mx-0">
             <span className="absolute inset-0 bg-gradient-to-r from-red-300 to-[#ED1E3A] opacity-0 rounded-full transition duration-500 ease-in-out group-hover:opacity-50 group-hover:translate-x-full"></span>
-            <span className="relative z-10 text-base md:text-lg font-normal">
+            <span className="relative z-10 text-base 2xl:text-lg font-normal">
               Get a <span className="font-semibold">Free
               </span> Strategy Call Now
             </span>

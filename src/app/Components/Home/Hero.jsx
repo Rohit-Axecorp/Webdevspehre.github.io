@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function Hero() {
   return (
-    <div className="relative lg:h-[68vh] h-[60vh] w-full overflow-hidden py-12">
+    <div className="relative 2xl:h-[700px] h-[600px] w-full overflow-hidden py-12">
       {/* Background Video */}
       <video autoPlay loop muted className="absolute inset-0 h-full w-full object-cover">
         <source src="/bg_video_home.mp4" type="video/mp4" />
@@ -13,19 +13,19 @@ export default function Hero() {
       </video>
 
       {/* Overlay Content */}
-      <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-start text-black p-4 md:p-6 lg:p-8">
+      <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-start text-black p-4 md:p-6 lg:p-8 py-10">
         <div className="container mx-auto">
           {/* Content Box */}
 
-          <h1 className='text-[#ED1E3A]  text-2xl font-semibold capitalize'>Web designing and development company USA</h1>
-          <div className=" py-2 lg:py-4 rounded-2xl max-w-full sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-3xl">
-            <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-2 leading-7 text-white">
+          <h1 className='text-[#ED1E3A]  2xl:text-2xl lg:text-lg text-base font-semibold capitalize'>Web designing and development company USA</h1>
+          <div className=" py-2 lg:py-4 rounded-2xl max-w-full sm:max-w-md md:max-w-lg lg:max-w-xl 2xl:max-w-3xl">
+            <p className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-2 text-white">
               Digitizing Business Experience with for Sustainable Growth
             </p>
-            <p className="text-base sm:text-lg md:text-xl lg:text-xl xl:text-lg my-4 leading-relaxed font-normal text-white">
+            <p className="2xl:text-lg text-sm my-4 font-normal text-white">
               Sell experience rather than a product or service. WebDev Sphere has introduced a way for startups to create an impact on clients with its futuristic <a href='https://webdevsphere.com/'>web design and development services.</a> With user-centric UI to highly functional features and mobile-first experience, we create websites from scratch right according to your brand purpose. Plus, you can sustain your business online by leveraging our secret digital marketing strategy.
             </p>
-            <button className="group relative px-8 py-2 sm:px-5 sm:py-3 lg:px-10 lg:py-4 border text-white border-[#ED1E3A] bg-[#ED1E3A] rounded-full text-sm sm:text-xl font-semibold flex items-center justify-center gap-2 transition-all duration-300 hover:text-white hover:border-transparent">
+            <button className="group relative px-8 py-2 sm:px-5 sm:py-3 2xl:px-10 2xl:py-4 border text-white border-[#ED1E3A] bg-[#ED1E3A] rounded-full text-base 2xl:text-xl font-semibold flex items-center justify-center gap-2 transition-all duration-300 hover:text-white hover:border-transparent">
               Digitize Your Presence!
               {/* Inline SVG for the arrow icon */}
               <svg

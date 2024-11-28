@@ -57,30 +57,30 @@ const slidesData = [
 export default function Slider() {
     return (
         <>
-            <div className="xl:w-2/3 lg:w-1/2 w-full">
+            <div className="lg:w-1/2  w-full">
                 <Swiper
                     spaceBetween={20} // Space between each slide
-                    slidesPerView={3} // Show 3 slides at once
+                    slidesPerView={2} // Show 3 slides at once
                     slidesPerGroup={1} // Move one slide at a time
                     loop={true} // Enable infinite loop
                     pagination={{ clickable: true }} // Optional: enable pagination
                     breakpoints={{
                         300: { slidesPerView: 1 },
                         768: { slidesPerView: 2 },
-                        1366: { slidesPerView: 3 },
+                        
                     }}
                 >
                     {slidesData.map((slide, index) => (
                         <SwiperSlide key={index} className="h-full">
-                            <div className="relative bg-[#ED1E3A] text-white p-8 rounded-xl shadow-lg flex flex-col items-start min-h-[450px] justify-between group">
+                            <div className="relative bg-[#ED1E3A] text-white 2xl:p-8 p-4 rounded-xl shadow-lg flex flex-col items-start min-h-[450px] justify-between group">
                                 <img
                                     src={slide.icon}
                                     alt={`${slide.title} Icon`}
                                     className="w-20 h-20 mb-4 object-contain z-10"
                                 />
-                                <h3 className="text-2xl font-bold mb-4 z-10">{slide.title}</h3>
+                                <h3 className="lg:text-2xl text:xl font-bold mb-4 z-10">{slide.title}</h3>
                                 <p
-                                    className="text-base leading-relaxed flex-grow z-10"
+                                    className="2xl:text-lg lg:text-base text-sm  flex-grow z-10"
                                     dangerouslySetInnerHTML={{ __html: slide.description }}
                                 />
                                 <div

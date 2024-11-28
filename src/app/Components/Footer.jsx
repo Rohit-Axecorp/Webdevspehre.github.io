@@ -13,7 +13,7 @@ export default function Footer() {
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-12 h-full">
                             {/* Column 1 - Quick Links */}
                             <ul className="text-white">
-                                <li className="text-xl mb-2 relative">
+                                <li className="text-lg mb-2 relative">
                                     Quick Links
                                     <div className="before:content-[''] before:absolute before:left-0 before:bottom-[-2px] before:h-[2px] before:w-[35px] before:bg-white"></div>
                                 </li>
@@ -30,7 +30,7 @@ export default function Footer() {
 
                             {/* Column 2 - Services */}
                             <ul className="text-white">
-                                <li className="text-xl mb-2 relative">
+                                <li className="text-lg mb-2 relative">
                                     Services
                                     <div className="before:content-[''] before:absolute before:left-0 before:bottom-[-2px] before:h-[2px] before:w-[35px] before:bg-white"></div>
                                 </li>
@@ -50,7 +50,7 @@ export default function Footer() {
 
                             {/* Column 3 - Web Development Services */}
                             <ul className="text-white">
-                                <li className="text-xl mb-2 relative invisible">
+                                <li className="text-lg mb-2 relative invisible">
                                     demo
                                     <div className="before:content-[''] before:absolute before:left-0 before:bottom-[-2px] before:h-[2px] before:w-[35px] before:bg-white"></div>
                                 </li>
@@ -68,7 +68,7 @@ export default function Footer() {
 
                             {/* Column 4 - Solutions */}
                             <ul className="text-white">
-                                <li className="text-xl mb-2 relative">
+                                <li className="text-lg mb-2 relative">
                                     Solutions
                                     <div className="before:content-[''] before:absolute before:left-0 before:bottom-[-2px] before:h-[2px] before:w-[35px] before:bg-white"></div>
                                 </li>
@@ -82,7 +82,7 @@ export default function Footer() {
 
                             {/* Column 5 - Contacts */}
                             <ul className="text-white">
-                                <li className="text-xl mb-2 relative">
+                                <li className="text-lg mb-2 relative">
                                     Contacts
                                     <div className="before:content-[''] before:absolute before:left-0 before:bottom-[-2px] before:h-[2px] before:w-[35px] before:bg-white"></div>
                                 </li>
@@ -101,7 +101,7 @@ export default function Footer() {
                
             </div>
             <div className="w-full bg-white text-black text-center py-4">
-                <p className="md:text-lg text-sm font-medium">
+                <p className="2xl:text-lg lg:text-base text-sm font-medium">
                     © {new Date().getFullYear()} Web Dev Sphere. All rights reserved.
                 </p>
             </div>

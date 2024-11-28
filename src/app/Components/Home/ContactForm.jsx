@@ -92,13 +92,13 @@ export default function ContactForm() {
             <div className="flex justify-center lg:justify-start">
               <button
                 type="submit"
-                className="w-3/4 sm:w-2/5 bg-[#ED1E3A] text-lg sm:text-xl rounded-md text-white font-semibold py-3 px-2 hover:bg-red-600 transition"
+                className="w-3/4 2xl:w-2/5 bg-[#ED1E3A] 2xl:text-lg lg:text-base text-sm rounded-md text-white font-semibold py-3 px-2 hover:bg-red-600 transition"
               >
                 Get A Free Quote
               </button>
             </div>
           </form>
-          <p className="mt-4 text-sm sm:text-lg text-gray-500 text-center lg:text-left">
+          <p className="mt-4 2xl:text-lg lg:text-base text-sm text-gray-500 text-center lg:text-left">
             We respect your privacy.
           </p>
         </div>
@@ -106,10 +106,10 @@ export default function ContactForm() {
         {/* Text and Image Section */}
         <div className="relative w-full lg:w-3/5 flex flex-col lg:flex-row items-start lg:items-center">
           <div className="text-white w-full lg:w-2/3 p-4 sm:p-6">
-            <p className="text-xl sm:text-2xl font-light">
+            <p className="2xl:text-2xl lg:text-lg text-base  font-light">
               <b>No empty promises. Just real results</b>
             </p>
-            <p className="text-xl sm:text-2xl font-light">
+            <p className="2xl:text-2xl lg:text-lg text-base font-light">
 
               Our clients see an impressive 2-3x ROI when they partner with us for digital marketing services - and you can, too.
             </p>

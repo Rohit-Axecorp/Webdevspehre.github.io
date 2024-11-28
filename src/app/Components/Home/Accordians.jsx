@@ -8,7 +8,7 @@ export default function Accordians({ title, content, isOpen, onToggle }) {
             className={`mb-2 rounded-lg transition-all duration-300 ${isOpen ? 'bg-gradient-to-r from-red-500 to-red-600 text-white' : 'bg-gray-100 text-gray-800'}`}
         >
             <button
-                className="flex justify-between w-full p-4 text-lg font-medium text-left focus:outline-none"
+                className="flex justify-between w-full p-4 2xl:text-lg text-base font-medium text-left focus:outline-none"
                 onClick={onToggle}
             >
                 <span>{title}</span>

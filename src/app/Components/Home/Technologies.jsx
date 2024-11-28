@@ -37,17 +37,17 @@ export default function Technologies() {
   const [activeTab, setActiveTab] = useState("Android");
 
   return (
-    <section className="py-12 bg-black">
+    <section className="2xl:py-12 py-10 bg-black">
       <section>
         <div className="container mx-auto px-4 flex flex-col md:flex-row gap-10">
           <div className="content md:w-2/5 mb-8">
-            <h3 className="text-2xl md:text-5xl font-bold mb-4 text-white">
+            <h3 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4 text-white">
             <span className='text-[#ED1E3A]'> Empowering Web Solutions </span> with Our Next-gen Tech Suite
             </h3>
           </div>
 
           <div className="image md:w-3/5 flex md:justify-end">
-            <p className="text-base sm:text-lg md:text-xl text-white mb-8">
+            <p className="2xl:text-lg lg:text-base text-sm text-white mb-8">
               WebDev Sphere is a disruptive web development and design company that uses a large tech stack to create one-of-a-kind websites. We are thoroughly knowledgeable in a wide variety of high-level technologies, delivering robust, full-functionality solutions that are scalable and future-proof for every project. As an innovative web development company in USA, we deploy the power of new frameworks and tools to create digital experiences that are of an exceptional blend of functionality and user engagement.
 
             </p>
@@ -78,11 +78,11 @@ export default function Technologies() {
           {/* Tab Content */}
           <div className="mt-4 flex flex-wrap gap-7">
             {tabsData[activeTab]?.map((item) => (
-              <div key={item.name} className="text-center">
+              <div key={item.name} className="2xl:text-lg lg:text-base text-sm text-center">
                 <img
                   src={item.imgSrc}
                   alt={item.name}
-                  className="mx-auto h-16 w-16 md:h-20 md:w-20 lg:h-24 lg:w-24"
+                  className="mx-auto h-16 w-16 md:h-20 md:w-20 2xl:h-24 2xl:w-24"
                   onError={(e) => (e.target.src = '/Images/default.png')} // Fallback image
                 />
                 <p className="mt-2 text-white text-sm md:text-base">{item.name}</p>
