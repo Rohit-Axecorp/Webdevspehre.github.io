@@ -72,7 +72,7 @@ export default function Slider() {
                 >
                     {slidesData.map((slide, index) => (
                         <SwiperSlide key={index} className="h-full">
-                            <div className="relative bg-[#ED1E3A] text-white 2xl:p-8 p-4 rounded-xl shadow-lg flex flex-col items-start min-h-[450px] justify-between group">
+                            <div className="relative bg-[#ED1E3A] text-white 2xl:p-8 p-4 rounded-xl shadow-lg flex flex-col items-start lg:min-h-[450px] md:h-[300px] justify-between group">
                                 <img
                                     src={slide.icon}
                                     alt={`${slide.title} Icon`}

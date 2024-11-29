@@ -13,7 +13,7 @@ export default function Hero() {
       </video>
 
       {/* Overlay Content */}
-      <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-start text-black p-4 md:p-6 lg:p-8 py-10">
+      <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-start text-black p-0 md:p-6 lg:p-8 py-10">
         <div className="container mx-auto">
           {/* Content Box */}
 

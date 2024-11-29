@@ -28,7 +28,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="flex justify-center items-center py-12">
+    <div className="flex justify-center items-center">
       <div className="flex flex-col lg:flex-row bg-[#ED1E3A] p-6 shadow-lg relative container sm:p-8  w-full lg:w-auto">
         {/* Form Section */}
         <div className="bg-white p-6 shadow-md w-full lg:w-2/5 h-auto sm:p-8">
@@ -133,11 +133,11 @@ export default function ContactForm() {
           </div>
 
           {/* Girl Image */}
-          <div className="relative w-full lg:w-1/3 mt-6 lg:mt-0">
+          <div className="relative w-full lg:w-1/3 mt-0">
             <img
               src="/Images/model1.webp" // Use the correct path to your image
               alt="Woman pointing"
-              className="h-auto max-w-full" // Ensure responsive behavior
+              className="h-auto max-w-full lg:block hidden" // Ensure responsive behavior
             />
           </div>
         </div>

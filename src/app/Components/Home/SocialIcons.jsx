@@ -4,7 +4,7 @@ import { FaFacebookF, FaYoutube, FaInstagram, FaLinkedinIn, FaPinterest } from '
 
 const SocialIcons = () => {
     return (
-        <div className="fixed left-0 top-1/2 transform -translate-y-1/2 flex flex-col space-y-3 md:p-7 p-5 z-50">
+        <div className="fixed left-0 top-1/2 transform -translate-y-1/2 flex-col space-y-3 md:p-7 p-5 z-50 lg:block hidden">
             <a
                 href="https://www.facebook.com/webdevsphere1"
                 target="_blank"
