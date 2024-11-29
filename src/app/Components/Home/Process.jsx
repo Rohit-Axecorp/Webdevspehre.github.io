@@ -55,7 +55,7 @@ export default function Process() {
             <span className='text-[#ED1E3A]'> Proven Process, Exceptional Results </span>
                Our Web Development Approach
             </h3>
-            <p className="2xl:text-2xl lg:text-lg text-base text-black leading-7 mb-8">
+            <p className="2xl:text-lg lg:text-base text-sm text-black leading-7 mb-8">
               We are known as a trusted web design and development company, highly different from other companies because we have a streamlined process. Every stage from in-depth planning to superb execution is meticulously prepared to give you a seamless and impactful solution. We are a top web development company that values transparency and collaboration, and expertise that resonates with your vision and provides an outstanding site. We not only improve efficiency but also reach the feasibility and functionality of your website, and it becomes a powerful tool for your business growth.
             </p>
           </div>
@@ -100,7 +100,7 @@ export default function Process() {
                   {step.tasks.map((task, taskIndex) => (
                     <li
                       key={taskIndex}
-                      className=" 2xl:text-2xl lg:text-lg text-base text-gray-900 mb-2 relative pl-6 before:content-['▶'] before:absolute before:left-0 before:text-gray-300 transition-all duration-300 group-hover:before:text-red-500"
+                      className="2xl:text-lg lg:text-base text-sm text-gray-900 mb-2 relative pl-6 before:content-['▶'] before:absolute before:left-0 before:text-gray-300 transition-all duration-300 group-hover:before:text-red-500"
                     >
                       {task}
                     </li>
