@@ -34,6 +34,7 @@ export default function RootLayout({ children, canonicalUrl }) {
 
         {/* Canonical and Hreflang Tags */}
         {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+        <link rel="canonical" href="https://webdevsphere.com" />
         <link rel="alternate" hrefLang="en-US" href="https://webdevsphere.com" />
         <link rel="alternate" hrefLang="x-default" href="https://webdevsphere.com" />
 
