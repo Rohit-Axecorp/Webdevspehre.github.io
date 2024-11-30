@@ -14,25 +14,30 @@ import SeoPackages from '@/app/Components/Services/Seo/SeoPackages'
 import SeoQuote from '@/app/Components/Services/Seo/SeoQuote'
 import SeoRecognition from '@/app/Components/Services/Seo/SeoRecognition'
 import React from 'react'
+import RootLayout from '../layout';
+
 
 export default function page() {
+  const canonicalUrl = "https://webdevsphere.com/logodesign";
+
   return (
     <>
-    <Header />
-    <ProfessionalLogo />
-    <Portfolio />
-    <LogoExperience />
-    <Strategies />
-    <ProcessSocialMedia />
-    <Testimonials />
-    <SeoRecognition />
-    <SeoBusinessSolutions />
-    <SeoPackages />
-    <SeoLocation />
-    <SeoQuote />
-    <CTAsection />
-    <Footer />
-    
+      <RootLayout canonicalUrl={canonicalUrl} />
+      <Header />
+      <ProfessionalLogo />
+      <Portfolio />
+      <LogoExperience />
+      <Strategies />
+      <ProcessSocialMedia />
+      <Testimonials />
+      <SeoRecognition />
+      <SeoBusinessSolutions />
+      <SeoPackages />
+      <SeoLocation />
+      <SeoQuote />
+      <CTAsection />
+      <Footer />
+
     </>
   )
 }

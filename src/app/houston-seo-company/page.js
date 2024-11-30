@@ -1,3 +1,4 @@
+import React from 'react';
 import Footer from '@/app/Components/Footer';
 import Header from '@/app/Components/Header';
 import AccordiansFAQ from '@/app/Components/Services/Seo/AccordiansFAQ';
@@ -18,7 +19,8 @@ import SeoServices from '@/app/Components/Services/Seo/SeoServices';
 import SeoServicesIncludes from '@/app/Components/Services/Seo/SeoServicesIncludes';
 import SeoSolution from '@/app/Components/Services/Seo/SeoSolution';
 import TrustedBrands from '@/app/Components/Services/Seo/TrustedBrands';
-import React from 'react';
+import RootLayout from '../layout';
+
 
 export const metadata = {
   title: "Houston SEO Company | Top Rated Houston SEO  SEO Services", // Dynamic title
@@ -26,9 +28,11 @@ export const metadata = {
 };
 
 export default function Seo() {
+  const canonicalUrl = "https://webdevsphere.com/houston-seo-company";
+
   return (
     <>
-
+      <RootLayout canonicalUrl={canonicalUrl} />
       <Header />
       <SeoContact />
       <TrustedBrands />

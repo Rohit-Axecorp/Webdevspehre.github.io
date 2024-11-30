@@ -15,6 +15,7 @@ import SeoQuote from '@/app/Components/Services/DigitalMarketing/SeoQuote'
 import SeoRecognition from '@/app/Components/Services/Seo/SeoRecognition'
 import SeoServicesIncludes from '@/app/Components/Services/DigitalMarketing/SeoServicesIncludes'
 import SeoReviews from '../Components/Services/DigitalMarketing/SeoReviews'
+import RootLayout from '../layout';
 
 export const metadata = {
     title: "Digital Marketing Services Agency in Houston Texas",
@@ -22,9 +23,11 @@ export const metadata = {
 };
 
 export default function page() {
+    const canonicalUrl = "https://webdevsphere.com/houston-texas-digital-marketing-agency";
+
     return (
         <>
-
+            <RootLayout canonicalUrl={canonicalUrl} />
             <Header />
             <SeoContact />
             <Digitalsocialmedia />

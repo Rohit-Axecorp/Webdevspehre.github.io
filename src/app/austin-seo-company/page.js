@@ -19,15 +19,20 @@ import SeoSolution from '@/app/Components/Services/AustinSeo/SeoSolution';
 import TrustedBrands from '@/app/Components/Services/AustinSeo/TrustedBrands';
 import React from 'react';
 import AccordiansFAQ from '@/app/Components/Services/AustinSeo/AccordiansFAQ';
+import RootLayout from '../layout';
+
 
 export const metadata = {
     title: "Leading Austin SEO Company | Web Dev Sphere", // Dynamic title
     description: "Web Dev Sphere is an award-winning Austin SEO company specializing in top-tier SEO solutions. Partner with us today to make your mark in the industry." // Dynamic description
 };
 
-export default function Page() { // Use PascalCase for component names
+export default function Page() {
+    const canonicalUrl = "https://webdevsphere.com/austin-seo-company";
+
     return (
         <>
+            <RootLayout canonicalUrl={canonicalUrl} />
             <Header />
             <SeoContact />
             <TrustedBrands />

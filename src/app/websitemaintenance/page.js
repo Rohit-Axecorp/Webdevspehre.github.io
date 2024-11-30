@@ -15,27 +15,30 @@ import BusinessNeed from '@/app/Components/Services/Webmaintenance/BusinessNeed'
 import Packages from '@/app/Components/Services/Webmaintenance/Packages'
 import WebmaintenanceQuote from '@/app/Components/Services/Webmaintenance/WebmaintenanceQuote'
 import React from 'react'
+import RootLayout from '../layout';
 
 export default function page() {
+  const canonicalUrl = "https://webdevsphere.com/websitemaintenance";
+
   return (
     <>
-    
-    <Header />
-    <WebmaintenanceQuote />
-    <Packages />
-    <SeoRecognition />
-    <ProfessionalWebDesignServices />
-    <SeoCompany />
-    <WebdesignCTA />
-    <Roadmap />
-    <BusinessNeed />
-    <SeoReviews />
-    <Awards />
-    <SeoBusinessSolutions />
-    <SeoQuote />
-    <AccordiansFAQ />
-    <CTAsection />
-    <Footer /> 
+      <RootLayout canonicalUrl={canonicalUrl} />
+      <Header />
+      <WebmaintenanceQuote />
+      <Packages />
+      <SeoRecognition />
+      <ProfessionalWebDesignServices />
+      <SeoCompany />
+      <WebdesignCTA />
+      <Roadmap />
+      <BusinessNeed />
+      <SeoReviews />
+      <Awards />
+      <SeoBusinessSolutions />
+      <SeoQuote />
+      <AccordiansFAQ />
+      <CTAsection />
+      <Footer />
     </>
 
   )

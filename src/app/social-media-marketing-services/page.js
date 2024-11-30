@@ -17,6 +17,7 @@ import SocialMediaBusinessSolutions from '../Components/Services/SocialMedia/Soc
 import SocialMediaLocation from '../Components/Services/SocialMedia/SocialMediaLocation';
 import SocialMediaQuote from '../Components/Services/SocialMedia/SocialMediaQuote';
 import SocialMediaAccordiansFAQ from '../Components/Services/SocialMedia/SocialMediaAccordiansFAQ';
+import RootLayout from '../layout';
 
 export const metadata = {
   title: "Social Media Marketing Services Company | Web Dev Sphere", // Dynamic title
@@ -24,9 +25,11 @@ export const metadata = {
 };
 
 export default function page() {
+  const canonicalUrl = "https://webdevsphere.com/social-media-marketing-services";
+
   return (
     <>
-
+      <RootLayout canonicalUrl={canonicalUrl} />
       <Head>
         <title>Professional Social Media Marketing Services | Web Dev Sphere</title>
         <meta name="description" content="Are you looking for top-tier social media marketing services? Web Dev Sphere has expert social media strategists who can help you grow your online presence. " />

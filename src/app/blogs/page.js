@@ -4,6 +4,7 @@ import Header from '../Components/Header';
 import CTAsection from '../Components/Home/CTAsection';
 import Footer from '../Components/Footer';
 import GlobalPresenceSlider from '../Components/About/GlobalPresenceSlider';
+import RootLayout from '../layout';
 
 async function fetchPosts() {
   const response = await fetch('https://webdev.roboticintelligencelabs.com/wp-json/wp/v2/posts', {
@@ -32,10 +33,12 @@ async function fetchAuthor(authorId) {
 }
 
 export default async function Blog() {
+  const canonicalUrl = "https://webdevsphere.com/blogs";
   const posts = await fetchPosts();
 
   return (
     <>
+      <RootLayout canonicalUrl={canonicalUrl} />
       <Header />
       <div className="container mx-auto px-6 py-12">
         <h1 className="text-5xl font-bold text-center mb-20">Blogs</h1>
@@ -43,18 +46,18 @@ export default async function Blog() {
           {posts.length > 0 ? (
             posts.map(async (post) => {
               // Fetch the featured image if it exists
-              const featuredImageUrl = post.featured_media 
-                ? await fetchFeaturedImage(post.featured_media).then(image => image.source_url) 
+              const featuredImageUrl = post.featured_media
+                ? await fetchFeaturedImage(post.featured_media).then(image => image.source_url)
                 : "https://via.placeholder.com/500x300";
 
               // Fetch the category name for the first category (if exists)
-              const categoryName = post.categories.length > 0 
-                ? await fetchCategory(post.categories[0]).then(category => category.name) 
+              const categoryName = post.categories.length > 0
+                ? await fetchCategory(post.categories[0]).then(category => category.name)
                 : "Uncategorized";
 
               // Fetch author data
               const authorData = await fetchAuthor(post.author);
-              
+
               return (
                 <div key={post.id} className="bg-white rounded-lg shadow-md overflow-hidden">
                   <Link href={`/blogs/${post.slug}`}>

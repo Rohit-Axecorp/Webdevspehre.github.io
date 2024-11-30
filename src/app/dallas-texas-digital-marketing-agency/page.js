@@ -15,6 +15,7 @@ import SeoQuote from '@/app/Components/Services/DigitalMarketingDallas/SeoQuote'
 import SeoRecognition from '@/app/Components/Services/Seo/SeoRecognition'
 import SeoServicesIncludes from '@/app/Components/Services/DigitalMarketingDallas/SeoServicesIncludes'
 import SeoReviews from '../Components/Services/DigitalMarketingDallas/SeoReviews'
+import RootLayout from '../layout';
 
 export const metadata = {
     title: "Digital Marketing Agency Dallas",
@@ -22,9 +23,12 @@ export const metadata = {
 };
 
 export default function page() {
+    const canonicalUrl = "https://webdevsphere.com/dallas-texas-digital-marketing-agency";
+
     return (
         <>
 
+            <RootLayout canonicalUrl={canonicalUrl} />
             <Header />
             <SeoContact />
             <Digitalsocialmedia />

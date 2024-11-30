@@ -86,7 +86,8 @@ export default function Footer() {
                                     Contacts
                                     <div className="before:content-[''] before:absolute before:left-0 before:bottom-[-2px] before:h-[2px] before:w-[35px] before:bg-white"></div>
                                 </li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Office # 802, B8 Building, Al Barsha 1, Dubai UAE</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">2620 Starboard Point Dr
+                                    Houston, Texas(TX), 77054</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">info@webdevspehre.com</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">123456789</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">123456789</a></li>
@@ -98,7 +99,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </footer>
-               
+
             </div>
             <div className="w-full bg-white text-black text-center py-4">
                 <p className="2xl:text-lg lg:text-base text-sm font-medium">
