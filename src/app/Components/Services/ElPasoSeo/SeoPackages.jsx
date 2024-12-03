@@ -29,7 +29,7 @@ export default function SeoPackages() {
                   <li>Comprehensive KPI reports and reviews</li>
                 </ul>
                 <p className="mb-6 text-base sm:text-lg font-normal text-gray-600">
-                  Tailored for businesses in El Paso, our Steady Growth package is designed to deliver consistent organic traffic and visibility through targeted SEO strategies. Whether you're a startup or a local business, this entry-level package ensures you establish a solid digital footprint within your community.
+                  Tailored for businesses in El Paso, our Steady Growth package is designed to deliver consistent organic traffic and visibility through targeted SEO strategies. Whether you&apos;re a startup or a local business, this entry-level package ensures you establish a solid digital footprint within your community.
                 </p>
               </div>
               <a href="#" className="text-red-500 hover:underline hover:text-red-600 font-semibold text-lg sm:text-xl">

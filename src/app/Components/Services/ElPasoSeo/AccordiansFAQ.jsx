@@ -37,7 +37,7 @@ export default function AccordiansFAQ() {
             title: "Is SEO worth it for small businesses in El Paso?",
             content: (
                 <p>
-                    Definitely, SEO is a worthy investment for small businesses, providing undeniable benefits such as a good brand identity, long-term sustainable growth, and cost-effective lead generation. However, it's important to remember the caveats: Going the SEO route is a long-term commitment that might not really suit businesses that need quick wins.
+                    Definitely, SEO is a worthy investment for small businesses, providing undeniable benefits such as a good brand identity, long-term sustainable growth, and cost-effective lead generation. However, it&apos;s important to remember the caveats: Going the SEO route is a long-term commitment that might not really suit businesses that need quick wins.
                 </p>
             ),
         },
@@ -53,7 +53,7 @@ export default function AccordiansFAQ() {
             title: "What to look for when hiring an SEO agency in El Paso?",
             content: (
                 <p>
-                    Search for examples of results in the past—customer reviews and case studies. Try to get a breakdown of their process to understand whether they have a formal process where they help you grow, and how transparent they're going to be with you for results and deliverables over the long term.
+                    Search for examples of results in the past—customer reviews and case studies. Try to get a breakdown of their process to understand whether they have a formal process where they help you grow, and how transparent they&apos;re going to be with you for results and deliverables over the long term.
                 </p>
             ),
         },
