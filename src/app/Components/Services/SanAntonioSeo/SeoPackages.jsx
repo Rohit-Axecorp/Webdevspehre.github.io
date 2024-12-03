@@ -10,7 +10,7 @@ export default function SeoPackages() {
             San Antonio SEO Packages
           </h4>
           <p className="text-center text-lg md:text-xl lg:text-2xl font-medium pb-12 text-gray-800">
-            Unlock your business's potential with our tailored SEO packages designed to deliver measurable results for businesses in San Antonio.
+            Unlock your business&apos;s potential with our tailored SEO packages designed to deliver measurable results for businesses in San Antonio.
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 px-6">
             {/* Box 1: Steady Growth */}
