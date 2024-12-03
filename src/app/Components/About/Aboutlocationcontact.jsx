@@ -1,43 +1,68 @@
-import React from 'react';
-import Image from 'next/image';
-import { FaPhoneAlt } from 'react-icons/fa'; // Import phone icon
+"use client"
+import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 export default function AboutLocationContact() {
-  const googleMapEmbed = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093037!2d-122.3969491846816!3d37.78802297975756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809e1f82aef1%3A0xe9c04eaa90cc6337!2s548%20Market%20St.%20%2341895%2C%20San%20Francisco%2C%20CA%2094104%2C%20USA!5e0!3m2!1sen!2sus!4v1693935898978!5m2!1sen!2sus";
+  const [status, setStatus] = useState("");  // State for form submission status
+
+  // Handle form submission
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setStatus("Submitting...");
+
+    // Accessing form elements directly without useRef()
+    const form = e.target; // This gets the form element from the event
+
+    // EmailJS sendForm function
+    emailjs
+      .sendForm(
+        "service_tkgmq1n", // Replace with your EmailJS Service ID
+        "template_w3r9t2m", // Replace with your EmailJS Template ID
+        form, // Directly passing the form from the event
+        "EPC2a3mKlO9EkFTOz" // Replace with your EmailJS Public Key
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          setStatus("Form submitted successfully!");
+          form.reset(); // Reset the form fields after submission
+        },
+        (err) => {
+          console.error("FAILED...", err);
+          setStatus("Failed to submit the form. Please try again.");
+        }
+      );
+  };
 
   return (
-    <section className='bg-gray-100'>
+    <section className="bg-gray-100">
       <div className="container mx-auto flex flex-col md:flex-row py-12 justify-between">
-
         {/* Contact Form Section */}
-        <div className="formdiv md:w-2/5 mb-10 md:mb-0 flex flex-col ">
+        <div className="formdiv md:w-2/5 mb-10 md:mb-0 flex flex-col">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-red-500 mb-10">
             Let&apos;s Begin On Your Project
-
           </h2>
           <div className="p-6 bg-white shadow-lg rounded-lg flex-grow">
-            <form action="#" method="POST">
+            <form onSubmit={handleSubmit}>
               <div className="space-y-4">
-                {/* First and Last Name in one row */}
+                {/* First and Last Name */}
                 <div className="flex space-x-4">
                   <div className="w-1/2">
                     <input
-                      id="first-name"
                       type="text"
+                      name="firstName"
                       className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
                       placeholder="First Name"
                       required
-                      aria-label="First Name"
                     />
                   </div>
                   <div className="w-1/2">
                     <input
-                      id="last-name"
                       type="text"
+                      name="lastName"
                       className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
                       placeholder="Last Name"
                       required
-                      aria-label="Last Name"
                     />
                   </div>
                 </div>
@@ -45,49 +70,44 @@ export default function AboutLocationContact() {
                 {/* Email */}
                 <div>
                   <input
-                    id="email"
                     type="email"
+                    name="email"
                     className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
                     placeholder="Email"
                     required
-                    aria-label="Email"
                   />
                 </div>
 
                 {/* Phone */}
-                <div className="flex items-center border border-gray-300 rounded-md">
-                  <FaPhoneAlt className="text-gray-400 p-3" />
+                <div>
                   <input
-                    id="phone"
                     type="tel"
-                    className="w-full p-3 border-none rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                    name="phone"
+                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
                     placeholder="Phone"
                     required
-                    aria-label="Phone"
                   />
                 </div>
 
-                {/* Company Name / Budget */}
+                {/* Budget */}
                 <div>
                   <input
-                    id="budget"
                     type="text"
+                    name="budget"
                     className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
                     placeholder="Select Your Budget"
                     required
-                    aria-label="Select Your Budget"
                   />
                 </div>
 
-                {/* Textarea for Project Info */}
+                {/* Message */}
                 <div>
                   <textarea
-                    id="message"
+                    name="message"
                     className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
                     placeholder="Your Message"
                     rows="5"
                     required
-                    aria-label="Your Message"
                   ></textarea>
                 </div>
 
@@ -100,13 +120,12 @@ export default function AboutLocationContact() {
                 </button>
               </div>
             </form>
+            {status && <p className="mt-4 text-green-600">{status}</p>}
           </div>
         </div>
-
-        {/* Google Map Section */}
-        <div className="md:w-1/2 md:ml-10"> {/* Add margin-left to create space */}
+        <div className="md:w-1/2 md:ml-10">
           <iframe
-            src={googleMapEmbed}
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093037!2d-122.3969491846816!3d37.78802297975756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809e1f82aef1%3A0xe9c04eaa90cc6337!2s548%20Market%20St.%20%2341895%2C%20San%20Francisco%2C%20CA%2094104%2C%20USA!5e0!3m2!1sen!2sus!4v1693935898978!5m2!1sen!2sus"
             width="100%"
             height="570"
             style={{ border: 0 }}
