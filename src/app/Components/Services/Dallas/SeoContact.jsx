@@ -1,7 +1,41 @@
-import React from 'react';
+"use client"
+import React, { useState } from 'react';
 import Image from 'next/image';
+import emailjs from '@emailjs/browser';
 
 export default function SeoContact() {
+  const [status, setStatus] = useState(''); // State for form submission status
+
+  // Handle form submission
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setStatus('Submitting...');
+
+    const form = e.target; // Get the form element from the event
+
+    // EmailJS sendForm function
+    emailjs
+      .sendForm(
+        'service_tkgmq1n', // Replace with your EmailJS Service ID
+        'template_8ropllh', // Replace with your EmailJS Template ID
+        form, // Pass the form directly
+        'EPC2a3mKlO9EkFTOz' // Replace with your EmailJS Public Key
+      )
+      .then(
+        (response) => {
+          console.log('SUCCESS!', response.status, response.text);
+          setStatus(''); // Clear status
+          form.reset(); // Reset the form fields after submission
+
+          // Redirect to the thank-you page
+          window.location.href = '/thankyou'; // Replace with your thank-you page route
+        },
+        (err) => {
+          console.error('FAILED...', err);
+          setStatus('Failed to submit the form. Please try again.');
+        }
+      );
+  };
   return (
     <>
       <section className='bg-gray-100'>
@@ -12,10 +46,10 @@ export default function SeoContact() {
             <h1 className="text-xl font-bold text-red-600 mb-2">PROFESSIONAL DALLAS SEO COMPANY</h1>
 
             <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
-            Achieve Higher Rankings and Traffic with Expert SEO Solutions!
+              Achieve Higher Rankings and Traffic with Expert SEO Solutions!
             </p>
             <p className="mb-6 text-base md:text-lg text-gray-700">
-            Website Dev Sphere is an award-winning Dallas SEO company specializing in thriving businesses online. From growing your local visibility to attracting more customers, our team ensures you reach the right target audience.
+              Website Dev Sphere is an award-winning Dallas SEO company specializing in thriving businesses online. From growing your local visibility to attracting more customers, our team ensures you reach the right target audience.
             </p>
             <div className="flex items-center my-8 ">
               <div className="flex items-center mr-4 bg-[#ED1E3A] p-5 rounded-md">
@@ -45,7 +79,7 @@ export default function SeoContact() {
           {/* Right Section: Contact Form */}
           <div className="md:w-1/2 w-full p-6 bg-white shadow-lg rounded-lg">
             <h2 className="text-xl font-bold text-gray-800 mb-6 text-center">Contact Dallas SEO Experts</h2>
-            <form action="#" method="POST">
+            <form onSubmit={handleSubmit}>
               <div className="space-y-4">
                 {/* First and Last Name in one row */}
                 <div className="flex flex-col md:flex-row md:space-x-4">
