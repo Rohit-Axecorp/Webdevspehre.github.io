@@ -28,7 +28,7 @@ export const metadata = {
 };
 
 export default function Page() {
-    const canonicalUrl = "https://webdevsphere.com/austin-seo-company";
+    const canonicalUrl = "https://webdevsphere.com/el-paso-seo-company";
 
     return (
         <>

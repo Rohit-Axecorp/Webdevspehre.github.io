@@ -22,10 +22,13 @@ export default function Footer() {
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Blogs</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Contact Us</a></li>
                                 <hr className="bg-gray-300 w-4/5 h-[1px] my-3 border-0" />
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Dubai</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Abu Dhabi</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Sharjah</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Ajman</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Austin</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Fort Worth</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Dallas</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Plano</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">San Antonio</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">El Paso</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Houston</a></li>
                             </ul>
 
                             {/* Column 2 - Services */}
@@ -86,8 +89,7 @@ export default function Footer() {
                                     Contacts
                                     <div className="before:content-[''] before:absolute before:left-0 before:bottom-[-2px] before:h-[2px] before:w-[35px] before:bg-white"></div>
                                 </li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">2620 Starboard Point Dr
-                                    Houston, Texas(TX), 77054</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Houston Address  for Bussiness Listing : American General Center, 2929 Allen Pkwy STE. 200, Houston, TX 77019</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">info@webdevspehre.com</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">123456789</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">123456789</a></li>

@@ -164,6 +164,16 @@ export default function Header() {
                         Dallas
                       </Link>
                     </li>
+                    <li>
+                      <Link href="/el-paso-seo-company" className="block px-4 py-2 hover:bg-gray-100">
+                        El-Paso
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/san-antonio-seo-company" className="block px-4 py-2 hover:bg-gray-100">
+                        San Antonio
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               )}
