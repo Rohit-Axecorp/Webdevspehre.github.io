@@ -5,7 +5,7 @@ import React from 'react';
 export default function SocialMediaAccordians({ title, content, isOpen, onToggle }) {
     return (
         <div
-            className={`mb-2 rounded-lg transition-all duration-300 ${isOpen ? 'bg-gradient-to-r from-red-500 to-red-600 text-white' : 'bg-gray-100 text-gray-800'}`}
+            className={`mb-2 rounded-lg transition-all duration-300 ${isOpen ? 'bg-gradient-to-r from-[#ED1E3A] to-red-600 text-white' : 'bg-gray-100 text-gray-800'}`}
         >
             <button
                 className="flex justify-between w-full p-4 text-lg font-medium text-left focus:outline-none"
@@ -13,7 +13,7 @@ export default function SocialMediaAccordians({ title, content, isOpen, onToggle
             >
                 <span>{title}</span>
                 <span
-                    className={`flex items-center justify-center w-6 h-6 text-white rounded-full transition-transform duration-300 ease-in-out ${isOpen ? 'rotate-45 bg-red-600' : 'bg-red-500'}`}
+                    className={`flex items-center justify-center w-6 h-6 text-white rounded-full transition-transform duration-300 ease-in-out ${isOpen ? 'rotate-45 bg-red-600' : 'bg-[#ED1E3A]'}`}
                 >
                     {isOpen ? (
                         <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

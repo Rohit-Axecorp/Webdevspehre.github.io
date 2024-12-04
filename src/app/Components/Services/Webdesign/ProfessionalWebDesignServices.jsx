@@ -68,7 +68,7 @@ const ProfessionalWebDesignServices = () => {
             <div className="relative rounded-lg w-full container p-4 flex flex-col items-center">
 
                 {/* "Services" heading */}
-                <h1 className="text-2xl font-medium mb-4 text-red-500">Services</h1>
+                <h1 className="text-2xl font-medium mb-4 text-[#ED1E3A]">Services</h1>
 
                 {/* Main heading */}
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-12 text-center">
@@ -82,7 +82,7 @@ const ProfessionalWebDesignServices = () => {
                         {tabsLeft.map((tab, index) => (
                             <button
                                 key={index}
-                                className={`py-4 px-4 text-base md:text-lg font-medium text-left rounded ${selectedTab === index ? 'bg-red-500 text-white' : 'bg-gray-200 text-gray-700'
+                                className={`py-4 px-4 text-base md:text-lg font-medium text-left rounded ${selectedTab === index ? 'bg-[#ED1E3A] text-white' : 'bg-gray-200 text-gray-700'
                                     }`}
                                 onClick={() => handleTabClick(index)}
                             >
@@ -112,7 +112,7 @@ const ProfessionalWebDesignServices = () => {
                         {tabsRight.map((tab, index) => (
                             <button
                                 key={index}
-                                className={`py-4 px-4 text-base md:text-lg font-medium text-left rounded ${selectedTab === index + tabsLeft.length ? 'bg-red-500 text-white' : 'bg-gray-200 text-gray-700'
+                                className={`py-4 px-4 text-base md:text-lg font-medium text-left rounded ${selectedTab === index + tabsLeft.length ? 'bg-[#ED1E3A] text-white' : 'bg-gray-200 text-gray-700'
                                     }`}
                                 onClick={() => handleTabClick(index + tabsLeft.length)}
                             >

@@ -46,7 +46,7 @@ export default function WebDesignAgency() {
                 </option>
               </select>
             </div>
-            <button className="bg-red-500 text-white px-6 py-3 rounded-md text-lg">
+            <button className="bg-[#ED1E3A] text-white px-6 py-3 rounded-md text-lg">
               Get Free Consultation
             </button>
           </div>
@@ -68,7 +68,7 @@ export default function WebDesignAgency() {
               onClick={handleOpenModal}
             >
               <div className="flex flex-col items-center">
-                <div className="bg-red-500 p-4 rounded-full">
+                <div className="bg-[#ED1E3A] p-4 rounded-full">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-10 w-10 text-white"

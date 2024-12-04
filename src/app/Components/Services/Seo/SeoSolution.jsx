@@ -7,7 +7,7 @@ export default function SeoSolution() {
 
   return (
     <>
-      <section className="bg-red-500 py-12">
+      <section className="bg-[#ED1E3A] py-12">
         <div className="container mx-auto p-6">
           <div className="flex flex-col-reverse md:flex-row gap-12 md:gap-20">
             {/* Left Column */}

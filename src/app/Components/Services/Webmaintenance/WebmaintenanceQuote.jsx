@@ -29,7 +29,7 @@ export default function WebmaintenanceQuote() {
               <li>Increase return on marketing investment</li>
             </ul>
 
-            <button className="flex items-center justify-center bg-white text-red-500 py-4 px-8 md:py-5 md:px-10 rounded-lg text-lg md:text-xl font-semibold hover:bg-gray-200 transition duration-300 ease-in-out">
+            <button className="flex items-center justify-center bg-white text-[#ED1E3A] py-4 px-8 md:py-5 md:px-10 rounded-lg text-lg md:text-xl font-semibold hover:bg-gray-200 transition duration-300 ease-in-out">
               View pricing and plan
             </button>
           </div>
@@ -46,7 +46,7 @@ export default function WebmaintenanceQuote() {
                   <input
                     id="name"
                     type="text"
-                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                     placeholder="Name*"
                     required
                   />
@@ -57,7 +57,7 @@ export default function WebmaintenanceQuote() {
                   <input
                     id="email"
                     type="email"
-                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                     placeholder="Email*"
                     required
                   />
@@ -68,7 +68,7 @@ export default function WebmaintenanceQuote() {
                   <PhoneInput
                     id="phone"
                     defaultCountry="US"
-                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                     placeholder="Phone*"
                     required
                   />
@@ -78,7 +78,7 @@ export default function WebmaintenanceQuote() {
                 <div>
                   <textarea
                     id="message"
-                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                     placeholder="Please tell us your project information"
                     rows="5"
                     required
@@ -88,7 +88,7 @@ export default function WebmaintenanceQuote() {
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  className="w-full bg-red-500 text-white p-3 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600 transition mt-6"
+                  className="w-full bg-[#ED1E3A] text-white p-3 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600 transition mt-6"
                 >
                   Get a Quote
                 </button>

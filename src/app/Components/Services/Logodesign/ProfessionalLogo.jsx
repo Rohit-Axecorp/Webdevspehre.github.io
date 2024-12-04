@@ -11,7 +11,7 @@ export default function ProfessionalLogo() {
           {/* First Column */}
           <div className="md:w-1/2 space-y-4">
             <h1 className="text-4xl md:text-6xl font-bold text-gray-800">
-              Professional Logo Design Services <span className='text-red-500'>for your Business</span>
+              Professional Logo Design Services <span className='text-[#ED1E3A]'>for your Business</span>
             </h1>
             <p className="text-gray-600 text-lg md:text-2xl py-4">
               Our In-House Designers are committed to delivering captivating and unique logo designs.
@@ -38,7 +38,7 @@ export default function ProfessionalLogo() {
               ))}
             </ul>
             <div className="flex flex-col md:flex-row space-x-0 md:space-x-4">
-              <button className="px-4 py-2 bg-red-500 text-white rounded-full hover:bg-red-600 mt-8 text-lg md:text-xl">
+              <button className="px-4 py-2 bg-[#ED1E3A] text-white rounded-full hover:bg-red-600 mt-8 text-lg md:text-xl">
                 GET STARTED NOW
               </button>
               <button className="px-4 py-2 bg-white text-black rounded-full hover:bg-gray-100 mt-4 md:mt-8 shadow-md text-lg md:text-xl">

@@ -65,8 +65,8 @@ export default function Technologies() {
                 role="tab"
                 aria-selected={activeTab === tab}
                 className={`text-lg font-semibold px-4 py-2 focus:outline-none transition duration-200 ease-in-out ${activeTab === tab
-                  ? "border-b-2 border-red-500 text-red-500"
-                  : "text-gray-400 hover:text-red-500"
+                  ? "border-b-2 border-[#ED1E3A] text-[#ED1E3A]"
+                  : "text-gray-400 hover:text-[#ED1E3A]"
                   }`}
                 onClick={() => setActiveTab(tab)}
               >

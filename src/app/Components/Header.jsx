@@ -41,14 +41,14 @@ export default function Header() {
   }, []);
 
   return (
-    <nav className="border-b border-red-500 bg-white sticky top-0 z-50 2xl:py-4 py-3">
+    <nav className="border-b border-[#ED1E3A] bg-white sticky top-0 z-50 2xl:py-4 py-3">
       <div className="flex flex-wrap items-center justify-between mx-auto px-4 container">
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img src="/Images/21.png" alt="Logo" className="2xl:w-28 w-20" />
         </Link>
 
         <button
-          className="inline-flex items-center p-2 text-xl text-red-500 rounded-lg lg:hidden focus:outline-none"
+          className="inline-flex items-center p-2 text-xl text-[#ED1E3A] rounded-lg lg:hidden focus:outline-none"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           <svg
@@ -206,14 +206,14 @@ export default function Header() {
             </li>
 
             <div className="hidden md:flex items-center">
-              <button className="px-6 py-2 2xl:text-lg text-sm font-normal border text-red-500 border-red-500 rounded-full hover:bg-red-500 hover:text-white">
+              <button className="px-6 py-2 2xl:text-lg text-sm font-normal border text-[#ED1E3A] border-[#ED1E3A] rounded-full hover:bg-[#ED1E3A] hover:text-white">
                 Let&apos;s Talk
               </button>
             </div>
           </ul>
 
           <div className="mt-4 md:hidden">
-            <button className="px-6 py-2 w-full text-lg font-normal border text-red-500 border-red-500 rounded-full hover:bg-red-500 hover:text-white">
+            <button className="px-6 py-2 w-full text-lg font-normal border text-[#ED1E3A] border-[#ED1E3A] rounded-full hover:bg-[#ED1E3A] hover:text-white">
               Let&apos;s Talk
             </button>
           </div>

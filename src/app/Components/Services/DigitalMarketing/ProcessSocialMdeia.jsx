@@ -42,7 +42,7 @@ export default function ProcessSocialMedia() {
                             {/* Counter 1 */}
                             <div className="py-4 px-4">
                                 <p className="mt-2 text-sm sm:text-base md:text-lg text-gray-600">Happy Clients</p>
-                                <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-red-500">
+                                <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#ED1E3A]">
                                     <CountUp end={800} duration={3} />+
                                 </h3>
                             </div>
@@ -50,7 +50,7 @@ export default function ProcessSocialMedia() {
                             {/* Counter 2 */}
                             <div className="py-4 px-4">
                                 <p className="mt-2 text-sm sm:text-base md:text-lg text-gray-600">Projects Completed</p>
-                                <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-red-500">
+                                <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#ED1E3A]">
                                     <CountUp end={1000} duration={3} />+
                                 </h3>
                             </div>
@@ -58,7 +58,7 @@ export default function ProcessSocialMedia() {
                             {/* Counter 3 */}
                             <div className="py-4 px-4">
                                 <p className="mt-2 text-sm sm:text-base md:text-lg text-gray-600">Years of Experience</p>
-                                <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-red-500">
+                                <h3 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#ED1E3A]">
                                     <CountUp end={10} duration={3} />+
                                 </h3>
                             </div>
@@ -74,7 +74,7 @@ export default function ProcessSocialMedia() {
                         {iconBoxes.map((box, index) => (
                             <div key={index} className="flex flex-col sm:flex-row">
                                 {/* Icon-like box on the left or top on mobile */}
-                                <div className="flex items-center justify-center p-4 sm:p-10 bg-red-500 text-white font-bold rounded-md text-3xl sm:text-4xl md:text-5xl mb-4 sm:mb-0 sm:mr-6">
+                                <div className="flex items-center justify-center p-4 sm:p-10 bg-[#ED1E3A] text-white font-bold rounded-md text-3xl sm:text-4xl md:text-5xl mb-4 sm:mb-0 sm:mr-6">
                                     {box.number}
                                 </div>
                                 {/* Text content on the right or bottom on mobile */}

@@ -40,7 +40,7 @@ export default function SocialMediaContact() {
                                         <input
                                             id="first-name"
                                             type="text"
-                                            className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                                            className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                                             placeholder="First Name"
                                             required
                                         />
@@ -49,7 +49,7 @@ export default function SocialMediaContact() {
                                         <input
                                             id="last-name"
                                             type="text"
-                                            className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                                            className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                                             placeholder="Last Name"
                                             required
                                         />
@@ -61,7 +61,7 @@ export default function SocialMediaContact() {
                                     <input
                                         id="email"
                                         type="email"
-                                        className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                                        className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                                         placeholder="Email"
                                         required
                                     />
@@ -72,7 +72,7 @@ export default function SocialMediaContact() {
                                     <input
                                         id="phone"
                                         type="tel"
-                                        className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                                        className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                                         placeholder="Phone"
                                         required
                                     />
@@ -83,7 +83,7 @@ export default function SocialMediaContact() {
                                     <input
                                         id="company-name"
                                         type="text"
-                                        className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                                        className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                                         placeholder="Company Name"
                                         required
                                     />
@@ -93,7 +93,7 @@ export default function SocialMediaContact() {
                                 <div>
                                     <select
                                         id="industry"
-                                        className="w-full p-3 border rounded-md text-gray-500 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                                        className="w-full p-3 border rounded-md text-gray-500 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                                     >
                                         <option className="text-gray-400">Industry</option>
                                         <option>Healthcare</option>
@@ -107,7 +107,7 @@ export default function SocialMediaContact() {
                                 <div>
                                     <select
                                         id="help"
-                                        className="w-full p-3 border rounded-md text-gray-500 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                                        className="w-full p-3 border rounded-md text-gray-500 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                                     >
                                         <option className="text-gray-400">What can we help you with?</option>
                                         <option>SEO Audit</option>
@@ -120,7 +120,7 @@ export default function SocialMediaContact() {
                                 {/* Submit Button */}
                                 <button
                                     type="submit"
-                                    className="w-full bg-red-500 text-white p-3 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600 transition mt-6"
+                                    className="w-full bg-[#ED1E3A] text-white p-3 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600 transition mt-6"
                                 >
                                     Schedule a 30-minute Call Now
                                 </button>

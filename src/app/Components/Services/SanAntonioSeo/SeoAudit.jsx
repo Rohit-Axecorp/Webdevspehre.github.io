@@ -8,11 +8,11 @@ export default function SeoAudit() {
                 <div className='container'>
                     <h4 className="text-white md:text-center text-3xl md:text-4xl lg:text-5xl font-bold"> {/* Responsive text size */}
                         Get a Free SEO Audit and
-                        <span className="text-red-500 font-semibold"> Boost Your Rankings!</span>
+                        <span className="text-[#ED1E3A] font-semibold"> Boost Your Rankings!</span>
                     </h4>
                     <div className="container mx-auto pt-12 flex flex-col md:flex-row justify-center items-center"> {/* Stack on small screens */}
                         {/* Left Column: Form 3/5 */}
-                        <div className="w-full md:w-2/5 p-6 md:p-8 bg-red-500 shadow-lg rounded-lg"> {/* Full width on small screens */}
+                        <div className="w-full md:w-2/5 p-6 md:p-8 bg-[#ED1E3A] shadow-lg rounded-lg"> {/* Full width on small screens */}
                             <h4 className="text-xl md:text-2xl font-bold text-white mb-6 text-center">Claim Your Free SEO Audit Report Right Away!
                             </h4>
                             <form action="#" method="POST">

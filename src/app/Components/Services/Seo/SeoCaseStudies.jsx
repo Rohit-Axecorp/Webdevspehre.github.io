@@ -58,13 +58,13 @@ export default function SeoCaseStudies() {
                   <h3 className="text-xl sm:text-2xl font-semibold text-black mb-2">
                     {study.title}
                   </h3>
-                  <h4 className="text-lg sm:text-xl font-medium text-red-500 mb-4">
+                  <h4 className="text-lg sm:text-xl font-medium text-[#ED1E3A] mb-4">
                     {study.author}
                   </h4>
                   <p className="text-gray-700 mb-4 text-base sm:text-lg">
                     {study.description}
                   </p>
-                  <a href="#" className="text-red-500 hover:underline">
+                  <a href="#" className="text-[#ED1E3A] hover:underline">
                     View Case Study
                   </a>
                 </div>
@@ -82,7 +82,7 @@ export default function SeoCaseStudies() {
                         <span className="text-black font-normal text-base sm:text-lg">
                           {result.label}
                         </span>
-                        <span className="text-red-500 text-2xl sm:text-3xl lg:text-4xl">
+                        <span className="text-[#ED1E3A] text-2xl sm:text-3xl lg:text-4xl">
                           {result.value}
                         </span>
                       </li>

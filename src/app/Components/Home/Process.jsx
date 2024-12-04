@@ -100,7 +100,7 @@ export default function Process() {
                   {step.tasks.map((task, taskIndex) => (
                     <li
                       key={taskIndex}
-                      className="2xl:text-lg lg:text-base text-sm text-gray-900 mb-2 relative pl-6 before:content-['▶'] before:absolute before:left-0 before:text-gray-300 transition-all duration-300 group-hover:before:text-red-500"
+                      className="2xl:text-lg lg:text-base text-sm text-gray-900 mb-2 relative pl-6 before:content-['▶'] before:absolute before:left-0 before:text-gray-300 transition-all duration-300 group-hover:before:text-[#ED1E3A]"
                     >
                       {task}
                     </li>

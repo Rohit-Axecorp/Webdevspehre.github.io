@@ -177,7 +177,7 @@ export default function AccordiansFAQ() {
         <div className="pt-12 mx-auto container">
             <h5 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-center capitalize">
                 Faqs Related To{" "}
-                <span className="ml-2 text-transparent bg-clip-text bg-gradient-to-r from-red-500 to-red-700">
+                <span className="ml-2 text-transparent bg-clip-text bg-gradient-to-r from-[#ED1E3A] to-red-700">
                     Houston Web Design Company
                 </span>
             </h5>

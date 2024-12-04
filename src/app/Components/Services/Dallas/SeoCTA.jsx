@@ -18,7 +18,7 @@ export default function SeoCTA() {
                 >
                     {/* Left Column */}
                     <div className="md:w-1/2 flex flex-col p-4 text-center md:text-left">
-                        <h4 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-red-500">
+                        <h4 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-[#ED1E3A]">
                         Let&apos;s turn those clicks into loyal customers!
                         </h4>
                         <p className="mb-6 text-base md:text-lg text-gray-700">

@@ -19,11 +19,11 @@ export default function SeoContact() {
               Introduce and expand your business online with a strategic  <a href="/austin-seo-company">San Antonio SEO company</a> From SEO Audit to a customized strategy for your site optimization using both on-page and off-page SEO, we ensure to extract leads with the maximum conversion rate.
             </p>
             <div className="flex items-center my-8 ">
-              <div className="flex items-center mr-4 bg-red-500 p-5 rounded-md">
+              <div className="flex items-center mr-4 bg-[#ED1E3A] p-5 rounded-md">
                 <Image src="/Images/bannerLogo.webp" alt="Clutch 2021" width={550} height={150} />
               </div>
             </div>
-            <button className="group mt-6 relative px-6 py-3 border border-black rounded-full text-base sm:text-lg flex items-center justify-center gap-2 text-red-500 transition-all duration-300 hover:bg-[#ED1E3A] hover:text-white hover:border-transparent">
+            <button className="group mt-6 relative px-6 py-3 border border-black rounded-full text-base sm:text-lg flex items-center justify-center gap-2 text-[#ED1E3A] transition-all duration-300 hover:bg-[#ED1E3A] hover:text-white hover:border-transparent">
               Free Consultation
               {/* Inline SVG for the arrow icon */}
               <svg
@@ -54,7 +54,7 @@ export default function SeoContact() {
                     <input
                       id="first-name"
                       type="text"
-                      className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                      className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                       placeholder="First Name"
                       required
                     />
@@ -63,7 +63,7 @@ export default function SeoContact() {
                     <input
                       id="last-name"
                       type="text"
-                      className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                      className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                       placeholder="Last Name"
                       required
                     />
@@ -75,7 +75,7 @@ export default function SeoContact() {
                   <input
                     id="email"
                     type="email"
-                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                     placeholder="Email"
                     required
                   />
@@ -86,7 +86,7 @@ export default function SeoContact() {
                   <input
                     id="phone"
                     type="tel"
-                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                     placeholder="Phone"
                     required
                   />
@@ -97,7 +97,7 @@ export default function SeoContact() {
                   <input
                     id="company-name"
                     type="text"
-                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                     placeholder="Company Name"
                     required
                   />
@@ -107,7 +107,7 @@ export default function SeoContact() {
                 <div>
                   <select
                     id="industry"
-                    className="w-full p-3 border rounded-md text-gray-500 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                    className="w-full p-3 border rounded-md text-gray-500 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                   >
                     <option className="text-gray-400">Industry</option>
                     <option>Healthcare</option>
@@ -121,7 +121,7 @@ export default function SeoContact() {
                 <div>
                   <select
                     id="help"
-                    className="w-full p-3 border rounded-md text-gray-500 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                    className="w-full p-3 border rounded-md text-gray-500 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                   >
                     <option className="text-gray-400">What can we help you with?</option>
                     <option>SEO Audit</option>
@@ -134,7 +134,7 @@ export default function SeoContact() {
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  className="w-full bg-red-500 text-white p-3 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600 transition mt-6"
+                  className="w-full bg-[#ED1E3A] text-white p-3 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600 transition mt-6"
                 >
                   Schedule a 30-minute Call Now
                 </button>
