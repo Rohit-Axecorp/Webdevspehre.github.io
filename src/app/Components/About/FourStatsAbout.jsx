@@ -13,8 +13,8 @@ export default function FourStatsAbout() {
               alt="Projects Delivered"
               className="mx-auto mb-4 rounded-full object-cover"
             />
-            <h3 className="text-2xl sm:text-3xl font-bold text-white">500+</h3>
-            <p className="text-sm sm:text-base text-white">Projects Delivered
+            <h3 className="text-2xl 2xl:text-3xl font-bold text-white">500+</h3>
+            <p className="2xl:text-lg lg:text-base text-sm text-white">Projects Delivered
             </p>
           </div>
 
@@ -25,8 +25,8 @@ export default function FourStatsAbout() {
               alt="In-House Specialists"
               className="mx-auto mb-4 rounded-full object-cover"
             />
-            <h3 className="text-2xl sm:text-3xl font-bold text-white">80+</h3>
-            <p className="text-sm sm:text-base text-white">Expert Team
+            <h3 className="text-2xl 2xl:text-3xl font-bold text-white">80+</h3>
+            <p className="2xl:text-lg lg:text-base text-sm text-white">Expert Team
             </p>
           </div>
 
@@ -37,8 +37,8 @@ export default function FourStatsAbout() {
               alt="Years of Experience"
               className="mx-auto mb-4 rounded-full object-cover"
             />
-            <h3 className="text-2xl sm:text-3xl font-bold text-white">10+</h3>
-            <p className="text-sm sm:text-base text-white">Years of Experience
+            <h3 className="text-2xl 2xl:text-3xl font-bold text-white">10+</h3>
+            <p className="2xl:text-lg lg:text-base text-sm text-white">Years of Experience
             </p>
           </div>
 
@@ -49,8 +49,8 @@ export default function FourStatsAbout() {
               alt="Industries Served"
               className="mx-auto mb-4 rounded-full object-cover"
             />
-            <h3 className="text-2xl sm:text-3xl font-bold text-white">30+</h3>
-            <p className="text-sm sm:text-base text-white">Industries Served
+            <h3 className="text-2xl 2xl:text-3xl font-bold text-white">30+</h3>
+            <p className="2xl:text-lg lg:text-base text-sm text-white">Industries Served
             </p>
           </div>
         </div>

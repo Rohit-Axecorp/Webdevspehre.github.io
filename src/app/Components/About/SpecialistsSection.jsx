@@ -6,7 +6,7 @@ export default function SpecialistsSection() {
     <div className="bg-black py-12">
       <div className="container mx-auto px-5">
         <div className="text-center mb-10">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-red-500">
+          <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-red-500">
             80+ In-House Digital Experts
           </h2>
         </div>
@@ -18,8 +18,8 @@ export default function SpecialistsSection() {
             Hours of Training
 
             </span>
-            <div className="border border-white h-40 w-60 flex items-center justify-center transition-transform transform hover:scale-105">
-              <span className="text-white text-5xl font-extrabold">1000+
+            <div className="border border-white 2xl:h-40 2xl:w-60 h-32 w-48 flex items-center justify-center transition-transform transform hover:scale-105">
+              <span className="text-white text-3xl lg:text-4xl 2xl:text-5xl font-extrabold">1000+
               </span>
             </div>
           </div>
@@ -29,8 +29,8 @@ export default function SpecialistsSection() {
             <span className="bg-teal-300 text-black px-3 py-1 text-md font-semibold rounded-md mb-1 animate-around-box animate-middle">
             Tools & Tech Mastered
             </span>
-            <div className="border border-white h-40 w-60 flex items-center justify-center transition-transform transform hover:scale-105">
-              <span className="text-white text-5xl font-extrabold">15+</span>
+            <div className="border border-white 2xl:h-40 2xl:w-60 h-32 w-48 flex items-center justify-center transition-transform transform hover:scale-105">
+              <span className="text-white text-3xl lg:text-4xl 2xl:text-5xl font-extrabold">15+</span>
             </div>
           </div>
 
@@ -40,8 +40,8 @@ export default function SpecialistsSection() {
             Certifications Held
 
             </span>
-            <div className="border border-white h-40 w-60 flex items-center justify-center transition-transform transform hover:scale-105">
-              <span className="text-white text-5xl font-extrabold">30+</span>
+            <div className="border border-white 2xl:h-40 2xl:w-60 h-32 w-48 flex items-center justify-center transition-transform transform hover:scale-105">
+              <span className="text-white text-3xl lg:text-4xl 2xl:text-5xl font-extrabold">30+</span>
             </div>
           </div>
         </div>

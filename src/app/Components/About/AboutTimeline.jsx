@@ -8,9 +8,9 @@ export default function AboutTimeline() {
     <section className="bg-black py-12 text-white">
       <div className="container mx-auto">
         <div className=" mb-20">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-red-500">Web Dev Sphere Timeline
+          <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-red-500">Web Dev Sphere Timeline
           </h2>
-          <h3 className="text-gray-100 text-base md:text-lg lg:text-xl mt-4">Here’s how we got started:
+          <h3 className="text-gray-100 2xl:text-lg lg:text-base text-sm mt-4">Here’s how we got started:
           </h3>
         </div>
 
@@ -35,9 +35,9 @@ export default function AboutTimeline() {
             <div key={index} className="relative flex flex-col items-start z-10">
               {/* Layered dot */}
               <div className="absolute -top-4 z-10">
-                <div className="bg-white rounded-full w-5 h-5 absolute top-0 left-0" />
+                <div className="bg-white rounded-full 2xl:w-5 2xl:h-5 w-3 h-3 absolute top-0 left-0" />
               </div>
-              <h4 className="text-xl font-semibold mt-8" style={{
+              <h4 className="2xl:text-xl lg:text-lg text-base font-semibold mt-8" style={{
                 WebkitTextStrokeWidth: '1px',
                 WebkitTextStrokeColor: '#d3d3d3',
                 color: 'transparent',
@@ -46,14 +46,14 @@ export default function AboutTimeline() {
               }}>
                 {item.year}
               </h4>
-              <p className="text-gray-100 text-lg mt-4">{item.description}</p>
+              <p className="text-gray-100 2xl:text-lg lg:text-base text-sm mt-4">{item.description}</p>
               <div className="flex justify-start mt-4">
                 <Image
                   src={item.img}
                   alt={`${item.year} Icon`}
                   width={200}
                   height={50}
-                  className="max-w-full h-auto" // Ensure image is responsive
+                  className="2xl:max-w-full h-auto w-32" // Ensure image is responsive
                 />
               </div>
             </div>
