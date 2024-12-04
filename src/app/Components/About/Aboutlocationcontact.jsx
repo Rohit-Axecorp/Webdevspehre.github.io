@@ -1,31 +1,33 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 
 export default function AboutLocationContact() {
-  const [status, setStatus] = useState("");  // State for form submission status
+  const [status, setStatus] = useState(""); // State for form submission status
 
   // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
     setStatus("Submitting...");
 
-    // Accessing form elements directly without useRef()
-    const form = e.target; // This gets the form element from the event
+    const form = e.target; // Get the form element from the event
 
     // EmailJS sendForm function
     emailjs
       .sendForm(
         "service_tkgmq1n", // Replace with your EmailJS Service ID
         "template_w3r9t2m", // Replace with your EmailJS Template ID
-        form, // Directly passing the form from the event
+        form, // Pass the form directly
         "EPC2a3mKlO9EkFTOz" // Replace with your EmailJS Public Key
       )
       .then(
         (response) => {
           console.log("SUCCESS!", response.status, response.text);
-          setStatus("Form submitted successfully!");
+          setStatus(""); // Clear status
           form.reset(); // Reset the form fields after submission
+
+          // Redirect to the thank-you page
+          window.location.href = "/thankyou"; // Replace with your thank-you page route
         },
         (err) => {
           console.error("FAILED...", err);
@@ -37,7 +39,6 @@ export default function AboutLocationContact() {
   return (
     <section className="bg-gray-100">
       <div className="container mx-auto flex flex-col md:flex-row py-12 justify-between">
-        {/* Contact Form Section */}
         <div className="formdiv md:w-2/5 mb-10 md:mb-0 flex flex-col">
           <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A] mb-10">
             Let&apos;s Begin On Your Project
@@ -45,7 +46,7 @@ export default function AboutLocationContact() {
           <div className="p-6 bg-white shadow-lg rounded-lg flex-grow">
             <form onSubmit={handleSubmit}>
               <div className="space-y-4">
-                {/* First and Last Name */}
+                {/* Input Fields */}
                 <div className="flex space-x-4">
                   <div className="w-1/2">
                     <input
@@ -67,7 +68,6 @@ export default function AboutLocationContact() {
                   </div>
                 </div>
 
-                {/* Email */}
                 <div>
                   <input
                     type="email"
@@ -78,7 +78,6 @@ export default function AboutLocationContact() {
                   />
                 </div>
 
-                {/* Phone */}
                 <div>
                   <input
                     type="tel"
@@ -89,7 +88,6 @@ export default function AboutLocationContact() {
                   />
                 </div>
 
-                {/* Budget */}
                 <div>
                   <input
                     type="text"
@@ -100,7 +98,6 @@ export default function AboutLocationContact() {
                   />
                 </div>
 
-                {/* Message */}
                 <div>
                   <textarea
                     name="message"
@@ -111,7 +108,6 @@ export default function AboutLocationContact() {
                   ></textarea>
                 </div>
 
-                {/* Submit Button */}
                 <button
                   type="submit"
                   className="w-full bg-[#ED1E3A] text-white p-3 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600 transition mt-6"

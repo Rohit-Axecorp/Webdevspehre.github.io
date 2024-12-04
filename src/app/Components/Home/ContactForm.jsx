@@ -1,35 +1,55 @@
 "use client";
 import React, { useState } from "react";
 import "../Home/ContactForm.css";
+import emailjs from "@emailjs/browser";
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    website: '',
+    name: "",
+    email: "",
+    phone: "",
+    website: "",
   });
+  const [status, setStatus] = useState(""); // State for form submission status
 
+  // Handle input changes
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
 
+  // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
+    setStatus("Submitting...");
 
-    const { name, email, phone, website } = formData;
-    const subject = "Contact Form Submission";
-    const body = `Name: ${name}\nEmail: ${email}\nPhone: ${phone}\nWebsite: ${website}`;
-    const mailtoLink = `mailto:singhaniarohitram77@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    // EmailJS sendForm function
+    emailjs
+      .sendForm(
+        "service_tkgmq1n", // Replace with your EmailJS Service ID
+        "template_w3r9t2m", // Replace with your EmailJS Template ID
+        e.target, // Pass the form element directly
+        "EPC2a3mKlO9EkFTOz" // Replace with your EmailJS Public Key
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          setStatus(""); // Clear status
+          e.target.reset(); // Reset the form fields after submission
 
-    // Open the user's email client
-    window.location.href = mailtoLink;
+          // Redirect to the thank-you page
+          window.location.href = "/thankyou"; // Replace with your thank-you page route
+        },
+        (err) => {
+          console.error("FAILED...", err);
+          setStatus("Failed to submit the form. Please try again.");
+        }
+      );
   };
 
   return (
     <div className="flex justify-center items-center">
-      <div className="flex flex-col lg:flex-row bg-[#ED1E3A] p-6 shadow-lg relative container sm:p-8  w-full lg:w-auto">
+      <div className="flex flex-col lg:flex-row bg-[#ED1E3A] p-6 shadow-lg relative container sm:p-8 w-full lg:w-auto">
         {/* Form Section */}
         <div className="bg-white p-6 shadow-md w-full lg:w-2/5 h-auto sm:p-8">
           <form className="space-y-4 sm:space-y-6" onSubmit={handleSubmit}>
@@ -51,8 +71,8 @@ export default function ContactForm() {
             <div>
               <input
                 type="email"
-                id="email"
-                name="email"
+                id="email3"
+                name="email3"
                 required
                 placeholder="Email*"
                 value={formData.email}
@@ -65,8 +85,8 @@ export default function ContactForm() {
             <div>
               <input
                 type="tel"
-                id="phone"
-                name="phone"
+                id="phone3"
+                name="phone3"
                 required
                 placeholder="Phone*"
                 value={formData.phone}
@@ -98,9 +118,9 @@ export default function ContactForm() {
               </button>
             </div>
           </form>
-          <p className="mt-4 2xl:text-lg lg:text-base text-sm text-gray-500 text-center lg:text-left">
-            We respect your privacy.
-          </p>
+          {status && (
+            <p className="mt-4 text-sm text-center text-red-500">{status}</p>
+          )}
         </div>
 
         {/* Text and Image Section */}
@@ -110,8 +130,8 @@ export default function ContactForm() {
               <b>No empty promises. Just real results</b>
             </p>
             <p className="2xl:text-lg lg:text-base text-sm font-light">
-
-              Our clients see an impressive 2-3x ROI when they partner with us for digital marketing services - and you can, too.
+              Our clients see an impressive 2-3x ROI when they partner with us
+              for digital marketing services - and you can, too.
             </p>
             <ul className="list-disc ml-6 mt-4">
               <li className="2xl:text-lg lg:text-base text-sm font-light mb-2">
