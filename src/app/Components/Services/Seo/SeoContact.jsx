@@ -8,14 +8,12 @@ export default function SeoContact() {
         <div className="container mx-auto flex flex-col md:flex-row md:gap-10 items-center justify-between py-12 px-4">
           {/* Left Section */}
           <div className="md:w-1/2 w-full mb-8 md:mb-0">
-            {/* New Heading: CHICAGO SEO COMPANY */}
-            <h2 className="text-xl font-bold text-red-600 mb-2">Houston SEO COMPANY
-            </h2>
+            <h1 className="text-lg font-bold text-red-600 mb-2">HOUSTON SEO COMPANY</h1>
 
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
+            <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-800 mb-4">
               Dominate Search Rankings by Transforming Clicks into Customers with Our Proven SEO Strategies
-            </h1>
-            <p className="mb-6 text-base md:text-lg text-gray-800">
+            </h2>
+            <p className="mb-6 text-sm lg:text-base 2xl:text-lg text-gray-800">
               Optimize your site&apos;s rank with an authority that proves to be sustainable for your business in the long run. From on-page to off-page and local to technical SEO, we&apos;ve done all experiments and cracked the code to gain the top spot on SERP.
             </p>
             <div className="flex items-center my-8">
@@ -31,7 +29,7 @@ export default function SeoContact() {
 
           {/* Right Section: Contact Form */}
           <div className="md:w-1/2 w-full p-6 bg-white shadow-lg rounded-lg">
-            <h2 className="text-xl font-bold text-gray-800 mb-6">Contact Houston SEO Experts</h2>
+            <h2 className="text-xl font-bold text-gray-800 mb-6 text-center">Contact Houston SEO Experts</h2>
             <form action="#" method="POST">
               <div className="space-y-4">
                 {/* First and Last Name in one row */}

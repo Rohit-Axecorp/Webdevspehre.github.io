@@ -9,13 +9,13 @@ export default function SeoContact() {
           {/* Left Section */}
           <div className="md:w-1/2 w-full mb-8 md:mb-0">
             {/* New Heading: CHICAGO SEO COMPANY */}
-            <h1 className="text-xl font-bold text-red-600 mb-2">LEADING PLANO SEO COMPANY
+            <h1 className="2xl:text-xl text-lg font-bold text-red-600 mb-2">
+              LEADING PLANO SEO COMPANY
             </h1>
-
-            <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
+            <p className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-800 mb-4">
               Boost Organic Traffic with Our Plano SEO Services
             </p>
-            <p className="mb-6 text-base md:text-lg text-gray-700">
+            <p className="mb-6 2xl:text-lg lg:text-base text-sm">
               Web Dev Sphere is a professional Plano SEO company that works to bring your business to success. We improve your digital presence by growing your local visibility and driving targeted traffic to your website.
             </p>
             <div className="flex items-center my-8 ">
@@ -23,7 +23,7 @@ export default function SeoContact() {
                 <Image src="/Images/bannerLogo.webp" alt="Clutch 2021" width={550} height={150} />
               </div>
             </div>
-            <button className="group mt-6 relative px-6 py-3 border border-black rounded-full text-base sm:text-lg flex items-center justify-center gap-2 text-[#ED1E3A] transition-all duration-300 hover:bg-[#ED1E3A] hover:text-white hover:border-transparent">
+            <button className="group mt-6 relative px-6 py-3 border border-black rounded-full text-base 2xl:text-xl flex items-center justify-center gap-2 text-[#ED1E3A] transition-all duration-300 hover:bg-[#ED1E3A] hover:text-white hover:border-transparent">
               Free Consultation
               {/* Inline SVG for the arrow icon */}
               <svg
