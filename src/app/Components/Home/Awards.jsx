@@ -32,7 +32,7 @@ export default function Awards() {
 
                     {/* Second Column */}
                     <div className="text-right md:w-1/2 mt-8 md:mt-0">
-                        <p className="text-red-500 2xl:text-2xl text-lg font-medium">75+ reviews on clutch</p>
+                        <p className="text-[#ED1E3A] 2xl:text-2xl text-lg font-medium">75+ reviews on clutch</p>
                         <div className="flex justify-end">
                             <h3 className="2xl:text-[200px] lg:text-[150px] text-[100px] font-bold text-gray-800 leading-none">4.8</h3>
                         </div>

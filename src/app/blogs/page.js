@@ -41,7 +41,7 @@ export default async function Blog() {
       <RootLayout canonicalUrl={canonicalUrl} />
       <Header />
       <div className="container mx-auto px-6 py-12">
-        <h1 className="text-5xl font-bold text-center mb-20">Blogs</h1>
+        <h1 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-center 2xl:mb-20 mb-12">Blogs</h1>
         <div className="grid md:grid-cols-3 gap-8">
           {posts.length > 0 ? (
             posts.map(async (post) => {
@@ -70,14 +70,14 @@ export default async function Blog() {
                       />
                       <div className="p-4">
                         {/* Dynamic Category Name */}
-                        <span className="text-red-500 text-sm font-semibold">{categoryName}</span>
-                        <h2 className="text-xl font-bold text-gray-800 mt-2 hover:text-red-500">
+                        <span className="text-[#ED1E3A] text-sm font-semibold">{categoryName}</span>
+                        <h2 className="text-xl font-bold text-gray-800 mt-2 hover:text-[#ED1E3A]">
                           {post.title.rendered}
                         </h2>
                         <p className="text-gray-500 mt-2">
                           {post.excerpt.rendered.replace(/(<([^>]+)>)/gi, "").slice(0, 100)}...
                         </p>
-                        <span className="text-red-500 font-semibold inline-flex items-center mt-4 cursor-pointer">
+                        <span className="text-[#ED1E3A] font-semibold inline-flex items-center mt-4 cursor-pointer">
                           Read More
                           <span className="ml-2">&rarr;</span>
                         </span>

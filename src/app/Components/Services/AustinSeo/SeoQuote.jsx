@@ -14,7 +14,7 @@ export default function SeoQuote() {
             </h6>
 
             {/* Main Heading */}
-            <h6 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4 text-red-500">
+            <h6 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4 text-[#ED1E3A]">
               Request a Quote Now!
             </h6>
 
@@ -38,7 +38,7 @@ export default function SeoQuote() {
             </h3>
 
             {/* Phone Number with Icon */}
-            <div className="flex items-center text-red-500 text-xl font-bold">
+            <div className="flex items-center text-[#ED1E3A] text-xl font-bold">
               <FaPhoneAlt className="mr-2" />
               <a href="tel:(312) 847 4286">(312) 847 4286</a>
             </div>
@@ -54,7 +54,7 @@ export default function SeoQuote() {
                     <input
                       id="first-name"
                       type="text"
-                      className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                      className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                       placeholder="First Name"
                       required
                     />
@@ -63,7 +63,7 @@ export default function SeoQuote() {
                     <input
                       id="last-name"
                       type="text"
-                      className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                      className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                       placeholder="Last Name"
                       required
                     />
@@ -75,7 +75,7 @@ export default function SeoQuote() {
                   <input
                     id="email"
                     type="email"
-                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                     placeholder="Email"
                     required
                   />
@@ -86,7 +86,7 @@ export default function SeoQuote() {
                   <input
                     id="phone"
                     type="tel"
-                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                     placeholder="Phone"
                     required
                   />
@@ -97,7 +97,7 @@ export default function SeoQuote() {
                   <input
                     id="company-name"
                     type="text"
-                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                     placeholder="Company Name"
                     required
                   />
@@ -107,7 +107,7 @@ export default function SeoQuote() {
                 <div>
                   <select
                     id="industry"
-                    className="w-full p-3 border rounded-md text-gray-500 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                    className="w-full p-3 border rounded-md text-gray-500 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                   >
                     <option className="text-gray-400">Industry</option>
                     <option>Healthcare</option>
@@ -121,7 +121,7 @@ export default function SeoQuote() {
                 <div>
                   <select
                     id="help"
-                    className="w-full p-3 border rounded-md text-gray-500 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                    className="w-full p-3 border rounded-md text-gray-500 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                   >
                     <option className="text-gray-400">What can we help you with?</option>
                     <option>SEO Audit</option>
@@ -135,7 +135,7 @@ export default function SeoQuote() {
                 <div>
                   <textarea
                     id="project-info"
-                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                     placeholder="Please tell us your project information"
                     rows="5"
                   ></textarea>
@@ -144,7 +144,7 @@ export default function SeoQuote() {
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  className="w-full bg-red-500 text-white p-3 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600 transition mt-6"
+                  className="w-full bg-[#ED1E3A] text-white p-3 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600 transition mt-6"
                 >
                   Submit Your Request
                 </button>

@@ -6,7 +6,7 @@ export default function SpecialistsSection() {
     <div className="bg-black py-12">
       <div className="container mx-auto px-5">
         <div className="text-center mb-10">
-          <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-red-500">
+          <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A]">
             80+ In-House Digital Experts
           </h2>
         </div>

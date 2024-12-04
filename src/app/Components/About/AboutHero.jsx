@@ -9,7 +9,7 @@ export default function AboutHero() {
         {/* Left Column: Content */}
         <div className="relative z-10">
           <h1 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-black">
-            Pioneers in Digital <span className="text-red-500">Transformation.</span>
+            Pioneers in Digital <span className="text-[#ED1E3A]">Transformation.</span>
           </h1>
           <p className="mt-4 2xl:text-lg lg:text-base text-sm">
             Web Dev Sphere is passionate about creating digital experiences that are meaningful, impactful, and tailored just for you.

@@ -9,7 +9,7 @@ export default function ProWebStory() {
             {/* Column for Heading */}
             <div className="md:w-1/2">
               <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-black">
-                Who <span className="text-red-500">We Are</span>
+                Who <span className="text-[#ED1E3A]">We Are</span>
               </h2>
             </div>
             {/* Column for Paragraph */}

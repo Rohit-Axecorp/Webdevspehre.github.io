@@ -33,13 +33,13 @@ export default async function Post({ params }) {
         <div className="md:flex md:justify-between md:gap-10">
           {/* Main Content */}
           <div className="w-full md:w-2/3 mb-8 md:mb-0">
-            <h1 className="text-3xl md:text-4xl font-bold mb-4">{post.title.rendered}</h1>
+            <h1 className="text-2xl lg:text-3xl 2xl:text-4xl font-bold mb-4">{post.title.rendered}</h1>
 
             {/* Render Categories */}
             {categories.length > 0 && (
               <div className="mb-4">
                 {categories.map(category => (
-                  <span key={category.id} className="inline-block text-red-500 text-lg font-semibold mr-2">
+                  <span key={category.id} className="inline-block text-[#ED1E3A] text-lg font-semibold mr-2">
                     Category: {category.name}
                   </span>
                 ))}

@@ -39,7 +39,7 @@ export default function AboutLocationContact() {
       <div className="container mx-auto flex flex-col md:flex-row py-12 justify-between">
         {/* Contact Form Section */}
         <div className="formdiv md:w-2/5 mb-10 md:mb-0 flex flex-col">
-          <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-red-500 mb-10">
+          <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A] mb-10">
             Let&apos;s Begin On Your Project
           </h2>
           <div className="p-6 bg-white shadow-lg rounded-lg flex-grow">
@@ -51,7 +51,7 @@ export default function AboutLocationContact() {
                     <input
                       type="text"
                       name="firstName"
-                      className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                      className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                       placeholder="First Name"
                       required
                     />
@@ -60,7 +60,7 @@ export default function AboutLocationContact() {
                     <input
                       type="text"
                       name="lastName"
-                      className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                      className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                       placeholder="Last Name"
                       required
                     />
@@ -72,7 +72,7 @@ export default function AboutLocationContact() {
                   <input
                     type="email"
                     name="email"
-                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                     placeholder="Email"
                     required
                   />
@@ -83,7 +83,7 @@ export default function AboutLocationContact() {
                   <input
                     type="tel"
                     name="phone"
-                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                     placeholder="Phone"
                     required
                   />
@@ -94,7 +94,7 @@ export default function AboutLocationContact() {
                   <input
                     type="text"
                     name="budget"
-                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                     placeholder="Select Your Budget"
                     required
                   />
@@ -104,7 +104,7 @@ export default function AboutLocationContact() {
                 <div>
                   <textarea
                     name="message"
-                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-red-500 focus:ring-2 focus:ring-red-200 transition"
+                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                     placeholder="Your Message"
                     rows="5"
                     required
@@ -114,7 +114,7 @@ export default function AboutLocationContact() {
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  className="w-full bg-red-500 text-white p-3 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600 transition mt-6"
+                  className="w-full bg-[#ED1E3A] text-white p-3 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600 transition mt-6"
                 >
                   Submit Your Request
                 </button>
