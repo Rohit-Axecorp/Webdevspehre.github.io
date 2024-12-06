@@ -3,6 +3,24 @@ import Header from "@/app/Components/Header";
 import CTAsection from "@/app/Components/Home/CTAsection";
 
 // app/blogs/[slug]/page.js
+async function fetchPosts() {
+  const response = await fetch('https://webdev.roboticintelligencelabs.com/wp-json/wp/v2/posts', {
+    next: { revalidate: 10 }, // Revalidate every 10 seconds
+  });
+  if (!response.ok) throw new Error('Failed to fetch posts');
+  return response.json();
+}
+
+// This will be used by Next.js to generate static paths for dynamic routes
+export async function generateStaticParams() {
+  const posts = await fetchPosts();
+
+  // Generate paths with the post slugs
+  return posts.map((post) => ({
+    slug: post.slug,
+  }));
+}
+
 async function fetchPost(slug) {
   const response = await fetch(`https://webdev.roboticintelligencelabs.com/wp-json/wp/v2/posts?slug=${slug}&_embed=true`, {
     next: { revalidate: 10 }, // Revalidate every 10 seconds
