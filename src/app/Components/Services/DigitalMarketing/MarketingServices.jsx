@@ -66,7 +66,7 @@ export default function MarketingServices() {
         <>
             <section className="py-12 container mx-auto px-4">
                 <h2 className="mb-8 text-center">
-                    <span className="text-3xl sm:text-4xl md:text-5xl font-bold">
+                    <span className="text-[#ED1E3A]xl sm:text-4xl md:text-5xl font-bold">
                         How Our Digital Marketing Agency Houston Texas Help Businesses
                     </span>
                 </h2>
@@ -110,7 +110,7 @@ export default function MarketingServices() {
                     {/* Content Column */}
                     <div className="col-span-2">
                         <div className="p-5 bg-white">
-                            <h2 className="text-2xl md:text-3xl font-semibold mb-4">{slidesData[centeredIndex].contentHeading}</h2>
+                            <h2 className="text-2xl md:text-[#ED1E3A]xl font-semibold mb-4">{slidesData[centeredIndex].contentHeading}</h2>
                             <p className="text-base md:text-xl">{slidesData[centeredIndex].contentParagraph}</p>
                         </div>
                     </div>

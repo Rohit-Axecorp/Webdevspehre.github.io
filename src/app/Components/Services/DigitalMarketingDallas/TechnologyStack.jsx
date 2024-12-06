@@ -34,7 +34,7 @@ export default function TechnologyStack() {
     return (
         <section className='bg-gray-100'>
             <div className="py-12 container mx-auto">
-                <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 text-center">Dallas Forth Worth Digital Marketing Agency Technology Stack
+                <h2 className="text-[#ED1E3A]xl sm:text-4xl md:text-5xl font-bold mb-4 text-center">Dallas Forth Worth Digital Marketing Agency Technology Stack
                 </h2>
                 <p className="text-center text-lg mb-12 md:mx-20">
                     As a leading digital marketing agency in Dallas, we leverage the latest tools and platforms to provide comprehensive digital marketing solutions.

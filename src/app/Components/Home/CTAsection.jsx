@@ -8,7 +8,7 @@ export default function CTAsection() {
         className="mx-auto max-w-7xl rounded-3xl bg-cover bg-center lg:p-16 md:p-10 p-4 text-center relative"
         style={{ backgroundImage: "url('/Images/footer-top.webp')" }}
       >
-        <h4 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold leading-tight text-white md:w-2/3 w-full mx-auto px-4">
+        <h4 className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold leading-tight text-white md:w-2/3 w-full mx-auto px-4">
           Still Scrolling? It&apos;s Time to
           {' '}
           <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#ED1E3A] to-red-700'>

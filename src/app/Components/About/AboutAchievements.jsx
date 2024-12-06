@@ -9,7 +9,7 @@ export default function AboutAchievements() {
       {/* Row 1: Two Columns (Same Size) */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         <div className="p-6">
-          <h3 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4">Achievements And Awards
+          <h3 className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold mb-4">Achievements And Awards
           </h3>
         </div>
         <div className="bg-gray-100 rounded-xl p-6 text-center">

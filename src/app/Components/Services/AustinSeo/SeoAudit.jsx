@@ -6,7 +6,7 @@ export default function SeoAudit() {
         <>
             <section className="bg-black py-12">
                 <div className='container'>
-                <h4 className="text-white md:text-center text-3xl md:text-4xl lg:text-5xl font-bold"> {/* Responsive text size */}
+                <h4 className="text-white md:text-center text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold"> {/* Responsive text size */}
                 Get a Free SEO Audit and 
                 <span className="text-[#ED1E3A] font-semibold"> Boost Your Rankings!</span>
                 </h4>

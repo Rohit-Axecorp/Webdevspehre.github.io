@@ -14,7 +14,7 @@ export default function SocialMediaQuote() {
             </h2>
 
             {/* Main Heading */}
-            <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
+            <h3 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
               Request a Quote Now!
             </h3>
 

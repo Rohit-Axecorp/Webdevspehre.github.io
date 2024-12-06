@@ -10,7 +10,7 @@ export default function SeoContact() {
           <div className="md:w-1/2 w-full mb-8 md:mb-0">
             <h1 className="text-lg font-bold text-red-600 mb-2">HOUSTON SEO COMPANY</h1>
 
-            <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-800 mb-4">
+            <h2 className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold text-gray-800 mb-4">
               Dominate Search Rankings by Transforming Clicks into Customers with Our Proven SEO Strategies
             </h2>
             <p className="mb-6 text-sm lg:text-base 2xl:text-lg text-gray-800">

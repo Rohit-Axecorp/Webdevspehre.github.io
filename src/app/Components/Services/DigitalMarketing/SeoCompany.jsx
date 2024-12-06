@@ -19,7 +19,7 @@ export default function SeoCompany() {
 
                 {/* Content Column */}
                 <div className="w-full md:w-1/2 flex flex-col justify-center p-4 md:p-8 lg:px-16"> {/* Reduced padding for smaller screens */}
-                    <h2 className="text-2xl md:text-3xl font-bold text-gray-800 mb-2"> {/* Adjusted text size */}
+                    <h2 className="text-2xl md:text-[#ED1E3A]xl font-bold text-gray-800 mb-2"> {/* Adjusted text size */}
                         Houston Digital Marketing Agency
                     </h2>
                     <p className="text-lg md:text-xl text-gray-700 mb-4"> {/* Adjusted text size */}

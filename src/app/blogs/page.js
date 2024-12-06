@@ -41,7 +41,7 @@ export default async function Blog() {
       <RootLayout canonicalUrl={canonicalUrl} />
       <Header />
       <div className="container mx-auto px-6 py-12">
-        <h1 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-center 2xl:mb-20 mb-12">Blogs</h1>
+        <h1 className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold text-center 2xl:mb-20 mb-12">Blogs</h1>
         <div className="grid md:grid-cols-3 gap-8">
           {posts.length > 0 ? (
             posts.map(async (post) => {

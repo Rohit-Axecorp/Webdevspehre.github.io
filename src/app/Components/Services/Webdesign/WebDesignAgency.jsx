@@ -20,7 +20,7 @@ export default function WebDesignAgency() {
         <div className="container mx-auto flex flex-col md:flex-row items-center">
           {/* Left Side: Text and Button */}
           <div className="md:w-1/2 md:text-left mb-6 md:mb-0">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">Web Design Company in Houston Texas
+            <h1 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold mb-4">Web Design Company in Houston Texas
             </h1>
             <p className="text-base sm:text-lg md:text-xl text-gray-700 mb-6">
             Redefining the web experience to magnify your brand image in the market leading to the maximum sale opportunities. Working with a result-driven <a href="/houston-texas-web-design">Houston web design company</a> like Webdev Sphere, you can scale up your business with an interactive web presence.

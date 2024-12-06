@@ -9,7 +9,7 @@ export default function AboutDigitalLandscape() {
                 <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
                     {/* Left Column: Content */}
                     <div className="md:w-1/2 mb-8 md:mb-0">
-                        <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A]">
+                        <h2 className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A]">
                             Ready to Grow Your Online Presence?
                         </h2>
                         <p className="2xl:mt-8 mt-4 2xl:text-lg lg:text-base text-sm">

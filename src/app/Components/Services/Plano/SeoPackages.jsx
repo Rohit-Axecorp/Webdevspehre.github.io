@@ -20,7 +20,7 @@ export default function SeoPackages() {
               <div>
                 <div className="flex items-center mb-6">
                   <FaRocket className="text-[#ED1E3A] text-4xl mr-4" />
-                  <h5 className="text-2xl sm:text-3xl font-bold text-gray-800">Steady Growth</h5>
+                  <h5 className="text-2xl sm:text-[#ED1E3A]xl font-bold text-gray-800">Steady Growth</h5>
                 </div>
                 <ul className="list-disc list-inside mb-6 text-base sm:text-lg font-medium text-gray-700 space-y-2">
                   <li>Basic package</li>
@@ -44,7 +44,7 @@ export default function SeoPackages() {
               <div>
                 <div className="flex items-center mb-6">
                   <FaBolt className="text-[#ED1E3A] text-4xl mr-4" />
-                  <h5 className="text-2xl sm:text-3xl font-bold text-gray-800">Faster Growth</h5>
+                  <h5 className="text-2xl sm:text-[#ED1E3A]xl font-bold text-gray-800">Faster Growth</h5>
                 </div>
                 <ul className="list-disc list-inside mb-6 text-base sm:text-lg font-medium text-gray-700 space-y-2">
                   <li>Guaranteed Steady Growth Pack</li>
@@ -69,7 +69,7 @@ export default function SeoPackages() {
               <div>
                 <div className="flex items-center mb-6">
                   <FaTachometerAlt className="text-[#ED1E3A] text-4xl mr-4" />
-                  <h5 className="text-2xl sm:text-3xl font-bold text-gray-800">Full Speed Growth</h5>
+                  <h5 className="text-2xl sm:text-[#ED1E3A]xl font-bold text-gray-800">Full Speed Growth</h5>
                 </div>
                 <ul className="list-disc list-inside mb-6 text-base sm:text-lg font-medium text-gray-700 space-y-2">
                   <li>Guaranteed Faster Growth Pack</li>

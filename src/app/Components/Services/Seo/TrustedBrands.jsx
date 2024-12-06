@@ -6,7 +6,7 @@ export default function TrustedBrands() {
     return (
         <div className="py-12">
             <div className="container mx-auto text-center">
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-gray-800">
+                <h2 className="text-2xl md:text-[#ED1E3A]xl lg:text-4xl font-bold mb-6 text-gray-800">
                     Trusted by top brands for page one results.
                 </h2>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 pt-8">

@@ -20,7 +20,7 @@ export default function Awards() {
                 <div className="flex flex-col md:flex-row items-center justify-between">
                     {/* First Column */}
                     <div className="text-left md:w-1/2">
-                        <h3 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold"> <span className='text-[#ED1E3A]'> Celebrating Excellence </span> Awards that Reflect Our Credibility
+                        <h3 className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold"> <span className='text-[#ED1E3A]'> Celebrating Excellence </span> Awards that Reflect Our Credibility
                         </h3>
                         <p className="2xl:text-lg lg:text-base text-sm text-black mt-4">
                             Honored as a web development company, WebDev Sphere maintains a reputation for innovation and quality, which has helped us be awarded for our work in the industry. These accolades perfectly represent our never-ending desire to provide best-in-class solutions as a web development company USA. Each award fuels our passion for what we do, continually pushing boundaries and making impactful digital experiences.

@@ -12,7 +12,7 @@ export default function SocialMediaContact() {
                         <h1 className="text-xl font-bold text-red-600 mb-2">USA’S TOP-NOTCH DIGITAL EXPERTS
                         </h1>
 
-                        <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
+                        <p className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
                             Grow Your Business with Expert Social Media Marketing Services
                         </p>
                         <p className="mb-6 text-base md:text-lg text-gray-800">

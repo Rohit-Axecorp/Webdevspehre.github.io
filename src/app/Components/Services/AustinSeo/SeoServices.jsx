@@ -12,7 +12,7 @@ export default function SeoServices() {
                 <div className="flex-1 mb-8 md:mr-4 md:w-1/2 w-full">
                     <h5 className="text-lg font-bold mb-4 text-gray-500">OUR COMMITMENT TO EXCELLENCE
                     </h5>
-                    <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+                    <h3 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold mb-4">
                         Delivering Top-Tier SEO Services to Austin-Based Companies
                     </h3>
 

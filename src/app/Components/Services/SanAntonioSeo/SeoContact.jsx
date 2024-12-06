@@ -13,7 +13,7 @@ export default function SeoContact() {
               San Antonio SEO Company
             </h1>
 
-            <p className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-800 mb-4">
+            <p className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold text-gray-800 mb-4">
               Scales Up Your Online Business Rapidly with Optimal SEO Solutions in San Antonio
             </p>
             <p className="mb-6 2xl:text-lg lg:text-base text-sm">

@@ -38,7 +38,7 @@ export default function SeoCaseStudies() {
   return (
     <>
       <div className="bg-gray-100 py-12">
-        <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-8">
+        <h2 className="text-[#ED1E3A]xl sm:text-4xl lg:text-5xl font-bold text-center mb-8">
           Case Studies
         </h2>
         <Swiper slidesPerView={1} spaceBetween={30}>
@@ -82,7 +82,7 @@ export default function SeoCaseStudies() {
                         <span className="text-black font-normal text-base sm:text-lg">
                           {result.label}
                         </span>
-                        <span className="text-[#ED1E3A] text-2xl sm:text-3xl lg:text-4xl">
+                        <span className="text-[#ED1E3A] text-2xl sm:text-[#ED1E3A]xl lg:text-4xl">
                           {result.value}
                         </span>
                       </li>

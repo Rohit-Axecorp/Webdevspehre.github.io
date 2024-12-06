@@ -12,7 +12,7 @@ export default function SeoSolution() {
           <div className="flex flex-col-reverse md:flex-row gap-12 md:gap-20">
             {/* Left Column */}
             <div className="md:w-1/2 flex flex-col justify-center p-4">
-              <h4 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 text-white">
+              <h4 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold mb-4 text-white">
                 Rank Higher with Dallas SEO Company
               </h4>
               <p className="mb-6 text-white text-base md:text-lg lg:text-xl">

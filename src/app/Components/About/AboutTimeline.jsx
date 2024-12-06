@@ -8,7 +8,7 @@ export default function AboutTimeline() {
     <section className="bg-black py-12 text-white">
       <div className="container mx-auto">
         <div className=" mb-20">
-          <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A]">Web Dev Sphere Timeline
+          <h2 className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A]">Web Dev Sphere Timeline
           </h2>
           <h3 className="text-gray-100 2xl:text-lg lg:text-base text-sm mt-4">Here’s how we got started:
           </h3>

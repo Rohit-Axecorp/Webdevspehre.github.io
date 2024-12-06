@@ -42,7 +42,7 @@ export default function Solutions() {
       <section className='bg-gray-100'>
         <div className="2xl:py-12 py-10 container ">
           <div className="text-center">
-            <h3 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-black mb-4"><span className='text-[#ED1E3A]'> Offering Versatile Web Solutions </span> Across Diverse Industries
+            <h3 className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold text-black mb-4"><span className='text-[#ED1E3A]'> Offering Versatile Web Solutions </span> Across Diverse Industries
             </h3>
             <p className="2xl:text-lg lg:text-base text-sm text-black leading-7 mb-8">
               Being among the top web development companies, we got the exposure to serve multiple industries across the globe with our innovative web solutions.

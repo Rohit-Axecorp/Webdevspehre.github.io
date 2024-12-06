@@ -19,7 +19,7 @@ export default function SeoBusinessSolutions() {
                     {/* Left Column */}
                     <div className="md:w-1/2 flex flex-col justify-center p-4">
                         <h3 className="text-lg font-semibold mb-4 ">BEST CHICAGO SEO COMPANY</h3>
-                        <h2 className="text-3xl font-bold mb-4 ">Why Choose Us as Your Primary Houston Web Design Agency
+                        <h2 className="text-[#ED1E3A]xl font-bold mb-4 ">Why Choose Us as Your Primary Houston Web Design Agency
                         </h2>
                         <p className="mb-4  ">WebDev Sphere goes beyond creating websites – we build digital experiences that captivate and convert. As a trusted name among Houston web design companies, our team of experts designs user-centric solutions tailored to your brand’s goals. From mobile responsiveness to SEO-focused strategies, we ensure your website thrives in today’s competitive landscape.
                         </p>

@@ -23,7 +23,7 @@ export default function LogoExperience() {
                     {/* Left Column */}
                     <div className="md:w-1/3 space-y-4">
                         <h5 className="text-sm font-medium text-gray-500 uppercase" style={{ letterSpacing: "10px" }}>Be Visible</h5>
-                        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900">Beautify Your Brand with a Professional Logo Design</h1>
+                        <h1 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold text-gray-900">Beautify Your Brand with a Professional Logo Design</h1>
                         <p className="text-gray-600 text-lg">
                             Startups, small businesses, and enterprises can brand their offerings through custom logo designs, branding design solutions, and the web design expertise of Logo Design Valley.
                         </p>

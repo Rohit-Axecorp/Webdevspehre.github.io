@@ -20,7 +20,7 @@ export default function SeoBusinessSolutions() {
                     <div className="md:w-1/2 flex flex-col justify-center p-4">
                         <h3 className="text-lg font-semibold mb-4 ">BEST DIGITAL MARKETING SERVICES DALLAS
                         </h3>
-                        <h2 className="text-3xl font-bold mb-4 ">We’re One of the Best Digital Marketing Agencies Dallas
+                        <h2 className="text-[#ED1E3A]xl font-bold mb-4 ">We’re One of the Best Digital Marketing Agencies Dallas
                         </h2>
                         <p className="mb-4  ">As one of the fastest-growing cities in the U.S., Dallas offers unique opportunities for businesses looking to expand their reach, attract new customers, and thrive in an increasingly competitive marketplace. With a rich entrepreneurial spirit and a diverse, tech-savvy population, it&apos;s no surprise that digital marketing has become an essential tool for businesses here.
                         </p>

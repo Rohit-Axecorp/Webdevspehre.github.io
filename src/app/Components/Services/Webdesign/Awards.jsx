@@ -20,7 +20,7 @@ export default function Awards() {
                 <div className="flex flex-col md:flex-row items-center justify-between">
                     {/* First Column */}
                     <div className="text-left md:w-1/2">
-                        <h3 className="text-3xl md:text-4xl lg:text-5xl font-bold">Crowning Excellence: Recognitions in Houston Web Design
+                        <h3 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold">Crowning Excellence: Recognitions in Houston Web Design
                         </h3>
                         <p className="text-lg mt-4">
                             With a relentless commitment to innovation and client satisfaction, WebDev Sphere has been honored as the best web design company in Houston. Our achievements reflect our passion for delivering excellence and position us as a trusted name in Houston web design. Every accolade we’ve received drives us to set even higher benchmarks in the industry.

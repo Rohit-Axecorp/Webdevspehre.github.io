@@ -17,7 +17,7 @@ export default function Services() {
 
 
                 <div className=" w-full text-center md:text-left">
-                    <h3 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-black mb-8"><span className='text-[#ED1E3A]'> Why Choose Us as Your Primary </span> Web Development Company
+                    <h3 className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold text-black mb-8"><span className='text-[#ED1E3A]'> Why Choose Us as Your Primary </span> Web Development Company
                     </h3>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                         <div className='border-b-2 pb-8'>

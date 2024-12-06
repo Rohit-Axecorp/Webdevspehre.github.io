@@ -8,7 +8,7 @@ export default function AboutHero() {
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center 2xl:gap-5 gap-10">
         {/* Left Column: Content */}
         <div className="relative z-10">
-          <h1 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-black">
+          <h1 className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold text-black">
             Pioneers in Digital <span className="text-[#ED1E3A]">Transformation.</span>
           </h1>
           <p className="mt-4 2xl:text-lg lg:text-base text-sm">

@@ -22,7 +22,7 @@ export default function BusinessNeed() {
     return (
         <div className="bg-gray-100 py-12">
             <div className="container mx-auto text-center mb-16">
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">
+                <h1 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold">
                     <p className="text-black">Why Business Needs </p>
                     <p className="text-[#ED1E3A]">Website Maintenance Services Dubai</p>
                 </h1>
@@ -41,7 +41,7 @@ export default function BusinessNeed() {
 
             <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 mt-20">
                 <div className="flex flex-col items-center">
-                    <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+                    <h2 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold mb-4">
                         <span className="text-black">We Provide </span>
                         <span className="text-[#ED1E3A]">Professional </span>
                         <span className="text-black">Web Maintenance Plans </span>

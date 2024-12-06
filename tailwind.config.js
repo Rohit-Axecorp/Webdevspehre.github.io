@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        customColor: '#ED1E3A', // Or use the custom color directly
       },
       container: {
         center: true, // Centers the container on the page

@@ -18,7 +18,7 @@ export default function SeoBusinessSolutions() {
                     <div className="md:w-1/2 flex flex-col justify-center p-4">
                         <h4 className="text-lg font-semibold mb-4 ">BEST PLANO SEO COMPANY
                         </h4>
-                        <h2 className="text-3xl lg:text-5xl font-bold mb-4 text-[#ED1E3A]">We&apos;re the Top Choice As the Top SEO Company in Plano
+                        <h2 className="text-[#ED1E3A]xl lg:text-5xl font-bold mb-4 text-[#ED1E3A]">We&apos;re the Top Choice As the Top SEO Company in Plano
                         </h2>
                         <p className="mb-4  ">Web Dev Sphere is the premier Plano SEO company you can trust. We specialize in delivering customized SEO solutions tailored to meet the unique needs of all businesses, regardless of size or industry. Our team of experts combines industry knowledge with innovative SEO strategies to enhance your search engine visibility, drive organic traffic, and ultimately increase your revenue.
                         </p>
