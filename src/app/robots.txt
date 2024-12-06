@@ -1,4 +1,6 @@
 User-agent: *
-Disallow: 
 Disallow: /cgi-bin/
+Allow: /_next/
+Allow: /public/
+Allow: /static/
 Sitemap: https://www.webdevsphere.com/sitemap.xml
