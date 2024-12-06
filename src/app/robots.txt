@@ -3,4 +3,5 @@ Disallow: /cgi-bin/
 Allow: /_next/
 Allow: /public/
 Allow: /static/
+Allow: /assets/   # If needed
 Sitemap: https://www.webdevsphere.com/sitemap.xml
