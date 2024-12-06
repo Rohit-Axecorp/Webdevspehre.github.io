@@ -144,7 +144,7 @@ export default function SeoQuote() {
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  className="w-full bg-[#ED1E3A] text-white p-3 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600 transition mt-6"
+                  className="w-full bg-red-600 text-white p-3 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600 transition mt-6"
                 >
                   Submit Your Request
                 </button>

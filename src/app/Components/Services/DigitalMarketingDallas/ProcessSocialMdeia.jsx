@@ -107,7 +107,7 @@ export default function ProcessSocialMedia() {
                         {iconBoxes.map((box, index) => (
                             <div key={index} className="flex flex-col sm:flex-row">
                                 {/* Icon-like box on the left or top on mobile */}
-                                <div className="flex items-center justify-center p-4 sm:p-10 bg-[#ED1E3A] text-white font-bold rounded-md text-[#ED1E3A]xl sm:text-4xl md:text-5xl mb-4 sm:mb-0 sm:mr-6">
+                                <div className="flex items-center justify-center p-4 sm:p-10 bg-red-600 text-white font-bold rounded-md text-[#ED1E3A]xl sm:text-4xl md:text-5xl mb-4 sm:mb-0 sm:mr-6">
                                     {box.number}
                                 </div>
                                 {/* Text content on the right or bottom on mobile */}

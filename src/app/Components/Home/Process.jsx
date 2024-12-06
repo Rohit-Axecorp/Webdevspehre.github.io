@@ -83,7 +83,7 @@ export default function Process() {
               >
                 {/* Image Container */}
                 <div className="text-left mb-4 flex">
-                  <div className="transition-all duration-300 transform group-hover:scale-110 bg-[#ED1E3A] p-4 rounded-lg">
+                  <div className="transition-all duration-300 transform group-hover:scale-110 bg-red-600 p-4 rounded-lg">
                     <img
                       src={step.imgSrc}
                       alt={step.title}

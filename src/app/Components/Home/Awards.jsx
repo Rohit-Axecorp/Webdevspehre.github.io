@@ -25,7 +25,7 @@ export default function Awards() {
                         <p className="2xl:text-lg lg:text-base text-sm text-black mt-4">
                             Honored as a web development company, WebDev Sphere maintains a reputation for innovation and quality, which has helped us be awarded for our work in the industry. These accolades perfectly represent our never-ending desire to provide best-in-class solutions as a web development company USA. Each award fuels our passion for what we do, continually pushing boundaries and making impactful digital experiences.
                         </p>
-                        <button className="mt-6 px-6 py-2 text-lg font-semibold border-2 text-white border-[#ED1E3A] bg-[#ED1E3A] rounded-full">
+                        <button className="mt-6 px-6 py-2 text-lg font-semibold border-2 text-white border-[#ED1E3A] bg-red-600 rounded-full">
                             Check Reviews
                         </button>
                     </div>

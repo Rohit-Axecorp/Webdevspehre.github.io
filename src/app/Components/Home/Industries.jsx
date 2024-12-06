@@ -20,7 +20,7 @@ export default function Industries() {
   ];
 
   return (
-    <section className="bg-[#ED1E3A] py-12">
+    <section className="bg-red-600 py-12">
       <div className="container mx-auto px-4">
         <div className="text-center">
           <h2 className="text-black text-[#ED1E3A]xl font-bold uppercase mb-4">

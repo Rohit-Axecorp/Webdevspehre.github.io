@@ -22,7 +22,7 @@ export default function Testimonials() {
               text="Working with WebDev Sphere was a game-changer for our online store. Their e-commerce website development expertise took our business to the next level, driving both traffic and conversions beyond our expectations."
               name="Liam Turner"
               position="Founder of FreshGrocer"
-              color="bg-[#ED1E3A]"
+              color="bg-red-600"
             />
           </div>
 
@@ -42,7 +42,7 @@ export default function Testimonials() {
               text="WebDev Sphere&apos;s SEO strategy has been phenomenal! We&apos;ve seen a significant boost in organic traffic and rankings, and it&apos;s all thanks to their data-driven digital marketing approach."
               name="David Johnson"
               position="Marketing Manager at TechWave"
-              color="bg-[#ED1E3A]"
+              color="bg-red-600"
             />
           </div>
 

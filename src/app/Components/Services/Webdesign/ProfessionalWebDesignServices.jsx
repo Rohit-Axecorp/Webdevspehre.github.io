@@ -82,7 +82,7 @@ const ProfessionalWebDesignServices = () => {
                         {tabsLeft.map((tab, index) => (
                             <button
                                 key={index}
-                                className={`py-4 px-4 text-base md:text-lg font-medium text-left rounded ${selectedTab === index ? 'bg-[#ED1E3A] text-white' : 'bg-gray-200 text-gray-700'
+                                className={`py-4 px-4 text-base md:text-lg font-medium text-left rounded ${selectedTab === index ? 'bg-red-600 text-white' : 'bg-gray-200 text-gray-700'
                                     }`}
                                 onClick={() => handleTabClick(index)}
                             >
@@ -112,7 +112,7 @@ const ProfessionalWebDesignServices = () => {
                         {tabsRight.map((tab, index) => (
                             <button
                                 key={index}
-                                className={`py-4 px-4 text-base md:text-lg font-medium text-left rounded ${selectedTab === index + tabsLeft.length ? 'bg-[#ED1E3A] text-white' : 'bg-gray-200 text-gray-700'
+                                className={`py-4 px-4 text-base md:text-lg font-medium text-left rounded ${selectedTab === index + tabsLeft.length ? 'bg-red-600 text-white' : 'bg-gray-200 text-gray-700'
                                     }`}
                                 onClick={() => handleTabClick(index + tabsLeft.length)}
                             >

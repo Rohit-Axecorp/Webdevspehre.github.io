@@ -25,7 +25,7 @@ export default function Awards() {
                         <p className="text-lg mt-4">
                             With a relentless commitment to innovation and client satisfaction, WebDev Sphere has been honored as the best web design company in Houston. Our achievements reflect our passion for delivering excellence and position us as a trusted name in Houston web design. Every accolade we’ve received drives us to set even higher benchmarks in the industry.
                         </p>
-                        <button className="mt-6 px-6 py-2 text-lg font-semibold border-2 text-[#ED1E3A] border-[#ED1E3A] rounded-full hover:bg-[#ED1E3A] hover:text-white">
+                        <button className="mt-6 px-6 py-2 text-lg font-semibold border-2 text-[#ED1E3A] border-[#ED1E3A] rounded-full hover:bg-red-600 hover:text-white">
                             Check Reviews
                         </button>
                     </div>

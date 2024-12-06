@@ -17,7 +17,7 @@ export default function Thankyou() {
         <div className="flex justify-center">
           <a
             href="/"
-            className="inline-block bg-[#ED1E3A] text-white py-3 px-6 rounded-md hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-300 transition"
+            className="inline-block bg-red-600 text-white py-3 px-6 rounded-md hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-300 transition"
           >
             Back to Homepage
           </a>

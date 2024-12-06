@@ -43,7 +43,7 @@ export default function Roadmap() {
                                 </p>
 
                                 {/* Dot */}
-                                <div className="hidden lg:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4 h-4 bg-[#ED1E3A] rounded-full z-40 -mt-8"></div>
+                                <div className="hidden lg:block absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-4 h-4 bg-red-600 rounded-full z-40 -mt-8"></div>
                             </div>
                         ))}
                     </div>

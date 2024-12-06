@@ -12,7 +12,7 @@ export default function Publishing() {
                 <p className="mt-6 text-black 2xl:text-lg lg:text-base text-sm">
                     Proving itself as one of the best web development companies, WebDev Sphere is celebrated by some of the prestigious publications in the tech industry as the testament of our impactful web design and development services.
                 </p>
-                <button className="group mt-5 relative px-6 py-3 text-white border-[#ED1E3A] bg-[#ED1E3A] rounded-full 2xl:text-2xl lg:text-lg text-base  flex items-center justify-center gap-2 transition-all duration-300 hover:bg-[#ED1E3A] hover:text-white hover:border-transparent">
+                <button className="group mt-5 relative px-6 py-3 text-white border-[#ED1E3A] bg-red-600 rounded-full 2xl:text-2xl lg:text-lg text-base  flex items-center justify-center gap-2 transition-all duration-300 hover:bg-red-600 hover:text-white hover:border-transparent">
                     More About Us
                     {/* Inline SVG for the arrow icon */}
                     <svg

@@ -13,7 +13,7 @@ export default function Accordians({ title, content, isOpen, onToggle }) {
             >
                 <span>{title}</span>
                 <span
-                    className={`flex items-center justify-center w-6 h-6 text-white rounded-full transition-transform duration-300 ease-in-out ${isOpen ? 'rotate-45 bg-red-600' : 'bg-[#ED1E3A]'}`}
+                    className={`flex items-center justify-center w-6 h-6 text-white rounded-full transition-transform duration-300 ease-in-out ${isOpen ? 'rotate-45 bg-red-600' : 'bg-red-600'}`}
                 >
                     {isOpen ? (
                         <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

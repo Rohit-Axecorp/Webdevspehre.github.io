@@ -55,11 +55,11 @@ export default function SeoContact() {
               your traffic and improve your website&apos;s ranking.
             </p>
             <div className="flex items-center my-8">
-              <div className="flex items-center mr-4 bg-[#ED1E3A] p-5 rounded-md ">
+              <div className="flex items-center mr-4 bg-red-600 p-5 rounded-md ">
                 <Image src="/Images/bannerLogo.webp" alt="Clutch 2021" width={500} height={150} />
               </div>
             </div>
-            <button className="group mt-6 relative px-6 py-3 border border-black rounded-full text-base 2xl:text-xl flex items-center justify-center gap-2 text-[#ED1E3A] transition-all duration-300 hover:bg-[#ED1E3A] hover:text-white hover:border-transparent">
+            <button className="group mt-6 relative px-6 py-3 border border-black rounded-full text-base 2xl:text-xl flex items-center justify-center gap-2 text-[#ED1E3A] transition-all duration-300 hover:bg-red-600 hover:text-white hover:border-transparent">
               Free Consultation
               <svg
                 className="w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-300 transform group-hover:translate-x-2"
@@ -164,7 +164,7 @@ export default function SeoContact() {
 
                 <button
                   type="submit"
-                  className="w-full bg-[#ED1E3A] text-white p-3 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600 transition mt-6"
+                  className="w-full bg-red-600 text-white p-3 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600 transition mt-6"
                 >
                   Schedule a 30-minute Call Now
                 </button>

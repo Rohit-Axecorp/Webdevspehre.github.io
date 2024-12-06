@@ -20,11 +20,11 @@ export default function SeoContact() {
               Building an online presence is one thing but extracting value through your site in terms of maximum traffic to gain potential leads sustains your brand’s growth. Working with our  <a href="/austin-seo-company">El Paso SEO company</a> will not only help you generate leads but also ensure conversations.
             </p>
             <div className="flex items-center my-8 ">
-              <div className="flex items-center mr-4 bg-[#ED1E3A] p-5 rounded-md">
+              <div className="flex items-center mr-4 bg-red-600 p-5 rounded-md">
                 <Image src="/Images/bannerLogo.webp" alt="Clutch 2021" width={500} height={150} />
               </div>
             </div>
-            <button className="group mt-6 relative px-6 py-3 border border-black rounded-full text-base 2xl:text-xl flex items-center justify-center gap-2 text-[#ED1E3A] transition-all duration-300 hover:bg-[#ED1E3A] hover:text-white hover:border-transparent">
+            <button className="group mt-6 relative px-6 py-3 border border-black rounded-full text-base 2xl:text-xl flex items-center justify-center gap-2 text-[#ED1E3A] transition-all duration-300 hover:bg-red-600 hover:text-white hover:border-transparent">
               Free Consultation
               {/* Inline SVG for the arrow icon */}
               <svg
@@ -135,7 +135,7 @@ export default function SeoContact() {
                 {/* Submit Button */}
                 <button
                   type="submit"
-                  className="w-full bg-[#ED1E3A] text-white p-3 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600 transition mt-6"
+                  className="w-full bg-red-600 text-white p-3 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600 transition mt-6"
                 >
                   Schedule a 30-minute Call Now
                 </button>
