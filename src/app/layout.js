@@ -5,7 +5,7 @@ import Head from "next/head";
 config.autoAddCss = false;
 
 export const metadata = {
-  title: "Houston Web Design and Website Development Company | Web Agency Houston",
+  title: "Website Development Company In USA",
   description: "Leading web development and design agency delivering affordable modern and responsive web design services in Houston TX USA."
 };
 
