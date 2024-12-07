@@ -51,7 +51,7 @@ export default function GetToKnow() {
                 <div className="text-center mb-8">
                     <h2 className="text-5xl font-bold text-red-600 mb-4">Join Us</h2>
                     <p className="text-lg text-gray-600 mx-auto max-w-xl">
-                        We're always looking for talented individuals to join our growing team. If you have a passion for technology and innovation, come work with us and help shape the future.
+                        We&apos;re always looking for talented individuals to join our growing team. If you have a passion for technology and innovation, come work with us and help shape the future.
                     </p>
                 </div>
 
@@ -61,7 +61,7 @@ export default function GetToKnow() {
                     <div className="w-full lg:w-1/2 mb-10 lg:mb-0 px-4">
                         <h3 className="text-3xl font-semibold text-red-600 mb-4">Why Work With Us?</h3>
                         <p className="text-lg text-gray-700 mb-4">
-                            We foster an environment of collaboration, growth, and creativity. Our team members are at the heart of everything we do. With opportunities for personal and professional development, you'll thrive in a culture that values innovation and inclusivity.
+                            We foster an environment of collaboration, growth, and creativity. Our team members are at the heart of everything we do. With opportunities for personal and professional development, you&apos;ll thrive in a culture that values innovation and inclusivity.
                         </p>
                         <ul className="list-disc list-inside space-y-2">
                             <li className="text-gray-700">Competitive salaries and benefits</li>
