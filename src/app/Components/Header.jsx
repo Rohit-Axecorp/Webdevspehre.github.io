@@ -121,6 +121,11 @@ export default function Header() {
                         Logo Design
                       </Link>
                     </li>
+                    <li>
+                      <Link href="/dallas-texas-digital-marketing-agency" className="block px-4 py-2 hover:bg-gray-100">
+                        Dallas Digital Marketing
+                      </Link>
+                    </li>
                   </ul>
                 </div>
               )}
@@ -174,11 +179,7 @@ export default function Header() {
                         San Antonio
                       </Link>
                     </li>
-                    <li>
-                      <Link href="/dallas-texas-digital-marketing-agency" className="block px-4 py-2 hover:bg-gray-100">
-                        Dallas Digital Marketing
-                      </Link>
-                    </li>
+
                   </ul>
                 </div>
               )}

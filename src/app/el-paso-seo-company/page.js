@@ -23,8 +23,8 @@ import RootLayout from '../layout';
 
 
 export const metadata = {
-    title: "Leading Austin SEO Company | Web Dev Sphere", // Dynamic title
-    description: "Web Dev Sphere is an award-winning Austin SEO company specializing in top-tier SEO solutions. Partner with us today to make your mark in the industry." // Dynamic description
+    title: "SEO Company El Paso | SEO Services & Pricing El Paso", // Dynamic title
+    description: "As an award-winning SEO company in El Paso, we offer cost-effective marketing solutions that provide good return on investment and value for money." // Dynamic description
 };
 
 export default function Page() {
