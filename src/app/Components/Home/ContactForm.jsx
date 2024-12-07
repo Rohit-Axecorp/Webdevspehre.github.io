@@ -4,45 +4,34 @@ import "../Home/ContactForm.css";
 import emailjs from "@emailjs/browser";
 
 export default function ContactForm() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    website: "",
-  });
-  const [status, setStatus] = useState(""); // State for form submission status
-
-  // Handle input changes
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({ ...formData, [name]: value });
-  };
+  const [status, setStatus] = useState(''); // State for form submission status
 
   // Handle form submission
   const handleSubmit = (e) => {
     e.preventDefault();
-    setStatus("Submitting...");
+    console.log('Form submitted');
+    setStatus('Submitting...');
 
-    // EmailJS sendForm function
+    const form = e.target; // Get the form element from the event
+
     emailjs
       .sendForm(
-        "service_tkgmq1n", // Replace with your EmailJS Service ID
-        "template_w3r9t2m", // Replace with your EmailJS Template ID
-        e.target, // Pass the form element directly
-        "EPC2a3mKlO9EkFTOz" // Replace with your EmailJS Public Key
+        'service_tkgmq1n',
+        'template_w3r9t2m',
+        form,
+        'EPC2a3mKlO9EkFTOz'
       )
       .then(
         (response) => {
-          console.log("SUCCESS!", response.status, response.text);
-          setStatus(""); // Clear status
-          e.target.reset(); // Reset the form fields after submission
+          console.log('SUCCESS!', response.status, response.text);
+          setStatus(''); // Clear status
+          form.reset(); // Reset the form fields after submission
 
-          // Redirect to the thank-you page
-          window.location.href = "/thankyou"; // Replace with your thank-you page route
+          window.location.href = '/thankyou'; // Redirect to the thank-you page
         },
         (err) => {
-          console.error("FAILED...", err);
-          setStatus("Failed to submit the form. Please try again.");
+          console.error('FAILED...', err);
+          setStatus('Failed to submit the form. Please try again.');
         }
       );
   };
@@ -52,71 +41,102 @@ export default function ContactForm() {
       <div className="flex flex-col lg:flex-row bg-red-600 p-6 shadow-lg relative container sm:p-8 w-full lg:w-auto">
         {/* Form Section */}
         <div className="bg-white p-6 shadow-md w-full lg:w-2/5 h-auto sm:p-8">
-          <form className="space-y-4 sm:space-y-6" onSubmit={handleSubmit}>
-            {/* Name Field */}
-            <div>
+          <form onSubmit={handleSubmit} className="p-6 border-2 rounded-lg space-y-6 border-[#ED1E3A]">
+            <h2 className="text-2xl font-bold text-center text-[#ED1E3A]">Get Free Consultation</h2>
+
+            {/* Input Fields */}
+            <div className="flex space-x-4">
               <input
                 type="text"
-                id="name"
                 name="name"
+                className="w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
+                placeholder="Enter your name"
                 required
-                placeholder="Name*"
-                value={formData.name}
-                onChange={handleChange}
-                className="w-full border-b border-gray-300 py-3 sm:py-4 px-4 focus:ring-0 focus:border-b-[#ED1E3A] text-black text-base sm:text-lg"
               />
-            </div>
-
-            {/* Email Field */}
-            <div>
               <input
                 type="email"
-                id="email3"
-                name="email3"
+                name="email"
+                className="w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
+                placeholder="Enter email here"
                 required
-                placeholder="Email*"
-                value={formData.email}
-                onChange={handleChange}
-                className="w-full border-b border-gray-300 py-3 sm:py-4 px-4 focus:ring-0 focus:border-b-[#ED1E3A] text-black text-base sm:text-lg"
               />
             </div>
 
-            {/* Phone Field */}
-            <div>
-              <input
-                type="tel"
-                id="phone3"
-                name="phone3"
+            <div className="flex space-x-4">
+              <div className="flex items-center w-1/2 space-x-2 border rounded-md p-3">
+                <select
+                  name="countryCode"
+                  className="border-none focus:outline-none"
+                  required
+                >
+                  <option value="+92">+92</option>
+                  <option value="+1">+1</option>
+                  <option value="+44">+44</option>
+                </select>
+                <input
+                  type="tel"
+                  name="phone"
+                  className="w-full placeholder-gray-400 focus:outline-none"
+                  placeholder="Phone Num"
+                  required
+                />
+              </div>
+              <select
+                name="service"
+                className="w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                 required
-                placeholder="Phone*"
-                value={formData.phone}
-                onChange={handleChange}
-                className="w-full border-b border-gray-300 py-3 sm:py-4 px-4 focus:ring-0 focus:border-b-[#ED1E3A] text-black text-base sm:text-lg"
-              />
-            </div>
-
-            {/* Website Field */}
-            <div>
-              <input
-                type="url"
-                id="website"
-                name="website"
-                placeholder="Website"
-                value={formData.website}
-                onChange={handleChange}
-                className="w-full border-b border-gray-300 py-3 sm:py-4 px-4 focus:ring-0 focus:border-b-[#ED1E3A] text-black text-base sm:text-lg"
-              />
-            </div>
-
-            {/* Submit Button */}
-            <div className="flex justify-center lg:justify-start">
-              <button
-                type="submit"
-                className="w-3/4 2xl:w-2/5 bg-red-600 2xl:text-lg lg:text-base text-sm rounded-md text-white font-semibold py-3 px-2 hover:bg-red-600 transition"
               >
-                Get A Free Quote
-              </button>
+                <option disabled selected>
+                  Interested In
+                </option>
+                <option value="seo">SEO</option>
+                <option value="smm">SMM</option>
+                <option value="ppc">PPC</option>
+                <option value="local-search-marketing">Local Search Marketing</option>
+                <option value="website-content">Website Content</option>
+                <option value="link-building">Link Building</option>
+                <option value="reseller-program">Reseller Program</option>
+              </select>
             </div>
+
+            <input
+              type="text"
+              name="website"
+              className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
+              placeholder="Enter website"
+              required
+            />
+
+            <textarea
+              name="message"
+              className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
+              placeholder="Enter message here"
+              rows="4"
+              required
+            ></textarea>
+
+            {/* Checkbox */}
+            <div className="text-sm">
+              <label className="flex items-center space-x-2">
+                <input
+                  type="checkbox"
+                  name="agreement"
+                  className="h-4 w-4 border-gray-300 rounded focus:ring-[#ED1E3A]"
+                  required
+                />
+                <span>
+                  Please check the box to communicate via SMS or Email (<a href="#" className="text-blue-500 underline">Terms & Conditions</a> & <a href="#" className="text-blue-500 underline">Privacy Policy</a>).
+                  Carrier charges may apply for SMS. Reply STOP or UNSUBSCRIBE to STOP to unsubscribe anytime.
+                </span>
+              </label>
+            </div>
+
+            <button
+              type="submit"
+              className="w-full bg-[#ED1E3A] text-white p-3 rounded-md hover:bg-[#ED1E3A] focus:outline-none transition"
+            >
+              Submit
+            </button>
           </form>
           {status && (
             <p className="mt-4 text-sm text-center text-red-500">{status}</p>

@@ -7,7 +7,7 @@ export default function FourStatsAbout() {
         {/* Grid layout for the boxes */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {/* First stat box */}
-          <div className="bg-gradient-to-r from-[#ED1E3A] to-red-700 p-6 rounded-lg shadow-md text-center flex flex-col items-center">
+          <div className="bg-gradient-to-r from-red-600 to-red-700 p-6 rounded-lg shadow-md text-center flex flex-col items-center">
             <img
               src="/Images/g1.png" // Replace with your image URL
               alt="Projects Delivered"
@@ -19,7 +19,7 @@ export default function FourStatsAbout() {
           </div>
 
           {/* Second stat box */}
-          <div className="bg-gradient-to-r from-[#ED1E3A] to-red-700 p-6 rounded-lg shadow-md text-center flex flex-col items-center">
+          <div className="bg-gradient-to-r from-red-600 to-red-700 p-6 rounded-lg shadow-md text-center flex flex-col items-center">
             <img
               src="/Images/g2.png" // Replace with your image URL
               alt="In-House Specialists"
@@ -31,7 +31,7 @@ export default function FourStatsAbout() {
           </div>
 
           {/* Third stat box */}
-          <div className="bg-gradient-to-r from-[#ED1E3A] to-red-700 p-6 rounded-lg shadow-md text-center flex flex-col items-center">
+          <div className="bg-gradient-to-r from-red-600 to-red-700 p-6 rounded-lg shadow-md text-center flex flex-col items-center">
             <img
               src="/Images/g3.png" // Replace with your image URL
               alt="Years of Experience"
@@ -43,7 +43,7 @@ export default function FourStatsAbout() {
           </div>
 
           {/* Fourth stat box */}
-          <div className="bg-gradient-to-r from-[#ED1E3A] to-red-700 p-6 rounded-lg shadow-md text-center flex flex-col items-center">
+          <div className="bg-gradient-to-r from-red-600 to-red-700 p-6 rounded-lg shadow-md text-center flex flex-col items-center">
             <img
               src="/Images/g4.png" // Replace with your image URL
               alt="Industries Served"

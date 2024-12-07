@@ -5,13 +5,13 @@ export default function CTAsection() {
   return (
     <div className="relative flex flex-col justify-center overflow-hidden py-6 sm:py-12 container">
       <div
-        className="mx-auto max-w-7xl rounded-3xl bg-cover bg-center lg:p-16 md:p-10 p-4 text-center relative"
+        className="mx-auto max-w-7xl rounded-3xl bg-cover bg-center lg:p-16 md:p-10 p-4 text-center relative bg-black"
         style={{ backgroundImage: "url('/Images/footer-top.webp')" }}
       >
         <h4 className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold leading-tight text-white md:w-2/3 w-full mx-auto px-4">
           Still Scrolling? It&apos;s Time to
           {' '}
-          <span className='text-transparent bg-clip-text bg-gradient-to-r from-[#ED1E3A] to-red-700'>
+          <span className='text-transparent bg-clip-text bg-gradient-to-r from-red-600 to-red-700'>
             Get Started!
           </span>
         </h4>
@@ -26,7 +26,7 @@ export default function CTAsection() {
         </div>
         <div className="mt-6 flex items-center justify-center gap-4">
           <button className="relative px-8 py-4 bg-gradient-to-r from-red-400 to-red-700 text-white font-semibold rounded-full shadow-lg overflow-hidden group hover:bg-red-700 transition duration-300 ease-in-out lg:w-1/4 sm:w-2/4 w-3/4">
-            <span className="absolute inset-0 bg-gradient-to-r from-red-300 to-[#ED1E3A] opacity-0 rounded-full transition duration-500 ease-in-out group-hover:opacity-50 group-hover:translate-x-full"></span>
+            <span className="absolute inset-0 bg-gradient-to-r from-red-300 to-red-600 opacity-0 rounded-full transition duration-500 ease-in-out group-hover:opacity-50 group-hover:translate-x-full"></span>
             <span className="relative z-10 2xl:text-lg text-base font-normal">Let&apos;s Talk</span>
           </button>
         </div>

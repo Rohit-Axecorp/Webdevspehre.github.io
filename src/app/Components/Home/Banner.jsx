@@ -2,7 +2,6 @@
 
 import Image from 'next/image';
 import React from 'react';
-import '../Home/Banner.css';
 
 export default function Banner() {
   return (
