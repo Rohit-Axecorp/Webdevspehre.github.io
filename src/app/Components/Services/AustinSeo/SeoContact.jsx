@@ -42,7 +42,7 @@ export default function SeoContact() {
       <section className="bg-gray-100">
         <div className="container mx-auto flex flex-col md:flex-row md:gap-10 items-center justify-between py-12 px-4">
           {/* Left Section */}
-          <div className="md:w-1/2 w-full mb-8 md:mb-0">
+          <div className="md:w-3/5 w-full mb-8 md:mb-0">
             <h1 className="2xl:text-xl text-lg font-bold text-red-600 mb-2">
               AUSTIN SEO COMPANY</h1>
             <p className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold text-gray-800 mb-4">
@@ -79,13 +79,10 @@ export default function SeoContact() {
           </div>
 
           {/* Right Section: Contact Form */}
-          <div className="md:w-1/2 w-full p-6 bg-white shadow-lg rounded-lg">
-            <h5 className="text-xl font-bold text-gray-800 mb-6 text-center">
-              Contact Austin SEO Experts
-            </h5>
-            <form onSubmit={handleSubmit} className="p-6 border-2 rounded-lg space-y-6 border-[#ED1E3A]">
-              <h2 className="text-2xl font-bold text-center text-[#ED1E3A]">Get Free Consultation</h2>
+          <div className="md:w-2/5 w-full p-6 bg-white shadow-lg rounded-lg">
 
+            <form onSubmit={handleSubmit} className="p-6 border-2 rounded-lg space-y-6 border-[#ED1E3A]">
+              <p className="text-2xl font-bold text-center text-[#ED1E3A]">Get Free Consultation</p>
               {/* Input Fields */}
               <div className="flex space-x-4">
                 <input
@@ -103,7 +100,6 @@ export default function SeoContact() {
                   required
                 />
               </div>
-
               <div className="flex space-x-4">
                 <div className="flex items-center w-1/2 space-x-2 border rounded-md p-3">
                   <select
@@ -168,7 +164,6 @@ export default function SeoContact() {
                   />
                   <span>
                     Please check the box to communicate via SMS or Email (<a href="#" className="text-blue-500 underline">Terms & Conditions</a> & <a href="#" className="text-blue-500 underline">Privacy Policy</a>).
-                    Carrier charges may apply for SMS. Reply STOP or UNSUBSCRIBE to STOP to unsubscribe anytime.
                   </span>
                 </label>
               </div>
