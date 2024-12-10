@@ -23,7 +23,7 @@ import RootLayout from '../layout';
 
 
 export const metadata = {
-  title: "Houston SEO Company | Top Rated Houston SEO  SEO Services", // Dynamic title
+  title: "Houston SEO Company | Top Rated Houston SEO Services", // Dynamic title
   description: "Web Dev Sphere is a well-known and trusted SEO company and full-service digital marketing agency in the Houston Texas." // Dynamic description
 };
 

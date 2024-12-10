@@ -20,7 +20,7 @@ import SocialMediaAccordiansFAQ from '../Components/Services/SocialMedia/SocialM
 import RootLayout from '../layout';
 
 export const metadata = {
-  title: "Social Media Marketing Services Company | Web Dev Sphere", // Dynamic title
+  title: "Social Media Marketing Services Company",
   description: "Are you looking for top-tier social media marketing services? Web Dev Sphere has expert social media strategists who can help you grow your online presence." // Dynamic description
 };
 

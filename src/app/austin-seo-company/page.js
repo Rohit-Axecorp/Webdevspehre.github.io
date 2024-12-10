@@ -23,7 +23,7 @@ import RootLayout from '../layout';
 
 
 export const metadata = {
-    title: "Leading Austin SEO Company | Web Dev Sphere", // Dynamic title
+    title: "Leading Austin SEO Company",
     description: "Web Dev Sphere is an award-winning Austin SEO company specializing in top-tier SEO solutions. Partner with us today to make your mark in the industry." // Dynamic description
 };
 
