@@ -19,8 +19,7 @@ import SeoServicesIncludes from '@/app/Components/Services/Dallas/SeoServicesInc
 import SeoSolution from '@/app/Components/Services/Dallas/SeoSolution';
 import TrustedBrands from '@/app/Components/Services/Dallas/TrustedBrands';
 import AccordiansFAQ from '../Components/Services/Dallas/AccordiansFAQ';
-import RootLayout from '../layout';
-
+import Home from '../page';
 
 export const metadata = {
     title: "Dallas SEO Company | Best SEO Services In Dallas", // Dynamic title
@@ -33,8 +32,7 @@ export default function Page() {
 
     return (
         <>
-            <RootLayout canonicalUrl={canonicalUrl} />
-            <Header />
+            <Home canonicalUrl={canonicalUrl} />            <Header />
             <SeoContact />
             <TrustedBrands />
             <SeoCompany />
