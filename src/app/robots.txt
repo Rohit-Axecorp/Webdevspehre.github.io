@@ -1,4 +1,11 @@
 User-agent: *
-Disallow:
 Disallow: /_next/static/
-Sitemap: https://www.webdevsphere.com/sitemap.xml
+Disallow: /_next/
+Disallow: /*.css$
+Disallow: /*.js$
+
+# Allow specific directories if needed
+Allow: / 
+
+# Sitemap location
+Sitemap: https://webdevsphere.com/sitemap.xml
