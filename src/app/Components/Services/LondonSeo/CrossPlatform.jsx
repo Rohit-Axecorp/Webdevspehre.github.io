@@ -19,7 +19,7 @@ export default function CrossPlatform() {
                             We harness the power of the latest technologies for cross-platform app development and deliver apps that run smoothly on various platforms.
                         </p>
                         <p className="mt-6 text-black 2xl:text-lg lg:text-base text-sm">
-                            Web Dev Sphere's cross-platform prowess guarantees cost-effectiveness, rapid deployment, and a strategic edge in the ever-evolving market, marking a seamless journey toward app excellence and market dominance.
+                            Web Dev Sphere&apos;s cross-platform prowess guarantees cost-effectiveness, rapid deployment, and a strategic edge in the ever-evolving market, marking a seamless journey toward app excellence and market dominance.
                         </p>
                         <p className="mt-6 text-black 2xl:text-lg lg:text-base text-sm">
                             Choosing Web Dev Sphere for your cross platform mobile application development guarantees a myriad of benefits derived from our specialized proficiency and unwavering dedication to achieving excellence.
