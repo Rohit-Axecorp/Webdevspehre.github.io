@@ -91,11 +91,7 @@ export default function Header() {
               {dropdownOpen && (
                 <div ref={dropdownRef} className="absolute top-full mt-1 w-48 bg-white shadow-lg rounded-lg z-20">
                   <ul className="py-2 text-sm text-gray-700">
-                    <li>
-                      <Link href="/seo" className="block px-4 py-2 hover:bg-gray-100">
-                        SEO
-                      </Link>
-                    </li>
+                    
                     <li>
                       <Link href="/houston-texas-web-design" className="block px-4 py-2 hover:bg-gray-100">
                         Web Design
