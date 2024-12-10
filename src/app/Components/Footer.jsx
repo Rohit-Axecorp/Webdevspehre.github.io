@@ -77,9 +77,8 @@ export default function Footer() {
                                     Contacts
                                     <div className="before:content-[''] before:absolute before:left-0 before:bottom-[-2px] before:h-[2px] before:w-[35px] before:bg-white"></div>
                                 </li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Houston Address  for Bussiness Listing : American General Center, 2929 Allen Pkwy STE. 200, Houston, TX 77019</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">American General Center, 2929 Allen Pkwy STE. 200, Houston, TX 77019</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="mailto:info@webdevspehre.com">info@webdevspehre.com</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="https://www.google.com/maps/place/Digital+Graphiks/@25.1134066,55.2004332,17z/data=!3m1!4b1!4m6!3m5!1s0x3e5f4315868c143d:0xa24ac660b687c87!8m2!3d25.1134018!4d55.2030081!16s%2Fg%2F12hxchh1g?entry=tts">Location</a></li>
                                 {/* <li className="my-3 opacity-80">
                                     <img src="/Images/download3.svg" alt="Google Map" className="w-40 h-auto" />
                                 </li> */}

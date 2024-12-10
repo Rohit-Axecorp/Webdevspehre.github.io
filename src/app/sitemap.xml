@@ -1,109 +1,132 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+﻿<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-	<loc>https://webdevsphere.com/</loc>
-	<lastmod>2024-11-27T17:39:50+01:00</lastmod>
-	<priority>0.2</priority>
+<loc>https://webdevsphere.com/</loc>
+<lastmod>2024-11-27T17:39:50+01:00</lastmod>
+<priority>1</priority>
 </url>
 <url>
-	<loc>https://webdevsphere.com/houston-texas-web-design</loc>
-	<lastmod>2024-11-27T17:39:50+01:00</lastmod>
-	<priority>0.1</priority>
+<loc>https://webdevsphere.com/houston-texas-web-design</loc>
+<lastmod>2024-11-27T17:39:50+01:00</lastmod>
+<priority>1</priority>
 </url>
 <url>
-	<loc>https://webdevsphere.com/websitemaintenance</loc>
-	<lastmod>2024-11-27T17:39:50+01:00</lastmod>
-	<priority>0.1</priority>
+<loc>https://webdevsphere.com/website-maintenance-services</loc>
+<lastmod>2024-11-27T17:39:50+01:00</lastmod>
+<priority>1</priority>
 </url>
 <url>
-	<loc>https://webdevsphere.com/houston-texas-digital-marketing-agency</loc>
-	<lastmod>2024-11-27T17:39:50+01:00</lastmod>
-	<priority>0.1</priority>
+<loc>https://webdevsphere.com/houston-texas-digital-marketing-agency</loc>
+<lastmod>2024-11-27T17:39:50+01:00</lastmod>
+<priority>1</priority>
 </url>
 <url>
-	<loc>https://webdevsphere.com/social-media-marketing-services</loc>
-	<lastmod>2024-11-27T17:39:50+01:00</lastmod>
-	<priority>0.1</priority>
+<loc>https://webdevsphere.com/social-media-marketing-services</loc>
+<lastmod>2024-11-27T17:39:50+01:00</lastmod>
+<priority>1</priority>
 </url>
 <url>
-	<loc>https://webdevsphere.com/logodesign</loc>
-	<lastmod>2024-11-27T17:39:50+01:00</lastmod>
-	<priority>0.1</priority>
+<loc>https://webdevsphere.com/logo-design-service</loc>
+<lastmod>2024-11-27T17:39:50+01:00</lastmod>
+<priority>1</priority>
 </url>
 <url>
-	<loc>https://webdevsphere.com/austin-seo-company</loc>
-	<lastmod>2024-11-27T17:39:50+01:00</lastmod>
-	<priority>0.1</priority>
+<loc>https://webdevsphere.com/dallas-texas-digital-marketing-agency</loc>
+<lastmod>2024-11-27T17:39:50+01:00</lastmod>
+<priority>1</priority>
 </url>
 <url>
-	<loc>https://webdevsphere.com/fort-worth-seo-company</loc>
-	<lastmod>2024-11-27T17:39:50+01:00</lastmod>
-	<priority>0.1</priority>
+<loc>https://webdevsphere.com/austin-seo-company</loc>
+<lastmod>2024-11-27T17:39:50+01:00</lastmod>
+<priority>1</priority>
 </url>
 <url>
-	<loc>https://webdevsphere.com/houston-seo-company</loc>
-	<lastmod>2024-11-27T17:39:50+01:00</lastmod>
-	<priority>0.1</priority>
+<loc>https://webdevsphere.com/fort-worth-seo-company</loc>
+<lastmod>2024-11-27T17:39:50+01:00</lastmod>
+<priority>1</priority>
 </url>
 <url>
-	<loc>https://webdevsphere.com/plano-seo-company</loc>
-	<lastmod>2024-11-27T17:39:50+01:00</lastmod>
-	<priority>0.1</priority>
+<loc>https://webdevsphere.com/houston-seo-company</loc>
+<lastmod>2024-11-27T17:39:50+01:00</lastmod>
+<priority>1</priority>
 </url>
 <url>
-	<loc>https://webdevsphere.com/dallas-seo-company</loc>
-	<lastmod>2024-11-27T17:39:50+01:00</lastmod>
-	<priority>0.1</priority>
+<loc>https://webdevsphere.com/plano-seo-company</loc>
+<lastmod>2024-11-27T17:39:50+01:00</lastmod>
+<priority>1</priority>
 </url>
 <url>
-	<loc>https://webdevsphere.com/about-us</loc>
-	<lastmod>2024-11-27T17:39:50+01:00</lastmod>
-	<priority>0.1</priority>
+<loc>https://webdevsphere.com/dallas-seo-company</loc>
+<lastmod>2024-11-27T17:39:50+01:00</lastmod>
+<priority>1</priority>
 </url>
 <url>
-	<loc>https://webdevsphere.com/blogs</loc>
-	<lastmod>2024-11-27T17:39:50+01:00</lastmod>
-	<priority>0.1</priority>
+<loc>https://webdevsphere.com/el-paso-seo-company</loc>
+<lastmod>2024-11-27T17:39:50+01:00</lastmod>
+<priority>1</priority>
 </url>
 <url>
-	<loc>https://webdevsphere.com/contact-us</loc>
-	<lastmod>2024-11-27T17:39:50+01:00</lastmod>
-	<priority>0.1</priority>
+<loc>https://webdevsphere.com/san-antonio-seo-company</loc>
+<lastmod>2024-11-27T17:39:50+01:00</lastmod>
+<priority>1</priority>
 </url>
 <url>
-	<loc>https://webdevsphere.com/blogs/hello-alkesh</loc>
-	<lastmod>2024-11-27T17:39:57+01:00</lastmod>
-	<priority>0.1</priority>
+<loc>https://webdevsphere.com/about-us</loc>
+<lastmod>2024-11-27T17:39:50+01:00</lastmod>
+<priority>1</priority>
 </url>
 <url>
-	<loc>https://webdevsphere.com/blogs/15-most-popular-food-delivery-apps-in-dubai</loc>
-	<lastmod>2024-11-27T17:39:57+01:00</lastmod>
-	<priority>0.8</priority>
+<loc>https://webdevsphere.com/blogs</loc>
+<lastmod>2024-11-27T17:39:50+01:00</lastmod>
+<priority>0.1</priority>
 </url>
 <url>
-	<loc>https://webdevsphere.com/blogs/web-app-vs-mobile-app-which-solution-fits-your-needs</loc>
-	<lastmod>2024-11-27T17:39:57+01:00</lastmod>
-	<priority>0.8</priority>
+<loc>https://webdevsphere.com/contact-us</loc>
+<lastmod>2024-11-27T17:39:50+01:00</lastmod>
+<priority>0.1</priority>
 </url>
 <url>
-	<loc>https://webdevsphere.com/blogs/flutter-vs-react-native-which-one-to-choose-in-2024</loc>
-	<lastmod>2024-11-27T17:39:57+01:00</lastmod>
-	<priority>0.8</priority>
+<loc>https://webdevsphere.com/terms-and-conditions</loc>
+<lastmod>2024-11-27T17:39:50+01:00</lastmod>
+<priority>0.1</priority>
 </url>
 <url>
-	<loc>https://webdevsphere.com/blogs/22-apps-like-tiktok-tiktok-alternatives-to-try-out-now-2</loc>
-	<lastmod>2024-11-27T17:39:57+01:00</lastmod>
-	<priority>0.8</priority>
+<loc>https://webdevsphere.com/privacy-policy</loc>
+<lastmod>2024-11-27T17:39:50+01:00</lastmod>
+<priority>0.1</priority>
 </url>
 <url>
-	<loc>https://webdevsphere.com/blogs/22-apps-like-tiktok-tiktok-alternatives-to-try-out-now</loc>
-	<lastmod>2024-11-27T17:39:57+01:00</lastmod>
-	<priority>0.8</priority>
+<loc>https://webdevsphere.com/blogs/hello-alkesh</loc>
+<lastmod>2024-11-27T17:39:57+01:00</lastmod>
+<priority>0.1</priority>
 </url>
 <url>
-	<loc>https://webdevsphere.com/blogs/how-much-does-it-cost-to-hire-an-app-developer</loc>
-	<lastmod>2024-11-27T17:39:57+01:00</lastmod>
-	<priority>0.8</priority>
+<loc>https://webdevsphere.com/blogs/15-most-popular-food-delivery-apps-in-dubai</loc>
+<lastmod>2024-11-27T17:39:57+01:00</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://webdevsphere.com/blogs/web-app-vs-mobile-app-which-solution-fits-your-needs</loc>
+<lastmod>2024-11-27T17:39:57+01:00</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://webdevsphere.com/blogs/flutter-vs-react-native-which-one-to-choose-in-2024</loc>
+<lastmod>2024-11-27T17:39:57+01:00</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://webdevsphere.com/blogs/22-apps-like-tiktok-tiktok-alternatives-to-try-out-now-2</loc>
+<lastmod>2024-11-27T17:39:57+01:00</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://webdevsphere.com/blogs/22-apps-like-tiktok-tiktok-alternatives-to-try-out-now</loc>
+<lastmod>2024-11-27T17:39:57+01:00</lastmod>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://webdevsphere.com/blogs/how-much-does-it-cost-to-hire-an-app-developer</loc>
+<lastmod>2024-11-27T17:39:57+01:00</lastmod>
+<priority>0.8</priority>
 </url>
 </urlset>

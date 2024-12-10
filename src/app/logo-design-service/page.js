@@ -14,11 +14,14 @@ import SeoPackages from '@/app/Components/Services/Seo/SeoPackages'
 import SeoQuote from '@/app/Components/Services/Seo/SeoQuote'
 import SeoRecognition from '@/app/Components/Services/Seo/SeoRecognition'
 import React from 'react'
+export const metadata = {
+  title: "Logo Design Company USA", // Dynamic title
+};
 import RootLayout from '../layout';
 
 
 export default function page() {
-  const canonicalUrl = "https://webdevsphere.com/logodesign";
+  const canonicalUrl = "https://webdevsphere.com/logo-design-service";
 
   return (
     <>

@@ -19,8 +19,7 @@ import SeoServicesIncludes from '@/app/Components/Services/Dallas/SeoServicesInc
 import SeoSolution from '@/app/Components/Services/Dallas/SeoSolution';
 import TrustedBrands from '@/app/Components/Services/Dallas/TrustedBrands';
 import AccordiansFAQ from '../Components/Services/Dallas/AccordiansFAQ';
-import Home from '../page';
-
+import RootLayout from '../layout';
 export const metadata = {
     title: "Dallas SEO Company | Best SEO Services In Dallas", // Dynamic title
     description: "Web Dev Sphere is the leading Dallas SEO company that provides top-notch SEO solutions to Dallas-based businesses. Request a quote now!" // Dynamic description
@@ -32,7 +31,8 @@ export default function Page() {
 
     return (
         <>
-            <Home canonicalUrl={canonicalUrl} />            <Header />
+            <RootLayout canonicalUrl={canonicalUrl} />
+            <Header />
             <SeoContact />
             <TrustedBrands />
             <SeoCompany />

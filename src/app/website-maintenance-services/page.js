@@ -15,10 +15,13 @@ import BusinessNeed from '@/app/Components/Services/Webmaintenance/BusinessNeed'
 import Packages from '@/app/Components/Services/Webmaintenance/Packages'
 import WebmaintenanceQuote from '@/app/Components/Services/Webmaintenance/WebmaintenanceQuote'
 import React from 'react'
+export const metadata = {
+  title: "Website Services Maintenance USA", // Dynamic title
+};
 import RootLayout from '../layout';
 
 export default function page() {
-  const canonicalUrl = "https://webdevsphere.com/websitemaintenance";
+  const canonicalUrl = "https://webdevsphere.com/website-maintenance-services";
 
   return (
     <>

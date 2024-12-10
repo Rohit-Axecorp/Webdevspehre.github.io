@@ -1,10 +1,20 @@
 import Homepage from './Home/page';
 import '../app/globals.css';
 import Script from 'next/script'; // Import the Script component from next/script
+import Head from 'next/head'; // Import the Head component from next/head
+
+export const metadata = {
+  title: "Website Development Company In USA", // Dynamic title
+  description: "Professional web designing and development company in the USA offering custom websites, responsive designs, and innovative digital solutions to grow your business online."
+};
 
 export default function Home() {
   return (
     <>
+      {/* Add the Favicon link here */}
+      <Head>
+        <link rel="icon" href="/Images/21.png" />
+      </Head>
 
       <Script
         strategy="afterInteractive"
