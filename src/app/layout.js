@@ -91,7 +91,7 @@ export default function RootLayout({ children, canonicalUrl }) {
         )}
 
         {/* Set Canonical Link for All Pages */}
-        {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+        {/* {canonicalUrl && <link rel="canonical" href={canonicalUrl} />} */}
 
       </head>
       <body className="antialiased">
