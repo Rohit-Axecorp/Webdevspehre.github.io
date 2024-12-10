@@ -11,7 +11,7 @@ export default function RootLayout({ children, canonicalUrl }) {
   const pathname = usePathname(); // Get the current path
 
   return (
-    <html lang="en">
+    <html lang="en-us">
       <head>
         {/* Always Include Global Meta Tags */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -85,12 +85,14 @@ export default function RootLayout({ children, canonicalUrl }) {
                 })
               }}
             ></script>
+
+
           </>
         )}
 
         {/* Set Canonical Link for All Pages */}
         {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
-        
+
       </head>
       <body className="antialiased">
         {children}

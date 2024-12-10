@@ -20,6 +20,10 @@ import TrustedBrands from '@/app/Components/Services/LondonSeo/TrustedBrands';
 import React from 'react';
 import AccordiansFAQ from '@/app/Components/Services/LondonSeo/AccordiansFAQ';
 import RootLayout from '../layout';
+import Healthcare from '../Components/Services/LondonSeo/Healthcare';
+import ServicesLondon from '../Components/Services/LondonSeo/ServicesLondon';
+import SeoLondonTimeline from '../Components/Services/LondonSeo/SeoLondonTimeline';
+
 
 
 export const metadata = {
@@ -36,19 +40,15 @@ export default function Page() {
             <Header />
             <SeoContact />
             <TrustedBrands />
-            <SeoCompany />
-            <SeoServices />
+            <Healthcare />
             <SeoServicesIncludes />
-            <SeoAudit />
-            <Roadmap />
+            <ServicesLondon />
             <SeoCaseStudies />
+            <SeoAudit />
             <SeoReviews />
             <SeoPackages />
-            <SeoSolution />
+            <SeoLondonTimeline />
             <SeoRecognition />
-            <SeoBusinessSolutions />
-            <SeoCTA />
-            <SeoLocation />
             <SeoQuote />
             <AccordiansFAQ />
             <CTAsection />

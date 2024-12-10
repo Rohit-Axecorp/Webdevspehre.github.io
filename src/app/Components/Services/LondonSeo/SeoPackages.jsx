@@ -115,8 +115,8 @@ export default function SeoPackages() {
   ];
 
   return (
-    <section className="bg-gray-50 py-16">
-      <div className="w-2/3 mx-auto">
+    <section className="bg-gray-50 py-16 mx-4">
+      <div className="lg:w-2/3 w-full mx-auto ">
         <h2 className="text-center text-4xl font-bold pb-12 text-gray-800">
           Affordable SEO Packages
         </h2>
