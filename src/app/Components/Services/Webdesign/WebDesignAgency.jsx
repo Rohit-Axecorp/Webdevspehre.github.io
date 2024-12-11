@@ -20,18 +20,18 @@ export default function WebDesignAgency() {
         <div className="container mx-auto flex flex-col md:flex-row items-center">
           {/* Left Side: Text and Button */}
           <div className="md:w-1/2 md:text-left mb-6 md:mb-0">
-            <h1 className="text-[#ED1E3A] md:text-4xl lg:text-5xl font-bold mb-4">Web Design Company in Houston Texas
+            <h1 className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4">Web Design Company in Houston Texas
             </h1>
-            <p className="text-base sm:text-lg md:text-xl text-gray-700 mb-6">
+            <p className="2xl:text-lg lg:text-base text-sm text-gray-700 mb-6">
             Redefining the web experience to magnify your brand image in the market leading to the maximum sale opportunities. Working with a result-driven <a href="/houston-texas-web-design">Houston web design company</a> like Webdev Sphere, you can scale up your business with an interactive web presence.
             </p>
             <div className="mb-4">
-              <label className="block text-lg font-medium mb-2" htmlFor="goals">
+              <label className="block 2xl:text-lg lg:text-base text-sm font-medium mb-2" htmlFor="goals">
                 Select goals you want to achieve
               </label>
               <select
                 id="goals"
-                className="block w-full md:w-auto p-3 bg-gray-100 border border-gray-300 rounded-md text-lg"
+                className="block w-full md:w-auto p-3 bg-gray-100 border border-gray-300 rounded-md 2xl:text-lg lg:text-base text-sm"
                 value={selectedGoal}
                 onChange={(e) => setSelectedGoal(e.target.value)}
               >
@@ -46,7 +46,7 @@ export default function WebDesignAgency() {
                 </option>
               </select>
             </div>
-            <button className="bg-red-600 text-white px-6 py-3 rounded-md text-lg">
+            <button className="bg-red-600 text-white px-6 py-3 rounded-md 2xl:text-lg lg:text-base text-sm">
               Get Free Consultation
             </button>
           </div>

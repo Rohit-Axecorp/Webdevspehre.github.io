@@ -12,7 +12,7 @@ export default function WebmaintenanceQuote() {
           {/* Left Section */}
           <div className="pt-5 w-full md:w-1/2 mb-8 md:mb-0">
             {/* Main Heading */}
-            <h1 className="text-[#ED1E3A] md:text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
+            <h1 className="text-[#ED1E3A] md:text-4xl lg:text-5xl font-bold mb-6">
               Website Maintenance Services
             </h1>
             <h2 className="text-xl md:text-2xl font-medium text-gray-700 mb-">
