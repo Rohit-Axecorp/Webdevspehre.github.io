@@ -8,7 +8,7 @@ export default function Digitalsocialmedia() {
             <section className="container mx-auto px-4 py-12">
                 <div className="flex flex-col items-center mb-10">
                     <h2 className="mb-4 text-center">
-                        <span className='text-[#ED1E3A]xl md:text-4xl font-light pb-2'>See Our Success Stories:</span>
+                        <span className='text-[#ED1E3A] md:text-4xl font-light pb-2'>See Our Success Stories:</span>
                         <br />
                         <span className='text-4xl md:text-5xl font-bold'>A Portfolio of Proven Results</span>
                     </h2>

@@ -60,7 +60,7 @@ export default function Tabs() {
                                 Web Design
                                 <span className="text-black"> & Development Company</span>
                             </h3>
-                            <p className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold text-black">
+                            <p className="text-[#ED1E3A] lg:text-4xl 2xl:text-5xl font-bold text-black">
                                 Expanding Digital Horizons Across
                                 <span className="text-[#ED1E3A]"> Key Sectors</span>
                             </p>
@@ -90,7 +90,7 @@ export default function Tabs() {
                             <div className="flex flex-col lg:flex-row items-start gap-8">
                                 {/* Content Section */}
                                 <div className="w-full">
-                                    <p className="text-xl md:text-[#ED1E3A]xl font-bold text-gray-800 flex items-center gap-2">
+                                    <p className="text-xl md:text-[#ED1E3A] font-bold text-gray-800 flex items-center gap-2">
                                         {/* Number with slash */}
                                         <span className="text-[#ED1E3A]  font-light">{tabs[activeTab].number}/</span>
                                         {tabs[activeTab].title}

@@ -13,15 +13,15 @@ export default function SeoLocation() {
 
         {/* Left Column */}
         <div className="md:w-1/2 flex flex-col space-y-4 md:space-y-6">
-          <h2 className="text-[#ED1E3A]xl md:text-5xl font-semibold">Where to Find Us
+          <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A]">Where to Find Us
           </h2>
-          <p className="text-lg md:text-xl font-medium">
-          WebDev Sphere has grown on a global scale, with our headquarters based at:  
+          <p className="2xl:text-lg lg:text-base text-sm font-medium">
+            WebDev Sphere has grown on a global scale, with our headquarters based at:
           </p>
           <p>
             <a
               href="https://www.google.com/maps?q=548+Market+St.+%2341895+San+Francisco%2C+CA+94104"
-              className="text-[#ED1E3A]  text-lg md:text-xl"
+              className="text-[#ED1E3A]  2xl:text-lg lg:text-base text-sm"
             >
               548 Market St. #41895
             </a>
@@ -29,16 +29,16 @@ export default function SeoLocation() {
           <p>
             <a
               href="https://www.google.com/maps?q=548+Market+St.+%2341895+San+Francisco%2C+CA+94104"
-              className="text-[#ED1E3A]  text-lg md:text-xl"
+              className="text-[#ED1E3A]  2xl:text-lg lg:text-base text-sm"
             >
               San Francisco, CA 94104
             </a>
           </p>
-          <p className="text-lg md:text-xl font-medium">
-          Our diverse team spans across multiple regions, operating in every time zone. As we help your business grow, we&apos;re constantly broadening our sphere.  
+          <p className="2xl:text-lg lg:text-base text-sm font-medium">
+            Our diverse team spans across multiple regions, operating in every time zone. As we help your business grow, we&apos;re constantly broadening our sphere.
           </p>
           <p>
-            <a href="/join-us" className="text-[#ED1E3A]  font-semibold text-lg md:text-xl flex items-center">
+            <a href="/join-us" className="text-[#ED1E3A]  font-semibold 2xl:text-lg lg:text-base text-sm flex items-center">
               Join our team!
             </a>
           </p>

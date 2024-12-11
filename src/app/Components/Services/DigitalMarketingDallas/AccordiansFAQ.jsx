@@ -49,8 +49,8 @@ export default function AccordiansFAQ() {
 
     return (
         <div className="pt-12 mx-auto container">
-            <h4 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold mb-4 text-center">
-                FAQS
+            <h4 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A] text-center">
+            FAQS
             </h4>
             <p className="text-center lg:text-lg text-md mb-12 md:mx-20">
                 Get Answers to Your Queries Here!

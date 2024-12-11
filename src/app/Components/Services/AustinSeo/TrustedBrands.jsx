@@ -6,7 +6,7 @@ export default function TrustedBrands() {
     return (
         <div className="py-12">
             <div className="container mx-auto text-center">
-                <h4 className="text-2xl lg:text-[#ED1E3A]xl 2xl:text-4xl font-bold mb-6 text-gray-800">
+                <h4 className="text-2xl lg:text-[#ED1E3A] 2xl:text-4xl font-bold mb-6 text-gray-800">
                     Trusted by Enterprises and Fortune 500 Companies
                 </h4>
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-8 pt-8">

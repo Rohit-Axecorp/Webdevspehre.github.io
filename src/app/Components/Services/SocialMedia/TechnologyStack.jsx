@@ -34,7 +34,7 @@ export default function TechnologyStack() {
     return (
         <section className='bg-gray-100'>
             <div className="py-12 container mx-auto">
-                <h2 className="text-[#ED1E3A]xl sm:text-4xl md:text-5xl font-bold mb-4 text-center">Our Technology Stack Expertise
+                <h2 className="text-[#ED1E3A] sm:text-4xl md:text-5xl font-bold mb-4 text-center">Our Technology Stack Expertise
                 </h2>
                 <p className="text-center text-lg mb-12 md:mx-20">
                     Our tech stack is the backbone of our operations, enabling us to deliver full service social media marketing services to you.

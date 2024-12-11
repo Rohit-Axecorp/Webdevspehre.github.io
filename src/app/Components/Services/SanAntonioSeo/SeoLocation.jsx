@@ -9,15 +9,15 @@ export default function SeoLocation() {
       <div className="flex flex-col md:flex-row items-start md:items-center container mx-auto gap-y-10 md:gap-x-20 px-4 md:px-8">
         {/* Left Column */}
         <div className="md:w-1/2 flex flex-col space-y-4 md:space-y-6">
-          <h5 className="text-[#ED1E3A]xl md:text-5xl font-bold text-[#ED1E3A]">Our Location
+          <h5 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A]">Our Location
           </h5>
-          <p className="text-lg md:text-xl font-medium">
+          <p className="2xl:text-lg lg:text-base text-sm font-medium">
             WebDev Sphere: Local Expertise with a Global Reach
           </p>
           <p>
             <a
               href="https://www.google.com/maps?q=548+Market+St.+%2341895+San+Francisco%2C+CA+94104"
-              className="text-[#ED1E3A]  text-lg md:text-xl"
+              className="text-[#ED1E3A]  2xl:text-lg lg:text-base text-sm"
             >
               548 Market St. #41895
             </a>
@@ -25,16 +25,16 @@ export default function SeoLocation() {
           <p>
             <a
               href="https://www.google.com/maps?q=548+Market+St.+%2341895+San+Francisco%2C+CA+94104"
-              className="text-[#ED1E3A]  text-lg md:text-xl"
+              className="text-[#ED1E3A]  2xl:text-lg lg:text-base text-sm"
             >
               San Francisco, CA 94104
             </a>
           </p>
-          <p className="text-lg md:text-xl font-medium">
+          <p className="2xl:text-lg lg:text-base text-sm font-medium">
             Backed by a talented team spanning multiple time zones, we bring a seamless blend of innovation and strategy to businesses worldwide. As we help your business flourish, we continue to expand our footprint, staying ahead of trends and delivering transformative solutions tailored to your goals.
           </p>
           <p>
-            <a href="/join-us" className="text-[#ED1E3A]  font-semibold text-lg md:text-xl flex items-center">
+            <a href="/join-us" className="text-[#ED1E3A]  font-semibold 2xl:text-lg lg:text-base text-sm flex items-center">
               Let’s Connect!
             </a>
           </p>

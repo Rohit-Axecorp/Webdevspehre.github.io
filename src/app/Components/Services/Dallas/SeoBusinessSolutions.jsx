@@ -17,7 +17,7 @@ export default function SeoBusinessSolutions() {
                     <div className="md:w-1/2 flex flex-col justify-center p-4">
                         <h4 className="text-lg font-semibold mb-4 ">BEST DALLAS SEO COMPANY
                         </h4>
-                        <h2 className="text-[#ED1E3A]xl lg:text-5xl font-bold mb-4 text-[#ED1E3A]">Why Our Dallas SEO Company Is The No.1 Choice
+                        <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4 text-[#ED1E3A]">Why Our Dallas SEO Company Is The No.1 Choice
                         </h2>
                         <p className="mb-4  ">Web Dev Sphere is not just the Dallas SEO company, we are a team that genuinely cares about your success. We fully believe that growing your online presence takes way more than just keywords and algorithms, but an approach addressed to your specific goals.
                         </p>

@@ -22,7 +22,7 @@ export default function Counter() {
             } ${index < stats.length - 1 && 'lg:border-r-4 border-[#ED1E3A]'} pr-4`}
           >
             {/* Animated Number */}
-            <p className="text-[#ED1E3A]xl sm:text-5xl 2xl:text-7xl font-bold text-[#ED1E3A]">
+            <p className="text-[#ED1E3A] sm:text-5xl 2xl:text-7xl font-bold text-[#ED1E3A]">
               <CountUp end={stat.number} duration={3} />+
             </p>
 

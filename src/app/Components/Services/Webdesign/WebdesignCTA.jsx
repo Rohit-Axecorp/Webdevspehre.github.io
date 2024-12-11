@@ -7,7 +7,7 @@ export default function WebdesignCTA() {
             <section className="bg-red-600 py-12">
                 <div className="container mx-auto px-4 flex flex-col justify-center items-center">
                     {/* Heading */}
-                    <h2 className="text-white text-[#ED1E3A]xl sm:text-4xl md:text-5xl font-bold mb-6 w-full sm:w-3/4 lg:w-2/3 text-center">
+                    <h2 className="text-white text-[#ED1E3A] sm:text-4xl md:text-5xl font-bold mb-6 w-full sm:w-3/4 lg:w-2/3 text-center">
                         Don’t Settle for Ordinary – Let’s Create an Extraordinary Website Design!
                     </h2>
 

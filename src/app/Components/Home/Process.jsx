@@ -51,7 +51,7 @@ export default function Process() {
       <section className="2xl:py-12 py-10 bg-gray-100">
         <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
           <div className="content md:w-1/2 mb-8">
-            <h3 className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold mb-4">
+            <h3 className="text-[#ED1E3A] lg:text-4xl 2xl:text-5xl font-bold mb-4">
             <span className='text-[#ED1E3A]'> Proven Process, Exceptional Results </span>
                Our Web Development Approach
             </h3>

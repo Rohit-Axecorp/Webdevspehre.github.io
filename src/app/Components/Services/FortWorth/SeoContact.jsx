@@ -47,7 +47,7 @@ export default function SeoContact() {
               FORT WORTH SEO COMh1ANY
             </h1>
 
-            <p className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold mb-4">
+            <p className="text-[#ED1E3A] lg:text-4xl 2xl:text-5xl font-bold mb-4">
               Maximize Your ROI with a Professional Fort Worth SEO Solution
             </p>
             <p className="mb-6 2xl:text-lg lg:text-base text-sm">

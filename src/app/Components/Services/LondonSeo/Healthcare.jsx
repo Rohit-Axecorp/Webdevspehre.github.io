@@ -13,7 +13,7 @@ export default function Healthcare() {
                         />
                     </div>
                     <div className="content md:w-1/2 mb-8 md:justify-end items-center">
-                        <h3 className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold mb-8">
+                        <h3 className="text-[#ED1E3A] lg:text-4xl 2xl:text-5xl font-bold mb-8">
                             <span className='text-[#ED1E3A]'>The London SEO agency of choice for
                             </span>
                             {" "} healthcare + professional services.

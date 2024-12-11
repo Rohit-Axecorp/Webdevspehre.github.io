@@ -12,7 +12,7 @@ export default function SeoSolution() {
           <div className="flex flex-col-reverse md:flex-row gap-12 md:gap-20">
             {/* Left Column */}
             <div className="md:w-1/2 flex flex-col justify-center p-4">
-              <h2 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold mb-4 text-white">
+              <h2 className="text-[#ED1E3A] md:text-4xl lg:text-5xl font-bold mb-4 text-white">
                 Kick Upstairs Your Brand with Custom Website Design Houston TX
               </h2>
               <p className="mb-6 text-white text-base md:text-lg lg:text-xl">

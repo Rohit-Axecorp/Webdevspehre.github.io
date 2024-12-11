@@ -6,7 +6,7 @@ export default function SpecialistsSection() {
     <div className="bg-black py-12">
       <div className="container mx-auto px-5">
         <div className="text-center mb-10">
-          <h2 className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A]">
+          <h2 className="text-[#ED1E3A] lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A]">
             80+ In-House Digital Experts
           </h2>
         </div>
@@ -19,7 +19,7 @@ export default function SpecialistsSection() {
 
             </span>
             <div className="border border-white 2xl:h-40 2xl:w-60 h-32 w-48 flex items-center justify-center transition-transform transform hover:scale-105">
-              <span className="text-white text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-extrabold">1000+
+              <span className="text-white text-[#ED1E3A] lg:text-4xl 2xl:text-5xl font-extrabold">1000+
               </span>
             </div>
           </div>
@@ -30,7 +30,7 @@ export default function SpecialistsSection() {
             Tools & Tech Mastered
             </span>
             <div className="border border-white 2xl:h-40 2xl:w-60 h-32 w-48 flex items-center justify-center transition-transform transform hover:scale-105">
-              <span className="text-white text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-extrabold">15+</span>
+              <span className="text-white text-[#ED1E3A] lg:text-4xl 2xl:text-5xl font-extrabold">15+</span>
             </div>
           </div>
 
@@ -41,7 +41,7 @@ export default function SpecialistsSection() {
 
             </span>
             <div className="border border-white 2xl:h-40 2xl:w-60 h-32 w-48 flex items-center justify-center transition-transform transform hover:scale-105">
-              <span className="text-white text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-extrabold">30+</span>
+              <span className="text-white text-[#ED1E3A] lg:text-4xl 2xl:text-5xl font-extrabold">30+</span>
             </div>
           </div>
         </div>

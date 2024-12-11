@@ -14,9 +14,9 @@ export default function SeoQuote() {
             </h2>
 
             {/* Main Heading */}
-            <h1 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
+            <h6 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A] mb-4">
               Request a Quote Now!
-            </h1>
+            </h6>
 
             {/* Benefits List */}
             <ul className="list-disc ml-5 text-lg text-gray-600 mb-6 space-y-2">

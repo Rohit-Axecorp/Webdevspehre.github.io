@@ -45,7 +45,7 @@ export default function SeoReviews() {
     <div className="py-12 px-4">
       <div className="container mx-auto">
         {/* Main Heading */}
-        <h2 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold text-center mb-12">
+        <h2 className="text-[#ED1E3A] md:text-4xl lg:text-5xl font-bold text-center mb-12">
           What Our Clients Say About Us
         </h2>
 

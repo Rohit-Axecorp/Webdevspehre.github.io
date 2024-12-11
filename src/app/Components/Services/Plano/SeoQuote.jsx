@@ -14,7 +14,7 @@ export default function SeoQuote() {
             </h6>
 
             {/* Main Heading */}
-            <h6 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold text-[#ED1E3A]  mb-4">
+            <h6 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A] mb-4">
               Request a Quote Now!
             </h6>
 
@@ -34,7 +34,7 @@ export default function SeoQuote() {
 
             {/* Ready to Speak Heading */}
             <h3 className="text-xl font-bold text-gray-800 mb-4">
-            Speak to Our SEO Team Right Away
+              Speak to Our SEO Team Right Away
             </h3>
 
             {/* Phone Number with Icon */}

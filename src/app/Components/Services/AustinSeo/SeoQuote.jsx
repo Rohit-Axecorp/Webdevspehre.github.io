@@ -14,7 +14,7 @@ export default function SeoQuote() {
             </h6>
 
             {/* Main Heading */}
-            <h6 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4 text-[#ED1E3A]">
+            <h6 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A] mb-4">
               Request a Quote Now!
             </h6>
 

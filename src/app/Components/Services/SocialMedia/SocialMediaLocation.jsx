@@ -13,7 +13,7 @@ export default function SocialMediaLocation() {
 
         {/* Left Column */}
         <div className="md:w-1/2 flex flex-col space-y-4 md:space-y-6">
-          <h3 className="text-[#ED1E3A]xl md:text-5xl font-semibold">Our Location</h3>
+          <h3 className="text-[#ED1E3A] md:text-5xl font-semibold">Our Location</h3>
           <p className="text-lg md:text-xl font-medium">
             Web Dev Sphere is headquartered in Austin, Texas.
           </p>

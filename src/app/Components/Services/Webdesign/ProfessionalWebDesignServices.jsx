@@ -71,7 +71,7 @@ const ProfessionalWebDesignServices = () => {
                 <h1 className="text-2xl font-medium mb-4 text-[#ED1E3A]">Services</h1>
 
                 {/* Main heading */}
-                <h2 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold mb-12 text-center">
+                <h2 className="text-[#ED1E3A] md:text-4xl lg:text-5xl font-bold mb-12 text-center">
                     Improvising Digital Presence with Web Design Company Houston TX
                 </h2>
 
@@ -97,7 +97,7 @@ const ProfessionalWebDesignServices = () => {
                         style={{ backgroundImage: `url('${content[selectedTab].bgImage}')`, minHeight: '300px' }}
                     >
                         <div className="relative w-full">
-                            <h3 className="text-2xl md:text-[#ED1E3A]xl font-bold mb-4">
+                            <h3 className="text-2xl md:text-[#ED1E3A] font-bold mb-4">
                                 {tabsLeft[selectedTab] || tabsRight[selectedTab - tabsLeft.length]}
                             </h3>
                             <p

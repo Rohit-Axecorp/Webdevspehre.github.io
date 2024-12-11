@@ -47,7 +47,7 @@ export default function SeoContact() {
               El Paso SEO Company
             </h1>
 
-            <p className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold text-gray-800 mb-4">
+            <p className="text-[#ED1E3A] lg:text-4xl 2xl:text-5xl font-bold text-gray-800 mb-4">
               Drive Value Through Your Online Presence, Ensure Website Traffic into Potential Leads
             </p>
             <p className="mb-6 2xl:text-lg lg:text-base text-sm">

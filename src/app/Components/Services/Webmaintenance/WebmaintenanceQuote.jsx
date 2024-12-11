@@ -12,7 +12,7 @@ export default function WebmaintenanceQuote() {
           {/* Left Section */}
           <div className="pt-5 w-full md:w-1/2 mb-8 md:mb-0">
             {/* Main Heading */}
-            <h1 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
+            <h1 className="text-[#ED1E3A] md:text-4xl lg:text-5xl font-bold text-gray-800 mb-6">
               Website Maintenance Services
             </h1>
             <h2 className="text-xl md:text-2xl font-medium text-gray-700 mb-">
@@ -36,7 +36,7 @@ export default function WebmaintenanceQuote() {
 
           {/* Right Section: Contact Form */}
           <div className="p-6 bg-white shadow-lg rounded-lg w-full md:w-2/5">
-            <h1 className="text-2xl md:text-[#ED1E3A]xl font-semibold text-gray-800 mb-6 capitalize">
+            <h1 className="text-2xl md:text-[#ED1E3A] font-semibold text-gray-800 mb-6 capitalize">
               GET FREE EXPERT CONSULTATION
             </h1>
             <form action="#" method="POST">

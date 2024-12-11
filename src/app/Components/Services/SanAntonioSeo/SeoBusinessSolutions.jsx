@@ -17,7 +17,7 @@ export default function SeoBusinessSolutions() {
                     <div className="md:w-1/2 flex flex-col justify-center p-4">
                         <h4 className="text-lg font-semibold mb-4 ">BEST SEO COMPANY SAN ANTONIO
                         </h4>
-                        <h2 className="text-[#ED1E3A]xl lg:text-5xl font-bold mb-4 text-[#ED1E3A]  ">Why Choose Us as Your Ultimate SEO Company San Antonio
+                        <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4 text-[#ED1E3A]">Why Choose Us as Your Ultimate SEO Company San Antonio
 
                         </h2>
                         <p className="mb-4  ">We are an SEO agency in San Antonio with extensive experience and a dedication to excellence. With the help of advanced tools and tested techniques, we make sure your business becomes prominent in a digital environment.

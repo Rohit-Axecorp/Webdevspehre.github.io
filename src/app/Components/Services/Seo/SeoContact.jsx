@@ -42,7 +42,7 @@ export default function SeoContact() {
         <div className="container mx-auto flex flex-col md:flex-row md:gap-10 items-center justify-between py-12 px-4">
           {/* Left Section */}
           <div className="md:w-3/5 w-full mb-8 md:mb-0">
-            <h2 className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold text-gray-800 mb-4">
+            <h2 className="text-[#ED1E3A] lg:text-4xl 2xl:text-5xl font-bold text-gray-800 mb-4">
               Dominate Search Rankings by Transforming Clicks into Customers with Our Proven SEO Strategies
             </h2>
             <p className="mb-6 text-sm lg:text-base 2xl:text-lg text-gray-800">

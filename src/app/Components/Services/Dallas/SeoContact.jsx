@@ -45,7 +45,7 @@ export default function SeoContact() {
             {/* New Heading: CHICAGO SEO COMPANY */}
             <h1 className="2xl:text-xl text-lg font-bold text-red-600 mb-2">PROFESSIONAL DALLAS SEO COMPANY</h1>
 
-            <p className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold text-gray-800 mb-4">
+            <p className="text-[#ED1E3A] lg:text-4xl 2xl:text-5xl font-bold text-gray-800 mb-4">
               Achieve Higher Rankings and Traffic with Expert SEO Solutions!
             </p>
             <p className="2xl:text-lg lg:text-base text-sm">

@@ -82,7 +82,7 @@ export default function SeoCaseStudies() {
                         <span className="text-black font-normal text-base sm:text-lg">
                           {result.label}
                         </span>
-                        <span className="text-[#ED1E3A]  text-2xl sm:text-[#ED1E3A]xl lg:text-4xl">
+                        <span className="text-[#ED1E3A]  text-2xl sm:text-[#ED1E3A] lg:text-4xl">
                           {result.value}
                         </span>
                       </li>

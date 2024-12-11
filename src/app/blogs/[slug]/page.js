@@ -50,7 +50,7 @@ export default async function Post({ params }) {
       <div className="container mx-auto my-8 px-4">
         <div className="md:flex md:justify-between md:gap-10">
           <div className="w-full md:w-2/3 mb-8 md:mb-0">
-            <h1 className="text-2xl lg:text-[#ED1E3A]xl 2xl:text-4xl font-bold mb-4">{post.title.rendered}</h1>
+            <h1 className="text-2xl lg:text-[#ED1E3A] 2xl:text-4xl font-bold mb-4">{post.title.rendered}</h1>
 
             {categories.length > 0 && (
               <div className="mb-4">

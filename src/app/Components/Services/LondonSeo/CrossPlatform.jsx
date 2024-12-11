@@ -4,7 +4,7 @@ export default function CrossPlatform() {
     return (
         <>
             <section className='container 2xl:py-12 py-10 px-4 sm:px-6 lg:px-8'>
-                <h4 className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold text-center mb-8"><span className='text-[#ED1E3A]'> Why Choose Web Dev Sphere
+                <h4 className="text-[#ED1E3A] lg:text-4xl 2xl:text-5xl font-bold text-center mb-8"><span className='text-[#ED1E3A]'> Why Choose Web Dev Sphere
                 </span>
                     <br />As Your Cross-Platform App Development Company?
                 </h4>

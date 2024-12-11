@@ -8,7 +8,7 @@ export default function Portfolio() {
         <>
             <div className="py-10 lg:py-12 bg-white">
                 <div className="container mx-auto text-center px-4 md:px-5">
-                    <h2 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-extrabold md:mb-6 text-black py-4">
+                    <h2 className="text-[#ED1E3A] md:text-4xl lg:text-5xl font-extrabold md:mb-6 text-black py-4">
                         Showcasing Creativity:
                         <br />
                         <span className="font-extralight">Houston’s Finest Web Designs</span>
@@ -41,7 +41,7 @@ export default function Portfolio() {
                         />
                         <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-start p-4 lg:p-10">
                             <div className="text-left text-white">
-                                <h2 className="text-xl md:text-2xl lg:text-[#ED1E3A]xl font-bold mb-2">{item.title}</h2>
+                                <h2 className="text-xl md:text-2xl lg:text-[#ED1E3A] font-bold mb-2">{item.title}</h2>
                                 <p className="text-base lg:text-lg">{item.desc}</p>
                             </div>
                         </div>

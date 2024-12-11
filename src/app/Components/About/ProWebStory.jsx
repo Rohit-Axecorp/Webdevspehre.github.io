@@ -8,7 +8,7 @@ export default function ProWebStory() {
           <div className="flex flex-wrap items-center">
             {/* Column for Heading */}
             <div className="md:w-1/2">
-              <h2 className="text-[#ED1E3A]xl lg:text-4xl 2xl:text-5xl font-bold text-black">
+              <h2 className="text-[#ED1E3A] lg:text-4xl 2xl:text-5xl font-bold text-black">
                 Who <span className="text-[#ED1E3A]">We Are</span>
               </h2>
             </div>

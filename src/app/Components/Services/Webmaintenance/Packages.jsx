@@ -21,7 +21,7 @@ export default function Packages() {
     return (
         <section className='container py-12'>
             <div className='flex flex-col items-center'>
-                <h2 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold mb-12 text-center">
+                <h2 className="text-[#ED1E3A] md:text-4xl lg:text-5xl font-bold mb-12 text-center">
                     <p className="text-[#ED1E3A]">All in One</p>
                     <p className="text-black">Website Maintenance Packages</p>
                 </h2>

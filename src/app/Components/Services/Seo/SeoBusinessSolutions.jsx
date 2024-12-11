@@ -19,7 +19,7 @@ export default function SeoBusinessSolutions() {
                     {/* Left Column */}
                     <div className="md:w-1/2 flex flex-col justify-center p-4">
                         <h3 className="text-lg font-semibold mb-4 ">BEST CHICAGO SEO COMPANY</h3>
-                        <h2 className="text-[#ED1E3A]xl font-bold mb-4 ">Why Choose Us as Your Reliable SEO Company in Houston
+                        <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4 text-[#ED1E3A]">Why Choose Us as Your Reliable SEO Company in Houston
                         </h2>
                         <p className="mb-4  ">Our team of SEO specialists delivers tailored solutions that align with your business goals. As the best Houston SEO company, we ensure that every strategy is designed for measurable and sustainable growth.
                         </p>
