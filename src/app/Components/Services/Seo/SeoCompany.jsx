@@ -19,16 +19,16 @@ export default function SeoCompany() {
 
                 {/* Content Column */}
                 <div className="w-full md:w-1/2 flex flex-col justify-center p-4 md:p-8 lg:px-16"> {/* Reduced padding for smaller screens */}
-                    <h2 className="text-2xl md:text-[#ED1E3A]xl font-bold text-gray-800 mb-2"> {/* Adjusted text size */}
+                    <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4"> {/* Adjusted text size */}
                         Collaborate with the Best SEO Company in Houston
                     </h2>
-                    <p className="text-lg md:text-xl text-gray-700 mb-4"> {/* Adjusted text size */}
+                    <p className="2xl:text-lg lg:text-base text-sm mb-4"> {/* Adjusted text size */}
                         Build an online presence that sustains and ensures a solid domain authority, generating leads that convert users quickly.
                     </p>
 
                     {/* Scrollable Text */}
                     <div className="overflow-y-auto max-h-96 flex-1">
-                        <p className="text-lg text-gray-600 mb-6">
+                        <p className="2xl:text-lg lg:text-base text-sm mb-6">
                             You can rely on us as the best Houston SEO company that combines technical expertise with creative strategy to make your website rank at the top of search engine results. Based on our sharp methodologies to power organic traffic, user engagement, and conversions. We work with your business’s specific goals to drive measurable results that produce sustainable growth.
                             <br />
                             Apart from other SEO companies in Houston, we are data-driven, meaning that we search for opportunities and solve issues in your online presence. We measure our efforts from optimizing on-page elements to building high-quality backlinks to make you the authority in your niche and above your competition.

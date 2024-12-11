@@ -1,94 +1,146 @@
-import React from 'react';
-import { FaRocket, FaBolt, FaTachometerAlt } from 'react-icons/fa';
+"use client"
+import React from "react";
 
 export default function SeoPackages() {
+  const packages = [
+    {
+      title: "Startup Plan",
+      price: "$350",
+      originalPrice: "$700",
+      description:
+        "Suitable for newly formed organizations or small incubated startups.",
+      features: [
+        "Campaign Setup And Optimization",
+        "Website Audit",
+        "Pages Optimized (10 pages)",
+        "15 Selected Keywords Targeting",
+        "Keyword Research",
+        "Technical SEO",
+        "Link Building",
+        "Content Strategy",
+        "On-Page SEO",
+        "Monthly Reporting",
+        "SEO Strategy Call",
+      ],
+    },
+    {
+      title: "Scaling Plan",
+      price: "$700",
+      originalPrice: "$1400",
+      description:
+        "For medium-sized stable organizations looking to climb up the corporate ladder.",
+      features: [
+        "Prior Analysis",
+        "Business Analysis",
+        "Consumer Analysis",
+        "Competitor Analysis",
+        "35 Selected Keywords Targeting",
+        "Content Creation",
+        "Advanced Link Building",
+        "Technical SEO",
+        "Social Media Strategy",
+        "Monthly Reporting",
+        "SEO Strategy Call",
+      ],
+    },
+    {
+      title: "Venture Plan",
+      price: "$1200",
+      originalPrice: "$2400",
+      description:
+        "For pre-established businesses that aim to maintain their presence and claim the crown.",
+      features: [
+        "Prior Analysis",
+        "Business Analysis",
+        "Consumer Analysis",
+        "Competitor Analysis",
+        "60+ Selected Keywords Targeting",
+        "Custom Content Creation",
+        "Comprehensive Link Building",
+        "Advanced Technical SEO",
+        "Advanced Social Media Strategy",
+        "Custom Reporting & Analytics",
+        "SEO Strategy Call",
+      ],
+    },
+  ];
+
+  // Colors defined separately for each package
+  const packageColors = {
+    "Startup Plan": "blue",
+    "Scaling Plan": "green",
+    "Venture Plan": "red",
+  };
+
   return (
-    <>
-      <section className="bg-gray-100 py-16">
-        <div className="container mx-auto">
-          <h4 className="text-center text-4xl md:text-5xl lg:text-6xl font-bold pb-6 text-gray-800">
-            Precisely Tailored Houston SEO Packages
-          </h4>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 px-6">
-            {/* Box 1: Steady Growth */}
-            <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between h-[600px] overflow-y-auto border-x-4 border-[#ED1E3A]">
-              <div>
-                <div className="flex items-center mb-6">
-                  <FaRocket className="text-[#ED1E3A] text-4xl mr-4" />
-                  <h5 className="text-2xl sm:text-[#ED1E3A]xl font-bold text-gray-800">Steady Growth</h5>
+    <section className="bg-gray-50 2xl:py-12 py-10 mx-5">
+      <div className="2xl:w-2/3 w-full mx-auto">
+        <h2 className="text-center text-4xl font-bold mb-4 text-gray-800">
+          Precisely Tailored Houston SEO Packages
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {packages.map((pkg, index) => {
+            const color = packageColors[pkg.title];
+            return (
+              <div
+                key={index}
+                className={`bg-white p-8 rounded-lg shadow-lg border-t-8 border-${color}-500 flex flex-col relative`}
+              >
+                {color === "green" && (
+                  <span className="absolute top-0 right-0 bg-red-500 text-white py-2 px-4 text-xs font-bold uppercase rounded-bl-lg">
+                    Best Seller
+                  </span>
+                )}
+                <div>
+                  <h3 className={`text-3xl font-semibold text-${color}-500 mb-4`}>
+                    {pkg.title}
+                  </h3>
+                  <p className="text-gray-600 mb-8">{pkg.description}</p>
+                  <div className="h-64 overflow-y-auto rounded-md border p-4 custom-scrollbar mb-6">
+                    <ul className="list-disc ml-6 space-y-3">
+                      {pkg.features.map((feature, i) => (
+                        <li
+                          key={i}
+                          className={`feature-item-${color}`} // Custom class to set bullet color
+                        >
+                          {feature}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className="text-gray-400 line-through mb-4">
+                    {pkg.originalPrice}
+                  </div>
+                  {/* Price with dynamic color */}
+                  <div className={`text-4xl font-bold text-${color}-500`}>
+                    {pkg.price}
+                  </div>
+                  <p className="text-sm text-gray-500 mt-2">First Month Payment</p>
                 </div>
-                <ul className="list-disc list-inside mb-6 text-base sm:text-lg font-medium text-gray-700 space-y-2">
-                  <li>Essential SEO package</li>
-                  <li>100 key phrases optimized</li>
-                  <li>Up to 20 website pages optimized</li>
-                  <li>Comprehensive keyword strategy</li>
-                  <li>Up to 10 local NAP listings</li>
-                  <li>Monthly KPI reports</li>
-                </ul>
-                <p className="mb-6 text-base sm:text-lg font-normal text-gray-600">
-                  Our Steady Growth package is designed for businesses in Houston aiming for consistent results. It focuses on tailored SEO strategies, ensuring your site ranks effectively while attracting targeted traffic to your niche.
-                </p>
+                <button
+                  className={`mt-6 bg-${color}-500 text-white font-semibold py-3 px-6 rounded-md hover:bg-${color}-600 transition-all`}
+                >
+                  Buy Your Plan
+                </button>
               </div>
-              <a href="#" className="text-[#ED1E3A] hover:underline hover:text-red-600 font-semibold text-lg sm:text-xl">
-                Get Started
-              </a>
-            </div>
-
-            {/* Box 2: Faster Growth */}
-            <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between h-[600px] overflow-y-auto border-x-4 border-[#ED1E3A]">
-              <div>
-                <div className="flex items-center mb-6">
-                  <FaBolt className="text-[#ED1E3A] text-4xl mr-4" />
-                  <h5 className="text-2xl sm:text-[#ED1E3A]xl font-bold text-gray-800">Faster Growth</h5>
-                </div>
-                <ul className="list-disc list-inside mb-6 text-base sm:text-lg font-medium text-gray-700 space-y-2">
-                  <li>Steady Growth features plus more
-                  </li>
-                  <li>150 key phrases optimized</li>
-                  <li>Up to 25 website pages optimized
-                  </li>
-                  <li>Detailed local SEO strategies</li>
-                  <li>Up to 20 local NAP listings</li>
-                  <li>Advanced KPI reporting and review</li>
-                  <li>Monthly user experience analysis
-                  </li>
-                </ul>
-                <p className="mb-6 text-base sm:text-lg font-normal text-gray-600">
-                  Perfect for businesses seeking a competitive edge, the Faster Growth package combines in-depth analysis with actionable improvements, elevating your online presence with targeted keyword optimization and link-building strategies                </p>
-              </div>
-              <a href="#" className="text-[#ED1E3A] hover:underline hover:text-red-600 font-semibold text-lg sm:text-xl">
-                Get Started
-              </a>
-            </div>
-
-            {/* Box 3: Full Speed Growth */}
-            <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between h-[600px] overflow-y-auto border-x-4 border-[#ED1E3A]">
-              <div>
-                <div className="flex items-center mb-6">
-                  <FaTachometerAlt className="text-[#ED1E3A] text-4xl mr-4" />
-                  <h5 className="text-2xl sm:text-[#ED1E3A]xl font-bold text-gray-800">Full Speed Growth</h5>
-                </div>
-                <ul className="list-disc list-inside mb-6 text-base sm:text-lg font-medium text-gray-700 space-y-2">
-                  <li>All Faster Growth features included</li>
-                  <li>200 key phrases optimized</li>
-                  <li>Up to 40 website pages optimized
-                  </li>
-                  <li>Enhanced content strategies</li>
-                  <li>Up to 30 local NAP listings</li>
-                  <li>Dedicated SEO consultant</li>
-                  <li>Comprehensive lead qualification</li>
-                </ul>
-                <p className="mb-6 text-base sm:text-lg font-normal text-gray-600">
-                  Our Full Speed Growth package is the ultimate solution for businesses aiming for exponential growth. This package ensures you dominate local and competitive markets with robust SEO, cutting-edge tactics, and maximum visibility.
-                </p>
-              </div>
-              <a href="#" className="text-[#ED1E3A] hover:underline hover:text-red-600 font-semibold text-lg sm:text-xl">
-                Get Started
-              </a>
-            </div>
-          </div>
+            );
+          })}
         </div>
-      </section>
-    </>
+      </div>
+      <style jsx>{`
+        /* Style to set marker colors */
+        .feature-item-blue::marker {
+          color: #2563EB;
+        }
+
+        .feature-item-green::marker {
+          color: #10B981;
+        }
+
+        .feature-item-red::marker {
+          color: #EF4444;
+        }
+      `}</style>
+    </section>
   );
 }

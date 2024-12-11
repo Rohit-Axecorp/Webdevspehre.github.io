@@ -10,9 +10,9 @@ export default function SeoServices() {
             <div className="flex flex-col md:flex-row container mx-auto p-8 md:gap-24 gap-5 ">
                 {/* Left Column: Our Promise and Statistics */}
                 <div className="flex-1 mb-8 md:mr-4 md:w-1/2 w-full">
-                    <h5 className="text-lg font-bold mb-4 text-gray-500">OUR COMMITMENT TO EXCELLENCE
+                    <h5 className="2xl:text-lg texl-base font-bold mb-4 text-gray-500">OUR COMMITMENT TO EXCELLENCE
                     </h5>
-                    <h3 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold mb-4">
+                    <h3 className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4">
                         Delivering Top-Tier SEO Services to Austin-Based Companies
                     </h3>
 
@@ -22,27 +22,27 @@ export default function SeoServices() {
                 <div className="flex-1 md:w-1/2 w-full">
 
                     <div>
-                        <div className="text-2xl font-bold mb-4">
+                        <div className="2xl:text-lg lg:text-base text-sm font-bold mb-4">
                             Our clients have garnered great results with us
                         </div>
                         <div className='flex flex-wrap'>
                             <div className="flex flex-col mb-4 md:w-1/4 w-full">
-                                <div className="text-4xl font-bold mb-2">85%
+                                <div className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-2">85%
                                 </div>
                                 <div className="text-sm">IMPROVEMENTS IN SEARCH RANKINGS
                                 </div>
                             </div>
                             <div className="flex flex-col mb-4 md:w-1/4 w-full">
-                                <div className="text-4xl font-bold mb-2">3x</div>
+                                <div className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-2">3x</div>
                                 <div className="text-sm">BOOST IN PAGE VIEWS
                                 </div>
                             </div>
                             <div className="flex flex-col mb-4 md:w-1/4 w-full">
-                                <div className="text-4xl font-bold mb-2">180%</div>
+                                <div className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-2">180%</div>
                                 <div className="text-sm">GROWTH IN CTR</div>
                             </div>
                             <div className="flex flex-col mb-4 md:w-1/4 w-full">
-                                <div className="text-4xl font-bold mb-2">60%</div>
+                                <div className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-2">60%</div>
                                 <div className="text-sm">REDUCTION IN BOUNCE RATE</div>
                             </div>
                         </div>

@@ -6,10 +6,10 @@ export default function SeoAudit() {
         <>
             <section className="bg-black py-12">
                 <div className='container'>
-                    <h1 className="text-white md:text-center text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold"> {/* Responsive text size */}
+                    <h4 className="text-white md:text-center text-3xl lg:text-4xl 2xl:text-5xl font-bold">
                         Let&apos;s Extract a Free
                         <span className="text-[#ED1E3A] font-semibold"> SEO Audit Report of Your Site!</span>
-                    </h1>
+                    </h4>
                     <div className="container mx-auto pt-12 flex flex-col md:flex-row justify-center items-center"> {/* Stack on small screens */}
                         {/* Left Column: Form 3/5 */}
                         <div className="w-full md:w-2/5 p-6 md:p-8 bg-red-600 shadow-lg rounded-lg"> {/* Full width on small screens */}

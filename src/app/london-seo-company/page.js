@@ -19,8 +19,8 @@ import SeoLondonTimeline from '../Components/Services/LondonSeo/SeoLondonTimelin
 import CrossPlatform from '../Components/Services/LondonSeo/CrossPlatform';
 
 export const metadata = {
-    title: "Leading Austin SEO Company | Web Dev Sphere", // Dynamic title
-    description: "Web Dev Sphere is an award-winning Austin SEO company specializing in top-tier SEO solutions. Partner with us today to make your mark in the industry." // Dynamic description
+    title: "Leading London SEO Company",
+    description: "Web Dev Sphere is an award-winning Austin SEO company specializing in top-tier SEO solutions. Partner with us today to make your mark in the industry." 
 };
 
 export default function Page() {

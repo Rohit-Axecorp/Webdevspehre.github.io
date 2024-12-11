@@ -19,16 +19,16 @@ export default function SeoCompany() {
 
                 {/* Content Column */}
                 <div className="w-full md:w-1/2 flex flex-col justify-center p-4 md:p-8 lg:px-16"> {/* Reduced padding for smaller screens */}
-                    <h2 className="text-2xl md:text-[#ED1E3A]xl font-bold text-gray-800 mb-2"> {/* Adjusted text size */}
+                    <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4"> {/* Adjusted text size */}
                         Professional El Paso SEO Company
                     </h2>
-                    <p className="text-lg md:text-xl text-gray-700 mb-4"> {/* Adjusted text size */}
+                    <p className="2xl:text-lg lg:text-base text-sm mb-4"> {/* Adjusted text size */}
                         Collab with the Best SEO Company El Paso
                     </p>
 
                     {/* Scrollable Text */}
                     <div className="overflow-y-auto max-h-96 flex-1">
-                        <p className="text-lg text-gray-600 mb-6">
+                        <p className="2xl:text-lg lg:text-base text-sm mb-6">
                             We at our SEO Company El Paso focus on driving measurable growth through our unique strategies to rank your website at the top of search results. This isn’t just about getting better at making you visible, it’s about continuing to bring a steady consistent stream of qualified traffic that converts into actual customers.
                             <br />
                             Our commitment to understanding your unique business goals makes us the best SEO company El Paso TX. In our campaigns, you will find integrated and innovative SEO techniques, advanced analytics, and industry expertise to sustain long-term success. If you’re looking to be local or global, we’ve got the tools and know-how to take your brand to the next level.

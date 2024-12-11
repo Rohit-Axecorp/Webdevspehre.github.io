@@ -1,100 +1,149 @@
-import React from 'react';
-import { FaRocket, FaBolt, FaTachometerAlt } from 'react-icons/fa';
+"use client"
+import React from "react";
 
 export default function SeoPackages() {
+  const packages = [
+    {
+      title: "Startup Plan",
+      price: "$350",
+      originalPrice: "$700",
+      description:
+        "Suitable for newly formed organizations or small incubated startups.",
+      features: [
+        "Campaign Setup And Optimization",
+        "Website Audit",
+        "Pages Optimized (10 pages)",
+        "15 Selected Keywords Targeting",
+        "Keyword Research",
+        "Technical SEO",
+        "Link Building",
+        "Content Strategy",
+        "On-Page SEO",
+        "Monthly Reporting",
+        "SEO Strategy Call",
+      ],
+    },
+    {
+      title: "Scaling Plan",
+      price: "$700",
+      originalPrice: "$1400",
+      description:
+        "For medium-sized stable organizations looking to climb up the corporate ladder.",
+      features: [
+        "Prior Analysis",
+        "Business Analysis",
+        "Consumer Analysis",
+        "Competitor Analysis",
+        "35 Selected Keywords Targeting",
+        "Content Creation",
+        "Advanced Link Building",
+        "Technical SEO",
+        "Social Media Strategy",
+        "Monthly Reporting",
+        "SEO Strategy Call",
+      ],
+    },
+    {
+      title: "Venture Plan",
+      price: "$1200",
+      originalPrice: "$2400",
+      description:
+        "For pre-established businesses that aim to maintain their presence and claim the crown.",
+      features: [
+        "Prior Analysis",
+        "Business Analysis",
+        "Consumer Analysis",
+        "Competitor Analysis",
+        "60+ Selected Keywords Targeting",
+        "Custom Content Creation",
+        "Comprehensive Link Building",
+        "Advanced Technical SEO",
+        "Advanced Social Media Strategy",
+        "Custom Reporting & Analytics",
+        "SEO Strategy Call",
+      ],
+    },
+  ];
+
+  // Colors defined separately for each package
+  const packageColors = {
+    "Startup Plan": "blue",
+    "Scaling Plan": "green",
+    "Venture Plan": "red",
+  };
+
   return (
-    <>
-      <section className="bg-gray-100 py-16">
-        <div className="container mx-auto">
-          <h4 className="text-center text-4xl md:text-5xl lg:text-6xl font-bold pb-6 text-gray-800">
-            Affordable SEO Company in Fortworth Packages
-          </h4>
-          <p className="text-center text-lg md:text-xl lg:text-2xl font-medium pb-12 text-gray-800">
-            We believe that quality SEO shouldn&apos;t come with a huge price tag. Our competitive pricing ensures that you get exceptional value for your investment.
-
-          </p>
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 px-6">
-            {/* Box 1: Steady Growth */}
-            <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between h-[600px] overflow-y-auto border-x-4 border-[#ED1E3A]">
-              <div>
-                <div className="flex items-center mb-6">
-                  <FaRocket className="text-[#ED1E3A] text-4xl mr-4" />
-                  <h5 className="text-2xl sm:text-[#ED1E3A]xl font-bold text-gray-800">Steady Growth</h5>
+    <section className="bg-gray-50 2xl:py-12 py-10 mx-5">
+      <div className="2xl:w-2/3 w-full mx-auto">
+        <h2 className="text-center text-4xl font-bold mb-4 text-gray-800">
+          Affordable SEO Company in Fortworth Packages
+        </h2>
+        <p className="2xl:text-lg lg:text-base text-sm text-black leading-7 mb-8">
+          We believe that quality SEO shouldn't come with a huge price tag. Our competitive pricing ensures that you get exceptional value for your investment.
+        </p>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {packages.map((pkg, index) => {
+            const color = packageColors[pkg.title];
+            return (
+              <div
+                key={index}
+                className={`bg-white p-8 rounded-lg shadow-lg border-t-8 border-${color}-500 flex flex-col relative`}
+              >
+                {color === "green" && (
+                  <span className="absolute top-0 right-0 bg-red-500 text-white py-2 px-4 text-xs font-bold uppercase rounded-bl-lg">
+                    Best Seller
+                  </span>
+                )}
+                <div>
+                  <h3 className={`text-3xl font-semibold text-${color}-500 mb-4`}>
+                    {pkg.title}
+                  </h3>
+                  <p className="text-gray-600 mb-8">{pkg.description}</p>
+                  <div className="h-64 overflow-y-auto rounded-md border p-4 custom-scrollbar mb-6">
+                    <ul className="list-disc ml-6 space-y-3">
+                      {pkg.features.map((feature, i) => (
+                        <li
+                          key={i}
+                          className={`feature-item-${color}`} // Custom class to set bullet color
+                        >
+                          {feature}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                  <div className="text-gray-400 line-through mb-4">
+                    {pkg.originalPrice}
+                  </div>
+                  {/* Price with dynamic color */}
+                  <div className={`text-4xl font-bold text-${color}-500`}>
+                    {pkg.price}
+                  </div>
+                  <p className="text-sm text-gray-500 mt-2">First Month Payment</p>
                 </div>
-                <ul className="list-disc list-inside mb-6 text-base sm:text-lg font-medium text-gray-700 space-y-2">
-                  <li>Basic package</li>
-                  <li>100 keywords optimized</li>
-                  <li>Up to 20 website pages optimized</li>
-                  <li>Standard SEO strategy</li>
-                  <li>Up to 10 local NAPs listings</li>
-                  <li>Monthly SEO reporting</li>
-                </ul>
-                <p className="mb-6 text-base sm:text-lg font-normal text-gray-600">
-                  This package offers all the essential SEO and link-building services required for your Fort Worth-based business. It&apos;s ideal for companies aiming to maintain consistent visibility in the Fort Worth area while steadily increasing organic search traffic.
-
-                </p>
+                <button
+                  className={`mt-6 bg-${color}-500 text-white font-semibold py-3 px-6 rounded-md hover:bg-${color}-600 transition-all`}
+                >
+                  Buy Your Plan
+                </button>
               </div>
-              <a href="#" className="text-[#ED1E3A] hover:underline hover:text-red-600 font-semibold text-lg sm:text-xl">
-                LET&apos;S GET STARTED
-              </a>
-            </div>
-
-            {/* Box 2: Faster Growth */}
-            <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between h-[600px] overflow-y-auto border-x-4 border-[#ED1E3A]">
-              <div>
-                <div className="flex items-center mb-6">
-                  <FaBolt className="text-[#ED1E3A] text-4xl mr-4" />
-                  <h5 className="text-2xl sm:text-[#ED1E3A]xl font-bold text-gray-800">Faster Growth</h5>
-                </div>
-                <ul className="list-disc list-inside mb-6 text-base sm:text-lg font-medium text-gray-700 space-y-2">
-                  <li>Guaranteed Steady Growth Pack</li>
-                  <li>150 keywords optimized</li>
-                  <li>20 website pages optimized</li>
-                  <li>Advanced SEO strategy</li>
-                  <li>20 local NAPs listings</li>
-                  <li>Monthly in-depth SEO reporting</li>
-                  <li>2 hours of UX & website work per month</li>
-                  <li>Lead qualification</li>
-                </ul>
-                <p className="mb-6 text-base sm:text-lg font-normal text-gray-600">
-                  This package is designed for medium-sized businesses in Fort Worth looking to dominate local search results. It offers tailored SEO strategies and continuous content optimization to help you attract more leads across the Fort Worth.
-
-                </p>
-              </div>
-              <a href="#" className="text-[#ED1E3A] hover:underline hover:text-red-600 font-semibold text-lg sm:text-xl">
-                LET&apos;S GET STARTED
-              </a>
-            </div>
-
-            {/* Box 3: Full Speed Growth */}
-            <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between h-[600px] overflow-y-auto border-x-4 border-[#ED1E3A]">
-              <div>
-                <div className="flex items-center mb-6">
-                  <FaTachometerAlt className="text-[#ED1E3A] text-4xl mr-4" />
-                  <h5 className="text-2xl sm:text-[#ED1E3A]xl font-bold text-gray-800">Full Speed Growth</h5>
-                </div>
-                <ul className="list-disc list-inside mb-6 text-base sm:text-lg font-medium text-gray-700 space-y-2">
-                  <li>Guaranteed Faster Growth Pack</li>
-                  <li>200 keywords optimized</li>
-                  <li>40 website pages optimized</li>
-                  <li>Comprehensive SEO strategy</li>
-                  <li>30 local NAPs listings</li>
-                  <li>Monthly analytics and reporting</li>
-                  <li>4 hours of UX & website work per month</li>
-                  <li>Detailed lead qualification</li>
-                </ul>
-                <p className="mb-6 text-base sm:text-lg font-normal text-gray-600">
-                  This comprehensive package is tailored for large Fort Worth-based businesses or those prepared to take the lead in the market. It includes extensive content creation, exceptional link-building strategies, and all the tools necessary to establish industry leadership.
-
-                </p>
-              </div>
-              <a href="#" className="text-[#ED1E3A] hover:underline hover:text-red-600 font-semibold text-lg sm:text-xl">
-                LET&apos;S GET STARTED
-              </a>
-            </div>
-          </div>
+            );
+          })}
         </div>
-      </section>
-    </>
+      </div>
+      <style jsx>{`
+        /* Style to set marker colors */
+        .feature-item-blue::marker {
+          color: #2563EB;
+        }
+
+        .feature-item-green::marker {
+          color: #10B981;
+        }
+
+        .feature-item-red::marker {
+          color: #EF4444;
+        }
+      `}</style>
+    </section>
   );
 }

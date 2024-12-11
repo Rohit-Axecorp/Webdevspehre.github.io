@@ -10,10 +10,10 @@ export default function SeoServices() {
             <div className="flex flex-col md:flex-row container mx-auto p-8 md:gap-24 gap-5 ">
                 {/* Left Column: Our Promise and Statistics */}
                 <div className="flex-1 mb-8 md:mr-4 md:w-1/2 w-full">
-                    <h5 className="text-lg font-bold mb-4 text-gray-500">THE PROMISE WE STAND BY
+                    <h5 className="2xl:text-lg texl-base font-bold text-gray-500">THE PROMISE WE STAND BY
 
                     </h5>
-                    <h3 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold mb-4">
+                    <h3 className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4">
                         Reliable SEO Company in Fort Worth for Business Growth
                     </h3>
 
@@ -28,7 +28,7 @@ export default function SeoServices() {
                         </div>
                         <div className='flex flex-wrap'>
                             <div className="flex flex-col mb-4 md:w-1/4 w-full">
-                                <div className="text-4xl font-bold mb-2">4x
+                                <div className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-2">4x
                                 </div>
                                 <div className="text-sm">BOOST IN LEAD GENERATION
 
@@ -36,19 +36,19 @@ export default function SeoServices() {
                                 </div>
                             </div>
                             <div className="flex flex-col mb-4 md:w-1/4 w-full">
-                                <div className="text-4xl font-bold mb-2">65%
+                                <div className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-2">65%
                                 </div>
                                 <div className="text-sm">BOOST IN PAGE VIEWS
                                 </div>
                             </div>
                             <div className="flex flex-col mb-4 md:w-1/4 w-full">
-                                <div className="text-4xl font-bold mb-2">150%</div>
+                                <div className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-2">150%</div>
                                 <div className="text-sm">
                                     GROWTH IN CONVERSION RATE
                                 </div>
                             </div>
                             <div className="flex flex-col mb-4 md:w-1/4 w-full">
-                                <div className="text-4xl font-bold mb-2">45%
+                                <div className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-2">45%
                                 </div>
                                 <div className="text-sm">GROWTH IN REVENUE
                                 </div>

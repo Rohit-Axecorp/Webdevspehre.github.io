@@ -6,7 +6,7 @@ export default function SeoAudit() {
         <>
             <section className="bg-black py-12">
                 <div className='container'>
-                    <h4 className="text-white md:text-center text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold"> {/* Responsive text size */}
+                    <h4 className="text-white md:text-center text-3xl lg:text-4xl 2xl:text-5xl font-bold">
                         Start Your Journey by Claiming Your
                         <span className="text-[#ED1E3A] font-semibold"> Free SEO Audit Report Today!</span>
                     </h4>
@@ -75,7 +75,7 @@ export default function SeoAudit() {
                         {/* Right Column: Image 2/5 */}
                         <div className="w-full md:w-2/4 max-w-lg p-6">
                             <Image
-                                src="/Images/result-img.webp"  
+                                src="/Images/result-img.webp"
                                 alt="SEO Audit Report"
                                 width={500}
                                 height={500}

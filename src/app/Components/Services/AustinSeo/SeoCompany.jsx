@@ -19,16 +19,16 @@ export default function SeoCompany() {
 
                 {/* Content Column */}
                 <div className="w-full md:w-1/2 flex flex-col justify-center p-4 md:p-8 lg:px-16"> {/* Reduced padding for smaller screens */}
-                    <h2 className="text-2xl md:text-[#ED1E3A]xl font-bold text-gray-800 mb-2"> {/* Adjusted text size */}
+                    <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4"> {/* Adjusted text size */}
                         Professional Austin SEO Company
                     </h2>
-                    <p className="text-lg md:text-xl text-gray-700 mb-4"> {/* Adjusted text size */}
+                    <p className="2xl:text-lg lg:text-base text-sm mb-4"> {/* Adjusted text size */}
                         Outrank Competitors and Capture More Leads with Strategic SEO
                     </p>
 
                     {/* Scrollable Text */}
                     <div className="overflow-y-auto max-h-96 flex-1">
-                        <p className="text-lg text-gray-600 mb-6">
+                        <p className="2xl:text-lg lg:text-base text-sm mb-6">
                             At <a href="/">Web Dev Sphere</a>, we pride ourselves on being the best SEO company Austin TX offering customized SEO services with real results. Our full-cycle SEO strategy targets increasing online website visibility and guaranteeing your business&apos;s success in a very competitive market.
                             <br />
 
