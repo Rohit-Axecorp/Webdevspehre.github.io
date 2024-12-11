@@ -1,10 +1,8 @@
 User-agent: *
 Disallow: /_next/static/
 Disallow: /_next/
-Disallow: /*.css$
-Disallow: /*.js$
 
-# Allow specific directories if needed
+# Remove the Disallow rules for CSS and JS files to allow crawling of dynamic content
 Allow: / 
 
 # Sitemap location

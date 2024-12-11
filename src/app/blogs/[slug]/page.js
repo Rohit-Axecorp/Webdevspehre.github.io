@@ -2,7 +2,7 @@ import Footer from "@/app/Components/Footer";
 import Header from "@/app/Components/Header";
 import CTAsection from "@/app/Components/Home/CTAsection";
 
-// app/blogs/[slug]/page.js
+// Fetch posts from WordPress API
 async function fetchPosts() {
   const response = await fetch('https://webdev.roboticintelligencelabs.com/wp-json/wp/v2/posts', {
     next: { revalidate: 10 }, // Revalidate every 10 seconds
@@ -11,16 +11,7 @@ async function fetchPosts() {
   return response.json();
 }
 
-// This will be used by Next.js to generate static paths for dynamic routes
-export async function generateStaticParams() {
-  const posts = await fetchPosts();
-
-  // Generate paths with the post slugs
-  return posts.map((post) => ({
-    slug: post.slug,
-  }));
-}
-
+// Fetch single post by slug
 async function fetchPost(slug) {
   const response = await fetch(`https://webdev.roboticintelligencelabs.com/wp-json/wp/v2/posts?slug=${slug}&_embed=true`, {
     next: { revalidate: 10 }, // Revalidate every 10 seconds
@@ -35,11 +26,15 @@ export default async function Post({ params }) {
 
   if (!post) return <p>Post not found</p>;
 
+  // Extract featured image
   const featuredMedia = post._embedded && post._embedded['wp:featuredmedia']
     ? post._embedded['wp:featuredmedia'][0]
     : null;
 
-  // Fetching categories from the post
+  // Log featured image and categories to debug
+  console.log('Featured Media:', featuredMedia);
+
+  // Fetching categories
   const categories = post._embedded && post._embedded['wp:term'] && post._embedded['wp:term'][0]
     ? post._embedded['wp:term'][0]
     : [];
@@ -64,13 +59,21 @@ export default async function Post({ params }) {
               </div>
             )}
 
-            {featuredMedia && featuredMedia.source_url && (
+            {/* Featured Image */}
+            {featuredMedia && featuredMedia.source_url ? (
               <img
                 src={featuredMedia.source_url}
                 alt={post.title.rendered}
                 className="mb-4 w-full h-auto rounded-lg"
               />
+            ) : (
+              <img
+                src="https://via.placeholder.com/500x300"
+                alt="Fallback Image"
+                className="mb-4 w-full h-auto rounded-lg"
+              />
             )}
+
             <div
               className="content text-base md:text-lg leading-relaxed"
               dangerouslySetInnerHTML={{ __html: post.content.rendered }}
