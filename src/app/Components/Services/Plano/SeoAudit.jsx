@@ -8,7 +8,7 @@ export default function SeoAudit() {
                 <div className='container'>
                     <h4 className="text-white md:text-center text-3xl lg:text-4xl 2xl:text-5xl font-bold">
                         Get Started Today with a FREE SEO Audit Report!
-                        <span className="text-[#ED1E3A] font-semibold"> FREE SEO Audit Report!</span>
+                        <span className="text-[#ED1E3A]  font-semibold"> FREE SEO Audit Report!</span>
                     </h4>
                     <div className="container mx-auto pt-12 flex flex-col md:flex-row justify-center items-center"> {/* Stack on small screens */}
                         {/* Left Column: Form 3/5 */}

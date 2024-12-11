@@ -5,7 +5,7 @@ export default function Thankyou() {
   return (
     <section className="bg-gray-100 min-h-screen flex items-center justify-center">
       <div className="text-center bg-white p-12 shadow-xl rounded-lg max-w-lg w-full">
-        <h2 className="text-4xl font-bold text-[#ED1E3A] mb-6">
+        <h2 className="text-4xl font-bold text-[#ED1E3A]  mb-6">
           Thank You for Your Submission!
         </h2>
         <p className="text-lg text-gray-600 mb-4">

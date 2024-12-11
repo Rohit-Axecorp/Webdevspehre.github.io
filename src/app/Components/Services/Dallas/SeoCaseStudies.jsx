@@ -40,9 +40,8 @@ export default function SeoCaseStudies() {
   return (
     <>
       <div className="bg-gray-100 py-12">
-        <h4 className="text-[#ED1E3A]xl sm:text-4xl lg:text-5xl font-bold text-center mb-8">
+        <h4 className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-bold text-center mb-8">
           SEO Company Austin TX Portfolio
-
         </h4>
         <Swiper slidesPerView={1} spaceBetween={30}>
           {caseStudies.map((study, index) => (
@@ -61,13 +60,13 @@ export default function SeoCaseStudies() {
                   <h3 className="text-xl sm:text-2xl font-semibold text-black mb-2">
                     {study.title}
                   </h3>
-                  <h4 className="text-lg sm:text-xl font-medium text-[#ED1E3A] mb-4">
+                  <h4 className="text-lg sm:text-xl font-medium text-[#ED1E3A]  mb-4">
                     {study.author}
                   </h4>
                   <p className="text-gray-700 mb-4 text-base sm:text-lg">
                     {study.description}
                   </p>
-                  <a href="#" className="text-[#ED1E3A] hover:underline">
+                  <a href="#" className="text-[#ED1E3A]  hover:underline">
                     View Case Study
                   </a>
                 </div>
@@ -85,7 +84,7 @@ export default function SeoCaseStudies() {
                         <span className="text-black font-normal text-base sm:text-lg">
                           {result.label}
                         </span>
-                        <span className="text-[#ED1E3A] text-2xl sm:text-[#ED1E3A]xl lg:text-4xl">
+                        <span className="text-[#ED1E3A]  text-2xl sm:text-[#ED1E3A]xl lg:text-4xl">
                           {result.value}
                         </span>
                       </li>

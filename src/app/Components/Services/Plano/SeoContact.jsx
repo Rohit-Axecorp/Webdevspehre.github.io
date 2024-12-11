@@ -57,7 +57,7 @@ export default function SeoContact() {
                 <Image src="/Images/bannerLogo.webp" alt="Clutch 2021" width={550} height={150} />
               </div>
             </div>
-            <button className="group mt-6 relative px-6 py-3 border border-black rounded-full text-base 2xl:text-xl flex items-center justify-center gap-2 text-[#ED1E3A] transition-all duration-300 hover:bg-red-600 hover:text-white hover:border-transparent">
+            <button className="group mt-6 relative px-6 py-3 border border-black rounded-full text-base 2xl:text-xl flex items-center justify-center gap-2 text-[#ED1E3A]  transition-all duration-300 hover:bg-red-600 hover:text-white hover:border-transparent">
               Free Consultation
               {/* Inline SVG for the arrow icon */}
               <svg

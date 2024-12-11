@@ -11,7 +11,7 @@ export default function SeoServices() {
                 {/* Left Column: Our Promise and Statistics */}
                 <div className="flex-1 mb-8 md:mr-4 md:w-1/2 w-full">
                     <h2 className="2xl:text-lg texl-base font-bold mb-4 text-gray-500">OUR PROMISE</h2>
-                    <h3 className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4">
+                    <h3 className="text-[#ED1E3A]  text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4">
                         Achieving Remarkable SEO Results for Houston-Based Businesses
                     </h3>
 

@@ -17,7 +17,7 @@ export default function SeoLocation() {
           <p>
             <a
               href="https://www.google.com/maps?q=548+Market+St.+%2341895+San+Francisco%2C+CA+94104"
-              className="text-[#ED1E3A] text-lg md:text-xl"
+              className="text-[#ED1E3A]  text-lg md:text-xl"
             >
               548 Market St. #41895
             </a>
@@ -25,7 +25,7 @@ export default function SeoLocation() {
           <p>
             <a
               href="https://www.google.com/maps?q=548+Market+St.+%2341895+San+Francisco%2C+CA+94104"
-              className="text-[#ED1E3A] text-lg md:text-xl"
+              className="text-[#ED1E3A]  text-lg md:text-xl"
             >
               San Francisco, CA 94104
             </a>
@@ -34,7 +34,7 @@ export default function SeoLocation() {
           We cater in every time zone and provide support 24/7.
           </p>
           <p>
-            <a href="/join-us" className="text-[#ED1E3A] font-semibold text-lg md:text-xl flex items-center">
+            <a href="/join-us" className="text-[#ED1E3A]  font-semibold text-lg md:text-xl flex items-center">
               Join our team!
             </a>
           </p>

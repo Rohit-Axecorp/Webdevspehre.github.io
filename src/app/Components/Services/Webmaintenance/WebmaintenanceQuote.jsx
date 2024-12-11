@@ -29,7 +29,7 @@ export default function WebmaintenanceQuote() {
               <li>Increase return on marketing investment</li>
             </ul>
 
-            <button className="flex items-center justify-center bg-white text-[#ED1E3A] py-4 px-8 md:py-5 md:px-10 rounded-lg text-lg md:text-xl font-semibold hover:bg-gray-200 transition duration-300 ease-in-out">
+            <button className="flex items-center justify-center bg-white text-[#ED1E3A]  py-4 px-8 md:py-5 md:px-10 rounded-lg text-lg md:text-xl font-semibold hover:bg-gray-200 transition duration-300 ease-in-out">
               View pricing and plan
             </button>
           </div>

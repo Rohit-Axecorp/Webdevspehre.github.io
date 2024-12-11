@@ -47,7 +47,7 @@ export default function SeoReviews() {
     <div className="py-12 px-4">
       <div className="container mx-auto">
         {/* Main Heading */}
-        <h4 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold text-center mb-12">
+        <h4 className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-bold text-center mb-12">
           Real Reviews. Real Results.
         </h4>
 

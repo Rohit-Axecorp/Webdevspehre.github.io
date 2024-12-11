@@ -53,7 +53,7 @@ export default function BusinessNeed() {
                     <ul className="list-disc space-y-8">
                         {benefits.map((benefit, index) => (
                             <li key={index} className="flex items-center text-xl">
-                                <FaCheckCircle className="text-[#ED1E3A] mr-2 w-20" />
+                                <FaCheckCircle className="text-[#ED1E3A]  mr-2 w-20" />
                                 {benefit}
                             </li>
                         ))}

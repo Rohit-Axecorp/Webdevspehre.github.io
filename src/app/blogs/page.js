@@ -93,7 +93,7 @@ export default async function Blog() {
       <RootLayout canonicalUrl={canonicalUrl} />
       <Header />
       <div className="container mx-auto px-6 py-12">
-        <h1 className="text-[#ED1E3A] text-4xl font-bold text-center mb-12">
+        <h1 className="text-[#ED1E3A]  text-4xl font-bold text-center mb-12">
           Blogs
         </h1>
         <div className="grid md:grid-cols-3 gap-8">
@@ -118,7 +118,7 @@ export default async function Blog() {
                       />
                       <div className="p-4">
                         {/* Category Name */}
-                        <span className="text-[#ED1E3A] text-sm font-semibold">
+                        <span className="text-[#ED1E3A]  text-sm font-semibold">
                           {categoryName}
                         </span>
                         {/* Post Title */}
@@ -129,7 +129,7 @@ export default async function Blog() {
                         <p className="text-gray-500 mt-2">
                           {post.excerpt.rendered.replace(/(<([^>]+)>)/gi, "").slice(0, 100)}...
                         </p>
-                        <span className="text-[#ED1E3A] font-semibold inline-flex items-center mt-4 cursor-pointer">
+                        <span className="text-[#ED1E3A]  font-semibold inline-flex items-center mt-4 cursor-pointer">
                           Read More <span className="ml-2">&rarr;</span>
                         </span>
                       </div>

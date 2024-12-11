@@ -17,7 +17,7 @@ export default function SeoLocation() {
           <p>
             <a
               href="https://www.google.com/maps?q=548+Market+St.+%2341895+San+Francisco%2C+CA+94104"
-              className="text-[#ED1E3A] text-lg md:text-xl"
+              className="text-[#ED1E3A]  text-lg md:text-xl"
             >
               548 Market St. #41895
             </a>
@@ -25,7 +25,7 @@ export default function SeoLocation() {
           <p>
             <a
               href="https://www.google.com/maps?q=548+Market+St.+%2341895+San+Francisco%2C+CA+94104"
-              className="text-[#ED1E3A] text-lg md:text-xl"
+              className="text-[#ED1E3A]  text-lg md:text-xl"
             >
               San Francisco, CA 94104
             </a>
@@ -34,7 +34,7 @@ export default function SeoLocation() {
             Backed by a talented team spanning multiple time zones, we bring a seamless blend of innovation and strategy to businesses worldwide. As we help your business flourish, we continue to expand our footprint, staying ahead of trends and delivering transformative solutions tailored to your goals.
           </p>
           <p>
-            <a href="/join-us" className="text-[#ED1E3A] font-semibold text-lg md:text-xl flex items-center">
+            <a href="/join-us" className="text-[#ED1E3A]  font-semibold text-lg md:text-xl flex items-center">
               Let’s Connect!
             </a>
           </p>

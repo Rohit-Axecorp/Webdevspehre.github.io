@@ -12,7 +12,7 @@ export default function SeoServices() {
                 <div className="flex-1 mb-8 md:mr-4 md:w-1/2 w-full">
                     <h5 className="2xl:text-lg texl-base font-bold mb-4 text-gray-500">OUR COMMITMENT TO EXCELLENCE
                     </h5>
-                    <h3 className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4">
+                    <h3 className="text-[#ED1E3A]  text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4">
                         Scaling Up Businesses with Exceptional SEO Services in El Paso
                     </h3>
 

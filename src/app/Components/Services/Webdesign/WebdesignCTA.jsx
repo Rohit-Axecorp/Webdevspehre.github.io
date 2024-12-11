@@ -16,7 +16,7 @@ export default function WebdesignCTA() {
                         Your journey towards the perfect website is just one click away.</p>
 
                     {/* Button */}
-                    <button className="flex items-center justify-center bg-white text-[#ED1E3A] py-4 px-8 md:py-5 md:px-10 rounded-lg text-lg sm:text-xl font-semibold hover:bg-gray-200 transition duration-300 ease-in-out">
+                    <button className="flex items-center justify-center bg-white text-[#ED1E3A]  py-4 px-8 md:py-5 md:px-10 rounded-lg text-lg sm:text-xl font-semibold hover:bg-gray-200 transition duration-300 ease-in-out">
                         Claim Your Free Proposal
                         <FaArrowRight className="ml-2 text-lg sm:text-xl" />
                     </button>

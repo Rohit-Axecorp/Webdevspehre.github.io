@@ -13,7 +13,7 @@ export default function SeoServices() {
                     <h5 className="2xl:text-lg texl-base font-bold text-gray-500">THE PROMISE WE STAND BY
 
                     </h5>
-                    <h3 className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4">
+                    <h3 className="text-[#ED1E3A]  text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4">
                         Reliable SEO Company in Fort Worth for Business Growth
                     </h3>
 

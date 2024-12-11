@@ -41,7 +41,7 @@ export default function AboutLocationContact() {
       <div className="container mx-auto flex flex-col md:flex-row py-12 justify-between space-y-8 md:space-y-0">
         {/* Form Section */}
         <div className="formdiv md:w-2/5 flex flex-col space-y-6 md:space-y-0">
-          <h2 className="lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A] mb-6 md:mb-10">
+          <h2 className="lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A]  mb-6 md:mb-10">
             Let&apos;s Begin On Your Project
           </h2>
           <div className="p-6 bg-white shadow-lg rounded-lg flex-grow">

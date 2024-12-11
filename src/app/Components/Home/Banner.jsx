@@ -20,14 +20,14 @@ export default function Banner() {
         <div className="flex flex-col justify-center items-center lg:items-start lg:pl-16 md:pl-24 z-20 text-white w-full md-3/5 lg:w-3/5 text-center lg:text-left">
           <div className="inline-flex items-center">
             <div className="border border-white rounded-xl mb-4 px-4 py-2 inline-flex items-center bg-[#1b1b1b]">
-              <p className="text-[#ED1E3A] text-xl 2xl:text-2xl font-bold">
+              <p className="text-[#ED1E3A]  text-xl 2xl:text-2xl font-bold">
                 <span>Web Solutions
                 </span>
                 <span className="text-white"> Built to Win</span>
               </p>
             </div>
           </div>
-          <h5 className="text-4xl lg:text-5xl 2xl:text-6xl font-bold text-[#ED1E3A] mb-6 lg:mb-8 leading-tight">
+          <h5 className="text-4xl lg:text-5xl 2xl:text-6xl font-bold text-[#ED1E3A]  mb-6 lg:mb-8 leading-tight">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#ED1E3A] to-red-700">
               Build the Website Your Brand Deserves!
             </span>

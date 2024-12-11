@@ -17,7 +17,7 @@ export default function SeoBusinessSolutions() {
                     <div className="md:w-1/2 flex flex-col justify-center p-4">
                         <h4 className="text-lg font-semibold mb-4 ">BEST SEO COMPANY EL PASO
                         </h4>
-                        <h2 className="text-[#ED1E3A]xl lg:text-5xl font-bold mb-4 text-[#ED1E3A] ">Why Choose Our SEO Company El Paso for Your Business
+                        <h2 className="text-[#ED1E3A]xl lg:text-5xl font-bold mb-4 text-[#ED1E3A]  ">Why Choose Our SEO Company El Paso for Your Business
                         </h2>
                         <p className="mb-4  ">We believe in delivering expertise that is aligned with your business objectives as considered among the best SEO companies El Paso. Whether you need more leads, better rankings, or higher ROI, our tailored strategies plug these holes perfectly. Containing a results-driven approach, we ensure that you stay ahead in the digital space.
                         </p>

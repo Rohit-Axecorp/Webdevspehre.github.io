@@ -14,7 +14,7 @@ export default function SeoPackages() {
             <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between h-[600px] overflow-y-auto border-x-4 border-[#ED1E3A]">
               <div>
                 <div className="flex items-center mb-6">
-                  <FaRocket className="text-[#ED1E3A] text-4xl mr-4" />
+                  <FaRocket className="text-[#ED1E3A]  text-4xl mr-4" />
                   <h5 className="text-2xl sm:text-[#ED1E3A]xl font-bold text-gray-800">Essentials Package
                   </h5>
                 </div>
@@ -33,7 +33,7 @@ export default function SeoPackages() {
                   Perfect for startups and small businesses, this package offers a cost-effective solution to establish your online presence. With sleek designs and a responsive approach, you&apos;ll captivate your audience and generate leads in no time.
                 </p>
               </div>
-              <a href="#" className="text-[#ED1E3A] hover:underline hover:text-red-600 font-semibold text-lg sm:text-xl">
+              <a href="#" className="text-[#ED1E3A]  hover:underline hover:text-red-600 font-semibold text-lg sm:text-xl">
                 Get Started
               </a>
             </div>
@@ -42,7 +42,7 @@ export default function SeoPackages() {
             <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between h-[600px] overflow-y-auto border-x-4 border-[#ED1E3A]">
               <div>
                 <div className="flex items-center mb-6">
-                  <FaBolt className="text-[#ED1E3A] text-4xl mr-4" />
+                  <FaBolt className="text-[#ED1E3A]  text-4xl mr-4" />
                   <h5 className="text-2xl sm:text-[#ED1E3A]xl font-bold text-gray-800">Advanced Growth Package
                   </h5>
                 </div>
@@ -62,7 +62,7 @@ export default function SeoPackages() {
                   Designed for growing businesses, this package focuses on delivering a seamless user experience while helping you stay ahead in search rankings. Elevate your brand identity and convert visitors into loyal customers.
                 </p>
               </div>
-              <a href="#" className="text-[#ED1E3A] hover:underline hover:text-red-600 font-semibold text-lg sm:text-xl">
+              <a href="#" className="text-[#ED1E3A]  hover:underline hover:text-red-600 font-semibold text-lg sm:text-xl">
                 Get Started
               </a>
             </div>
@@ -71,7 +71,7 @@ export default function SeoPackages() {
             <div className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col justify-between h-[600px] overflow-y-auto border-x-4 border-[#ED1E3A]">
               <div>
                 <div className="flex items-center mb-6">
-                  <FaTachometerAlt className="text-[#ED1E3A] text-4xl mr-4" />
+                  <FaTachometerAlt className="text-[#ED1E3A]  text-4xl mr-4" />
                   <h5 className="text-2xl sm:text-[#ED1E3A]xl font-bold text-gray-800">Premium Performance Package
                   </h5>
                 </div>
@@ -91,7 +91,7 @@ export default function SeoPackages() {
                   For enterprises and established businesses, this package ensures your website dominates the market. With cutting-edge design and enhanced functionalities, your online presence will set a benchmark for competitors.
                 </p>
               </div>
-              <a href="#" className="text-[#ED1E3A] hover:underline hover:text-red-600 font-semibold text-lg sm:text-xl">
+              <a href="#" className="text-[#ED1E3A]  hover:underline hover:text-red-600 font-semibold text-lg sm:text-xl">
                 Get Started
               </a>
             </div>

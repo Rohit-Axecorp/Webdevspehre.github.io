@@ -4,7 +4,7 @@ export default function SeoLondonTimeline() {
     return (
         <>
             <div className="container mx-auto px-4 py-10 2xl:py-12">
-                <h2 className="text-[#ED1E3A] text-4xl lg:text-5xl font-bold mb-20 text-center">
+                <h2 className="text-[#ED1E3A]  text-4xl lg:text-5xl font-bold mb-20 text-center">
                     Explore Our SEO Strategy Timeline
                 </h2>
 

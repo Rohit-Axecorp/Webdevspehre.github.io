@@ -51,7 +51,7 @@ export default function SeoCompany() {
                     </div>
 
                     <div className="flex items-center mt-4">
-                        <span className="text-lg font-semibold text-[#ED1E3A] mr-2">WE CAN INCREASE YOUR LEADS AND SALES</span>
+                        <span className="text-lg font-semibold text-[#ED1E3A]  mr-2">WE CAN INCREASE YOUR LEADS AND SALES</span>
                         <span className="text-2xl text-gray-800">&rarr;</span>
                     </div>
                 </div>

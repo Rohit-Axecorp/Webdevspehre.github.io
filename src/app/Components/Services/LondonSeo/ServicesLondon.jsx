@@ -13,7 +13,7 @@ export default function ServicesLondon() {
             />
           </div>
           <div className="content md:w-1/2 mb-8 md:justify-end items-center">
-            <h3 className="text-[#ED1E3A] xl lg:text-4xl 2xl:text-5xl font-bold mb-8">
+            <h3 className="text-[#ED1E3A]  xl lg:text-4xl 2xl:text-5xl font-bold mb-8">
               London SEO Services
             </h3>
             <p className="2xl:text-lg lg:text-base text-sm text-black leading-7 mb-4">

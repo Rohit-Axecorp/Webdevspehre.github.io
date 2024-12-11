@@ -56,7 +56,7 @@ export default function Tabs() {
                     <div className="container mx-auto pt-10 bg-no-repeat bg-right bg-contain h-44" style={{ backgroundImage: "url('/Images/dg-vertical-tabs-background-image.webp')" }}>
                         {/* Text Content */}
                         <div className="relative z-10 ">
-                            <h3 className="text-[#ED1E3A] font-semibold text-lg mb-2">
+                            <h3 className="text-[#ED1E3A]  font-semibold text-lg mb-2">
                                 Web Design
                                 <span className="text-black"> & Development Company</span>
                             </h3>
@@ -75,7 +75,7 @@ export default function Tabs() {
                             {tabs.map((tab, index) => (
                                 <div
                                     key={tab.id}
-                                    className={`cursor-pointer py-6 font-bold border-b text-lg flex items-center gap-2 hover:text-[#ED1E3A] transition-all ${activeTab === index ? ' text-[#ED1E3A]' : 'text-gray-700'}`}
+                                    className={`cursor-pointer py-6 font-bold border-b text-lg flex items-center gap-2 hover:text-[#ED1E3A]  transition-all ${activeTab === index ? ' text-[#ED1E3A]' : 'text-gray-700'}`}
                                     onClick={() => setActiveTab(index)}
                                 >
                                     {/* Display icon before the title */}
@@ -92,7 +92,7 @@ export default function Tabs() {
                                 <div className="w-full">
                                     <p className="text-xl md:text-[#ED1E3A]xl font-bold text-gray-800 flex items-center gap-2">
                                         {/* Number with slash */}
-                                        <span className="text-[#ED1E3A] font-light">{tabs[activeTab].number}/</span>
+                                        <span className="text-[#ED1E3A]  font-light">{tabs[activeTab].number}/</span>
                                         {tabs[activeTab].title}
                                     </p>
                                     <p className="2xl:text-lg lg:text-base text-sm text-black my-4">

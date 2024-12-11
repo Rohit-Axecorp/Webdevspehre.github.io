@@ -55,7 +55,7 @@ export default async function Post({ params }) {
             {categories.length > 0 && (
               <div className="mb-4">
                 {categories.map(category => (
-                  <span key={category.id} className="inline-block text-[#ED1E3A] text-lg font-semibold mr-2">
+                  <span key={category.id} className="inline-block text-[#ED1E3A]  text-lg font-semibold mr-2">
                     Category: {category.name}
                   </span>
                 ))}

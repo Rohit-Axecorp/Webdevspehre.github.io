@@ -25,14 +25,14 @@ export default function Awards() {
                         <p className="text-lg mt-4">
                             With a relentless commitment to innovation and client satisfaction, WebDev Sphere has been honored as the best web design company in Houston. Our achievements reflect our passion for delivering excellence and position us as a trusted name in Houston web design. Every accolade we’ve received drives us to set even higher benchmarks in the industry.
                         </p>
-                        <button className="mt-6 px-6 py-2 text-lg font-semibold border-2 text-[#ED1E3A] border-[#ED1E3A] rounded-full hover:bg-red-600 hover:text-white">
+                        <button className="mt-6 px-6 py-2 text-lg font-semibold border-2 text-[#ED1E3A]  border-[#ED1E3A] rounded-full hover:bg-red-600 hover:text-white">
                             Check Reviews
                         </button>
                     </div>
 
                     {/* Second Column */}
                     <div className="text-right md:w-1/2 mt-8 md:mt-0">
-                        <p className="text-[#ED1E3A] lg:text-2xl text-lg font-medium">75+ reviews on clutch</p>
+                        <p className="text-[#ED1E3A]  lg:text-2xl text-lg font-medium">75+ reviews on clutch</p>
                         <div className="flex justify-end">
                             <h3 className="lg:text-[200px] text-[100px] font-bold text-gray-800 leading-none">4.8</h3>
                         </div>

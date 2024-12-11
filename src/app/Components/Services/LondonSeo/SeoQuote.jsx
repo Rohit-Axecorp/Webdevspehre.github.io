@@ -38,7 +38,7 @@ export default function SeoQuote() {
             </h3>
 
             {/* Phone Number with Icon */}
-            <div className="flex items-center text-[#ED1E3A] text-xl font-bold">
+            <div className="flex items-center text-[#ED1E3A]  text-xl font-bold">
               <FaPhoneAlt className="mr-2" />
               <a href="tel:(312) 847 4286">(312) 847 4286</a>
             </div>

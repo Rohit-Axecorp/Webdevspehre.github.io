@@ -47,7 +47,7 @@ export default function SocialmediaReviews() {
         <h2 className="text-[#ED1E3A]xl md:text-4xl lg:text-5xl font-bold text-center ">
           TESTIMONIALS
         </h2>
-        <p className="text-lg md:text-2xl text-[#ED1E3A] text-center mb-12 mt-2">
+        <p className="text-lg md:text-2xl text-[#ED1E3A]  text-center mb-12 mt-2">
           What Our Clients Have to Say
         </p>
 
