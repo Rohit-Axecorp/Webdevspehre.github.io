@@ -79,7 +79,7 @@ export default function SeoPackages() {
           Affordable SEO Company in Fortworth Packages
         </h2>
         <p className="2xl:text-lg lg:text-base text-sm text-black leading-7 mb-8">
-          We believe that quality SEO shouldn't come with a huge price tag. Our competitive pricing ensures that you get exceptional value for your investment.
+          We believe that quality SEO shouldn&apos;t come with a huge price tag. Our competitive pricing ensures that you get exceptional value for your investment.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {packages.map((pkg, index) => {

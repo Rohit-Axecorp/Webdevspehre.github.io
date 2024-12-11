@@ -79,7 +79,7 @@ export default function SeoPackages() {
           El Paso SEO Packages
         </h2>
         <p className="2xl:text-lg lg:text-base text-sm text-black leading-7 mb-8">
-          Unlock your business's potential with our tailored SEO packages designed to deliver measurable results for businesses in El Paso.
+          Unlock your business&apos;s potential with our tailored SEO packages designed to deliver measurable results for businesses in El Paso.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {packages.map((pkg, index) => {
