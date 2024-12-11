@@ -2,7 +2,8 @@ import Footer from "@/app/Components/Footer";
 import Header from "@/app/Components/Header";
 import CTAsection from "@/app/Components/Home/CTAsection";
 
-// Fetch posts from WordPress API
+// app/blogs/[slug]/page.js
+
 async function fetchPosts() {
   const response = await fetch('https://webdev.roboticintelligencelabs.com/wp-json/wp/v2/posts', {
     next: { revalidate: 10 }, // Revalidate every 10 seconds
@@ -11,10 +12,19 @@ async function fetchPosts() {
   return response.json();
 }
 
-// Fetch single post by slug
+// Generate static params for dynamic routes
+export async function generateStaticParams() {
+  const posts = await fetchPosts();
+
+  // Generate paths for each post slug
+  return posts.map((post) => ({
+    slug: post.slug,
+  }));
+}
+
 async function fetchPost(slug) {
   const response = await fetch(`https://webdev.roboticintelligencelabs.com/wp-json/wp/v2/posts?slug=${slug}&_embed=true`, {
-    next: { revalidate: 10 }, // Revalidate every 10 seconds
+    next: { revalidate: 10 },
   });
   if (!response.ok) throw new Error('Failed to fetch post');
   const data = await response.json();
@@ -26,15 +36,10 @@ export default async function Post({ params }) {
 
   if (!post) return <p>Post not found</p>;
 
-  // Extract featured image
   const featuredMedia = post._embedded && post._embedded['wp:featuredmedia']
     ? post._embedded['wp:featuredmedia'][0]
     : null;
 
-  // Log featured image and categories to debug
-  console.log('Featured Media:', featuredMedia);
-
-  // Fetching categories
   const categories = post._embedded && post._embedded['wp:term'] && post._embedded['wp:term'][0]
     ? post._embedded['wp:term'][0]
     : [];
@@ -44,11 +49,9 @@ export default async function Post({ params }) {
       <Header />
       <div className="container mx-auto my-8 px-4">
         <div className="md:flex md:justify-between md:gap-10">
-          {/* Main Content */}
           <div className="w-full md:w-2/3 mb-8 md:mb-0">
             <h1 className="text-2xl lg:text-[#ED1E3A]xl 2xl:text-4xl font-bold mb-4">{post.title.rendered}</h1>
 
-            {/* Render Categories */}
             {categories.length > 0 && (
               <div className="mb-4">
                 {categories.map(category => (
@@ -59,7 +62,6 @@ export default async function Post({ params }) {
               </div>
             )}
 
-            {/* Featured Image */}
             {featuredMedia && featuredMedia.source_url ? (
               <img
                 src={featuredMedia.source_url}
@@ -69,7 +71,7 @@ export default async function Post({ params }) {
             ) : (
               <img
                 src="https://via.placeholder.com/500x300"
-                alt="Fallback Image"
+                alt="Placeholder Image"
                 className="mb-4 w-full h-auto rounded-lg"
               />
             )}
@@ -80,12 +82,9 @@ export default async function Post({ params }) {
             />
           </div>
 
-          {/* Static Text Column */}
           <div className="w-full md:w-1/3 p-4 bg-gray-100 rounded-lg h-auto md:h-48">
             <h2 className="text-xl font-semibold mb-4">On this Page</h2>
-            <p>
-              {post.title.rendered}
-            </p>
+            <p>{post.title.rendered}</p>
           </div>
         </div>
       </div>

@@ -21,18 +21,29 @@ async function fetchFeaturedImage(mediaId) {
     console.warn("No media ID provided for featured image.");
     return "https://via.placeholder.com/500x300"; // Placeholder image
   }
+
   try {
     const response = await fetch(
       `https://webdev.roboticintelligencelabs.com/wp-json/wp/v2/media/${mediaId}`
     );
     if (!response.ok) throw new Error("Failed to fetch featured image");
+
     const image = await response.json();
-    return image.source_url || "https://via.placeholder.com/500x300";
+
+    console.log("Fetched featured image:", image); // Debugging log
+
+    if (image && image.source_url) {
+      return image.source_url; // Return the actual image URL
+    }
+
+    console.warn("Featured image URL not found in the response.");
+    return "https://via.placeholder.com/500x300"; // Fallback placeholder
   } catch (error) {
     console.error(`Error fetching featured image for media ID ${mediaId}:`, error);
     return "https://via.placeholder.com/500x300"; // Fallback image
   }
 }
+
 
 // Fetch category name for a given category ID
 async function fetchCategory(categoryId) {
