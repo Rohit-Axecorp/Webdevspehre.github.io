@@ -38,32 +38,32 @@ export default function ContactForm() {
 
   return (
     <div className="flex justify-center items-center">
-      <div className="flex flex-col lg:flex-row bg-red-600 p-6 shadow-lg relative container sm:p-8 w-full lg:w-auto">
+      <div className="flex flex-col lg:flex-row bg-red-600 shadow-lg relative container p-4 sm:p-8 w-full lg:w-auto">
         {/* Form Section */}
-        <div className="bg-white p-6 shadow-md w-full lg:w-2/5 h-auto sm:p-8">
-          <form onSubmit={handleSubmit} className="p-6 border-2 rounded-lg space-y-6 border-[#ED1E3A]">
+        <div className="bg-white lg:p-6 p-2 shadow-md w-full lg:w-2/5 h-auto sm:p-8">
+          <form onSubmit={handleSubmit} className="lg:p-6 p-4 border-2 rounded-lg space-y-6 border-[#ED1E3A]">
             <h2 className="text-2xl font-bold text-center text-[#ED1E3A]">Get Free Consultation</h2>
 
             {/* Input Fields */}
-            <div className="flex space-x-4">
+            <div className="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-4">
               <input
                 type="text"
                 name="name"
-                className="w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
+                className="w-full md:w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                 placeholder="Enter your name"
                 required
               />
               <input
                 type="email"
                 name="email"
-                className="w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
+                className="w-full md:w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                 placeholder="Enter email here"
                 required
               />
             </div>
 
-            <div className="flex space-x-4">
-              <div className="flex items-center w-1/2 space-x-2 border rounded-md p-3">
+            <div className="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-4">
+              <div className="flex items-center w-full md:w-1/2 space-x-2 border rounded-md p-3">
                 <select
                   name="countryCode"
                   className="border-none focus:outline-none"
@@ -83,7 +83,7 @@ export default function ContactForm() {
               </div>
               <select
                 name="service"
-                className="w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
+                className="w-full md:w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                 required
               >
                 <option disabled selected>
@@ -125,7 +125,7 @@ export default function ContactForm() {
                   required
                 />
                 <span>
-                  Please check the box to communicate via SMS or Email (<a href="#" className="text-blue-500 underline">Terms & Conditions</a> & <a href="#" className="text-blue-500 underline">Privacy Policy</a>).
+                  Please check the box to communicate via SMS or Email (<a href="#" className="text-red-500 underline">Terms & Conditions</a> & <a href="#" className="text-red-500 underline">Privacy Policy</a>).
                   Carrier charges may apply for SMS. Reply STOP or UNSUBSCRIBE to STOP to unsubscribe anytime.
                 </span>
               </label>
@@ -138,6 +138,7 @@ export default function ContactForm() {
               Submit
             </button>
           </form>
+
           {status && (
             <p className="mt-4 text-sm text-center text-red-500">{status}</p>
           )}

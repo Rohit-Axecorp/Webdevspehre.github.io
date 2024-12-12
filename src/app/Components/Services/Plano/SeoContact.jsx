@@ -78,29 +78,28 @@ export default function SeoContact() {
           </div>
 
           {/* Right Section: Contact Form */}
-          <div className="md:w-2/5 w-full p-6 bg-white shadow-lg rounded-lg">
-
-            <form onSubmit={handleSubmit} className="p-6 border-2 rounded-lg space-y-6 border-[#ED1E3A]">
+          <div className="md:w-2/5 w-full lg:p-6 p-4 bg-white shadow-lg rounded-lg">
+            <form onSubmit={handleSubmit} className="lg:p-6 p-4 border-2 rounded-lg space-y-6 border-[#ED1E3A]">
               <p className="text-2xl font-bold text-center text-[#ED1E3A]">Get Free Consultation</p>
               {/* Input Fields */}
-              <div className="flex space-x-4">
+              <div className="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-4">
                 <input
                   type="text"
                   name="name"
-                  className="w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
+                  className="w-full md:w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                   placeholder="Enter your name"
                   required
                 />
                 <input
                   type="email"
                   name="email"
-                  className="w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
+                  className="w-full md:w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                   placeholder="Enter email here"
                   required
                 />
               </div>
-              <div className="flex space-x-4">
-                <div className="flex items-center w-1/2 space-x-2 border rounded-md p-3">
+              <div className="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-4">
+                <div className="flex items-center w-full md:w-1/2 space-x-2 border rounded-md p-3">
                   <select
                     name="countryCode"
                     className="border-none focus:outline-none"
@@ -120,7 +119,7 @@ export default function SeoContact() {
                 </div>
                 <select
                   name="service"
-                  className="w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
+                  className="w-full md:w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                   required
                 >
                   <option disabled selected>
@@ -166,7 +165,6 @@ export default function SeoContact() {
                   </span>
                 </label>
               </div>
-
               <button
                 type="submit"
                 className="w-full bg-[#ED1E3A] text-white p-3 rounded-md hover:bg-[#ED1E3A] focus:outline-none transition"

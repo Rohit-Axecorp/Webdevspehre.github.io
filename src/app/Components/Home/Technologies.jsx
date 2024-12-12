@@ -39,7 +39,7 @@ export default function Technologies() {
   return (
     <section className="2xl:py-12 py-10 bg-black">
       <section>
-        <div className="container mx-auto px-4 flex flex-col md:flex-row gap-10">
+        <div className="container mx-auto px-4 flex flex-col md:flex-row lg:gap-10">
           <div className="content md:w-2/5 mb-8">
             <h3 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4 text-white">
             <span className='text-[#ED1E3A]'> Empowering Web Solutions </span> with Our Next-gen Tech Suite
@@ -64,7 +64,7 @@ export default function Technologies() {
                 key={tab}
                 role="tab"
                 aria-selected={activeTab === tab}
-                className={`text-lg font-semibold px-4 py-2 focus:outline-none transition duration-200 ease-in-out ${activeTab === tab
+                className={`2xl:text-lg lg:text-base text-sm font-semibold px-2 lg:px-4 py-2 focus:outline-none transition duration-200 ease-in-out ${activeTab === tab
                   ? "border-b-2 border-[#ED1E3A] text-[#ED1E3A]"
                   : "text-gray-400 hover:text-[#ED1E3A]"
                   }`}
@@ -82,7 +82,7 @@ export default function Technologies() {
                 <img
                   src={item.imgSrc}
                   alt={item.name}
-                  className="mx-auto h-16 w-16 md:h-20 md:w-20 2xl:h-24 2xl:w-24"
+                  className="mx-auto h-10 w-10 md:h-20 md:w-20 2xl:h-24 2xl:w-24"
                   onError={(e) => (e.target.src = '/Images/default.png')} // Fallback image
                 />
                 <p className="mt-2 text-white text-sm md:text-base">{item.name}</p>
