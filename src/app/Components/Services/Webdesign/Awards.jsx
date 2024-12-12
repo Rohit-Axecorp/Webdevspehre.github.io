@@ -20,23 +20,23 @@ export default function Awards() {
                 <div className="flex flex-col md:flex-row items-center justify-between">
                     {/* First Column */}
                     <div className="text-left md:w-1/2">
-                        <h3 className="text-[#ED1E3A] md:text-4xl lg:text-5xl font-bold">Crowning Excellence: Recognitions in Houston Web Design
+                        <h3 className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-bold">Crowning Excellence: Recognitions in Houston Web Design
                         </h3>
-                        <p className="text-lg mt-4">
+                        <p className="2xl:text-lg lg:text-base text-sm mt-4">
                             With a relentless commitment to innovation and client satisfaction, WebDev Sphere has been honored as the best web design company in Houston. Our achievements reflect our passion for delivering excellence and position us as a trusted name in Houston web design. Every accolade we’ve received drives us to set even higher benchmarks in the industry.
                         </p>
-                        <button className="mt-6 px-6 py-2 text-lg font-semibold border-2 text-[#ED1E3A]  border-[#ED1E3A] rounded-full hover:bg-red-600 hover:text-white">
+                        <button className="mt-6 px-6 py-2 2xl:text-lg lg:text-base text-sm font-semibold border-2 text-[#ED1E3A]  border-[#ED1E3A] rounded-full hover:bg-red-600 hover:text-white">
                             Check Reviews
                         </button>
                     </div>
 
                     {/* Second Column */}
-                    <div className="text-right md:w-1/2 mt-8 md:mt-0">
+                    <div className="md:text-right w-full md:w-1/2 mt-8 md:mt-0">
                         <p className="text-[#ED1E3A]  lg:text-2xl text-lg font-medium">75+ reviews on clutch</p>
-                        <div className="flex justify-end">
-                            <h3 className="lg:text-[200px] text-[100px] font-bold text-gray-800 leading-none">4.8</h3>
+                        <div className="flex md:justify-end ">
+                            <h3 className="2xl:text-[200px] md:text-9xl text-7xl font-bold text-gray-800 leading-none">4.8</h3>
                         </div>
-                        <div className="flex md:justify-end justify-center  mt-2">
+                        <div className="flex md:justify-end justify-start  mt-2">
                             {/* SVG for Stars */}
                             <svg className=' lg:h-[50px] lg:w-[250px] h-[30px] w-[150px]' viewBox="0 0 250 50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M25 0L30.6129 17.2746H48.7764L34.0818 27.9508L39.6946 45.2254L25 34.5491L10.3054 45.2254L15.9182 27.9508L1.22359 17.2746H19.3871L25 0Z" fill="#FFB800"></path><path d="M75 0L80.6129 17.2746H98.7764L84.0818 27.9508L89.6946 45.2254L75 34.5491L60.3054 45.2254L65.9182 27.9508L51.2236 17.2746H69.3871L75 0Z" fill="#FFB800"></path><path d="M125 0L130.613 17.2746H148.776L134.082 27.9508L139.695 45.2254L125 34.5491L110.305 45.2254L115.918 27.9508L101.224 17.2746H119.387L125 0Z" fill="#FFB800"></path><path d="M175 0L180.613 17.2746H198.776L184.082 27.9508L189.695 45.2254L175 34.5491L160.305 45.2254L165.918 27.9508L151.224 17.2746H169.387L175 0Z" fill="#FFB800"></path><path d="M225 0L230.613 17.2746H248.776L234.082 27.9508L239.695 45.2254L225 34.5491L210.305 45.2254L215.918 27.9508L201.224 17.2746H219.387L225 0Z" fill="#FFB800"></path></svg>
                         </div>
@@ -62,11 +62,11 @@ export default function Awards() {
                                     <img
                                         src={award.image}
                                         alt={award.title}
-                                        className="h-32 mb-4 grayscale group-hover:grayscale-0 transition duration-300 ease-in-out"
+                                        className="2xl:h-32 h-28 mb-4 grayscale group-hover:grayscale-0 transition duration-300 ease-in-out"
                                     />
                                     <div className="text-center">
-                                        <h3 className="text-xl font-semibold">{award.title}</h3>
-                                        <p className="text-gray-500 mt-2">{award.subtitle}</p>
+                                        <h3 className="text-lg  font-semibold">{award.title}</h3>
+                                        <p className="text-gray-500 mt-2 2xl:text-lg lg:text-base text-sm">{award.subtitle}</p>
                                     </div>
                                 </div>
                             </SwiperSlide>

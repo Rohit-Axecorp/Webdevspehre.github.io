@@ -175,14 +175,14 @@ export default function AccordiansFAQ() {
 
     return (
         <div className="pt-12 mx-auto container">
-            <h5 className="text-[#ED1E3A] md:text-4xl lg:text-5xl font-bold mb-4 text-center capitalize">
+            <h5 className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4 text-center capitalize">
                 Faqs Related To{" "}
                 <span className="ml-2 text-transparent bg-clip-text bg-gradient-to-r from-[#ED1E3A] to-red-700">
                     Houston Web Design Company
                 </span>
             </h5>
 
-            <p className="text-center lg:text-lg text-md mb-12 md:mx-20">
+            <p className="text-center 2xl:text-lg lg:text-base text-sm mb-12 md:mx-20">
                 Get Answers to Your Queries Here!
             </p>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">

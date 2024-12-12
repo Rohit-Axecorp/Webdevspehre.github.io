@@ -17,11 +17,10 @@ export default function Footer() {
                                     Quick Links
                                     <div className="before:content-[''] before:absolute before:left-0 before:bottom-[-2px] before:h-[2px] before:w-[35px] before:bg-white"></div>
                                 </li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Company</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Case studies</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Blogs</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Contact Us</a></li>
-                              
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#" target='_blank'>Terms & Conditions</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#" target='_blank'>Privacy Policy</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="/sitemap.html" target='_blank'>Sitemap</a></li>
+
                             </ul>
 
                             {/* Column 2 - Services */}
@@ -37,6 +36,7 @@ export default function Footer() {
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="/san-antonio-seo-company">San Antonio</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="/el-paso-seo-company">El Paso</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="/houston-seo-company">Houston</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="/london-seo-company">London</a></li>
                             </ul>
 
                             {/* Column 3 - Web Development Services */}

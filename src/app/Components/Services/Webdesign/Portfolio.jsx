@@ -8,12 +8,12 @@ export default function Portfolio() {
         <>
             <div className="py-10 lg:py-12 bg-white">
                 <div className="container mx-auto text-center px-4 md:px-5">
-                    <h2 className="text-[#ED1E3A] md:text-4xl lg:text-5xl font-extrabold md:mb-6 text-black py-4">
+                    <h2 className=" text-3xl lg:text-4xl 2xl:text-5xl font-extrabold 2xl::mb-6 text-black py-4">
                         Showcasing Creativity:
                         <br />
                         <span className="font-extralight">Houston’s Finest Web Designs</span>
                     </h2>
-                    <p className="text-base lg:text-xl text-gray-600 leading-relaxed mx-auto pt-0 md:pt-2">
+                    <p className="2xl:text-lg lg:text-base text-sm text-gray-600 leading-relaxed mx-auto pt-0 md:pt-2">
                         At <a href="/">WebDev Sphere</a>, we take immense pride in crafting versatile, user-centric web designs that reflect the uniqueness of our clients’ brands. Our portfolio highlights projects from diverse industries, demonstrating why we’re recognized as the best web design company in Houston. From responsive websites to intricate branding elements, we ensure every design resonates with excellence, making us a go-to web design company in Houston.
                     </p>
                 </div>

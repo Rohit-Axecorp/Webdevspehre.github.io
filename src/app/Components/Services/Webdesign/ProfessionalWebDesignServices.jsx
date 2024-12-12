@@ -71,7 +71,7 @@ const ProfessionalWebDesignServices = () => {
                 <h1 className="text-2xl font-medium mb-4 text-[#ED1E3A]">Services</h1>
 
                 {/* Main heading */}
-                <h2 className="text-[#ED1E3A] md:text-4xl lg:text-5xl font-bold mb-12 text-center">
+                <h2 className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-12 text-center">
                     Improvising Digital Presence with Web Design Company Houston TX
                 </h2>
 
@@ -82,7 +82,7 @@ const ProfessionalWebDesignServices = () => {
                         {tabsLeft.map((tab, index) => (
                             <button
                                 key={index}
-                                className={`py-4 px-4 text-base md:text-lg font-medium text-left rounded ${selectedTab === index ? 'bg-red-600 text-white' : 'bg-gray-200 text-gray-700'
+                                className={`py-4 px-4 2xl:text-lg lg:text-base text-sm font-medium text-left rounded ${selectedTab === index ? 'bg-red-600 text-white' : 'bg-gray-200 text-gray-700'
                                     }`}
                                 onClick={() => handleTabClick(index)}
                             >
@@ -97,11 +97,11 @@ const ProfessionalWebDesignServices = () => {
                         style={{ backgroundImage: `url('${content[selectedTab].bgImage}')`, minHeight: '300px' }}
                     >
                         <div className="relative w-full">
-                            <h3 className="text-2xl md:text-[#ED1E3A] font-bold mb-4">
+                            <h3 className="text-2xl lg:text-3xl 2xl:text-4xl md:text-[#ED1E3A] font-bold mb-4">
                                 {tabsLeft[selectedTab] || tabsRight[selectedTab - tabsLeft.length]}
                             </h3>
                             <p
-                                className="text-lg md:text-xl"
+                                className="2xl:text-lg lg:text-base text-sm"
                                 dangerouslySetInnerHTML={{ __html: content[selectedTab].text }}
                             ></p>
                         </div>
@@ -112,7 +112,7 @@ const ProfessionalWebDesignServices = () => {
                         {tabsRight.map((tab, index) => (
                             <button
                                 key={index}
-                                className={`py-4 px-4 text-base md:text-lg font-medium text-left rounded ${selectedTab === index + tabsLeft.length ? 'bg-red-600 text-white' : 'bg-gray-200 text-gray-700'
+                                className={`py-4 px-4 2xl:text-lg lg:text-base text-sm font-medium text-left rounded ${selectedTab === index + tabsLeft.length ? 'bg-red-600 text-white' : 'bg-gray-200 text-gray-700'
                                     }`}
                                 onClick={() => handleTabClick(index + tabsLeft.length)}
                             >

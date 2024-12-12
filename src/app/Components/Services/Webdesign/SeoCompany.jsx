@@ -19,16 +19,16 @@ export default function SeoCompany() {
 
                 {/* Content Column */}
                 <div className="w-full md:w-1/2 flex flex-col justify-center p-4 md:p-8 lg:px-16"> {/* Reduced padding for smaller screens */}
-                    <h2 className="text-2xl md:text-[#ED1E3A] font-bold text-gray-800 mb-2"> {/* Adjusted text size */}
+                    <h2 className="text-3xl lg:text-4xl 2xl:text-5xl text-[#ED1E3A] font-bold  mb-8"> {/* Adjusted text size */}
                         Work with the Best Web Design Company in Houston
                     </h2>
-                    <p className="text-lg md:text-xl text-gray-700 mb-4"> {/* Adjusted text size */}
+                    <p className="2xl:text-lg lg:text-base text-sm text-gray-700 mb-4"> {/* Adjusted text size */}
                         Crafting an intuitive and user-centric web design increases your chances of converting more users with a 3X ROI and you can achieve it by collaborating with Webdev Sphere.
                     </p>
 
                     {/* Scrollable Text */}
                     <div className="overflow-y-auto max-h-96 flex-1">
-                        <p className="text-lg text-gray-600 mb-6">
+                        <p className="2xl:text-lg lg:text-base text-sm text-gray-600 mb-6">
                             We redefine web design at WebDev Sphere where creativity, strategy, and technology are combined to deliver an exceptional digital experience. We are one of Houston&apos;s top web design companies, and this means we consider your brand&apos;s vision before coming up with solutions that will relate to your audience.
                             <br />
                             Our expertise as a web design firm in Houston Texas lies in using advanced methodologies and creating visually stunning, user-friendly websites. Whether it’s an awesome UI or a rich platform, we always put user satisfaction and long-term functionality first.
@@ -55,7 +55,7 @@ export default function SeoCompany() {
                     </div>
 
                     <div className="flex items-center mt-4">
-                        <span className="text-lg font-semibold text-blue-600 mr-2">WE CAN INCREASE YOUR LEADS AND SALES</span>
+                        <span className="2xl:text-lg lg:text-base text-sm font-semibold text-red-500 mr-2">WE CAN INCREASE YOUR LEADS AND SALES</span>
                         <span className="text-2xl text-gray-800">&rarr;</span>
                     </div>
                 </div>
