@@ -46,7 +46,7 @@ export default function GlobalPresenceSlider() {
     return (
         <section className="bg-black 2xl:py-12 py-10">
             <div className="container mx-auto">
-                <h2 className="text-[#ED1E3A] lg:text-4xl 2xl:text-5xl font-bold mb-8 text-center text-white">Our Global Presence</h2>
+                <h2 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-8 text-center text-white">Our Global Presence</h2>
 
                 <Swiper
                     spaceBetween={20}
@@ -82,7 +82,7 @@ export default function GlobalPresenceSlider() {
                                         <p className="mt-1 text-sm md:text-base">✉️ {location.email}</p>
                                     </div>
                                 </div>
-                                <div className="absolute bottom-4 left-4 text-white font-black text-[#ED1E3A] lg:text-4xl 2xl:text-5xl group-hover:opacity-0 transition-opacity duration-300">
+                                <div className="absolute bottom-4 left-4 text-white font-black text-3xl lg:text-4xl 2xl:text-5xl group-hover:opacity-0 transition-opacity duration-300">
                                     {location.city}
                                 </div>
                             </div>

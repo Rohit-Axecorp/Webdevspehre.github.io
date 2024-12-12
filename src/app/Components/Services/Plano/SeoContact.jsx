@@ -46,7 +46,7 @@ export default function SeoContact() {
             <h1 className="2xl:text-xl text-lg font-bold text-red-600 mb-2">
               LEADING PLANO SEO COMPANY
             </h1>
-            <p className="text-[#ED1E3A] lg:text-4xl 2xl:text-5xl font-bold text-gray-800 mb-4">
+            <p className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-800 mb-4">
               Boost Organic Traffic with Our Plano SEO Services
             </p>
             <p className="mb-6 2xl:text-lg lg:text-base text-sm">

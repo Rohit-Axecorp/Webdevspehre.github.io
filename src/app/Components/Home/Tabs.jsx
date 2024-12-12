@@ -60,7 +60,7 @@ export default function Tabs() {
                                 Web Design
                                 <span className="text-black"> & Development Company</span>
                             </h3>
-                            <p className="text-[#ED1E3A] lg:text-4xl 2xl:text-5xl font-bold text-black">
+                            <p className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-black">
                                 Expanding Digital Horizons Across
                                 <span className="text-[#ED1E3A]"> Key Sectors</span>
                             </p>
@@ -69,7 +69,7 @@ export default function Tabs() {
                 </div>
 
                 <div className="bg-white ">
-                    <div className="container mx-auto flex flex-col md:flex-row gap-8 border-t">
+                    <div className="container mx-auto flex flex-col md:flex-row gap-8 border-t mt-4">
                         {/* Left Side - Tabs */}
                         <div className="md:w-1/4 border-r border-gray-200">
                             {tabs.map((tab, index) => (

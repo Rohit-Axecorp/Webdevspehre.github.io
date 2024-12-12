@@ -7,7 +7,7 @@ export default function Publishing() {
         <div className="flex flex-col lg:flex-row justify-between items-center md:items-start container 2xl:py-12 py-10 px-4 sm:px-6 lg:px-8">
             {/* Left Column - Code Section */}
             <div className="lg:w-1/2 bg-white lg:pr-8 mb-8 lg:mb-0">
-                <h4 className="text-[#ED1E3A] lg:text-4xl 2xl:text-5xl font-bold"><span className='text-[#ED1E3A]'> In the Limelight WebDev Sphere </span>Featured by Top-Tier Industry Publications
+                <h4 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold"><span className='text-[#ED1E3A]'> In the Limelight WebDev Sphere </span>Featured by Top-Tier Industry Publications
                 </h4>
                 <p className="mt-6 text-black 2xl:text-lg lg:text-base text-sm">
                     Proving itself as one of the best web development companies, WebDev Sphere is celebrated by some of the prestigious publications in the tech industry as the testament of our impactful web design and development services.

@@ -9,17 +9,17 @@ export default function SeoQuote() {
           {/* Left Section */}
           <div className="max-w-xl pt-5">
             {/* Subheading */}
-            <h2 className="text-lg font-medium text-gray-700 mb-2 uppercase">
+            <h2 className="2xl:text-lg lg:text-base text-sm font-medium text-gray-700 mb-2 uppercase">
               Ready to Grow Your ROI?
             </h2>
 
             {/* Main Heading */}
-            <h1 className="text-[#ED1E3A] md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
+            <h1 className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4">
               Request a Quote Now!
             </h1>
 
             {/* Benefits List */}
-            <ul className="list-disc ml-5 text-lg text-gray-600 mb-6 space-y-2">
+            <ul className="list-disc ml-5 2xl:text-lg lg:text-base text-sm text-gray-600 mb-6 space-y-2">
               <li>Improve Brand Recognition
               </li>
               <li>Achieve quality leads
@@ -35,12 +35,12 @@ export default function SeoQuote() {
             </ul>
 
             {/* Ready to Speak Heading */}
-            <h3 className="text-xl font-bold text-gray-800 mb-4">
+            <h3 className="2xl:text-lg lg:text-base text-sm font-bold text-gray-800 mb-4">
               Speak to Our SEO Team Right Away
             </h3>
 
             {/* Phone Number with Icon */}
-            <div className="flex items-center text-[#ED1E3A]  text-xl font-bold">
+            <div className="flex items-center text-[#ED1E3A] 2xl:text-lg lg:text-base text-sm font-bold">
               <FaPhoneAlt className="mr-2" />
               <a href="tel:(312) 847 4286">(312) 847 4286</a>
             </div>

@@ -10,7 +10,7 @@ export default function IndustriesAbout() {
           <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
             {/* Left Column: Icon List */}
             <div>
-              <h3 className="text-[#ED1E3A] lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A]">
+              <h3 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A]">
                 Industries We Served
               </h3>
               <p className="mt-4 2xl:text-lg lg:text-base text-sm">

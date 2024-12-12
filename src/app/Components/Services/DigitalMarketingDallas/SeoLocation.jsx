@@ -13,15 +13,15 @@ export default function SeoLocation() {
 
         {/* Left Column */}
         <div className="md:w-1/2 flex flex-col space-y-4 md:space-y-6">
-          <h2 className="text-[#ED1E3A] md:text-5xl font-semibold">Our Location
+          <h2 className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-semibold">Our Location
           </h2>
-          <p className="text-lg md:text-xl font-medium">
+          <p className="2xl:text-lg lg:text-base text-sm md:text-xl font-medium">
             Web Dev Sphere is headquartered in Austin, Texas.
           </p>
           <p>
             <a
               href="https://www.google.com/maps?q=548+Market+St.+%2341895+San+Francisco%2C+CA+94104"
-              className="text-[#ED1E3A]  text-lg md:text-xl"
+              className="text-[#ED1E3A]  2xl:text-lg lg:text-base text-sm md:text-xl"
             >
               548 Market St. #41895
             </a>
@@ -29,16 +29,16 @@ export default function SeoLocation() {
           <p>
             <a
               href="https://www.google.com/maps?q=548+Market+St.+%2341895+San+Francisco%2C+CA+94104"
-              className="text-[#ED1E3A]  text-lg md:text-xl"
+              className="text-[#ED1E3A]  2xl:text-lg lg:text-base text-sm md:text-xl"
             >
               San Francisco, CA 94104
             </a>
           </p>
-          <p className="text-lg md:text-xl font-medium">
+          <p className="2xl:text-lg lg:text-base text-sm md:text-xl font-medium">
             We cater in every time zone and provide support 24/7.
           </p>
           <p>
-            <a href="/join-us" className="text-[#ED1E3A]  font-semibold text-lg md:text-xl flex items-center">
+            <a href="/join-us" className="text-[#ED1E3A]  font-semibold 2xl:text-lg lg:text-base text-sm md:text-xl flex items-center">
               Join our team!
             </a>
           </p>
