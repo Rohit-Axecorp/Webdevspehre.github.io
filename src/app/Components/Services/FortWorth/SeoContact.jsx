@@ -38,27 +38,34 @@ export default function SeoContact() {
   };
   return (
     <>
-      <section className='bg-gray-100'>
+       <section
+        className="bg-gray-100 bg-cover bg-center relative"
+        style={{
+          backgroundImage: 'url("/Images/forthworth.jpg")',
+        }}
+      >
+        <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div className="relative">
         <div className="container mx-auto flex flex-col md:flex-row md:gap-10 items-center justify-between py-12 px-4">
           {/* Left Section */}
           <div className="md:w-3/5 w-full mb-8 md:mb-0">
             {/* New Heading: CHICAGO SEO COMPANY */}
-            <h1 className="2xl:text-xl text-lg font-bold text-red-600 mb-2">
-              FORT WORTH SEO COMh1ANY
+            <h1 className="2xl:text-xl text-lg font-bold text-red-500 mb-2">
+              FORT WORTH SEO COMPANY
             </h1>
 
-            <p className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4">
-              Maximize Your ROI with a Professional Fort Worth SEO Solution
+            <p className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-white mb-4">
+            Maximize Your ROI with a Professional Fort Worth SEO Solution
             </p>
-            <p className="mb-6 2xl:text-lg lg:text-base text-sm">
+            <p className="mb-6 2xl:text-lg lg:text-base text-sm text-white">
               <a href="/">Web Dev Sphere</a> is a leading <a href="/fort-worth-seo-company">Fort Worth SEO company</a> specializing in personalized SEO solutions. Our experts are well-versed in optimizing your platform so it ranks higher on search engines and drives traffic.
             </p>
             <div className="flex items-center my-8 ">
-              <div className="flex items-center mr-4 bg-red-600 p-5 rounded-md">
+              <div className="flex items-center mr-4 py-2 rounded-md">
                 <Image src="/Images/bannerLogo.webp" alt="Clutch 2021" width={550} height={150} />
               </div>
             </div>
-            <button className="group mt-6 relative px-6 py-3 border border-black rounded-full text-base 2xl:text-xl flex items-center justify-center gap-2 text-[#ED1E3A]  transition-all duration-300 hover:bg-red-600 hover:text-white hover:border-transparent">
+            <button className="group mt-6 relative px-6 py-3 border border-white rounded-full text-base 2xl:text-xl flex items-center justify-center gap-2 text-white  transition-all duration-300 hover:bg-red-600 hover:text-white hover:border-transparent">
               Free Consultation
               {/* Inline SVG for the arrow icon */}
               <svg
@@ -174,6 +181,7 @@ export default function SeoContact() {
                 Submit
               </button>
             </form>
+          </div>
           </div>
         </div>
       </section>

@@ -62,7 +62,7 @@ export default function SeoContact() {
                 your traffic and improve your website&apos;s ranking.
               </p>
               <div className="flex items-center my-8">
-                <div className="flex items-center mr-4 p-5 rounded-md ">
+                <div className="flex items-center mr-4 py-2 rounded-md ">
                   <Image src="/Images/bannerLogo.webp" alt="Clutch 2021" width={500} height={150} />
                 </div>
               </div>

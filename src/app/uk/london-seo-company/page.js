@@ -12,11 +12,11 @@ import SeoServicesIncludes from '@/app/Components/Services/LondonSeo/SeoServices
 import TrustedBrands from '@/app/Components/Services/LondonSeo/TrustedBrands';
 import React from 'react';
 import AccordiansFAQ from '@/app/Components/Services/LondonSeo/AccordiansFAQ';
-import RootLayout from '../layout';
-import Healthcare from '../Components/Services/LondonSeo/Healthcare';
-import ServicesLondon from '../Components/Services/LondonSeo/ServicesLondon';
-import SeoLondonTimeline from '../Components/Services/LondonSeo/SeoLondonTimeline';
-import CrossPlatform from '../Components/Services/LondonSeo/CrossPlatform';
+import RootLayout from '../../layout';
+import Healthcare from '../../Components/Services/LondonSeo/Healthcare';
+import ServicesLondon from '../../Components/Services/LondonSeo/ServicesLondon';
+import SeoLondonTimeline from '../../Components/Services/LondonSeo/SeoLondonTimeline';
+import CrossPlatform from '../../Components/Services/LondonSeo/CrossPlatform';
 
 export const metadata = {
     title: "Leading London SEO Company",

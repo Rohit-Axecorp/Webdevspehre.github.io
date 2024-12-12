@@ -176,7 +176,7 @@ export default function Header() {
                       </Link>
                     </li>
                     <li>
-                      <Link href="/london-seo-company" className="block px-4 py-2 hover:bg-gray-100">
+                      <Link href="/uk/london-seo-company" className="block px-4 py-2 hover:bg-gray-100">
                         London
                       </Link>
                     </li>

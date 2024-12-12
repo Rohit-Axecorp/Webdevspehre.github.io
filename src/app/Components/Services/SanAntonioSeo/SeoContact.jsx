@@ -38,145 +38,150 @@ export default function SeoContact() {
   };
   return (
     <>
-      <section className='bg-gray-100'>
-        <div className="container mx-auto flex flex-col md:flex-row md:gap-10 items-center justify-between py-12 px-4">
-          {/* Left Section */}
-          <div className="md:w-2/5 w-full mb-8 md:mb-0">
-            {/* New Heading: CHICAGO SEO COMPANY */}
-            <h1 className="2xl:text-xl text-lg font-bold text-red-600 mb-2">
-              San Antonio SEO Company
-            </h1>
-
-            <p className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-800 mb-4">
-              Scales Up Your Online Business Rapidly with Optimal SEO Solutions in San Antonio
-            </p>
-            <p className="mb-6 2xl:text-lg lg:text-base text-sm">
-              Introduce and expand your business online with a strategic  <a href="/austin-seo-company">San Antonio SEO company</a> From SEO Audit to a customized strategy for your site optimization using both on-page and off-page SEO, we ensure to extract leads with the maximum conversion rate.
-            </p>
-            <div className="flex items-center my-8 ">
-              <div className="flex items-center mr-4 bg-red-600 p-5 rounded-md">
-                <Image src="/Images/bannerLogo.webp" alt="Clutch 2021" width={500} height={150} />
+      <section
+        className="bg-gray-100 bg-cover bg-center relative"
+        style={{
+          backgroundImage: 'url("/Images/sanantonio.jpg")',
+        }}
+      >
+        <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div className="relative">
+          < div className="container mx-auto flex flex-col md:flex-row md:gap-10 items-center justify-between py-12 px-4" >
+            {/* Left Section */}
+            < div className="md:w-3/5 w-full mb-8 md:mb-0" >
+              <h1 className="2xl:text-xl text-lg font-bold text-red-500 mb-2">
+                San Antonio SEO Company
+              </h1>
+              <p className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-white mb-4">
+                Scales Up Your Online Business Rapidly with Optimal SEO Solutions in San Antonio
+              </p>
+              <p className="mb-6 2xl:text-lg lg:text-base text-sm text-white">
+                Introduce and expand your business online with a strategic  <a href="/san-antonio-seo-company">San Antonio SEO company</a> From SEO Audit to a customized strategy for your site optimization using both on-page and off-page SEO, we ensure to extract leads with the maximum conversion rate.
+              </p>
+              <div className="flex items-center my-8">
+                <div className="flex items-center mr-4 py-2 rounded-md ">
+                  <Image src="/Images/bannerLogo.webp" alt="Clutch 2021" width={500} height={150} />
+                </div>
               </div>
-            </div>
-            <button className="group mt-6 relative px-6 py-3 border border-black rounded-full text-base 2xl:text-xl flex items-center justify-center gap-2 text-[#ED1E3A]  transition-all duration-300 hover:bg-red-600 hover:text-white hover:border-transparent">
-              Free Consultation
-              {/* Inline SVG for the arrow icon */}
-              <svg
-                className="w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-300 transform group-hover:translate-x-2"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M17 8l4 4m0 0l-4 4m4-4H3"
-                ></path>
-              </svg>
-            </button>
-          </div>
+              <button className="group mt-6 relative px-6 py-3 border border-white rounded-full text-base 2xl:text-xl flex items-center justify-center gap-2 text-white  transition-all duration-300 hover:bg-red-600 hover:text-white hover:border-transparent">
+                Free Consultation
+                <svg
+                  className="w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-300 transform group-hover:translate-x-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  ></path>
+                </svg>
+              </button>
+            </div >
 
-          {/* Right Section: Contact Form */}
-          <div className="md:w-2/5 w-full lg:p-6 p-4 bg-white shadow-lg rounded-lg">
-            <form onSubmit={handleSubmit} className="lg:p-6 p-4 border-2 rounded-lg space-y-6 border-[#ED1E3A]">
-              <p className="text-2xl font-bold text-center text-[#ED1E3A]">Get Free Consultation</p>
-              {/* Input Fields */}
-              <div className="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-4">
-                <input
-                  type="text"
-                  name="name"
-                  className="w-full md:w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
-                  placeholder="Enter your name"
-                  required
-                />
-                <input
-                  type="email"
-                  name="email"
-                  className="w-full md:w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
-                  placeholder="Enter email here"
-                  required
-                />
-              </div>
-              <div className="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-4">
-                <div className="flex items-center w-full md:w-1/2 space-x-2 border rounded-md p-3">
-                  <select
-                    name="countryCode"
-                    className="border-none focus:outline-none"
-                    required
-                  >
-                    <option value="+92">+92</option>
-                    <option value="+1">+1</option>
-                    <option value="+44">+44</option>
-                  </select>
+            {/* Right Section: Contact Form */}
+            < div className="md:w-2/5 w-full lg:p-6 p-4 bg-white shadow-lg rounded-lg" >
+              <form onSubmit={handleSubmit} className="lg:p-6 p-4 border-2 rounded-lg space-y-6 border-[#ED1E3A]">
+                <p className="text-2xl font-bold text-center text-[#ED1E3A]">Get Free Consultation</p>
+                {/* Input Fields */}
+                <div className="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-4">
                   <input
-                    type="tel"
-                    name="phone"
-                    className="w-full placeholder-gray-400 focus:outline-none"
-                    placeholder="Phone Num"
+                    type="text"
+                    name="name"
+                    className="w-full md:w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
+                    placeholder="Enter your name"
+                    required
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    className="w-full md:w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
+                    placeholder="Enter email here"
                     required
                   />
                 </div>
-                <select
-                  name="service"
-                  className="w-full md:w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
-                  required
-                >
-                  <option disabled selected>
-                    Interested In
-                  </option>
-                  <option value="seo">SEO</option>
-                  <option value="smm">SMM</option>
-                  <option value="ppc">PPC</option>
-                  <option value="local-search-marketing">Local Search Marketing</option>
-                  <option value="website-content">Website Content</option>
-                  <option value="link-building">Link Building</option>
-                  <option value="reseller-program">Reseller Program</option>
-                </select>
-              </div>
-
-              <input
-                type="text"
-                name="website"
-                className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
-                placeholder="Enter website"
-                required
-              />
-
-              <textarea
-                name="message"
-                className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
-                placeholder="Enter message here"
-                rows="4"
-                required
-              ></textarea>
-
-              {/* Checkbox */}
-              <div className="text-sm">
-                <label className="flex items-center space-x-2">
-                  <input
-                    type="checkbox"
-                    name="agreement"
-                    className="h-4 w-4 border-gray-300 rounded focus:ring-[#ED1E3A]"
+                <div className="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-4">
+                  <div className="flex items-center w-full md:w-1/2 space-x-2 border rounded-md p-3">
+                    <select
+                      name="countryCode"
+                      className="border-none focus:outline-none"
+                      required
+                    >
+                      <option value="+92">+92</option>
+                      <option value="+1">+1</option>
+                      <option value="+44">+44</option>
+                    </select>
+                    <input
+                      type="tel"
+                      name="phone"
+                      className="w-full placeholder-gray-400 focus:outline-none"
+                      placeholder="Phone Num"
+                      required
+                    />
+                  </div>
+                  <select
+                    name="service"
+                    className="w-full md:w-1/2 p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
                     required
-                  />
-                  <span>
-                    Please check the box to communicate via SMS or Email (<a href="#" className="text-blue-500 underline">Terms & Conditions</a> & <a href="#" className="text-blue-500 underline">Privacy Policy</a>).
-                  </span>
-                </label>
-              </div>
+                  >
+                    <option disabled selected>
+                      Interested In
+                    </option>
+                    <option value="seo">SEO</option>
+                    <option value="smm">SMM</option>
+                    <option value="ppc">PPC</option>
+                    <option value="local-search-marketing">Local Search Marketing</option>
+                    <option value="website-content">Website Content</option>
+                    <option value="link-building">Link Building</option>
+                    <option value="reseller-program">Reseller Program</option>
+                  </select>
+                </div>
 
-              <button
-                type="submit"
-                className="w-full bg-[#ED1E3A] text-white p-3 rounded-md hover:bg-[#ED1E3A] focus:outline-none transition"
-              >
-                Submit
-              </button>
-            </form>
-          </div>
-        </div>
-      </section>
+                <input
+                  type="text"
+                  name="website"
+                  className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
+                  placeholder="Enter website"
+                  required
+                />
+
+                <textarea
+                  name="message"
+                  className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
+                  placeholder="Enter message here"
+                  rows="4"
+                  required
+                ></textarea>
+
+                {/* Checkbox */}
+                <div className="text-sm">
+                  <label className="flex items-center space-x-2">
+                    <input
+                      type="checkbox"
+                      name="agreement"
+                      className="h-4 w-4 border-gray-300 rounded focus:ring-[#ED1E3A]"
+                      required
+                    />
+                    <span>
+                      Please check the box to communicate via SMS or Email (<a href="#" className="text-blue-500 underline">Terms & Conditions</a> & <a href="#" className="text-blue-500 underline">Privacy Policy</a>).
+                    </span>
+                  </label>
+                </div>
+
+                <button
+                  type="submit"
+                  className="w-full bg-[#ED1E3A] text-white p-3 rounded-md hover:bg-[#ED1E3A] focus:outline-none transition"
+                >
+                  Submit
+                </button>
+              </form>
+            </div >
+          </div >
+        </div >
+      </section >
     </>
   );
 }

@@ -37,7 +37,7 @@ export default function Footer() {
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="/san-antonio-seo-company">San Antonio</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="/el-paso-seo-company">El Paso</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="/houston-seo-company">Houston</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="/london-seo-company">London</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="/uk/london-seo-company">London</a></li>
                             </ul>
                             {/* Column 3 - Web Development Services */}
                             {/* <ul className="text-white">
