@@ -44,13 +44,13 @@ export default function SeoContact() {
           {/* Left Section */}
           <div className="md:w-3/5 w-full mb-8 md:mb-0">
             {/* New Heading: CHICAGO SEO COMPANY */}
-            <h2 className="text-xl font-bold text-red-600 mb-2">DIGITAL MARKETING AGENCY DALLAS
+            <h2 className="2xl:text-lg lg:text-base text-sm font-bold text-red-600 mb-2">DIGITAL MARKETING AGENCY DALLAS
             </h2>
 
-            <h1 className="text-[#ED1E3A] md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
+            <h1 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-800 mb-4">
               Attain High Revenue with Dallas Digital Marketing Agency
             </h1>
-            <p className="mb-6 text-base md:text-lg text-gray-800">
+            <p className="mb-6 2xl:text-lg lg:text-base text-sm text-gray-800">
               Web Dev Sphere is a top <a href="/dallas-texas-digital-marketing-agency">digital marketing agency Dallas,</a> dedicated to helping your brand thrive. With a blend of expertise, innovation, and strategic insight, we create campaigns that deliver real results.
             </p>
             <div className="flex items-center my-8">

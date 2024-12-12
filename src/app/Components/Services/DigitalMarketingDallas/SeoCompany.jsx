@@ -19,16 +19,16 @@ export default function SeoCompany() {
 
                 {/* Content Column */}
                 <div className="w-full md:w-1/2 flex flex-col justify-center p-4 md:p-8 lg:px-16"> {/* Reduced padding for smaller screens */}
-                    <h2 className="text-2xl md:text-[#ED1E3A] font-bold text-gray-800 mb-2"> {/* Adjusted text size */}
+                    <h2 className="text-3xl lg:text-4xl 2xl:text-5xl md:text-[#ED1E3A] font-bold mb-2"> {/* Adjusted text size */}
                         Dallas Digital Marketing Agency
                     </h2>
-                    <p className="text-lg md:text-xl text-gray-700 mb-4"> {/* Adjusted text size */}
+                    <p className="2xl:text-lg lg:text-base text-sm text-gray-700 my-4"> {/* Adjusted text size */}
                         Grow Your Business with Digital Marketing Agency in Dallas
                     </p>
 
                     {/* Scrollable Text */}
                     <div className="overflow-y-auto max-h-96 flex-1">
-                        <p className="text-lg text-gray-600 mb-6">
+                        <p className="2xl:text-lg lg:text-base text-sm text-gray-600 mb-6">
                             Dallas is a city that never stops growing, with thousands of new opportunities every single day. Its strong economy and busy business scene keep things moving forward.
                             <br />
                             In 2025, over 10+ digital marketing trends are emerging that you can’t afford to ignore if you want to stay competitive. As your digital marketing agency in Dallas, we know how to keep up with the latest trends and leverage them to grow your business 10x.
@@ -40,7 +40,7 @@ export default function SeoCompany() {
                     </div>
 
                     <div className="flex items-center mt-4">
-                        <span className="text-lg font-semibold text-blue-600 mr-2">Want better results? We’re here to help boost your leads and sales.
+                        <span className="2xl:text-lg lg:text-base text-sm font-semibold text-red-500 mr-2">Want better results? We’re here to help boost your leads and sales.
                         </span>
                         <span className="text-2xl text-gray-800">&rarr;</span>
                     </div>

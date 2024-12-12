@@ -17,10 +17,11 @@ export default function Footer() {
                                     Quick Links
                                     <div className="before:content-[''] before:absolute before:left-0 before:bottom-[-2px] before:h-[2px] before:w-[35px] before:bg-white"></div>
                                 </li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#" target='_blank'>About Us</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#" target='_blank'>Contact Us</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#" target='_blank'>Terms & Conditions</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#" target='_blank'>Privacy Policy</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="/sitemap.html" target='_blank'>Sitemap</a></li>
-
                             </ul>
 
                             {/* Column 2 - Services */}
@@ -38,7 +39,6 @@ export default function Footer() {
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="/houston-seo-company">Houston</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="/london-seo-company">London</a></li>
                             </ul>
-
                             {/* Column 3 - Web Development Services */}
                             {/* <ul className="text-white">
                                 <li className="text-lg mb-2 relative invisible">
@@ -56,7 +56,6 @@ export default function Footer() {
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Woocommerce Web Development</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Custom Ecommerce Solution</a></li>
                             </ul> */}
-
                             {/* Column 4 - Solutions */}
                             <ul className="text-white">
                                 <li className="text-lg mb-2 relative">
@@ -70,7 +69,6 @@ export default function Footer() {
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Property Management Solution</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Template Management Solution</a></li>
                             </ul>
-
                             {/* Column 5 - Contacts */}
                             <ul className="text-white">
                                 <li className="text-lg mb-2 relative">
@@ -86,7 +84,6 @@ export default function Footer() {
                         </div>
                     </div>
                 </footer>
-
             </div>
             <div className="w-full bg-white text-black text-center py-4">
                 <p className="2xl:text-lg lg:text-base text-sm font-medium">

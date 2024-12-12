@@ -23,8 +23,8 @@ export default function LogoExperience() {
                     {/* Left Column */}
                     <div className="md:w-1/3 space-y-4">
                         <h5 className="text-sm font-medium text-gray-500 uppercase" style={{ letterSpacing: "10px" }}>Be Visible</h5>
-                        <h1 className="text-[#ED1E3A] md:text-4xl lg:text-5xl font-bold text-gray-900">Beautify Your Brand with a Professional Logo Design</h1>
-                        <p className="text-gray-600 text-lg">
+                        <h1 className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-bold">Beautify Your Brand with a Professional Logo Design</h1>
+                        <p className="text-gray-600 2xl:text-lg lg:text-base text-sm">
                             Startups, small businesses, and enterprises can brand their offerings through custom logo designs, branding design solutions, and the web design expertise of Logo Design Valley.
                         </p>
                     </div>
@@ -37,7 +37,7 @@ export default function LogoExperience() {
                                 {/* Outer Border Circle */}
                                 <div className="p-4 rounded-full border-2 border-red-200">
                                     {/* Inner Red Circle */}
-                                    <div className="md:p-24 p-16 bg-red-600 text-white rounded-full flex items-center justify-center text-8xl font-medium">
+                                    <div className="2xl:p-24 p-16 bg-red-600 text-white rounded-full flex items-center justify-center text-5xl lg:text-6xl 2xl:text-8xl font-medium">
                                         {counter}+
                                     </div>
                                 </div>
@@ -47,8 +47,8 @@ export default function LogoExperience() {
 
                     {/* Right Column */}
                     <div className="md:w-1/3 space-y-4">
-                        <h1 className="text-2xl font-medium text-gray-900">7+ YEARS OF EXPERIENCE</h1>
-                        <p className="text-gray-600 text-lg">
+                        <h1 className="2xl:text-2xl text-xl font-medium text-gray-900">7+ YEARS OF EXPERIENCE</h1>
+                        <p className="text-gray-600 2xl:text-lg lg:text-base text-sm">
                             We are dedicated to providing outstanding digital and design services that deliver both functionality and aesthetic appeal, ensuring your brand stands out and achieves its goals.
                         </p>
                     </div>

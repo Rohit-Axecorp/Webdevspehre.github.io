@@ -15,7 +15,7 @@ import SeoQuote from '@/app/Components/Services/Seo/SeoQuote'
 import SeoRecognition from '@/app/Components/Services/Seo/SeoRecognition'
 import React from 'react'
 export const metadata = {
-  title: "Logo Design Company USA", // Dynamic title
+  title: "Logo Design Company USA",
 };
 import RootLayout from '../layout';
 

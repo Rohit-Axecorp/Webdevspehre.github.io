@@ -66,7 +66,7 @@ export default function MarketingServices() {
         <>
             <section className="py-12 container mx-auto px-4">
                 <h2 className="mb-8 text-center">
-                    <span className="text-[#ED1E3A] sm:text-4xl md:text-5xl font-bold">
+                    <span className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-bold">
                         How Our Digital Marketing Agency Houston Texas Help Businesses
                     </span>
                 </h2>
@@ -99,7 +99,7 @@ export default function MarketingServices() {
                             {slidesData.map((slide, index) => (
                                 <SwiperSlide key={index}>
                                     <div className={`flex flex-col items-center transition-opacity duration-500 ${centeredIndex === index ? 'opacity-100' : 'opacity-50'}`}>
-                                        <h2 className="text-lg md:text-2xl font-bold mb-4">{slide.heading}</h2>
+                                        <h2 className="text-lg 2xl:text-2xl font-bold mb-4">{slide.heading}</h2>
                                         <img src={slide.image} alt={slide.heading} className="w-full h-auto max-w-[250px] md:max-w-[350px]" />
                                     </div>
                                 </SwiperSlide>
@@ -110,8 +110,8 @@ export default function MarketingServices() {
                     {/* Content Column */}
                     <div className="col-span-2">
                         <div className="p-5 bg-white">
-                            <h2 className="text-2xl md:text-[#ED1E3A] font-semibold mb-4">{slidesData[centeredIndex].contentHeading}</h2>
-                            <p className="text-base md:text-xl">{slidesData[centeredIndex].contentParagraph}</p>
+                            <h2 className="text-xl 2xl:text-2xl  md:text-[#ED1E3A] font-semibold mb-4">{slidesData[centeredIndex].contentHeading}</h2>
+                            <p className="2xl:text-lg lg:text-base text-sm">{slidesData[centeredIndex].contentParagraph}</p>
                         </div>
                     </div>
                 </div>

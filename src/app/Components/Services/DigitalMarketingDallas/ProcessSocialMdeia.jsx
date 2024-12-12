@@ -75,7 +75,7 @@ export default function ProcessSocialMedia() {
                             {/* Counter 1 */}
                             <div className="py-4 px-4">
                                 <p className="mt-2 text-sm sm:text-base md:text-lg text-gray-600">Happy Clients</p>
-                                <h3 className="text-[#ED1E3A] sm:text-4xl md:text-5xl font-bold text-[#ED1E3A]">
+                                <h3 className="text-[#ED1E3A] sm:text-4xl md:text-5xl font-bold">
                                     <CountUp end={1000} duration={3} />+
                                 </h3>
                             </div>

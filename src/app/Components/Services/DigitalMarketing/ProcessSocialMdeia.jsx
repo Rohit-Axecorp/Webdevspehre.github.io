@@ -22,27 +22,27 @@ export default function ProcessSocialMedia() {
                 <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
                     {/* Column 1: Heading and Paragraph */}
                     <div className="flex flex-col justify-center">
-                        <h2 className="text-[#ED1E3A] sm:text-4xl md:text-5xl font-bold mb-6">
+                        <h2 className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-6">
                             Our Seamless Digital Marketing Process
                         </h2>
-                        <p className="text-base sm:text-lg md:text-xl font-normal mb-4 text-gray-600">
+                        <p className="2xl:text-lg lg:text-base text-sm font-normal mb-4 text-gray-600">
                             We start by getting to know your brand through a detailed audit to see where you currently stand. Then, we optimize your social media profiles to make sure they’re in sync with your business goals. Our team creates eye-catching content and posts it strategically, all while keeping a close eye on audience engagement to make sure we’re hitting the mark.
                         </p>
-                        <p className="text-base sm:text-lg md:text-xl font-normal text-gray-600">
+                        <p className="2xl:text-lg lg:text-base text-sm font-normal text-gray-600">
                             We regularly check in on performance, tweaking our strategy to get the best results. As a leading <a href="/houston-texas-digital-marketing-agency">Houston digital marketing agency</a>  give you the best value for your investment, helping you get the most out of every dollar. Let us help boost your brand’s online presence and connect with your audience in a way that feels real and effective.
                         </p>
                     </div>
 
                     {/* Column 2: Counters Section */}
                     <div>
-                        <h2 className="text-[#ED1E3A] sm:text-4xl font-bold text-center mb-6">
+                        <h2 className="text-[#ED1E3A] text-2xl lg:text-3xl 2xl:text-4xl font-bold text-center mb-6">
                             Key Highlights of Our Full Service Digital Marketing Services Houston
                         </h2>
                         <div className="grid grid-cols-1 sm:grid-cols-3 text-center divide-y sm:divide-y-0 sm:divide-x divide-gray-300">
                             {/* Counter 1 */}
                             <div className="py-4 px-4">
                                 <p className="mt-2 text-sm sm:text-base md:text-lg text-gray-600">Happy Clients</p>
-                                <h3 className="text-[#ED1E3A] sm:text-4xl md:text-5xl font-bold text-[#ED1E3A]">
+                                <h3 className=" sm:text-4xl md:text-5xl font-bold text-[#ED1E3A]">
                                     <CountUp end={800} duration={3} />+
                                 </h3>
                             </div>
@@ -50,7 +50,7 @@ export default function ProcessSocialMedia() {
                             {/* Counter 2 */}
                             <div className="py-4 px-4">
                                 <p className="mt-2 text-sm sm:text-base md:text-lg text-gray-600">Projects Completed</p>
-                                <h3 className="text-[#ED1E3A] sm:text-4xl md:text-5xl font-bold text-[#ED1E3A]">
+                                <h3 className="sm:text-4xl md:text-5xl font-bold text-[#ED1E3A]">
                                     <CountUp end={1000} duration={3} />+
                                 </h3>
                             </div>
@@ -58,7 +58,7 @@ export default function ProcessSocialMedia() {
                             {/* Counter 3 */}
                             <div className="py-4 px-4">
                                 <p className="mt-2 text-sm sm:text-base md:text-lg text-gray-600">Years of Experience</p>
-                                <h3 className="text-[#ED1E3A] sm:text-4xl md:text-5xl font-bold text-[#ED1E3A]">
+                                <h3 className=" sm:text-4xl md:text-5xl font-bold text-[#ED1E3A]">
                                     <CountUp end={10} duration={3} />+
                                 </h3>
                             </div>
@@ -74,13 +74,13 @@ export default function ProcessSocialMedia() {
                         {iconBoxes.map((box, index) => (
                             <div key={index} className="flex flex-col sm:flex-row">
                                 {/* Icon-like box on the left or top on mobile */}
-                                <div className="flex items-center justify-center p-4 sm:p-10 bg-red-600 text-white font-bold rounded-md text-[#ED1E3A] sm:text-4xl md:text-5xl mb-4 sm:mb-0 sm:mr-6">
+                                <div className="flex items-center justify-center p-6 2xl:p-10 bg-red-600 font-bold rounded-md text-white text-3xl lg:text-4xl 2xl:text-5xl mb-4 sm:mb-0 sm:mr-6">
                                     {box.number}
                                 </div>
                                 {/* Text content on the right or bottom on mobile */}
                                 <div>
-                                    <h3 className="text-2xl sm:text-[#ED1E3A] lg:text-4xl font-bold mb-3">{box.heading}</h3>
-                                    <p className="text-base sm:text-lg md:text-xl font-normal">{box.text}</p>
+                                    <h3 className="text-2xl sm:text-[#ED1E3A] lg:text-3xl 2xl:text-4xl font-bold mb-3">{box.heading}</h3>
+                                    <p className="2xl:text-lg lg:text-base text-sm font-normal">{box.text}</p>
                                 </div>
                             </div>
                         ))}

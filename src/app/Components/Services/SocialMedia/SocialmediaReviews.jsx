@@ -44,10 +44,10 @@ export default function SocialmediaReviews() {
     <div className="py-12 px-4">
       <div className="container mx-auto">
         {/* Main Heading */}
-        <h2 className="text-[#ED1E3A] md:text-4xl lg:text-5xl font-bold text-center ">
+        <h2 className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-bold text-center ">
           TESTIMONIALS
         </h2>
-        <p className="text-lg md:text-2xl text-[#ED1E3A]  text-center mb-12 mt-2">
+        <p className="2xl:text-lg lg:text-base text-sm  text-center mb-12 mt-2">
           What Our Clients Have to Say
         </p>
 

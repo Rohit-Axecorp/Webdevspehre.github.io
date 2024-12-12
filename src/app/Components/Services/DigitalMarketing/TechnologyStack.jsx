@@ -34,9 +34,9 @@ export default function TechnologyStack() {
     return (
         <section className='bg-gray-100'>
             <div className="py-12 container mx-auto">
-                <h2 className="text-[#ED1E3A] sm:text-4xl md:text-5xl font-bold mb-4 text-center">Digital Marketing Technology Stack
+                <h2 className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4 text-center">Digital Marketing Technology Stack
                 </h2>
-                <p className="text-center text-lg mb-12 md:mx-20">
+                <p className="text-center 2xl:text-lg lg:text-base text-sm mb-12 md:mx-20">
                     As a leading digital marketing agency Houston, we use the latest set of tools and platforms required for all types of digital marketing solutions.
                 </p>
                 <div className="flex justify-center">

@@ -12,15 +12,15 @@ export default function WebmaintenanceQuote() {
           {/* Left Section */}
           <div className="pt-5 w-full md:w-1/2 mb-8 md:mb-0">
             {/* Main Heading */}
-            <h1 className="text-[#ED1E3A] md:text-4xl lg:text-5xl font-bold mb-6">
+            <h1 className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-6">
               Website Maintenance Services
             </h1>
-            <h2 className="text-xl md:text-2xl font-medium text-gray-700 mb-">
+            <h2 className="text-xl 2xl:text-2xl font-medium text-gray-700 mb-4">
               Say Goodbye to these Web Maintenance Problems!
             </h2>
 
             {/* Benefits List */}
-            <ul className="text-base md:text-lg text-gray-600 mb-6 space-y-2">
+            <ul className="2xl:text-lg lg:text-base text-sm text-gray-600 mb-6 space-y-2">
               <li>Increase brand awareness & loyalty</li>
               <li>Increase your qualified leads</li>
               <li>Elevate your conversion rate</li>
@@ -29,7 +29,7 @@ export default function WebmaintenanceQuote() {
               <li>Increase return on marketing investment</li>
             </ul>
 
-            <button className="flex items-center justify-center bg-white text-[#ED1E3A]  py-4 px-8 md:py-5 md:px-10 rounded-lg text-lg md:text-xl font-semibold hover:bg-gray-200 transition duration-300 ease-in-out">
+            <button className="flex items-center justify-center bg-white text-[#ED1E3A] 2xl:text-lg lg:text-base text-sm py-4 px-8 md:py-5 md:px-10 rounded-lg font-semibold hover:bg-gray-200 transition duration-300 ease-in-out">
               View pricing and plan
             </button>
           </div>

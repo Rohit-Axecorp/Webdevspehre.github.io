@@ -9,13 +9,13 @@ export default function SeoContact() {
           {/* Left Section */}
           <div className="md:w-1/2 w-full mb-8 md:mb-0">
             {/* New Heading: CHICAGO SEO COMPANY */}
-            <h2 className="text-xl font-bold text-red-600 mb-2">DIGITAL MARKETING AGENCY HOUSTON
+            <h2 className="2xl:text-lg lg:text-base text-sm font-bold text-red-600 mb-2">DIGITAL MARKETING AGENCY HOUSTON
             </h2>
 
-            <h1 className="text-[#ED1E3A] md:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">
+            <h1 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-800 mb-4">
               Drive Your Business Forward with Expert Digital Marketing Services Houston
             </h1>
-            <p className="mb-6 text-base md:text-lg text-gray-800">
+            <p className="mb-6 2xl:text-lg lg:text-base text-sm text-gray-800">
               Web Dev Sphere is a leading <a href="/houston-texas-digital-marketing-agency">digital marketing agency Houston</a> specializing in growing your brand to success. As industry leaders, we bring together expertise, innovation, and strategy to craft result-driven campaigns.
             </p>
             <div className="flex items-center my-8">

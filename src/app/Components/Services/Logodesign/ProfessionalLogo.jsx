@@ -10,10 +10,10 @@ export default function ProfessionalLogo() {
         <div className="flex flex-col md:flex-row items-center justify-between p-8">
           {/* First Column */}
           <div className="md:w-1/2 space-y-4">
-            <h1 className="text-4xl md:text-6xl font-bold text-gray-800">
+            <h1 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-gray-800">
               Professional Logo Design Services <span className='text-[#ED1E3A]'>for your Business</span>
             </h1>
-            <p className="text-gray-600 text-lg md:text-2xl py-4">
+            <p className="text-gray-600 2xl:text-lg lg:text-base text-sm md:text-2xl py-4">
               Our In-House Designers are committed to delivering captivating and unique logo designs.
             </p>
             {/* Icon List */}
@@ -25,7 +25,7 @@ export default function ProfessionalLogo() {
                 "100% money-back guarantee",
                 "Packages Starting as Low as $49"
               ].map((item, index) => (
-                <li key={index} className="flex items-center text-lg md:text-2xl">
+                <li key={index} className="flex items-center 2xl:text-lg lg:text-base text-sm md:text-2xl">
                   <Image
                     src="/Images/icon-red.png"
                     alt="Icon"
@@ -38,10 +38,10 @@ export default function ProfessionalLogo() {
               ))}
             </ul>
             <div className="flex flex-col md:flex-row space-x-0 md:space-x-4">
-              <button className="px-4 py-2 bg-red-600 text-white rounded-full hover:bg-red-600 mt-8 text-lg md:text-xl">
+              <button className="px-4 py-2 bg-red-600 text-white rounded-full hover:bg-red-600 mt-8 2xl:text-lg lg:text-base text-sm">
                 GET STARTED NOW
               </button>
-              <button className="px-4 py-2 bg-white text-black rounded-full hover:bg-gray-100 mt-4 md:mt-8 shadow-md text-lg md:text-xl">
+              <button className="px-4 py-2 bg-white text-black rounded-full hover:bg-gray-100 mt-4 md:mt-8 shadow-md 2xl:text-lg lg:text-base text-sm">
                 SEE HOW IT WORKS
               </button>
             </div>
