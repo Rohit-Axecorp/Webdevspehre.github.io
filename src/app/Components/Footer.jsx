@@ -17,10 +17,10 @@ export default function Footer() {
                                     Quick Links
                                     <div className="before:content-[''] before:absolute before:left-0 before:bottom-[-2px] before:h-[2px] before:w-[35px] before:bg-white"></div>
                                 </li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#" target='_blank'>About Us</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#" target='_blank'>Contact Us</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#" target='_blank'>Terms & Conditions</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#" target='_blank'>Privacy Policy</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="/about-us" >About Us</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="/contact-us" >Contact Us</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="/terms-and-conditions" >Terms & Conditions</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="/privacy-policy" >Privacy Policy</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="/sitemap.html" target='_blank'>Sitemap</a></li>
                             </ul>
 
