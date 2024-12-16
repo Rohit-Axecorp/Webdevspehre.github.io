@@ -6,8 +6,8 @@ export default function SeoRecognition() {
       {/* Title */}
       <div className="container mx-auto">
         <div className="mb-8 text-center">
-          <h5 className="text-gray-700 font-semibold text-xl mb-2">Recognition</h5>
-          <h5 className="text-[#ED1E3A] md:text-4xl font-bold text-black mb-4">A Purpose-built Web Design Company in Houston
+          <h5 className=" text-[#ED1E3A] font-semibold text-xl mb-2">Recognition</h5>
+          <h5 className="text-2xl lg:text-3xl 2xl:text-4xl font-bold mb-4">Industry Awards for Exceptional Performance
           </h5>
         </div>
 
@@ -36,27 +36,17 @@ export default function SeoRecognition() {
           ))}
 
           {/* CTA Button next to UpCity */}
-          <div className="flex flex-col items-center text-center mt-4 md:mt-0">
-            <a
-              href="/get-to-know-us"
-              className="px-6 py-3 bg-yellow-500 text-black font-bold rounded-lg shadow-lg hover:bg-yellow-600"
-            >
-              GET TO KNOW US
-            </a>
-          </div>
+         
         </div>
 
         {/* Award Badges */}
-        <div className="flex flex-wrap justify-center items-center gap-6 mt-8 w-full mx-auto">
+        <div className="flex flex-wrap justify-center items-center gap-0 mt-8 w-full mx-auto">
           {[
             'awwwards',
             'Vector-2',
             'Frame-4',
             'Frame-5',
             'Group-3',
-            'Frame-6',
-            'Frame-7',
-            'Group-23-1',
           ].map((badge) => (
             <div key={badge} className="p-4 w-36 md:w-44 flex justify-center">
               <img
@@ -67,6 +57,14 @@ export default function SeoRecognition() {
             </div>
           ))}
         </div>
+        <div className="flex flex-col items-center text-center mt-4 md:mt-8">
+            <a
+              href="/get-to-know-us"
+              className="px-6 py-3 bg-yellow-500 text-black font-bold rounded-lg shadow-lg hover:bg-yellow-600"
+            >
+              GET TO KNOW US
+            </a>
+          </div>
       </div>
     </section>
   );
