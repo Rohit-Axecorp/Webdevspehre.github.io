@@ -17,7 +17,7 @@ export default function Hero() {
         <div className="container mx-auto">
           {/* Content Box */}
 
-          <h1 className='text-[#ED1E3A] 2xl:text-2xl lg:text-lg text-base font-semibold capitalize'>Web designing and development company USA</h1>
+          <h1 className='text-[#ED1E3A] 2xl:text-2xl lg:text-lg text-base font-semibold capitalize'>Web designing and development company</h1>
           <div className="py-2 lg:py-4 rounded-2xl max-w-full sm:max-w-md md:max-w-lg lg:max-w-xl 2xl:max-w-3xl">
             <p className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-2 text-white">
               Digitizing Business Experience with for Sustainable Growth

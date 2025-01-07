@@ -41,6 +41,13 @@ export default function GlobalPresenceSlider() {
             phone: "+1 234 567 890",
             email: "houston@example.com",
         },
+        {
+            city: "London",
+            image: "/Images/londonimage.jpg",
+            address: "123 Example Street, Houston, TX",
+            phone: "+1 234 567 890",
+            email: "houston@example.com",
+        },
     ];
 
     return (

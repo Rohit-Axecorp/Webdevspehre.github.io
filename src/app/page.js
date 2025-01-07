@@ -4,8 +4,8 @@ import Script from 'next/script'; // Import the Script component from next/scrip
 import Head from 'next/head'; // Import the Head component from next/head
 
 export const metadata = {
-  title: "Website Development Company In USA", // Dynamic title
-  description: "Professional web designing and development company in the USA offering custom websites, responsive designs, and innovative digital solutions to grow your business online."
+  title: "Website Development Company", // Dynamic title
+  description: "Professional web designing and development company offering custom websites, responsive designs, and innovative digital solutions to grow your business online."
 };
 
 export default function Home() {

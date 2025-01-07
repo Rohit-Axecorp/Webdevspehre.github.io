@@ -135,7 +135,7 @@ export default function AccordiansFAQ() {
     };
 
     return (
-        <div className="pt-12 mx-auto container">
+        <div className="py-12 mx-auto container">
             <h4 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4 text-center">
                 FAQS
             </h4>

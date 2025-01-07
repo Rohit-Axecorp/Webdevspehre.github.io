@@ -1,6 +1,11 @@
 "use client";
 
 import React from 'react';
+import {
+    faPhone,
+    faEnvelope,
+    faMapMarkerAlt,
+  } from 'react-icons/fa';
 
 export default function Footer() {
     return (
@@ -75,8 +80,10 @@ export default function Footer() {
                                     Contacts
                                     <div className="before:content-[''] before:absolute before:left-0 before:bottom-[-2px] before:h-[2px] before:w-[35px] before:bg-white"></div>
                                 </li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">American General Center, 2929 Allen Pkwy STE. 200, Houston, TX 77019</a></li>
+                        
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">16 Northolt Road, Harrow, England, HA2 0ER</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="mailto:info@webdevspehre.com">info@webdevspehre.com</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="tel:+442046156000">+442046156000</a></li>
                                 {/* <li className="my-3 opacity-80">
                                     <img src="/Images/download3.svg" alt="Google Map" className="w-40 h-auto" />
                                 </li> */}

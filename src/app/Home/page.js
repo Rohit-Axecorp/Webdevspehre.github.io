@@ -4,7 +4,7 @@ import Header from '@/app/Components/Header';
 import Footer from '@/app/Components/Footer';
 import Hero from '@/app/Components/Home/Hero';
 import Counter from '@/app/Components/Home/Counter';
-import SocialIcons from '@/app/Components/Home/SocialIcons';
+// import SocialIcons from '@/app/Components/Home/SocialIcons';
 import Portfolio from '@/app/Components/Home/Portfolio';
 import Tabs from '@/app/Components/Home/Tabs';
 import Strategies from '@/app/Components/Home/Strategies';
@@ -19,6 +19,7 @@ import CTAsection from '@/app/Components/Home/CTAsection';
 import Process from '@/app/Components/Home/Process';
 import Technologies from '@/app/Components/Home/Technologies';
 import Solutions from '@/app/Components/Home/Solutions';
+import GlobalPresenceSlider from '@/app/Components/About/GlobalPresenceSlider'
 
 export default function Homepage() {
     return (
@@ -26,7 +27,7 @@ export default function Homepage() {
             <Header key="header" />
             <Hero />
             <Counter />
-            <SocialIcons />
+            {/* <SocialIcons /> */}
             <Portfolio />
             <Tabs />
             <Strategies />
@@ -40,6 +41,7 @@ export default function Homepage() {
             <Testimonials />
             <Banner />
             <AccordiansFAQ />
+            <GlobalPresenceSlider />
             <CTAsection />
             <Footer />
             {/* <script
