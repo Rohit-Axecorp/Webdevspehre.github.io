@@ -83,7 +83,7 @@ export default function Footer() {
                         
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">16 Northolt Road, Harrow, England, HA2 0ER</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="mailto:info@webdevspehre.com">info@webdevspehre.com</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="tel:+442046156000">+442046156000</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="tel:+44 20 3608 8161">+44 20 3608 8161</a></li>
                                 {/* <li className="my-3 opacity-80">
                                     <img src="/Images/download3.svg" alt="Google Map" className="w-40 h-auto" />
                                 </li> */}
