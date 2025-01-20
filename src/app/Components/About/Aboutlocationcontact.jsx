@@ -73,8 +73,6 @@ export default function AboutLocationContact() {
                     className="border-none focus:outline-none"
                     required
                   >
-                    <option value="+92">+92</option>
-                    <option value="+1">+1</option>
                     <option value="+44">+44</option>
                   </select>
                   <input
