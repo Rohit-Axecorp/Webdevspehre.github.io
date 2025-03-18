@@ -196,11 +196,11 @@ export default function Header() {
                 Case Studies
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/blogs" className="block py-2 lg:px-2 text-black hover:text-black 2xl:text-lg text-sm font-normal">
                 Blogs
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/" className="block py-2 lg:px-2 text-black hover:text-black 2xl:text-lg text-sm font-normal">
                 Portfolio
