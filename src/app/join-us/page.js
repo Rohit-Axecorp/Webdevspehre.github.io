@@ -51,7 +51,7 @@ export default function GetToKnow() {
                 <div className="text-center mb-8">
                     <h2 className="text-5xl font-bold text-red-600 mb-4">Join Us</h2>
                     <p className="text-lg text-gray-600 mx-auto max-w-xl">
-                        We&apos;re always looking for talented individuals to join our growing team. If you have passion for technology and innovation, come work with us and help shape the future.
+                        We&apos;re always looking for talented individuals to join our growing team. If you have a passion for technology and innovation, come work with us and help shape the future.
                     </p>
                 </div>
 
