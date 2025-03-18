@@ -1,9 +1,10 @@
+// next.config.js
 const nextConfig = {
     images: {
-        unoptimized: true, // Disable image optimization
+      unoptimized: true,
     },
-    distDir: 'out',   // Set the output directory to 'out' (default is '.next')
-};
-
-export default nextConfig;
-    
+    output: 'export', // ✅ This is the correct way to tell Next.js to use static HTML export mode
+  };
+  
+  export default nextConfig;
+  
