@@ -10,7 +10,7 @@ export default function SeoQuote() {
           <div className="max-w-xl pt-5">
             {/* Subheading */}
             <h6 className="text-lg font-medium text-gray-700 mb-2 uppercase">
-              Let's Connect With Our Experts
+              Let&apos;s Connect With Our Experts
             </h6>
 
             {/* Main Heading */}
