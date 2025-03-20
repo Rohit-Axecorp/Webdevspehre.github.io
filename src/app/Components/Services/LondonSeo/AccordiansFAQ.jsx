@@ -5,43 +5,42 @@ import Accordians from '../AustinSeo/Accordians';
 export default function AccordiansFAQ() {
     const accordionData = [
         {
-            title: "How much does it cost to hire an SEO company?",
+            title: "Is web development in demand in London, UK?",
             content: (
                 <p>
-                    The cost of employing an SEO firm may fluctuate based on various factors like your project&apos;s extent, your company&apos;s size, and your industry&apos;s competition. Usually, ongoing SEO services Austin TX can be priced between $500 and $5,000 per month. Certain businesses can provide SEO audits for a single time or price their services based on specific projects, whereas others bill clients on an hourly basis between $75 and $200.
-                    <br /><br />
-                    Considering higher costs typically indicate a greater range of services, expertise, and successful outcomes is significant. Make sure to select a company that matches your objectives and financial plans. Searching for the best SEO companies Austin? Partner with Web Dev Sphere today!
-
+                    This data gathered by Maximise Market Research (MMR) suggests that the global web content management market will grow at a CAGR of 14.2 percent from 2021 to 2029. During that period, demand for web developers in the UK should also remain on an increase because companies will want web developers to produce websites.
                 </p>
 
             ),
         },
 
         {
-            title: "Why go with your SEO company Austin?",
+            title: "Why should I hire a web design agency in London?",
             content: (
                 <p>
-                    When you choose our Austin SEO service, you&apos;re getting a team that really gets what works in this market. We don&apos;t just apply the same strategies—we tailor everything to fit your business and its goals. Our focus is on real, measurable results, like improving your rankings, boosting traffic, and bringing in more qualified leads.
-                    <br /><br />
-                    Plus, our SEO company in Austin specializes in local SEO, helping you stand out in Austin&apos;s competitive landscape. With us, you&apos;ll always know what&apos;s happening, thanks to clear communication and regular reports. We&apos;re here to help your business grow with strategies that actually work. Check out our local SEO company Austin for top-tier solutions.
+                    Hiring a website design agency is a win because you already know the benefit of years of experience and expertise behind hiring a professional. Since there’ll be an agency that’ll have a bunch of designers that have brought up a website for almost any kind of category, they’ll be this to assist you make an excellent as well as running website.
                 </p>
 
             ),
         },
         {
-            title: "How to choose the best Austin SEO agency?",
+            title: "How to hire a web development company in London?",
             content: (
                 <p>
-                    To choose the right Austin SEO firm, start by looking for one that has a proven track record with local businesses.
+                    7 Tips to Choose the Best Web Development Agency:
                     <ul className="list-disc ml-5">
-                        <li>Ask about their experience with local SEO, as it&apos;s key for targeting the Austin market.</li>
-                        <li>Look for companies that can back up their claims with case studies or client reviews, showing real results.
+                        <li>Plan out Your Requirements and Goals.</li>
+                        <li>Evaluate Their Portfolio.
                         </li>
-                        <li>You&apos;ll also want to find a transparent company—one that clearly explains its strategies, pricing, and progress updates.
+                        <li>Check out Client Reviews and Client Testimonials.
                         </li>
-                        <li>A good SEO company in Austin should take time to understand your specific business needs and offer a tailored plan, not just a generic solution.
+                        <li>Check If They Are Technical Experts.
                         </li>
-                        <li>Lastly, make sure they communicate well and are committed to long-term growth, not just quick fixes.
+                        <li>Know their Pricing and Value Proposition.
+                        </li>
+                        <li>Post-Launch Support.
+                        </li>
+                        <li>Determine cultural compatibility.
                         </li>
                     </ul>
                 </p>
@@ -49,23 +48,58 @@ export default function AccordiansFAQ() {
             ),
         },
         {
-            title: "Do you work with small businesses or only larger companies in Austin?",
+            title: "How long does it take to build a website in London?",
             content: (
                 <p>
-                    We are happy to collaborate with small businesses and large corporations in Austin! We acknowledge that each company, no matter its size, has distinct requirements and objectives. Our Dallas SEO experts have expertise in developing customized SEO plans that align with your budget and goals.
-                    <br /><br />
-                    If you are a new company wanting to establish yourself online or a well-established business wanting to improve your visibility, we are here to assist you in achieving success. We prioritize achieving meaningful outcomes for your particular business in order to effectively compete in the Austin market.
+                    Building a website usually requires from 1 to 6 months, obviously depending on your goals and resources. Not only is “it depends”—and depending can sometimes be a bit unsatisfying, no matter the needs you have—when you are ready to launch your website. However, what this section will describe exactly is what that time frame relies on.
                 </p>
 
             ),
         },
         {
-            title: "How long does it take to see results from your SEO efforts in Austin?",
+            title: "How much does web development cost in London, UK?",
             content: (
                 <p>
-                    The time frame for observing outcomes from our SEO work may differ based on various factors such as your sector, market competitiveness, and website status. Typically, you should see improvements in your rankings and traffic within three to six months. Yet, larger changes, such as a noteworthy boost in leads or sales, might require a longer period of time, typically ranging from six to twelve months.
-                    <br /><br />
-                    SEO requires a long-term commitment, with our emphasis on creating enduring tactics that deliver continuous outcomes. We will give consistent updates and valuable information for you to monitor your progress throughout the entire journey. Looking for Search Engine Optimization Austin? Partner with Web Dev Sphere today!
+                    Here’s the website development cost in UK categorized according to the types of website:
+                    <div class="overflow-x-auto py-6">
+                        <table class="min-w-full border border-gray-300 text-left">
+                            <thead class="bg-gray-100">
+                                <tr>
+                                    <th class="px-6 py-3 text-sm font-semibold text-gray-700 border-b">Website Type</th>
+                                    <th class="px-6 py-3 text-sm font-semibold text-gray-700 border-b">Cost Range</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-gray-100">
+                                <tr class="border-b">
+                                    <td class="px-6 py-4">Personal Website</td>
+                                    <td class="px-6 py-4">£1,500 – £5,000</td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="px-6 py-4">Corporate Website</td>
+                                    <td class="px-6 py-4">£8,000 – £15,000</td>
+                                </tr>
+                                <tr class="border-b">
+                                    <td class="px-6 py-4">eCommerce Website</td>
+                                    <td class="px-6 py-4">£10,000 – £50,000</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-6 py-4">MVP Website</td>
+                                    <td class="px-6 py-4">£5,000 – £10,000</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+                </p>
+
+            ),
+        },
+        {
+            title: "How much does it cost to hire a web developer in the UK?",
+            content: (
+                <p>
+                    Expect a freelancer to ask around £30 – £60 per hour or £200 – £400 per day. On average, a digital agency will charge around £50 – £200 per hour or £300 – £1000 per day.
                 </p>
 
             ),
@@ -83,16 +117,14 @@ export default function AccordiansFAQ() {
     return (
         <div className="pt-12 mx-auto container">
             <h5 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A] text-center">
-            FAQS RELATED TO{" "}
+
                 <span className="ml-2 text-transparent bg-clip-text bg-gradient-to-r from-[#ED1E3A] to-red-700">
-                    AUSTIN SEO COMPANY
+                    Frequently Asked Questions
                 </span>
             </h5>
 
-            <p className="text-center lg:text-lg text-md mb-12 md:mx-20">
-                Get Answers to Your Queries Here!
-            </p>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-12">
                 {accordionData.map((item, index) => (
                     <Accordians
                         key={index}

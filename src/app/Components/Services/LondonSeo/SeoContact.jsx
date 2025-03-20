@@ -42,10 +42,10 @@ export default function SeoContact() {
       <section
         className="bg-gray-100 bg-cover bg-center relative"
         style={{
-          backgroundImage: 'url("/Images/london.jpg")',
+          backgroundImage: 'url("/Images/banner_uk_web.webp")',
         }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-60"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-0"></div>
         <div className="relative">
           < div className="container mx-auto flex flex-col md:flex-row md:gap-10 items-center justify-between py-12 px-4" >
             {/* Left Section */}

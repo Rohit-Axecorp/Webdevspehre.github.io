@@ -2,10 +2,8 @@ import Footer from '@/app/Components/Footer';
 import Header from '@/app/Components/Header';
 import CTAsection from '@/app/Components/Home/CTAsection';
 import SeoAudit from '@/app/Components/Services/LondonSeo/SeoAudit';
-import SeoCaseStudies from '@/app/Components/Services/LondonSeo/SeoCaseStudies';
 import SeoContact from '@/app/Components/Services/LondonSeo/SeoContact';
 import SeoPackages from '@/app/Components/Services/LondonSeo/SeoPackages';
-import SeoQuote from '@/app/Components/Services/LondonSeo/SeoQuote';
 import SeoRecognition from '@/app/Components/Services/LondonSeo/SeoRecognition';
 import SeoReviews from '@/app/Components/Services/LondonSeo/SeoReviews';
 import SeoServicesIncludes from '@/app/Components/Services/LondonSeo/SeoServicesIncludes';
@@ -17,6 +15,9 @@ import Healthcare from '../../Components/Services/LondonSeo/Healthcare';
 import ServicesLondon from '../../Components/Services/LondonSeo/ServicesLondon';
 import SeoLondonTimeline from '../../Components/Services/LondonSeo/SeoLondonTimeline';
 import CrossPlatform from '../../Components/Services/LondonSeo/CrossPlatform';
+import Technologies from '@/app/Components/Home/Technologies';
+import WebDevelopmentFeatures from '@/app/Components/Services/LondonSeo/WebDevelopmentFeatures';
+import Ctaweblondon from '@/app/Components/Services/LondonSeo/Ctaweblondon';
 
 export const metadata = {
     title: "Leading London SEO Company",
@@ -35,14 +36,15 @@ export default function Page() {
             <Healthcare />
             <SeoServicesIncludes />
             <ServicesLondon />
-            <SeoCaseStudies />
+            <SeoPackages />
             <SeoAudit />
             <SeoReviews />
-            <SeoPackages />
+            <Technologies />
             <SeoLondonTimeline />
             <SeoRecognition />
             <CrossPlatform />
-            <SeoQuote />
+            <WebDevelopmentFeatures />
+            <Ctaweblondon />
             <AccordiansFAQ />
             <CTAsection />
             <Footer />

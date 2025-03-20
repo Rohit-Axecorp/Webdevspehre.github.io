@@ -1,85 +1,37 @@
-import Image from 'next/image';
-import React from 'react';
+import React from "react";
+import Image from "next/image";
 
 export default function SeoAudit() {
     return (
         <>
-            <section className="bg-black py-12">
-                <div className='container'>
-                    <h4 className="text-white md:text-center text-3xl lg:text-4xl 2xl:text-5xl font-bold">
-                        Get a Free SEO Audit and
-                        <span className="text-[#ED1E3A]  font-semibold"> Boost Your Rankings!</span>
-                    </h4>
-                    <div className="container mx-auto pt-12 flex flex-col md:flex-row justify-center items-center"> {/* Stack on small screens */}
-                        {/* Left Column: Form 3/5 */}
-                        <div className="w-full md:w-2/5 p-6 md:p-8 bg-red-600 shadow-lg rounded-lg"> {/* Full width on small screens */}
-                            <h4 className="text-xl md:text-2xl font-bold text-white mb-6 text-center">Free Instant SEO Audit Report</h4>
-                            <form action="#" method="POST">
-                                <div className="space-y-4">
-                                    {/* First Name */}
-                                    <div>
-                                        <input
-                                            id="first-name"
-                                            type="text"
-                                            className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition"
-                                            placeholder="First Name"
-                                            required
-                                        />
-                                    </div>
+            <section className="relative w-full ">
+                <div className=" text-white container h-[400px] lg:h-[500px]">
+                    {/* Background Image */}
+                    <Image
+                        src="/Images/build_uk_web.webp"
+                        alt="City Skyline Background"
+                        fill
+                        className="object-cover object-center z-0"
+                        priority
+                    />
 
-                                    {/* Last Name */}
-                                    <div>
-                                        <input
-                                            id="last-name"
-                                            type="text"
-                                            className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition"
-                                            placeholder="Last Name"
-                                            required
-                                        />
-                                    </div>
+                    {/* Overlay */}
+                    <div className="absolute inset-0 bg-black bg-opacity-20 z-10" />
 
-                                    {/* Website */}
-                                    <div>
-                                        <input
-                                            id="website"
-                                            type="text"
-                                            className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition"
-                                            placeholder="Enter Website"
-                                            required
-                                        />
-                                    </div>
+                    {/* Content */}
+                    <div className="relative z-20 mx-auto h-full px-6 flex flex-col justify-center items-start gap-6">
+                        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight max-w-2xl">
+                            Build an Online Presence that Customer Can’t Resist
+                        </h1>
+                        <p className="text-base sm:text-lg max-w-xl">
+                            Land potential leads through your site with our user-centric design strategy for web development in London.
+                        </p>
 
-                                    {/* Email */}
-                                    <div>
-                                        <input
-                                            id="email"
-                                            type="email"
-                                            className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition"
-                                            placeholder="Your E-Mail"
-                                            required
-                                        />
-                                    </div>
+                        <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                            <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-full">
+                                Let’s Build Your Website!
+                            </button>
 
-                                    {/* Submit Button */}
-                                    <button
-                                        type="submit"
-                                        className="w-full bg-black text-white p-3 rounded-md hover:bg-orange-600 focus:outline-none focus:bg-orange-600 transition mt-6"
-                                    >
-                                        Get Free Report Now
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
-
-                        {/* Right Column: Image 2/5 */}
-                        <div className="w-full md:w-2/4 max-w-lg p-6"> {/* Full width on small screens */}
-                            <Image
-                                src="/Images/result-img.webp"  // Update this to match the image path you've uploaded
-                                alt="SEO Audit Report"
-                                width={500}
-                                height={500}
-                                className="object-cover" // Ensures image covers the space responsively
-                            />
                         </div>
                     </div>
                 </div>

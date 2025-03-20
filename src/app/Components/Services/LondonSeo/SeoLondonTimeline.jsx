@@ -1,88 +1,47 @@
-import React from 'react'
+import React from "react";
+import Image from "next/image";
+
+const industries = [
+    { name: "E-commerce", icon: "/Images/Webdev1.svg" },
+    { name: "Taxi Booking", icon: "/Images/Webdev2.svg" },
+    { name: "Tourism", icon: "/Images/Webdev3.svg" },
+    { name: "Healthcare", icon: "/Images/Webdev4.svg" },
+    { name: "Retail", icon: "/Images/Webdev5.svg" },
+    { name: "Real Estate", icon: "/Images/Webdev6.svg" },
+    { name: "Metaverse", icon: "/Images/Webdev7.svg" },
+    { name: "Oil & Gas", icon: "/Images/Webdev8.svg" },
+    { name: "Banking", icon: "/Images/Webdev9.svg" },
+    { name: "Manufacturing", icon: "/Images/Webdev10.svg" },
+    { name: "Logistics", icon: "/Images/Webdev11.svg" },
+    { name: "FinTech", icon: "/Images/Webdev12.svg" },
+];
 
 export default function SeoLondonTimeline() {
     return (
-        <>
-            <div className="container mx-auto px-4 py-10 2xl:py-12">
-                <h2 className="text-[#ED1E3A]  text-4xl lg:text-5xl font-bold mb-20 text-center">
-                    Explore Our SEO Strategy Timeline
-                </h2>
+        <section className="container mx-auto px-6 py-16 text-center">
+            <h2 className="text-5xl font-bold text-gray-900 mb-4">
+                Delivering <span className="text-[#ED1E3A]">Web Excellence</span> Across Industries
+            </h2>
+            <p className="text-gray-600 max-w-4xl mx-auto mb-10 text-xl">
+                As a premier web development company in the UK, we provide tailored solutions using the latest technologies.
+                Our focus on industry-specific needs ensures the delivery of robust, scalable websites optimized for performance and user experience.
+                We leverage advanced frameworks and best practices to drive measurable business results.
+            </p>
 
-                {/* Step 1 */}
-                <div className="flex flex-col md:flex-row items-start md:items-center mb-8">
-                    <div className="w-16 h-16 bg-red-500 text-white rounded-full flex justify-center items-center text-2xl font-bold md:mb-0 mb-4 md:mr-8">
-                        01
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+                {industries.map((industry, index) => (
+                    <div key={index} className="border border-gray-200 rounded-lg p-4 flex flex-col items-center hover:shadow-md transition">
+                        <Image src={industry.icon} alt={industry.name} width={90} height={90} className="mb-3" />
+                        <p className="font-bold text-gray-700 text-base md:text-xl">{industry.name}</p>
                     </div>
-                    <div className="p-6 border-2 border-gray-200 rounded-xl shadow-lg bg-white w-full">
-                        <h3 className="text-xl font-semibold text-gray-800">SETTING UP YOUR DIGITAL GOALS</h3>
-                        <p className="text-gray-600 mt-4">
-                            Our SEO strategy is useless if it doesn’t align with your marketing goals, which is why we first discuss and set up your SEO goals with you.
-                        </p>
-                    </div>
-                </div>
-
-                {/* Step 2 */}
-                <div className="flex flex-col md:flex-row items-start md:items-center mb-8">
-                    <div className="w-16 h-16 bg-red-500 text-white rounded-full flex justify-center items-center text-2xl font-bold md:mb-0 mb-4 md:mr-8">
-                        02
-                    </div>
-                    <div className="p-6 border-2 border-gray-200 rounded-xl shadow-lg bg-white w-full">
-                        <h3 className="text-xl font-semibold text-gray-800">COMPLETE SEO ANALYSIS</h3>
-                        <p className="text-gray-600 mt-4">
-                            Analyzing your website completely is the next big step that we take, we list down all major changes before we start our work.
-                        </p>
-                    </div>
-                </div>
-
-                {/* Step 3 */}
-                <div className="flex flex-col md:flex-row items-start md:items-center mb-8">
-                    <div className="w-16 h-16 bg-red-500 text-white rounded-full flex justify-center items-center text-2xl font-bold md:mb-0 mb-4 md:mr-8">
-                        03
-                    </div>
-                    <div className="p-6 border-2 border-gray-200 rounded-xl shadow-lg bg-white w-full">
-                        <h3 className="text-xl font-semibold text-gray-800">TARGETED KEYWORD RESEARCH</h3>
-                        <p className="text-gray-600 mt-4">
-                            Our experts then dig out the best suitable keywords according to your target market making sure the SEO strategy is supporting your goals.
-                        </p>
-                    </div>
-                </div>
-                <div className="flex flex-col md:flex-row items-start md:items-center mb-8">
-                    <div className="w-16 h-16 bg-red-500 text-white rounded-full flex justify-center items-center text-2xl font-bold md:mb-0 mb-4 md:mr-8">
-                        04
-                    </div>
-                    <div className="p-6 border-2 border-gray-200 rounded-xl shadow-lg bg-white w-full">
-                        <h3 className="text-xl font-semibold text-gray-800">On-Page Optimization
-                        </h3>
-                        <p className="text-gray-600 mt-4">
-                            After the keyword research, our on-page SEO experts substitute the professionally written metas along with the schema integration process.
-                        </p>
-                    </div>
-                </div>
-                <div className="flex flex-col md:flex-row items-start md:items-center mb-8">
-                    <div className="w-16 h-16 bg-red-500 text-white rounded-full flex justify-center items-center text-2xl font-bold md:mb-0 mb-4 md:mr-8">
-                        05
-                    </div>
-                    <div className="p-6 border-2 border-gray-200 rounded-xl shadow-lg bg-white w-full">
-                        <h3 className="text-xl font-semibold text-gray-800">Link Building
-                        </h3>
-                        <p className="text-gray-600 mt-4">
-                            Building your website’s authority is the next big step that we have to take which our off-page SEO experts can assist you in doing.
-                        </p>
-                    </div>
-                </div>
-                <div className="flex flex-col md:flex-row items-start md:items-center mb-8">
-                    <div className="w-16 h-16 bg-red-500 text-white rounded-full flex justify-center items-center text-2xl font-bold md:mb-0 mb-4 md:mr-8">
-                        06
-                    </div>
-                    <div className="p-6 border-2 border-gray-200 rounded-xl shadow-lg bg-white w-full">
-                        <h3 className="text-xl font-semibold text-gray-800">Tracking & Reporting
-                        </h3>
-                        <p className="text-gray-600 mt-4">
-                            We help you stay in the know with step-by-step consultation along with the excellent insights each month helping you analyze our efforts
-                        </p>
-                    </div>
-                </div>
+                ))}
             </div>
-        </>
-    )
+
+            <div className="mt-10">
+                <button className="border-2 border-[#ED1E3A] text-[#ED1E3A] hover:bg-[#ED1E3A] hover:text-white px-6 py-3 rounded-full font-medium transition">
+                    Get Industry Specific Web Development
+                </button>
+            </div>
+        </section>
+    );
 }

@@ -41,8 +41,8 @@ export default function SeoCaseStudies() {
     <>
       <div className="bg-gray-100 py-12">
         <h4 className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-bold text-center mb-8">
-          SEO Company Austin TX Portfolio
-
+          Top-Performing Brands We helped with
+          <br></br> Web Design and Development Services
         </h4>
         <Swiper slidesPerView={1} spaceBetween={30}>
           {caseStudies.map((study, index) => (

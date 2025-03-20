@@ -42,14 +42,14 @@ export default function Technologies() {
         <div className="container mx-auto px-4 flex flex-col md:flex-row lg:gap-10">
           <div className="content md:w-2/5 mb-8">
             <h3 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4 text-white">
-            <span className='text-[#ED1E3A]'> Empowering Web Solutions </span> with Our Next-gen Tech Suite
+              <span className='text-[#ED1E3A]'> Innovating with an Advanced
+              </span> Tech Suite for London Web Development
             </h3>
           </div>
 
           <div className="image md:w-3/5 flex md:justify-end">
             <p className="2xl:text-lg lg:text-base text-sm text-white mb-8">
-              WebDev Sphere is a disruptive web development and design company that uses a large tech stack to create one-of-a-kind websites. We are thoroughly knowledgeable in a wide variety of high-level technologies, delivering robust, full-functionality solutions that are scalable and future-proof for every project. As an innovative web development company in USA, we deploy the power of new frameworks and tools to create digital experiences that are of an exceptional blend of functionality and user engagement.
-
+              Being a modern web development company we use a variety of latest-generation technologies to provide uniquely designed, innovative solutions for businesses. We bring the best web development in London, helping your projects operate using the best tools, frameworks, and methodologies for exceptional performance and scalability.
             </p>
           </div>
         </div>
