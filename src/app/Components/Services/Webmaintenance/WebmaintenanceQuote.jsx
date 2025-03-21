@@ -1,8 +1,7 @@
 "use client";
-
 import React from 'react';
 import 'react-phone-number-input/style.css';
-import PhoneInput from 'react-phone-number-input/input'; // Import PhoneInput for country flag selection
+import Form from '../../Form/Form';
 
 export default function WebmaintenanceQuote() {
   return (
@@ -34,67 +33,7 @@ export default function WebmaintenanceQuote() {
             </button>
           </div>
 
-          {/* Right Section: Contact Form */}
-          <div className="p-6 bg-white shadow-lg rounded-lg w-full md:w-2/5">
-            <h1 className="text-2xl md:text-[#ED1E3A] font-semibold text-gray-800 mb-6 capitalize">
-              GET FREE EXPERT CONSULTATION
-            </h1>
-            <form action="#" method="POST">
-              <div className="space-y-4">
-                {/* Name (Full Width) */}
-                <div className="w-full">
-                  <input
-                    id="name"
-                    type="text"
-                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
-                    placeholder="Name*"
-                    required
-                  />
-                </div>
-
-                {/* Email */}
-                <div>
-                  <input
-                    id="email"
-                    type="email"
-                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
-                    placeholder="Email*"
-                    required
-                  />
-                </div>
-
-                {/* Phone Number with Country Flag */}
-                <div>
-                  <PhoneInput
-                    id="phone"
-                    defaultCountry="US"
-                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
-                    placeholder="Phone*"
-                    required
-                  />
-                </div>
-
-                {/* Message Textarea */}
-                <div>
-                  <textarea
-                    id="message"
-                    className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-[#ED1E3A] focus:ring-2 focus:ring-red-200 transition"
-                    placeholder="Please tell us your project information"
-                    rows="5"
-                    required
-                  ></textarea>
-                </div>
-
-                {/* Submit Button */}
-                <button
-                  type="submit"
-                  className="w-full bg-red-600 text-white p-3 rounded-md hover:bg-red-600 focus:outline-none focus:bg-red-600 transition mt-6"
-                >
-                  Get a Quote
-                </button>
-              </div>
-            </form>
-          </div>
+          <Form />
         </div>
       </section>
     </>
