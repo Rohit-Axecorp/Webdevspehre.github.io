@@ -15,10 +15,10 @@ export default function Form() {
         // EmailJS sendForm function
         emailjs
             .sendForm(
-                'service_eurk8zb', // Replace with your EmailJS Service ID
-                'template_w3r9t2m', // Replace with your EmailJS Template ID
+                'service_wstrjk5', // Replace with your EmailJS Service ID
+                'template_uxn7v4x', // Replace with your EmailJS Template ID
                 form, // Pass the form directly
-                'EPC2a3mKlO9EkFTOz' // Replace with your EmailJS Public Key
+                'nx-asW557WNnER_pT' // Replace with your EmailJS Public Key
             )
             .then(
                 (response) => {
