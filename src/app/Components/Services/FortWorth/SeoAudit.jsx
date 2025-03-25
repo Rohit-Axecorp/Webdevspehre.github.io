@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
+import Form from '../../Form/Form';
 
 export default function SeoAudit() {
     return (
@@ -11,65 +12,8 @@ export default function SeoAudit() {
                         <span className="text-[#ED1E3A]  font-semibold"> Boost Your Site!</span>
                     </h4>
                     <div className="container mx-auto pt-12 flex flex-col md:flex-row justify-center items-center"> {/* Stack on small screens */}
-                        {/* Left Column: Form 3/5 */}
-                        <div className="w-full md:w-2/5 p-6 md:p-8 bg-red-600 shadow-lg rounded-lg"> {/* Full width on small screens */}
-                            <h4 className="text-xl md:text-2xl font-bold text-white mb-6 text-center">Free Instant SEO Audit Report</h4>
-                            <form action="#" method="POST">
-                                <div className="space-y-4">
-                                    {/* First Name */}
-                                    <div>
-                                        <input
-                                            id="first-name"
-                                            type="text"
-                                            className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition"
-                                            placeholder="First Name"
-                                            required
-                                        />
-                                    </div>
 
-                                    {/* Last Name */}
-                                    <div>
-                                        <input
-                                            id="last-name"
-                                            type="text"
-                                            className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition"
-                                            placeholder="Last Name"
-                                            required
-                                        />
-                                    </div>
-
-                                    {/* Website */}
-                                    <div>
-                                        <input
-                                            id="website"
-                                            type="text"
-                                            className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition"
-                                            placeholder="Enter Website"
-                                            required
-                                        />
-                                    </div>
-
-                                    {/* Email */}
-                                    <div>
-                                        <input
-                                            id="email"
-                                            type="email"
-                                            className="w-full p-3 border rounded-md placeholder-gray-400 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 transition"
-                                            placeholder="Your E-Mail"
-                                            required
-                                        />
-                                    </div>
-
-                                    {/* Submit Button */}
-                                    <button
-                                        type="submit"
-                                        className="w-full bg-black text-white p-3 rounded-md hover:bg-orange-600 focus:outline-none focus:bg-orange-600 transition mt-6"
-                                    >
-                                        Get Free Report Now
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
+                        <Form />
 
                         {/* Right Column: Image 2/5 */}
                         <div className="w-full md:w-2/4 max-w-lg p-6"> {/* Full width on small screens */}

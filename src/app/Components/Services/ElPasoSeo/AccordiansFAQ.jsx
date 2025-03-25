@@ -73,7 +73,7 @@ export default function AccordiansFAQ() {
             <h5 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold text-[#ED1E3A] text-center">
             FAQS RELATED TO{" "}
                 <span className="ml-2 text-transparent bg-clip-text bg-gradient-to-r from-[#ED1E3A] to-red-700">
-                    AUSTIN SEO COMPANY
+                    EL PASO SEO COMPANY
                 </span>
             </h5>
 

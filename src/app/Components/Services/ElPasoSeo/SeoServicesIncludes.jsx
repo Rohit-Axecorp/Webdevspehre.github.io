@@ -54,7 +54,7 @@ export default function SeoServicesIncludes() {
         <>
             <section className='bg-gray-100'>
                 <div className="container mx-auto px-4 py-8">
-                    <h3 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold md:text-center mb-8 text-[#ED1E3A]">San Antonio SEO Services That Deliver Results
+                    <h3 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold md:text-center mb-8 text-[#ED1E3A]">El Paso SEO Services That Deliver Results
                     </h3>
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                         {services.map((service, index) => (

@@ -44,7 +44,7 @@ const services = [
     {
         title: 'Conversion Rate Optimization (CRO)',
         description: 'We don’t just bring traffic to the table with our San Antonio SEO service. We inspect your site for any strategic changes you want and analyze your user behavior to make sure visitors stay on, become loyal customers, and boost your bottom line.',
-        icon: '/Images/s-icon9.png.webp', // Replace with the correct icon path
+        icon: '/Images/s-icon5.png.webp', // Replace with the correct icon path
     },
 ];
 
