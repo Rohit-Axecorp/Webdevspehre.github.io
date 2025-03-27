@@ -35,13 +35,13 @@ export default function SeoQuote() {
 
             {/* Ready to Speak Heading */}
             <h3 className="text-xl font-bold text-gray-800 mb-4">
-            Speak to Our SEO Team Right Away
+              Speak to Our SEO Team Right Away
             </h3>
 
             {/* Phone Number with Icon */}
-            <div className="flex items-center text-[#ED1E3A]  text-xl font-bold">
+            <div className="flex items-center text-[#ED1E3A] 2xl:text-lg lg:text-base text-sm font-bold">
               <FaPhoneAlt className="mr-2" />
-              <a href="tel:(312) 847 4286">(312) 847 4286</a>
+              <a href="tel:+44 20 4615 7000">+44 20 4615 7000</a>
             </div>
           </div>
 

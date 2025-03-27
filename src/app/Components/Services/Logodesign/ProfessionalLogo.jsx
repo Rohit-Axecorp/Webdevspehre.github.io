@@ -1,5 +1,3 @@
-"use client";
-
 import React from 'react';
 import Image from 'next/image'; // Import if you're using the Next.js Image component
 
@@ -38,11 +36,8 @@ export default function ProfessionalLogo() {
               ))}
             </ul>
             <div className="flex flex-col md:flex-row space-x-0 md:space-x-4">
-              <button className="px-4 py-2 bg-red-600 text-white rounded-full hover:bg-red-600 mt-8 2xl:text-lg lg:text-base text-sm">
+              <button className="open-popup px-4 py-2 bg-red-600 text-white rounded-full hover:bg-red-600 mt-8 2xl:text-lg lg:text-base text-sm cursor-pointer">
                 GET STARTED NOW
-              </button>
-              <button className="px-4 py-2 bg-white text-black rounded-full hover:bg-gray-100 mt-4 md:mt-8 shadow-md 2xl:text-lg lg:text-base text-sm">
-                SEE HOW IT WORKS
               </button>
             </div>
           </div>

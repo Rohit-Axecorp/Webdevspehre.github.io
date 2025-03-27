@@ -18,7 +18,7 @@ export default function SeoSolution() {
               <p className="mb-6 text-white 2xl:text-lg lg:text-base text-sm">
                 At our Houston SEO agency, we craft bespoke strategies to meet the unique needs of every business. By addressing critical SEO elements like keyword targeting, on-page optimization, and link building, we ensure your online presence resonates with your audience. Our SEO services in Houston TX drive measurable growth, boost visibility, and deliver sustainable results tailored to your goals. Partner with us to unlock your business&apos;s true digital potential.
               </p>
-              <button className="bg-black text-white px-6 py-3 rounded hover:bg-gray-800 w-2/3 ">
+              <button className="open-popup bg-black text-white px-6 py-3 rounded hover:bg-gray-800 w-2/3 ">
                 Get Custom Solution
               </button>
             </div>

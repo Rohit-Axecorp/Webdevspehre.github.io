@@ -118,7 +118,7 @@ export default function SeoPackages() {
                   <p className="text-sm text-gray-500 mt-2">First Month Payment</p>
                 </div>
                 <button
-                  className={`mt-6 bg-${color}-500 text-white font-semibold py-3 px-6 rounded-md hover:bg-${color}-600 transition-all`}
+                  className={`open-popup mt-6 bg-${color}-500 text-white font-semibold py-3 px-6 rounded-md hover:bg-${color}-600 transition-all cursor-pointer`}
                 >
                   Buy Your Plan
                 </button>

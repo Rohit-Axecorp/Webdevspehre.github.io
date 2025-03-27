@@ -18,7 +18,7 @@ export default function SeoSolution() {
               <p className="mb-6 text-white 2xl:text-lg lg:text-base text-sm">
                 Web Dev Sphere is a premier SEO company in Fort Worth dedicated to enhancing visibility, increasing organic traffic, and delivering measurable results. Our experienced team has a proven track record of helping businesses achieve online success. With our expertise, your website can climb to the top of search engine rankings, connect with your target audience, and transform visitors into loyal customers. Let us help you unlock the full potential of your online presence!
               </p>
-              <button className="bg-black text-white px-6 py-3 rounded hover:bg-gray-800 w-2/3 ">
+              <button className="open-popup bg-black text-white px-6 py-3 rounded hover:bg-gray-800 w-2/3 ">
                 Get Custom Solution
               </button>
             </div>

@@ -34,9 +34,7 @@ export default function SeoLocation() {
           We cater in every time zone and provide support 24/7.
           </p>
           <p>
-            <a href="/join-us" className="text-[#ED1E3A]  font-semibold 2xl:text-lg lg:text-base text-sm flex items-center">
-              Join our team!
-            </a>
+        
           </p>
         </div>
 

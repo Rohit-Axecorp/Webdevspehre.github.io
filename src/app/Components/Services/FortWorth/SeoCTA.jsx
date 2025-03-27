@@ -24,7 +24,7 @@ export default function SeoCTA() {
                         <p className="mb-6 2xl:text-lg lg:text-base text-sm">
                             Grow your visibility, attract more traffic, and scale up your business with our customized SEO services Fort Worth TX. Start dominating local search results today!
                         </p>
-                        <button className="bg-black text-white px-6 md:px-8 py-3 md:py-4 rounded hover:bg-gray-900 w-full md:w-1/2">
+                        <button className="open-popup bg-black text-white px-6 md:px-8 py-3 md:py-4 rounded hover:bg-gray-900 w-full md:w-1/2">
                             Start Your Search Journey
                         </button>
                     </div>

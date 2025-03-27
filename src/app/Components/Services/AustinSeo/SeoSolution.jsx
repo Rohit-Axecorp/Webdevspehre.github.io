@@ -18,7 +18,7 @@ export default function SeoSolution() {
               <p className="mb-6 text-white 2xl:text-lg lg:text-base text-sm">
               Website Dev Sphere is a premier SEO company Austin dedicated to enhancing your online visibility, increasing organic traffic, and delivering real results. With years of experience, our Houston SEO team is committed to helping businesses achieve online success. Partner with us to grow your website to the top of search engine rankings.
               </p>
-              <button className="bg-black text-white px-6 py-3 rounded hover:bg-gray-800 w-2/3 ">
+              <button className="open-popup bg-black text-white px-6 py-3 rounded hover:bg-gray-800 w-2/3 ">
                 Get Custom Solution
               </button>
             </div>

@@ -21,7 +21,7 @@ export default function SeoSolution() {
               <p className="mb-6 text-white 2xl:text-lg lg:text-base text-sm">
                 Our team of experienced SEO professionals utilizes the latest techniques and tools to optimize your website for search engines.
               </p>
-              <button className="bg-black text-white px-6 py-3 rounded hover:bg-gray-800 w-2/3 ">
+              <button className="open-popup bg-black text-white px-6 py-3 rounded hover:bg-gray-800 w-2/3 ">
                 Get Custom Solution
               </button>
             </div>

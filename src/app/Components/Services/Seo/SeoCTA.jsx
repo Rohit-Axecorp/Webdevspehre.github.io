@@ -18,13 +18,13 @@ export default function SeoCTA() {
                 >
                     {/* Left Column */}
                     <div className="md:w-1/2 flex flex-col p-4 text-center md:text-left">
-                    <h4 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4 text-[#ED1E3A]" >
-                    Let&apos;s Revolutionize Your Online Presence into Measurable Success!
+                        <h4 className="text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-4 text-[#ED1E3A]" >
+                            Let&apos;s Revolutionize Your Online Presence into Measurable Success!
                         </h4>
                         <p className="mb-6 2xl:text-lg lg:text-base text-sm">
                             Discover the smarter way to attract more customers and dominate search rankings with our Houston SEO services. We design result-driven strategies tailored to your business needs, helping you capture leads, increase conversions, and achieve sustainable growth. Your journey to online success starts here—let’s make every search count.
                         </p>
-                        <button className="bg-black text-white px-6 md:px-8 py-3 md:py-4 rounded hover:bg-gray-900 w-full md:w-1/2">
+                        <button className="open-popup bg-black text-white px-6 md:px-8 py-3 md:py-4 rounded hover:bg-gray-900 w-full md:w-1/2">
                             Start Your Growth Journey
                         </button>
                     </div>
