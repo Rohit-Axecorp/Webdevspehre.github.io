@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Slider from './Slider';
+import PopupModal from '../PopupModal';
 
 export default function Strategies() {
   return (
@@ -19,7 +20,8 @@ export default function Strategies() {
             <p className="mt-6 2xl:text-lg lg:text-base text-sm text-black leading-7">
               Unlike normal web development firms, WebDev Sphere is an entire web design and improvement organization dedicated to creating client-focused online solutions that lift your brand’s online existence.
             </p>
-            <button className="group mt-6 relative px-6 py-3 border text-white border-[#ED1E3A] bg-red-600 rounded-full text-base sm:text-lg flex items-center justify-center gap-2 transition-all duration-300 hover:bg-red-600 hover:text-white hover:border-transparent">
+            <PopupModal />
+            <button id="open-popup" className="open-popup group mt-6 relative px-6 py-3 border text-white border-[#ED1E3A] bg-red-600 rounded-full text-base sm:text-lg flex items-center justify-center gap-2 transition-all duration-300 hover:bg-red-600 hover:text-white hover:border-transparent">
               More About Us
               {/* Inline SVG for the arrow icon */}
               <svg

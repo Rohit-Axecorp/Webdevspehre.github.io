@@ -26,7 +26,6 @@ export default function Homepage() {
         <>
             <Header key="header" />
             <Hero />
-            
             <Counter />
             {/* <SocialIcons /> */}
             <Portfolio />

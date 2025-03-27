@@ -7,15 +7,21 @@ export default function PopupModal() {
   const [isOpen, setIsOpen] = useState(false);
 
   useEffect(() => {
-    const openBtn = document.getElementById("open-popup");
+    // Select all buttons with class "open-popup"
+    const buttons = document.querySelectorAll(".open-popup");
 
-    if (openBtn) {
-      openBtn.addEventListener("click", () => setIsOpen(true));
-    }
+    const handleClick = () => setIsOpen(true);
 
-    // Cleanup on unmount
+    // Attach event listeners to each button
+    buttons.forEach((btn) => {
+      btn.addEventListener("click", handleClick);
+    });
+
+    // Cleanup event listeners on unmount
     return () => {
-      if (openBtn) openBtn.removeEventListener("click", () => setIsOpen(true));
+      buttons.forEach((btn) => {
+        btn.removeEventListener("click", handleClick);
+      });
     };
   }, []);
 

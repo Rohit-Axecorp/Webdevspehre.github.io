@@ -33,11 +33,16 @@ export default function Banner() {
             </span>
           </h5>
           <button className="relative px-4 md:px-8 py-3 md:py-4 bg-gradient-to-r from-red-400 to-red-700 text-white font-semibold rounded-full shadow-lg overflow-hidden group hover:bg-red-700 transition duration-300 ease-in-out w-2/3 lg:w-2/3 mx-auto lg:mx-0">
+
             <span className="absolute inset-0 bg-gradient-to-r from-red-300 to-[#ED1E3A] opacity-0 rounded-full transition duration-500 ease-in-out group-hover:opacity-50 group-hover:translate-x-full"></span>
-            <span className="relative z-10 2xl:text-lg lg:text-base text-sm font-normal">
-              Get a <span className="font-semibold">Free
-              </span> Strategy Call Now
-            </span>
+            <a href="tel:+442046157000">
+
+              <span className="relative z-10 2xl:text-lg lg:text-base text-sm font-normal">
+                Get a <span className="font-semibold">Free
+                </span> Strategy Call Now
+              </span>
+            </a>
+
           </button>
         </div>
 

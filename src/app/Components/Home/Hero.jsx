@@ -27,7 +27,7 @@ export default function Hero() {
               Sell experience rather than a product or service. WebDev Sphere has introduced a way for startups to create an impact on clients with its futuristic <a href='https://webdevsphere.com/'>web design and development services.</a> With user-centric UI to highly functional features and mobile-first experience, we create websites from scratch right according to your brand purpose. Plus, you can sustain your business online by leveraging our secret digital marketing strategy.
             </p>
             <PopupModal />
-            <button id="open-popup" className="group relative px-8 py-2 sm:px-5 sm:py-3 2xl:px-10 2xl:py-4 border text-white border-[#ED1E3A] bg-red-600 rounded-full text-base 2xl:text-xl font-semibold flex items-center justify-center gap-2 transition-all duration-300 hover:text-white hover:border-transparent">
+            <button id="open-popup" className="open-popup group relative px-8 py-2 sm:px-5 sm:py-3 2xl:px-10 2xl:py-4 border text-white border-[#ED1E3A] bg-red-600 rounded-full text-base 2xl:text-xl font-semibold flex items-center justify-center gap-2 transition-all duration-300 hover:text-white hover:border-transparent">
               Digitize Your Presence!
               {/* Inline SVG for the arrow icon */}
               <svg

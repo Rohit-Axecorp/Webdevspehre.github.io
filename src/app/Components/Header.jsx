@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import PopupModal from "./PopupModal";
 
 export default function Header() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
@@ -91,7 +92,7 @@ export default function Header() {
               {dropdownOpen && (
                 <div ref={dropdownRef} className="absolute top-full mt-1 w-48 bg-white shadow-lg rounded-lg z-20">
                   <ul className="py-2 text-sm text-gray-700">
-                    
+
                     <li>
                       <Link href="/houston-texas-web-design" className="block px-4 py-2 hover:bg-gray-100">
                         Web Design
@@ -220,7 +221,8 @@ export default function Header() {
           </ul>
 
           <div className="mt-4 md:hidden">
-            <button className="px-6 py-2 w-full text-lg font-normal border text-red-600 border-red-600 rounded-full hover:bg-red-600 hover:text-white">
+            <PopupModal />
+            <button className="open-popup px-6 py-2 w-full text-lg font-normal border text-red-600 border-red-600 rounded-full hover:bg-red-600 hover:text-white">
               Let&apos;s Talk
             </button>
           </div>

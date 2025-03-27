@@ -80,10 +80,10 @@ export default function Footer() {
                                     Contacts
                                     <div className="before:content-[''] before:absolute before:left-0 before:bottom-[-2px] before:h-[2px] before:w-[35px] before:bg-white"></div>
                                 </li>
-                        
+
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">16 Northolt Road, Harrow, England, HA2 0ER</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="mailto:marketing@webdevsphere.co.uk">info@webdevspehre.com</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="tel:+44 20 3608 8161">+44 20 3608 8161</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="mailto:marketing@webdevsphere.co.uk">info@webdevsphere.com</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="tel:+44 20 4615 7000">+44 20 4615 7000</a></li>
                                 {/* <li className="my-3 opacity-80">
                                     <img src="/Images/download3.svg" alt="Google Map" className="w-40 h-auto" />
                                 </li> */}
