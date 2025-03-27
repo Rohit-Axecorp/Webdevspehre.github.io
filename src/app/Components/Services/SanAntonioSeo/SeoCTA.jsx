@@ -24,7 +24,7 @@ export default function SeoCTA() {
                         <p className="mb-6 2xl:text-lg lg:text-base text-sm">
                             Unleash the true potential of your online presence with our San Antonio SEO services. We ensure measurable results that fuel your business growth by delivering tailored strategies designed to enhance visibility and attract high-quality traffic. Let’s work together to turn your website into a conversion powerhouse and a market leader.
                         </p>
-                        <button className="bg-black text-white px-6 md:px-8 py-3 md:py-4 rounded hover:bg-gray-900 w-full md:w-1/2">
+                        <button className="open-popup bg-black text-white px-6 md:px-8 py-3 md:py-4 rounded hover:bg-gray-900 w-full md:w-1/2">
                             Start Your Growth Journey
                         </button>
                     </div>

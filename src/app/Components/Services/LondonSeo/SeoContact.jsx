@@ -2,6 +2,7 @@
 import React from 'react'
 import Image from 'next/image';
 import Form from '../../Form/Form';
+import PopupModal from '../../PopupModal';
 
 export default function SeoContact() {
 
@@ -32,7 +33,8 @@ export default function SeoContact() {
                   <Image src="/Images/bannerLogo.webp" alt="Clutch 2021" width={500} height={150} />
                 </div>
               </div>
-              <button className="group mt-6 relative px-6 py-3 border border-white rounded-full text-base 2xl:text-xl flex items-center justify-center gap-2 text-white  transition-all duration-300 hover:bg-red-600 hover:text-white hover:border-transparent">
+              <PopupModal />
+              <button className="open-popup group mt-6 relative px-6 py-3 border border-white rounded-full text-base 2xl:text-xl flex items-center justify-center gap-2 text-white  transition-all duration-300 hover:bg-red-600 hover:text-white hover:border-transparent">
                 Claim Your Quotation
                 <svg
                   className="w-4 h-4 sm:w-5 sm:h-5 transition-transform duration-300 transform group-hover:translate-x-2"

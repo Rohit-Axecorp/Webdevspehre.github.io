@@ -28,7 +28,7 @@ export default function SeoAudit() {
                         </p>
 
                         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                            <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-full">
+                            <button className="open-popup bg-red-500 hover:bg-red-600 text-white font-semibold px-6 py-3 rounded-full">
                                 Let’s Build Your Website!
                             </button>
 

@@ -33,11 +33,6 @@ export default function SeoLocation() {
           <p className="2xl:text-lg lg:text-base text-sm font-medium">
             Working with a dynamic team across all time zones, we are uniquely placed to deliver results regardless of where your business happens to be. As your business grows so do we, continuing to grow it globally and innovate with you.
           </p>
-          <p>
-            <a href="/join-us" className="text-[#ED1E3A]  font-semibold 2xl:text-lg lg:text-base text-sm flex items-center">
-              Let’s Work Together
-            </a>
-          </p>
         </div>
 
         {/* Right Column - Google Map Embed */}

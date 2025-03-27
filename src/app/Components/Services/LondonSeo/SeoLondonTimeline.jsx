@@ -38,7 +38,7 @@ export default function SeoLondonTimeline() {
             </div>
 
             <div className="mt-10">
-                <button className="border-2 border-[#ED1E3A] text-[#ED1E3A] hover:bg-[#ED1E3A] hover:text-white px-6 py-3 rounded-full font-medium transition">
+                <button className="open-popup border-2 border-[#ED1E3A] text-[#ED1E3A] hover:bg-[#ED1E3A] hover:text-white px-6 py-3 rounded-full font-medium transition">
                     Get Industry Specific Web Development
                 </button>
             </div>

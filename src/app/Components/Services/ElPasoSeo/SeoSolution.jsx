@@ -21,7 +21,7 @@ export default function SeoSolution() {
               <p className="mb-6 text-white 2xl:text-lg lg:text-base text-sm">
                 We take care of the basics of keyword research, link building, on-page optimization, and technical SEO to ready your website for success. By partnering with our SEO company El Paso Texas you already know how important it is to have a strong, comprehensive approach that generates real traffic, drives conversions, and boosts brand awareness.
               </p>
-              <button className="bg-black text-white px-6 py-3 rounded hover:bg-gray-800 w-2/3 ">
+              <button className="open-popup bg-black text-white px-6 py-3 rounded hover:bg-gray-800 w-2/3 ">
                 Book Your Consultation Today!
               </button>
             </div>

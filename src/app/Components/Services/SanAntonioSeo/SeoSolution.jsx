@@ -21,7 +21,7 @@ export default function SeoSolution() {
               <p className="mb-6 text-white 2xl:text-lg lg:text-base text-sm">
                 Our best SEO service San Antonio covers everything from on-page and off-page SEO, local search to technical optimizations, website architecture fine-tuning and keyword integration. With this complete approach, your website doesn’t just rank higher but it also generates more engagement and conversions.
               </p>
-              <button className="bg-black text-white px-6 py-3 rounded hover:bg-gray-800 w-2/3 ">
+              <button className="open-popup bg-black text-white px-6 py-3 rounded hover:bg-gray-800 w-2/3 ">
                 Let’s Discuss Your Plan
               </button>
             </div>

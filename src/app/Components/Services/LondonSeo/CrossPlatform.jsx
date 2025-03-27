@@ -19,7 +19,7 @@ export default function CrossPlatform() {
                             Our web development company London facilitates our clients access to the best of the industry, using the most advanced technologies in a strategy-led approach. We have a combination of complete web development services in London with a client focus ensuring unmatched outcomes that maximize your brand’s exposure and engagement.
                         </p>
 
-                        <button className="group mt-5 relative px-6 py-3 text-white border-[#ED1E3A] bg-red-600 rounded-full 2xl:text-2xl lg:text-lg text-base  flex items-center justify-center gap-2 transition-all duration-300 hover:bg-red-600 hover:text-white hover:border-transparent">
+                        <button className="open-popup group mt-5 relative px-6 py-3 text-white border-[#ED1E3A] bg-red-600 rounded-full 2xl:text-2xl lg:text-lg text-base  flex items-center justify-center gap-2 transition-all duration-300 hover:bg-red-600 hover:text-white hover:border-transparent">
                             Let’s Discuss Your Plan
                         </button>
                     </div>

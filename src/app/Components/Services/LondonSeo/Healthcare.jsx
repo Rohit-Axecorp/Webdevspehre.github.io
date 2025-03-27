@@ -22,7 +22,7 @@ export default function Healthcare() {
                             WebDev Sphere is a web development agency in London that has built a great reputation for delivering user-first web solutions that clearly produce results. We facilitate our clients with an experienced and skillful developer team to create fully functional websites, aesthetically appealing, and high-performing to serve various business requirements. Being among the top web development companies in London, we concentrate on excellence, easy user experience, and customer satisfaction. Our web solutions align with your objectives and set out to deliver measurable results.
 
                         </p>
-                        <button className="group relative px-8 py-2 sm:px-5 sm:py-3 2xl:px-10 2xl:py-4 border text-white border-[#ED1E3A] bg-red-600 rounded-full text-base 2xl:text-xl font-semibold flex items-center justify-center gap-2 transition-all duration-300 hover:text-white hover:border-transparent">
+                        <button className="open-popup group relative px-8 py-2 sm:px-5 sm:py-3 2xl:px-10 2xl:py-4 border text-white border-[#ED1E3A] bg-red-600 rounded-full text-base 2xl:text-xl font-semibold flex items-center justify-center gap-2 transition-all duration-300 hover:text-white hover:border-transparent">
                             Let’s Discuss Your Project
                         </button>
                     </div>

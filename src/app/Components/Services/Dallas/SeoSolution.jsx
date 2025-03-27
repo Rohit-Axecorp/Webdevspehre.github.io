@@ -18,7 +18,7 @@ export default function SeoSolution() {
               <p className="mb-6 text-white 2xl:text-lg lg:text-base text-sm">
                 Website Dev Sphere is a leading SEO company in Dallas that works on driving visibility, boosting organic traffic, and delivering tangible results. Our team has years of experience helping businesses achieve online success. With us, get your website on the top rankings on search engines, reach your target audience, and convert visitors into loyal customers.
               </p>
-              <button className="bg-black text-white px-6 py-3 rounded hover:bg-gray-800 w-2/3 ">
+              <button className="open-popup bg-black text-white px-6 py-3 rounded hover:bg-gray-800 w-2/3">
                 Get Custom Solution
               </button>
             </div>

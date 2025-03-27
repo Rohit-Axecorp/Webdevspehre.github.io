@@ -1,8 +1,7 @@
 import React from 'react';
 import Image from "next/image";
 
-export default function 
-Ctaweblondon() {
+export default function Ctaweblondon() {
     return (
         <section className="relative w-full">
             <div className="relative text-white w-full h-full py-20">
@@ -32,7 +31,7 @@ Ctaweblondon() {
                         </p>
 
                         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                            <button className="bg-[#ED1E3A] hover:bg-[#ED1E3A] text-white font-semibold px-6 py-3 rounded-full">
+                            <button className="open-popup bg-[#ED1E3A] hover:bg-[#ED1E3A] text-white font-semibold px-6 py-3 rounded-full">
                                 Talk to Our Experts on the Go!
                             </button>
                         </div>

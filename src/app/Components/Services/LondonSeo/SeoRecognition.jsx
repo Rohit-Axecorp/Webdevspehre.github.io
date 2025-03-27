@@ -30,7 +30,7 @@ export default function SeoRecognition() {
             </p>
 
             <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-              <button className="bg-[#ED1E3A] hover:bg-[#ED1E3A] text-white font-semibold px-6 py-3 rounded-full">
+              <button className="open-popup bg-[#ED1E3A] hover:bg-[#ED1E3A] text-white font-semibold px-6 py-3 rounded-full">
                 Design Your Custom Website with Us
               </button>
             </div>

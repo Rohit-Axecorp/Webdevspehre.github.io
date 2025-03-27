@@ -24,7 +24,7 @@ export default function SeoCTA() {
                         <p className="mb-6 2xl:text-lg lg:text-base text-sm">
                             Our El Paso SEO services give you the experience of a smarter, more effective way to increase visibility and outshine your competitors. We create tailor-made methods that can be used to push focused traffic and improve conversions and growth for your business in the long term. Together we will make your digital presence an engine of success.
                         </p>
-                        <button className="bg-black text-white px-6 md:px-8 py-3 md:py-4 rounded hover:bg-gray-900 w-full md:w-1/2">
+                        <button className="open-popup bg-black text-white px-6 md:px-8 py-3 md:py-4 rounded hover:bg-gray-900 w-full md:w-1/2">
                             Start Your Growth Journey
                         </button>
                     </div>
