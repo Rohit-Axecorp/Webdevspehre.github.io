@@ -10,12 +10,12 @@ import TechnologyStack from '@/app/Components/Services/DigitalMarketing/Technolo
 import SeoBusinessSolutions from '@/app/Components/Services/DigitalMarketing/SeoBusinessSolutions'
 import SeoCompany from '@/app/Components/Services/DigitalMarketing/SeoCompany'
 import SeoContact from '@/app/Components/Services/DigitalMarketing/SeoContact'
-import SeoLocation from '@/app/Components/Services/DigitalMarketing/SeoLocation'
 import SeoQuote from '@/app/Components/Services/DigitalMarketing/SeoQuote'
 import SeoRecognition from '@/app/Components/Services/Seo/SeoRecognition'
 import SeoServicesIncludes from '@/app/Components/Services/DigitalMarketing/SeoServicesIncludes'
 import SeoReviews from '../Components/Services/DigitalMarketing/SeoReviews'
 import RootLayout from '../layout';
+import SeoLocation from '../Components/Services/Webdesign/SeoLocation'
 
 export const metadata = {
     title: "Digital Marketing Services Agency in Houston Texas",

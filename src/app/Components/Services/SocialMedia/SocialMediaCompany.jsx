@@ -1,5 +1,3 @@
-"use client";
-
 import React from 'react';
 
 export default function SocialMediaCompany() {
@@ -37,7 +35,7 @@ export default function SocialMediaCompany() {
                     </div>
 
                     <div className="flex items-center mt-4">
-                        <span className="2xl:text-lg lg:text-base text-sm font-semibold text-red-500 mr-2">WE CAN INCREASE YOUR LEADS AND SALES</span>
+                        <span className="open-popup 2xl:text-lg lg:text-base text-sm font-semibold text-red-500 mr-2 cursor-pointer">WE CAN INCREASE YOUR LEADS AND SALES</span>
                         <span className="text-2xl text-gray-800">&rarr;</span>
                     </div>
                 </div>

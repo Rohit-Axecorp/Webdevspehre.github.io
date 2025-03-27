@@ -21,12 +21,12 @@ export default function Portfolio() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full mx-auto">
                 {[
-                    { src: '/Images/Image1.jpg', title: 'Lorem Ipsum', desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard' },
-                    { src: '/Images/Image2.jpg', title: 'Lorem Ipsum', desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard' },
-                    { src: '/Images/Image3.jpg', title: 'Lorem Ipsum', desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard' },
-                    { src: '/Images/Image4.jpg', title: 'Lorem Ipsum', desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard' },
-                    { src: '/Images/Image5.jpg', title: 'Lorem Ipsum', desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard' },
-                    { src: '/Images/Image6.jpg', title: 'Lorem Ipsum', desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard' },
+                    { src: '/Images/Image1.jpg' },
+                    { src: '/Images/Image2.jpg' },
+                    { src: '/Images/Image3.jpg' },
+                    { src: '/Images/Image4.jpg' },
+                    { src: '/Images/Image5.jpg' },
+                    { src: '/Images/Image6.jpg' },
                 ].map((item, index) => (
                     <div
                         key={index}
@@ -41,8 +41,6 @@ export default function Portfolio() {
                         />
                         <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-start p-4 lg:p-10">
                             <div className="text-left text-white">
-                                <h2 className="text-xl md:text-2xl lg:text-[#ED1E3A] font-bold mb-2">{item.title}</h2>
-                                <p className="text-base lg:text-lg">{item.desc}</p>
                             </div>
                         </div>
                     </div>

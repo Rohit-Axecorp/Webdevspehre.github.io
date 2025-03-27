@@ -2,6 +2,7 @@ import Homepage from './Home/page';
 import '../app/globals.css';
 import Script from 'next/script'; // Import the Script component from next/script
 import Head from 'next/head'; // Import the Head component from next/head
+import PopupModal from './Components/PopupModal';
 
 export const metadata = {
   title: "Website Development Company", // Dynamic title
@@ -16,6 +17,7 @@ export default function Home() {
         <link rel="icon" href="/Images/21.png" />
       </Head>
 
+      <PopupModal />
       <Script
         strategy="afterInteractive"
         src="https://www.googletagmanager.com/gtag/js?id=G-Y31S4WWE7N"

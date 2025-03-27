@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa'; // Importing an icon from react-icons
+import PopupModal from '../../PopupModal';
 
 export default function WebdesignCTA() {
     return (
@@ -16,7 +17,8 @@ export default function WebdesignCTA() {
                         Your journey towards the perfect website is just one click away.</p>
 
                     {/* Button */}
-                    <button className="flex items-center justify-center bg-white text-[#ED1E3A]  py-4 px-8 md:py-5 md:px-10 rounded-lg 2xl:text-lg lg:text-base text-sm font-semibold hover:bg-gray-200 transition duration-300 ease-in-out">
+                    <PopupModal />
+                    <button className="open-popup flex items-center justify-center bg-white text-[#ED1E3A]  py-4 px-8 md:py-5 md:px-10 rounded-lg 2xl:text-lg lg:text-base text-sm font-semibold hover:bg-gray-200 transition duration-300 ease-in-out">
                         Claim Your Free Proposal
                         <FaArrowRight className="ml-2 2xl:text-lg lg:text-base text-sm" />
                     </button>

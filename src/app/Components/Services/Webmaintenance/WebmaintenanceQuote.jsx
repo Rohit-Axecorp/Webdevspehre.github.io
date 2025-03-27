@@ -1,4 +1,3 @@
-"use client";
 import React from 'react';
 import 'react-phone-number-input/style.css';
 import Form from '../../Form/Form';
@@ -28,8 +27,10 @@ export default function WebmaintenanceQuote() {
               <li>Increase return on marketing investment</li>
             </ul>
 
-            <button className="flex items-center justify-center bg-white text-[#ED1E3A] 2xl:text-lg lg:text-base text-sm py-4 px-8 md:py-5 md:px-10 rounded-lg font-semibold hover:bg-gray-200 transition duration-300 ease-in-out">
+            <button className="scroll-smooth flex items-center justify-center bg-white text-[#ED1E3A] 2xl:text-lg lg:text-base text-sm py-4 px-8 md:py-5 md:px-10 rounded-lg font-semibold hover:bg-gray-200 transition duration-300 ease-in-out">
+              <a href='#vpap'>
               View pricing and plan
+                </a>
             </button>
           </div>
 

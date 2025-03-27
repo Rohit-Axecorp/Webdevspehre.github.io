@@ -12,7 +12,7 @@ export default function Thankyou() {
           We appreciate your interest and will get back to you as soon as possible.
         </p>
         <p className="text-sm text-gray-500 mb-8">
-          If you need immediate assistance, feel free to contact us at <a href="tel:+1234567890" className="text-[#ED1E3A]">+1 (234) 567-890</a>.
+          If you need immediate assistance, feel free to contact us at <a href="tel:+44 20 4615 7000" className="text-[#ED1E3A]">+44 20 4615 7000</a>.
         </p>
         <div className="flex justify-center">
           <a

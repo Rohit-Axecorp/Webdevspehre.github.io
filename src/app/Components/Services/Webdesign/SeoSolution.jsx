@@ -1,5 +1,3 @@
-"use client";
-
 import React from "react";
 
 export default function SeoSolution() {
@@ -16,9 +14,9 @@ export default function SeoSolution() {
                 Kick Upstairs Your Brand with Custom Website Design Houston TX
               </h2>
               <p className="mb-6 text-white 2xl:text-lg lg:text-base text-sm">
-              At WebDev Sphere, we specialize in crafting bespoke website designs tailored to your unique brand identity and audience. As a leading Houston web design agency, we focus on creating responsive, user-friendly designs that not only captivate but also convert. By addressing key design elements like intuitive navigation, mobile responsiveness, and aesthetic appeal, we ensure your site stands out in today’s competitive market. With our responsive website design Houston expertise, we help businesses enhance their online visibility, improve user engagement, and drive measurable growth.
+                At WebDev Sphere, we specialize in crafting bespoke website designs tailored to your unique brand identity and audience. As a leading Houston web design agency, we focus on creating responsive, user-friendly designs that not only captivate but also convert. By addressing key design elements like intuitive navigation, mobile responsiveness, and aesthetic appeal, we ensure your site stands out in today’s competitive market. With our responsive website design Houston expertise, we help businesses enhance their online visibility, improve user engagement, and drive measurable growth.
               </p>
-              <button className="bg-black text-white px-6 py-3 rounded hover:bg-gray-800 w-full md:w-2/3 lg:w-1/2 2xl:text-lg lg:text-base text-sm">
+              <button className="open-popup bg-black text-white px-6 py-3 rounded hover:bg-gray-800 w-full md:w-2/3 lg:w-1/2 2xl:text-lg lg:text-base text-sm">
                 Get Custom Solution
               </button>
             </div>

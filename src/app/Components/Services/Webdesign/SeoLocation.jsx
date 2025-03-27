@@ -38,7 +38,7 @@ export default function SeoLocation() {
             With a diverse team of different regions, we live and work in every time zone. We continuously expand our horizons as we do it with your businesses.
           </p>
           <p>
-            <a href="/join-us" className="text-[#ED1E3A]  font-semibold 2xl:text-lg lg:text-base text-sm flex items-center">
+            <a className="open-popup text-[#ED1E3A]  font-semibold 2xl:text-lg lg:text-base text-sm flex items-center cursor-pointer">
               Join our team!
             </a>
           </p>

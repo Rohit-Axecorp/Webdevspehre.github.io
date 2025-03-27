@@ -1,5 +1,3 @@
-"use client";
-
 import React from 'react';
 
 export default function SeoCompany() {
@@ -40,7 +38,7 @@ export default function SeoCompany() {
                     </div>
 
                     <div className="flex items-center mt-4">
-                        <span className="2xl:text-lg lg:text-base text-sm font-semibold text-red-500 mr-2">Want better results? We’re here to help boost your leads and sales.
+                        <span className="open-popup 2xl:text-lg lg:text-base text-sm font-semibold text-red-500 mr-2 cursor-pointer">Want better results? We’re here to help boost your leads and sales.
                         </span>
                         <span className="text-2xl text-gray-800">&rarr;</span>
                     </div>

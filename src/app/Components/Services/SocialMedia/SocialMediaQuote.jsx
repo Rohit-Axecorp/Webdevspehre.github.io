@@ -35,10 +35,10 @@ export default function SocialMediaQuote() {
               Speak to Our SEO Team Right Away
             </h3>
 
-            {/* Phone Number with Icon */}
-            <div className="flex items-center text-[#ED1E3A]  2xl:text-lg lg:text-base text-sm font-bold">
+              {/* Phone Number with Icon */}
+              <div className="flex items-center text-[#ED1E3A] 2xl:text-lg lg:text-base text-sm font-bold">
               <FaPhoneAlt className="mr-2" />
-              <a href="tel:(312) 847 4286">(312) 847 4286</a>
+              <a href="tel:+44 20 4615 7000">+44 20 4615 7000</a>
             </div>
           </div>
           <Form />

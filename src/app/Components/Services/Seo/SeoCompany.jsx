@@ -1,5 +1,3 @@
-"use client";
-
 import React from 'react';
 
 export default function SeoCompany() {
@@ -55,7 +53,7 @@ export default function SeoCompany() {
                     </div>
 
                     <div className="flex items-center mt-4">
-                        <span className="text-lg font-semibold text-blue-600 mr-2">WE CAN INCREASE YOUR LEADS AND SALES</span>
+                        <span className="open-popup text-lg font-semibold text-blue-600 mr-2 cursor-pointer">WE CAN INCREASE YOUR LEADS AND SALES</span>
                         <span className="text-2xl text-gray-800">&rarr;</span>
                     </div>
                 </div>

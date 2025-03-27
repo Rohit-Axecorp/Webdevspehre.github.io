@@ -64,15 +64,18 @@ export default function Footer() {
                             {/* Column 4 - Solutions */}
                             <ul className="text-white">
                                 <li className="text-lg mb-2 relative">
-                                    Solutions
+                                    Our Services
                                     <div className="before:content-[''] before:absolute before:left-0 before:bottom-[-2px] before:h-[2px] before:w-[35px] before:bg-white"></div>
                                 </li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Learning Management Solution/LMS</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">E-Learning</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Ecommerce Development</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">CMS Development</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Property Management Solution</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Template Management Solution</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Search Engine Optimization</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Local Search Engine Optimization Company Houston</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">PPC Management</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Reputation Management</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Social Media Managment</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Website Design & Development</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Mobile App Development</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Website Audit Report</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Content Writing Services</a></li>
                             </ul>
                             {/* Column 5 - Contacts */}
                             <ul className="text-white">

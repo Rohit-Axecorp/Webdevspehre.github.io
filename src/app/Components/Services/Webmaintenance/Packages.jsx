@@ -19,7 +19,7 @@ export default function Packages() {
     };
 
     return (
-        <section className='container py-12'>
+        <section className='container py-12' id='vpap'>
             <div className='flex flex-col items-center'>
                 <h2 className="text-[#ED1E3A] text-3xl lg:text-4xl 2xl:text-5xl font-bold mb-12 text-center">
                     <p className="text-[#ED1E3A]">All in One</p>
@@ -56,7 +56,7 @@ export default function Packages() {
                     >
                         {showDetails.basic ? 'Hide Package Details' : 'See Full Package Details'}
                     </button>
-                    <button className="mt-4 w-full bg-black text-white px-4 py-2 rounded hover:bg-gray-800">
+                    <button className="open-popup mt-4 w-full bg-black text-white px-4 py-2 rounded hover:bg-gray-800">
                         Get Quote
                     </button>
                 </div>
@@ -89,7 +89,7 @@ export default function Packages() {
                     >
                         {showDetails.standard ? 'Hide Package Details' : 'See Full Package Details'}
                     </button>
-                    <button className="mt-4 w-full bg-white text-black px-4 py-2 rounded hover:bg-gray-300">
+                    <button className="open-popup mt-4 w-full bg-white text-black px-4 py-2 rounded hover:bg-gray-300">
                         Get Quote
                     </button>
                 </div>
@@ -122,7 +122,7 @@ export default function Packages() {
                     >
                         {showDetails.premium ? 'Hide Package Details' : 'See Full Package Details'}
                     </button>
-                    <button className="mt-4 w-full bg-black text-white px-4 py-2 rounded hover:bg-gray-800">
+                    <button className="open-popup mt-4 w-full bg-black text-white px-4 py-2 rounded hover:bg-gray-800">
                         Get Quote
                     </button>
                 </div>
