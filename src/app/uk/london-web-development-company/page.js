@@ -20,12 +20,12 @@ import WebDevelopmentFeatures from '@/app/Components/Services/LondonSeo/WebDevel
 import Ctaweblondon from '@/app/Components/Services/LondonSeo/Ctaweblondon';
 
 export const metadata = {
-    title: "Leading London SEO Company",
-    description: "Web Dev Sphere is an award-winning Austin SEO company specializing in top-tier SEO solutions. Partner with us today to make your mark in the industry." 
+    title: "London Web Development Company UK",
+    description: "Looking for a top-rated web development company in London, UK? We design and build high-performance, SEO-optimized websites that drive traffic, leads, and growth. From custom development to eCommerce and WordPress solutions, our expert team delivers stunning, responsive, and user-friendly websites tailored to your business needs."
 };
 
 export default function Page() {
-    const canonicalUrl = "https://webdevsphere.com/austin-seo-company";
+    const canonicalUrl = "https://webdevsphere.com/uk/london-webdevelopment-company";
 
     return (
         <>
