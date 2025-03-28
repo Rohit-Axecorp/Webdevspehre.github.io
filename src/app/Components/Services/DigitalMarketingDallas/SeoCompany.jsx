@@ -9,7 +9,7 @@ export default function SeoCompany() {
                 <div className="w-full md:w-1/2 relative">
                     <div className="absolute top-0 left-0 w-full h-full -mb-10 md:-mb-16 lg:-mb-32"> {/* Adjusted margin for smaller screens */}
                         <img
-                            src="/Images/Chicago-SEO-Agency.jpg.webp"
+                            src="/Images/digital-marketing-1.jpg"
                             alt="Chicago City View"
                             className="w-full h-full object-cover"
                         />

@@ -8,7 +8,7 @@ export default function SocialMediaCompany() {
                 <div className="w-full md:w-1/2 relative">
                     <div className="absolute top-0 left-0 w-full h-full -mb-10 md:-mb-16 lg:-mb-32"> {/* Adjusted margin for smaller screens */}
                         <img
-                            src="/Images/social-media-marketing-500x500.webp"
+                            src="/Images/internet-3.jpg"
                             alt="Chicago City View"
                             className="w-full h-full object-contain"
                         />

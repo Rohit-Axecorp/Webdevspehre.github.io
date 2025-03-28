@@ -9,9 +9,11 @@ export default function Awards() {
         { id: 2, image: '/Images/rank-watch.webp', title: 'Web Excellence', subtitle: 'Web Excellence Awards' },
         { id: 3, image: '/Images/inc-5000.webp', title: 'Horizon Award', subtitle: 'Gold Awards Winner 2020' },
         { id: 4, image: '/Images/dot-com.webp', title: 'Dot Comm', subtitle: 'Excellence in Web Creativity' },
-        { id: 5, image: '/Images/dot-com.webp', title: 'INC. 5000', subtitle: 'Americas Fastest Growing Companies' },
-        { id: 6, image: '/Images/dot-com.webp', title: 'Rank Watch', subtitle: 'Top Web Designing Agencies 2023' },
-        { id: 7, image: '/Images/dot-com.webp', title: 'Rank Watch', subtitle: 'Top Web Designing Agencies 2023' },
+        { id: 5, image: '/Images/Frame-5.svg', title: 'INC. 5000', subtitle: 'Americas Fastest Growing Companies' },
+        { id: 6, image: '/Images/Frame-4.svg', title: 'Rank Watch', subtitle: 'Top Web Designing Agencies 2023' },
+        { id: 7, image: '/Images/Group-3.svg', title: 'Rank Watch', subtitle: 'Top Web Designing Agencies 2023' },
+        { id: 7, image: '/Images/yelp-logo-color.svg', title: 'Rank Watch', subtitle: 'Top Web Designing Agencies 2023' },
+        { id: 7, image: '/Images/UpCity-logo-color.svg', title: 'Rank Watch', subtitle: 'Top Web Designing Agencies 2023' },
     ];
 
     return (

@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function SeoSolution() {
-  const image = '/Images/comrade-img-1.jpg'; // Static image path
+  const image = '/Images/website-8.jpg'; // Static image path
 
   return (
     <>

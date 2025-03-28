@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function SeoCTA() {
-    const image = '/Images/national_cta-cutout2.webp'; // Static image path
+    const image = '/Images/remover.png'; // Static image path
     const backgroundImage = '/Images/Linework.svg'; // Background image path
 
     return (

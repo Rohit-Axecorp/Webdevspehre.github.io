@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 export default function SeoBusinessSolutions() {
 
     const images = [
-        '/Images/Best SEO Company Austin.png',
+        '/Images/computer-7.jpg',
     ];
     return (
         <>

@@ -61,9 +61,9 @@ export default function BusinessNeed() {
                 </div>
                 <div className="flex items-center justify-center">
                     <img 
-                        src="/Images/Website-Maintenance-Technologies.png" 
+                        src="/Images/student-8.jpg" 
                         alt="Website Maintenance Technologies" 
-                        className="w-2/3"
+                        className="w-full"
                     />
                 </div>
             </div>

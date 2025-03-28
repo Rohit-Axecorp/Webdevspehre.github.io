@@ -3,7 +3,7 @@
 import React from "react";
 
 export default function SeoSolution() {
-  const image = '/Images/Seo.png'; // Static image path
+  const image = '/Images/internet-3.jpg'; // Static image path
 
   return (
     <>

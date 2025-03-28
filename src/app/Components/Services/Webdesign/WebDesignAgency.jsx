@@ -31,37 +31,12 @@ export default function WebDesignAgency() {
         {/* Right Side: Video Thumbnail */}
         <div className="md:w-1/2 flex flex-col items-center relative">
           <img
-            src="/Images/Comrade-Digital-Marketing-Team-of-Experts.webp"
+            src="/Images/houston-3.jpg"
             alt="Video Thumbnail"
             width={600}
             height={350}
             className="rounded-lg mb-4"
           />
-
-          {/* Play Icon and Watch Our Reel Text */}
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-            <div className="flex flex-col items-center">
-              <div className="bg-red-600 p-4 rounded-full">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-10 w-10 text-white"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M14.752 11.168l-5.304-3.012A1 1 0 008 9.058v5.884a1 1 0 001.448.894l5.304-3.012a1 1 0 000-1.788z"
-                  />
-                </svg>
-              </div>
-              <span className="mt-2 text-white text-lg font-medium">
-                Watch Our Reel
-              </span>
-            </div>
-          </div>
         </div>
       </div>
     </section>

@@ -21,12 +21,12 @@ export default function Portfolio() {
 
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-full mx-auto">
                 {[
-                    { src: '/Images/Image1.jpg' },
-                    { src: '/Images/Image2.jpg' },
-                    { src: '/Images/Image3.jpg' },
-                    { src: '/Images/Image4.jpg' },
-                    { src: '/Images/Image5.jpg' },
-                    { src: '/Images/Image6.jpg' },
+                    { src: '/Images/port1.jpg' },
+                    { src: '/Images/port2.jpg' },
+                    { src: '/Images/port9.jpg' },
+                    { src: '/Images/port8.jpg' },
+                    { src: '/Images/port5.jpg' },
+                    { src: '/Images/port7.jpg' },
                 ].map((item, index) => (
                     <div
                         key={index}

@@ -112,7 +112,7 @@ export default function Form() {
                                 required
                             />
                             <span>
-                                Please check the box to communicate via SMS or Email (<a href="#" className="text-blue-500 underline">Terms & Conditions</a> & <a href="#" className="text-blue-500 underline">Privacy Policy</a>).
+                                Please check the box to communicate via SMS or Email (<a href="/terms-and-conditions" className="text-blue-500 underline">Terms & Conditions</a> & <a href="/privacy-policy" className="text-blue-500 underline">Privacy Policy</a>).
                             </span>
                         </label>
                     </div>
