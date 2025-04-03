@@ -202,7 +202,7 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="/" className="block py-2 lg:px-2 text-black hover:text-black 2xl:text-lg text-sm font-normal">
+              <Link href="/portfolio" className="block py-2 lg:px-2 text-black hover:text-black 2xl:text-lg text-sm font-normal">
                 Portfolio
               </Link>
             </li>
