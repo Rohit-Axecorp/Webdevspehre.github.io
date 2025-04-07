@@ -24,27 +24,27 @@ const services = [
     {
         title: 'Technical SEO',
         description: 'With our specialized technical SEO services, our expert team ensures your site is optimized for both users and search engines, leading to improved performance, higher rankings, and a better overall experience.',
-        icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
+        icon: '/Images/s-icon5.png.webp', // Replace with the correct icon path
     },
     {
         title: 'Amazon Marketing Services',
         description: 'Your product listing is your storefront on Amazon, and it needs to make a strong first impression. We optimize your product titles, descriptions, and bullet points to ensure they are keyword-rich and compelling.',
-        icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
+        icon: '/Images/s-icon6.png.webp', // Replace with the correct icon path
     },
     {
         title: 'eCommerce SEO',
         description: 'Our e-commerce SEO services enhance your visibility and drive targeted traffic. We focus on optimizing every aspect of your website, from product descriptions to technical elements that improve site performance.  ',
-        icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
+        icon: '/Images/s-icon7.png.webp', // Replace with the correct icon path
     },
     {
         title: 'Franchise SEO',
         description: 'Franchising can be a powerful way to grow your brand, but standing out can be challenging. We help franchise businesses boost their online visibility, both at the franchise level and across the entire brand.',
-        icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
+        icon: '/Images/s-icon8.png.webp', // Replace with the correct icon path
     },
     {
         title: 'Digital PR & Link Building',
         description: 'Quality backlinks from reputable sites signal search engines that your content is valuable and trustworthy. Our approach is focused on acquiring links from authoritative sources that align with your brand’s goals. ',
-        icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
+        icon: '/Images/s-icon9.png', // Replace with the correct icon path
     },
 
 ];

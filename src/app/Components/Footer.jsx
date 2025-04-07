@@ -5,7 +5,7 @@ import {
     faPhone,
     faEnvelope,
     faMapMarkerAlt,
-  } from 'react-icons/fa';
+} from 'react-icons/fa';
 
 export default function Footer() {
     return (
@@ -69,7 +69,7 @@ export default function Footer() {
                                 </li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Search Engine Optimization</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Local Search Engine Optimization Company Houston</a></li>
-                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">PPC Management</a></li>
+                                <li className="my-3 opacity-80 hover:underline text-sm"><a href="/ppc-management">PPC Management</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Reputation Management</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Social Media Managment</a></li>
                                 <li className="my-3 opacity-80 hover:underline text-sm"><a href="#">Website Design & Development</a></li>

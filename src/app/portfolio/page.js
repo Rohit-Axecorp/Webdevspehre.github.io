@@ -9,6 +9,7 @@ import PortfolioSection01 from '../Components/Portfolio/PortfolioSection01';
 import PortfolioSection02 from '../Components/Portfolio/PortfolioSection02';
 import PortfolioSection03 from '../Components/Portfolio/PortfolioSection03';
 import PortfolioSection04 from '../Components/Portfolio/PortfolioSection04';
+import PortfolioSection05 from '../Components/Portfolio/PortfolioSection05';
 
 export const metadata = {
     title: "Portfolio | Web Dev Sphere",
@@ -29,6 +30,7 @@ export default function about() {
             <PortfolioSection02 />
             <PortfolioSection03 />
             <PortfolioSection04 />
+            <PortfolioSection05 />
             <CTAsection />
             <Footer />
 
