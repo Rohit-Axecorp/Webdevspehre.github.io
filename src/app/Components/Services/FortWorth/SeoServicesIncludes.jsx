@@ -45,7 +45,7 @@ const services = [
     {
         title: 'Digital PR & Link Building',
         description: 'Our link-building strategies focus on acquiring high-quality backlinks from reputable sites, which are crucial for improving your search engine rankings. Build relationships with sites that align with your brand’s values!',
-        icon: '/Images/s-icon5.png.webp', // Replace with the correct icon path
+        icon: '/Images/s-icon9.png', // Replace with the correct icon path
     },
 ];
 

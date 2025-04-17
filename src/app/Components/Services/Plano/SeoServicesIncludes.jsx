@@ -24,27 +24,27 @@ const services = [
     {
         title: 'Technical SEO',
         description: 'Is your website struggling to perform? Our technical SEO service is here to help! We focus on improving the backend aspects of your site, to help it perform better, be easier to navigate, and rank higher on search engines.',
-        icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
+        icon: '/Images/s-icon5.png.webp', // Replace with the correct icon path
     },
     {
         title: 'Amazon Marketing Services',
         description: 'With millions of listings, it’s crucial to have a solid marketing strategy to capture the attention of potential buyers. Our Amazon Marketing Services are designed to help your products stand out in a competitive marketplace.',
-        icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
+        icon: '/Images/s-icon6.png.webp', // Replace with the correct icon path
     },
     {
         title: 'eCommerce SEO',
         description: 'Ready to take your eCommerce store to new heights? Our team of experts optimizes your product listings, category pages, and overall site structure to ensure they’re easily found by both search engines and shoppers.',
-        icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
+        icon: '/Images/s-icon7.png.webp', // Replace with the correct icon path
     },
     {
         title: 'Franchise SEO',
         description: 'Our Franchise Houston SEO services tackle the unique challenges faced by multi-location businesses. We concentrate on optimizing your online presence, enhancing local visibility, and driving targeted traffic to each franchise location.',
-        icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
+        icon: '/Images/s-icon8.png.webp', // Replace with the correct icon path
     },
     {
         title: 'Digital PR & Link Building',
         description: 'Digital PR and link building are essential for strengthening your online reputation and boosting your brand\'s visibility. By getting your brand featured on trusted websites, we help you build credibility and establish authority in the industry.',
-        icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
+        icon: '/Images/s-icon9.png', // Replace with the correct icon path
     }
 ];
 

@@ -1,7 +1,6 @@
 import React from 'react'
 import Form from '../Form/Form';
-
-
+import PopupModal from '../PopupModal';
 
 export default function PortfolioSection01() {
     return (
@@ -19,7 +18,7 @@ export default function PortfolioSection01() {
                         </p>
                         <div className="flex items-center my-8">
 
-
+                            <PopupModal />
                             <button id="open-popup" className="open-popup group relative px-8 py-2 sm:px-5 sm:py-3 2xl:px-10 2xl:py-4 border text-white border-[#ED1E3A] bg-red-600 rounded-full text-base 2xl:text-xl font-semibold flex items-center justify-center gap-2 transition-all duration-300 hover:text-white hover:border-transparent">
                                 Digitize Your Presence!
                                 {/* Inline SVG for the arrow icon */}

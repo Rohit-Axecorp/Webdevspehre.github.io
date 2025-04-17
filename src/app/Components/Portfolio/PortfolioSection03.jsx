@@ -52,7 +52,7 @@ export default function PortfolioSection03() {
   const [activeTab, setActiveTab] = useState('All');
   const [currentPage, setCurrentPage] = useState(1);
   const [loading, setLoading] = useState(false);
-  const itemsPerPage = 6;
+  const itemsPerPage = 9;
 
   const filteredProjects = activeTab === 'All'
     ? allProjects

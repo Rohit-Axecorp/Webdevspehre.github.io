@@ -24,27 +24,27 @@ const services = [
     {
         title: 'Technical SEO',
         description: 'Struggling with ranking on Google’s first page? Technical SEO problems could be why you’re not ranking higher on the SERP. Issues like rel=canonical tags or poor meta descriptions might be holding you back.',
-        icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
+        icon: '/Images/s-icon5.png.webp', // Replace with the correct icon path
     },
     {
         title: 'Amazon Marketing Services',
         description: 'Amazon marketing services can be a game-changer for brands looking to enhance their visibility, attract new customers, and drive sales. We help you promote your products and make them stand out in the market.',
-        icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
+        icon: '/Images/s-icon6.png.webp', // Replace with the correct icon path
     },
     {
         title: 'eCommerce SEO',
         description: 'Our team of SEO experts specializes in implementing effective Houston SEO strategies tailored specifically for eCommerce businesses, helping you drive organic traffic, boost sales, and grow your brand to success.',
-        icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
+        icon: '/Images/s-icon7.png.webp', // Replace with the correct icon path
     },
     {
         title: 'Franchise SEO',
         description: 'Our Franchise SEO services address the unique challenges of multi-location businesses. We focus on enhancing your online visibility, driving local traffic, and ultimately increasing your sales across all franchise locations.',
-        icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
+        icon: '/Images/s-icon8.png.webp', // Replace with the correct icon path
     },
     {
         title: 'Digital PR & Link Building',
         description: 'Digital PR & link building strengthen your online reputation by getting your brand featured on trusted sites and generating quality backlinks. With targeted outreach, we ensure your brand gets the exposure it deserves.',
-        icon: '/Images/s-icon4.png.webp', // Replace with the correct icon path
+        icon: '/Images/s-icon9.png', // Replace with the correct icon path
     }
 ];
 

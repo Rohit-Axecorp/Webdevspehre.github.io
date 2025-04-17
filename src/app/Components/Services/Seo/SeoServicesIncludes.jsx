@@ -44,7 +44,7 @@ const services = [
     {
         title: 'Conversion Rate Optimization',
         description: 'We transform website visitors into loyal customers by improving user experience, calls-to-action, and navigation. With our proven Houston SEO service, your business will see increased engagement and revenue.',
-        icon: '/Images/s-icon3.png.webp', // Replace with the correct icon path
+        icon: '/Images/s-icon9.png', // Replace with the correct icon path
     },
     // Add more services as needed
 ];

@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import PopupModal from "../PopupModal";
 
 export default function PPCSection01() {
     return (
@@ -45,8 +46,9 @@ export default function PPCSection01() {
                         />
                     </div>
 
+                    <PopupModal />
                     <button id="open-popup" className="open-popup group relative px-8 py-2 sm:px-5 sm:py-3 2xl:px-16 2xl:py-4 border text-white border-white bg-transparent rounded-full text-base 2xl:text-xl font-semibold flex items-center justify-center gap-2 transition-all duration-300 hover:text-white hover:border-white">
-                       Get In Touch
+                        Get In Touch
                     </button>
                 </div>
             </div>

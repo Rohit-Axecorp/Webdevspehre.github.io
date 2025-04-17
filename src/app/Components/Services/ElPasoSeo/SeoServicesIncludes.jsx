@@ -44,7 +44,7 @@ const services = [
     {
         title: 'Conversion Rate Optimization (CRO)',
         description: 'Turn visitors into loyal customers with our proven conversion rate optimization techniques. By analyzing user behavior and testing strategies, we maximize your ROI. Trust the El Paso SEO companies to supercharge your website’s performance.',
-        icon: '/Images/s-icon5.png.webp', // Replace with the correct icon path
+        icon: '/Images/s-icon9.png', // Replace with the correct icon path
     },
 ];
 
