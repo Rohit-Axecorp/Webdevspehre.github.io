@@ -9,13 +9,27 @@ import Footer from "@/app/Components/Footer";
 export default function BlogPostPage() {
   const { slug } = useParams();
   const [post, setPost] = useState(null);
+  const [featuredImage, setFeaturedImage] = useState(null);
 
   useEffect(() => {
     if (!slug) return;
+
+    // Fetch the post data
     fetch(`https://blogs.webdevsphere.com/wp-json/wp/v2/posts?slug=${slug}`)
       .then((res) => res.json())
       .then((data) => {
-        if (data.length > 0) setPost(data[0]);
+        if (data.length > 0) {
+          setPost(data[0]);
+
+          // Fetch the featured image URL if it exists
+          if (data[0].featured_media) {
+            fetch(`https://blogs.webdevsphere.com/wp-json/wp/v2/media/${data[0].featured_media}`)
+              .then((res) => res.json())
+              .then((imageData) => {
+                setFeaturedImage(imageData.source_url);
+              });
+          }
+        }
       });
   }, [slug]);
 
@@ -26,6 +40,17 @@ export default function BlogPostPage() {
       <Header />
       <section className="w-full bg-gray-50 py-10">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          {/* Feature Image */}
+          {featuredImage && (
+            <div className="mb-8">
+              <img
+                src={featuredImage}
+                alt="Feature Image"
+                className="w-full h-auto rounded-lg"
+              />
+            </div>
+          )}
+
           <h1
             className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-[#ED1E3A] leading-snug"
             dangerouslySetInnerHTML={{ __html: post.title.rendered }}
