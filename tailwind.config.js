@@ -23,12 +23,14 @@ module.exports = {
           xl: '1400px',    // Set 1400px for screens up to 1920px
           '2xl': '1400px', // Set 1400px for extra-large screens (1920px and up)
         },
-      },      
+      },
       fontFamily: {
         sans: ['Gilroy', 'Arial', 'sans-serif'], // Default sans-serif font stack
         // Add other font families if needed
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 };

@@ -5,6 +5,8 @@ import { useParams } from "next/navigation";
 import Header from "@/app/Components/Header";
 import CTAsection from "@/app/Components/Home/CTAsection";
 import Footer from "@/app/Components/Footer";
+import Form2 from "@/app/Components/Form2/Form2";
+
 
 export default function BlogPostPage() {
   const { slug } = useParams();
@@ -38,33 +40,49 @@ export default function BlogPostPage() {
   return (
     <>
       <Header />
-      <section className="w-full bg-gray-50 py-10">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Feature Image */}
-          {featuredImage && (
-            <div className="mb-8">
-              <img
-                src={featuredImage}
-                alt="Feature Image"
-                className="w-full h-auto rounded-lg"
-              />
-            </div>
-          )}
 
-          <h1
-            className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 text-[#ED1E3A] leading-snug"
-            dangerouslySetInnerHTML={{ __html: post.title.rendered }}
-          />
-          <p className="text-gray-500 text-sm sm:text-base mb-8">
-            Published on: {new Date(post.date).toLocaleDateString()}
-          </p>
-
-          <article
-            className="prose prose-lg prose-headings:text-[#ED1E3A] prose-a:text-[#ED1E3A] prose-blockquote:border-[#ED1E3A] prose-img:rounded-lg max-w-none"
-            dangerouslySetInnerHTML={{ __html: post.content.rendered }}
-          />
+      {/* Banner Section */}
+      <section
+        className="w-full text-white py-40 bg-cover bg-center"
+        style={{ backgroundImage: "url('/Images/single-blog-banner.webp')" }}
+      >
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-semibold mb-4">{post.title.rendered}</h1>
+          <p className="text-lg sm:text-xl">{/* Optional subtitle or description */}</p>
         </div>
       </section>
+
+      {/* Main Content Section */}
+      <section className="w-full bg-gray-50 py-10">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 lg:flex justify-center gap-10">
+
+          {/* Left Column - Blog Content */}
+          <div className="w-full lg:w-3/5 overflow-y-auto"> {/* Add overflow-y-auto for scrolling */}
+            {/* Feature Image */}
+            {featuredImage && (
+              <div className="mb-8">
+                <img
+                  src={featuredImage}
+                  alt="Feature Image"
+                  className="w-full h-auto rounded-lg"
+                />
+              </div>
+            )}
+
+            {/* Blog Title and Content */}
+            <article className="prose prose-lg prose-headings:text-[#ED1E3A] prose-a:text-[#ED1E3A] prose-img:rounded-lg max-w-none">
+              <div dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
+            </article>
+
+          </div>
+
+          {/* Right Column - Form Component */}
+          <div className="w-full lg:w-2/5 sticky top-40 h-screen lg:pt-0 pt-5"> {/* Sticky form with full height */}
+            <Form2 />
+          </div>
+        </div>
+      </section>
+
       <CTAsection />
       <Footer />
     </>
