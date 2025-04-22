@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
-import Head from "next/head"; // ✅ Import Head for dynamic metadata
 import Header from "@/app/Components/Header";
 import CTAsection from "@/app/Components/Home/CTAsection";
 import Footer from "@/app/Components/Footer";
@@ -33,19 +32,32 @@ export default function BlogPostPage() {
         }
       });
   }, [slug]);
+  console.log("Post Title:", post?.title?.rendered);
+
+  useEffect(() => {
+    if (post?.title?.rendered) {
+      document.title = `${post.title.rendered} | Web Dev Sphere`;
+    }
+  }, [post]);
 
   if (!post) return <div className="text-center py-10 text-gray-500">Loading blog post...</div>;
 
   return (
     <>
-      {/* ✅ Dynamic Meta for Title + Description */}
-      <Head>
-        <title>{post.title.rendered} | Web Dev Sphere</title>
-        <meta
-          name="description"
-          content={post.excerpt?.rendered.replace(/<[^>]+>/g, "") || "Read our latest blog post on Web Dev Sphere."}
-        />
-      </Head>
+      {/* {post && (
+        <Head>
+          <title>{post.title.rendered} | Web Dev Sphere</title>
+          <meta
+            name="description"
+            content={
+              post.excerpt?.rendered
+                ? post.excerpt.rendered.replace(/<[^>]+>/g, "")
+                : "Read our latest blog post on Web Dev Sphere."
+            }
+          />
+        </Head>
+      )} */}
+
 
       <Header />
 
