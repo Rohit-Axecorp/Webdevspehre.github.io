@@ -18,13 +18,19 @@ class MyDocument extends Document {
         ],
       },
       null,
-      2 // Adds 2 spaces for indentation
+      2
     );
 
     return (
       <Html lang="en">
         <Head>
-          {/* Add a Prettified JSON Debug View */}
+          {/* ✅ Google Site Verification */}
+          <meta
+            name="google-site-verification"
+            content="T5IIkWnlq8DjeYbqup_Ud0biM1DjbK8xh08AwI7UDgM"
+          />
+
+          {/* Hidden JSON-LD Prettified Debug (Not for SEO) */}
           <pre style={{ display: "none" }}>{formattedJSON}</pre>
         </Head>
         <body>
