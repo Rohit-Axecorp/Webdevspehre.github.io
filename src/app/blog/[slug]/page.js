@@ -1,12 +1,11 @@
 "use client";
-
 import React, { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
+import Head from "next/head"; // ✅ Import Head for dynamic metadata
 import Header from "@/app/Components/Header";
 import CTAsection from "@/app/Components/Home/CTAsection";
 import Footer from "@/app/Components/Footer";
 import Form2 from "@/app/Components/Form2/Form2";
-
 
 export default function BlogPostPage() {
   const { slug } = useParams();
@@ -39,6 +38,15 @@ export default function BlogPostPage() {
 
   return (
     <>
+      {/* ✅ Dynamic Meta for Title + Description */}
+      <Head>
+        <title>{post.title.rendered} | Web Dev Sphere</title>
+        <meta
+          name="description"
+          content={post.excerpt?.rendered.replace(/<[^>]+>/g, "") || "Read our latest blog post on Web Dev Sphere."}
+        />
+      </Head>
+
       <Header />
 
       {/* Banner Section */}
@@ -47,8 +55,9 @@ export default function BlogPostPage() {
         style={{ backgroundImage: "url('/Images/single-blog-banner.webp')" }}
       >
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-semibold mb-4">{post.title.rendered}</h1>
-          <p className="text-lg sm:text-xl">{/* Optional subtitle or description */}</p>
+          <h1 className="text-3xl sm:text-5xl lg:text-6xl font-semibold mb-4">
+            {post.title.rendered}
+          </h1>
         </div>
       </section>
 
@@ -57,7 +66,7 @@ export default function BlogPostPage() {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 lg:flex justify-center gap-10">
 
           {/* Left Column - Blog Content */}
-          <div className="w-full lg:w-3/5 overflow-y-auto"> {/* Add overflow-y-auto for scrolling */}
+          <div className="w-full lg:w-3/5 overflow-y-auto">
             {/* Feature Image */}
             {featuredImage && (
               <div className="mb-8">
@@ -69,15 +78,14 @@ export default function BlogPostPage() {
               </div>
             )}
 
-            {/* Blog Title and Content */}
+            {/* Blog Content */}
             <article className="prose prose-lg prose-headings:text-[#ED1E3A] prose-a:text-[#ED1E3A] prose-img:rounded-lg max-w-none">
               <div dangerouslySetInnerHTML={{ __html: post.content.rendered }} />
             </article>
-
           </div>
 
           {/* Right Column - Form Component */}
-          <div className="w-full lg:w-2/5 sticky top-40 h-screen lg:pt-0 pt-5"> {/* Sticky form with full height */}
+          <div className="w-full lg:w-2/5 sticky top-40 h-screen lg:pt-0 pt-5">
             <Form2 />
           </div>
         </div>
