@@ -13,6 +13,11 @@ export default function RootLayout({ children, canonicalUrl }) {
   return (
     <html lang="en-US">
       <head>
+
+        {/* ✅ Google Site Verification Meta Tag */}
+        <meta name="google-site-verification" content="T5IIkWnlq8DjeYbqup_Ud0biM1DjbK8xh08AwI7UDgM" />
+
+
         {/* Always Include Global Meta Tags */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="robots" content="index, follow" />
